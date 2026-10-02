@@ -1,4 +1,4 @@
-# 02 — Where acquisition history breaks
+# Where acquisition history breaks
 
 ## Record map
 
@@ -14,7 +14,7 @@ This is an analytical map of roles, not a claim that every institution uses the 
 | Investor's records | Old emails, statements, contract notes, applications, payment evidence | May be incomplete, contradictory, duplicated or poorly scanned |
 | Tax report / accountant | Fiscal treatment and resulting computation | Accuracy depends on inputs and legal classification |
 
-CAS already consolidates holdings and transactions across covered accounts and mutual-fund records. Therefore, “one screen for all assets” is not the unmet problem. [S012](sources.md#s012), [S013](sources.md#s013)
+CAS already consolidates holdings and transactions across covered accounts and mutual-fund records. Therefore, “one screen for all assets” is not the unmet problem. [S012](../references/sources.md#s012), [S013](../references/sources.md#s013)
 
 ## Failure modes and the evidence needed to resolve them
 
@@ -31,11 +31,11 @@ CAS already consolidates holdings and transactions across covered accounts and m
 | F9 | Grandfathering applied to wrong security state | Historic price and current quantity are incompatible | Applicable price record and subsequent action chain | A chart's back-adjusted price is not automatically the statutory FMV |
 | F10 | Cancelled or extinguished security lacks normal sale | A holding disappears without a broker sell trade | Legal event, effective dates and depository entry | Claim timing/treatment requires specific legal analysis |
 
-F1, F2, F6, F8 and F9 have explicit broker-report support in [S001](sources.md#s001); the issuer correction in F5 is documented in [S022](sources.md#s022). F10 is an adjacent research direction, not part of the initial scope; see [S048](sources.md#s048), [S049](sources.md#s049).
+F1, F2, F6, F8 and F9 have explicit broker-report support in [S001](../references/sources.md#s001); the issuer correction in F5 is documented in [S022](../references/sources.md#s022). F10 is an adjacent research direction, not part of the initial scope; see [S048](../references/sources.md#s048), [S049](../references/sources.md#s049).
 
 ## Two separate timelines
 
-The system needs to preserve **when an asset was acquired** and **when it entered a particular demat account**. CBDT Circular 768 explicitly addresses account-wise FIFO and later dematerialisation of older physical holdings. Its example makes these two dates operationally significant. [S017](sources.md#s017)
+The system needs to preserve **when an asset was acquired** and **when it entered a particular demat account**. CBDT Circular 768 explicitly addresses account-wise FIFO and later dematerialisation of older physical holdings. Its example makes these two dates operationally significant. [S017](../references/sources.md#s017)
 
 For a model, this means storing at least:
 

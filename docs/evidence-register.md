@@ -1,4 +1,4 @@
-# 11 — Claim and evidence register
+# Claim and evidence register
 
 Status: **P** verified primary statement; **A** anecdote; **D** derived calculation; **H** hypothesis; **O** open or incomplete. Primary vendor statements verify published claims/workflows, not independent performance.
 
@@ -14,7 +14,7 @@ Status: **P** verified primary statement; **A** anecdote; **D** derived calculat
 | CL08 | Large demat account population exists | P | S029 | Accounts are not unique people or affected cases |
 | CL09 | Historical IEPF processing had serious delays | P | S027 | Historical data; cannot describe current rate |
 | CL10 | More recent official material reports IEPF improvement | O/P-indexed | S028 | Full PDF fetch failed; table extract only |
-| CL11 | Quantifiable investor-level error can be large | D | E1–E6 in impact-examples.json | Synthetic assumptions, not measured savings |
+| CL11 | Quantifiable investor-level error can be large | D | E1–E6 in [the saved examples](../examples/impact-examples.json) | Synthetic assumptions, not measured savings |
 | CL12 | Physical transfer special window is time-limited and conditional | P | S023 | Not all paper shares; excludes relevant categories |
 | CL13 | LOC-based covered service workflow has been reformed | P | S024 | Old procedural pitch is stale |
 | CL14 | A court matter documents corporate identity/physical-transfer friction | P | S025 | No adjudicated eligibility or verified recovery |
@@ -29,8 +29,8 @@ Status: **P** verified primary statement; **A** anecdote; **D** derived calculat
 | CL23 | MITRA already traces inactive/unclaimed mutual-fund investments | P | S061 | Not a universal equity/estate discovery API |
 | CL24 | A complete evidence system can reduce claimant rework | H | Cases + feasibility analysis | Needs real document packs and benchmark |
 | CL25 | A nationwide acquisition-history loss estimate exists | O — not established | Search across official and public sources | No national ₹ claim should be made |
-| CL26 | The proposed approach has no existing competitor | Rejected | Chapter 06 | Existing tools cover substantial portions |
-| CL27 | Software can infer an exact unknown purchase price from holdings alone | Rejected | Non-identifiability argument in Chapter 08 | Multiple histories can explain the same observation |
+| CL26 | The proposed approach has no existing competitor | Rejected | [existing solutions](existing-solutions.md) | Existing tools cover substantial portions |
+| CL27 | Software can infer an exact unknown purchase price from holdings alone | Rejected | Non-identifiability argument in [technical research](technical-research.md) | Multiple histories can explain the same observation |
 | CL28 | PDF is the authoritative Sangyan brief supplied by user | P/user-supplied | S056 | Website schedule wording differs |
 
 ## Strongest evidence bundle

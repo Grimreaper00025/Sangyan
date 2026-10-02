@@ -1,6 +1,6 @@
 # Research method, corrections and exclusions
 
-**Cut-off:** 1 October 2026, India context. **Scope:** demat acquisition history expanded at the user's request into Track B inheritance/transmission and physical-share evidence. **Working path:** `~/sangyan` in the execution environment.
+**Cut-off:** 1 October 2026, India context. **Scope:** demat acquisition history expanded at the user's request into Track B inheritance/transmission and physical-share evidence.
 
 ## Method
 
@@ -47,8 +47,8 @@ No exhaustive review of every amendment, state succession/stamp law or issuer hi
 
 ## Continuing the research
 
-Start with the validation agenda in Chapter 10. Update source versions before implementing routes. Add case documents only with consent and redaction. Preserve the distinction between extracted assertions, supported facts, legal conclusions and institutional outcomes.
+Start with the [validation agenda](validation.md). Update source versions before implementing routes. Add case documents only with consent and redaction. Preserve the distinction between extracted assertions, supported facts, legal conclusions and institutional outcomes.
 
 ## Reproducibility
 
-Run `python reproduce-impact.py --check` from this folder to recompute and verify the numerical illustrations. That check verifies arithmetic consistency, not legal eligibility, product performance or actual investor recovery.
+Run `python3 examples/reproduce-impact.py --check` from the repository root to recompute and verify the numerical illustrations. That check verifies arithmetic consistency, not legal eligibility, product performance or actual investor recovery.

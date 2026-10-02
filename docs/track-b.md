@@ -1,8 +1,8 @@
-# 13 — Track B fit and a coherent larger system
+# Track B fit and a coherent larger system
 
 ## Authoritative problem statement
 
-The supplied six-page PDF specifies **1–4 October 2026, a four-day sprint**. Track B concerns making investor rights, protections and complaint processes usable, explicitly naming senior citizens, homemakers and legal heirs. It values depth on one complete journey. Required outputs include a live demo, a 3–5 minute video and a PPT. [S056](sources.md#s056)
+The supplied six-page PDF specifies **1–4 October 2026, a four-day sprint**. Track B concerns making investor rights, protections and complaint processes usable, explicitly naming senior citizens, homemakers and legal heirs. It values depth on one complete journey. Required outputs include a live demo, a 3–5 minute video and a PPT. [S056](../references/sources.md#s056)
 
 The website's seven-day wording is not used as the schedule authority in this dossier.
 
@@ -52,7 +52,7 @@ Universal automatic account discovery, disputed estates, multi-jurisdiction succ
 
 ## Verified past hackathon signals
 
-SEBI's official 11 September 2026 release identifies these Securities Market TechSprint winners. [S074](sources.md#s074)
+SEBI's official 11 September 2026 release identifies these Securities Market TechSprint winners. [S074](../references/sources.md#s074)
 
 | Award | Project | Published theme |
 |---|---|---|
@@ -66,7 +66,7 @@ SEBI's official 11 September 2026 release identifies these Securities Market Tec
 
 The release reports 512 applications, 149 prototype shortlists, 116 working solutions and 24 jury-stage entries. Some company publicity gives different participation counts; use the regulator's figures. These are event statistics, not proof of any technical performance.
 
-Kellton describes NIYAMA as turning circulars into executable compliance logic, with human oversight, evidence links, breach detection and an audit trail. This is the developer's description; no code or independent performance assessment was inspected. [S075](sources.md#s075) The organiser's brief expressly requested a concrete regulatory scenario and operationally auditable results. [S076](sources.md#s076)
+Kellton describes NIYAMA as turning circulars into executable compliance logic, with human oversight, evidence links, breach detection and an audit trail. This is the developer's description; no code or independent performance assessment was inspected. [S075](../references/sources.md#s075) The organiser's brief expressly requested a concrete regulatory scenario and operationally auditable results. [S076](../references/sources.md#s076)
 
 **Inference for Sangyan:** the winning themes are compatible with technically serious procedural tools. A well-supported claim dossier is therefore a plausible direction; consumer trading features are not necessary. Show a completed evidence task, a demonstrable error caught, and a reviewable derivation.
 

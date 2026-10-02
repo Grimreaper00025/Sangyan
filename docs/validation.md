@@ -1,4 +1,4 @@
-# 10 — What to pursue, and what could kill it
+# What to pursue, and what could kill it
 
 ## Research recommendation
 
@@ -69,4 +69,4 @@ Have a securities-operations professional review quantity/movement facts and a q
 
 The same verified event/evidence layer could serve accountant hand-offs, DP/RTA exception processing, investor-controlled historical records and professional claim preparation. These are hypotheses for later validation. Commercial distribution, liability, source licensing and institutional acceptance are unresolved.
 
-The hackathon submission must follow its public-good guardrails. The website's separate IP FAQ also merits checking against actual registration terms before treating a submission as independently owned startup IP; the supplied PDF itself does not resolve ownership terms. [S044](sources.md#s044), [S056](sources.md#s056)
+The hackathon submission must follow its public-good guardrails. The website's separate IP FAQ also merits checking against actual registration terms before treating a submission as independently owned startup IP; the supplied PDF itself does not resolve ownership terms. [S044](../references/sources.md#s044), [S056](../references/sources.md#s056)

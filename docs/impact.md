@@ -1,4 +1,4 @@
-# 05 — Quantifiable impact without inflated claims
+# Quantifiable impact without inflated claims
 
 ## Three categories that must remain separate
 
@@ -10,17 +10,17 @@
 
 ## Verified numbers and their limits
 
-**CDSL:** its August 2026 periodic statement reports **190,997,499 beneficiary-owner accounts** at month-end, about **19.10 crore**. This is CDSL alone, not unique investors, not all Indian households, and not the population suffering broken histories. [S029](sources.md#s029)
+**CDSL:** its August 2026 periodic statement reports **190,997,499 beneficiary-owner accounts** at month-end, about **19.10 crore**. This is CDSL alone, not unique investors, not all Indian households, and not the population suffering broken histories. [S029](../references/sources.md#s029)
 
-**Historical IEPFA audit:** CAG's Report 7 of 2025, examining data up to 31 March 2023, records 37,060 approved claims, of which 1,433 were disposed within 60 days; 28,207 had delay exceeding 180 days. It also records ₹5,714.51 crore lying in the fund and 12,092.35 lakh shares held at that historical date. These are different measures; the rupee figure is not the market value of those shares. [S027](sources.md#s027)
+**Historical IEPFA audit:** CAG's Report 7 of 2025, examining data up to 31 March 2023, records 37,060 approved claims, of which 1,433 were disposed within 60 days; 28,207 had delay exceeding 180 days. It also records ₹5,714.51 crore lying in the fund and 12,092.35 lakh shares held at that historical date. These are different measures; the rupee figure is not the market value of those shares. [S027](../references/sources.md#s027)
 
-**Counterevidence: processing improved.** A May 2026 EAC-PM working paper's indexed Table 1 reports 57,570 approvals during October 2025–March 2026 versus 5,098 in the preceding six months; year-end pending applications were 26,510. The PDF's direct retrieval failed, so these are marked **official indexed extract, not independently checked against the full downloaded table**. Do not describe 2023 delay rates as current. [S028](sources.md#s028)
+**Counterevidence: processing improved.** A May 2026 EAC-PM working paper's indexed Table 1 reports 57,570 approvals during October 2025–March 2026 versus 5,098 in the preceding six months; year-end pending applications were 26,510. The PDF's direct retrieval failed, so these are marked **official indexed extract, not independently checked against the full downloaded table**. Do not describe 2023 delay rates as current. [S028](../references/sources.md#s028)
 
 **No national harm estimate:** neither demat counts nor IEPF balances can be multiplied by an assumed error rate to obtain a defensible “Sangyan can recover ₹X crore” claim. Acquisition-history failures are a subset of a broader and poorly measured problem.
 
 ## Reproducible numerical illustrations
 
-All investor inputs below are **synthetic**. The script and JSON in this folder reproduce the arithmetic. Tax illustrations are for a simplified FY 2025–26 listed-equity long-term-gain situation qualifying for the 12.5% rate, with the ₹1.25 lakh annual threshold, no other gains/losses or basic-exemption adjustment, and **before cess, surcharge, fees and rounding**. Statutory eligibility must be separately checked. [S020](sources.md#s020)
+All investor inputs below are **synthetic**. The [reproduction script](../examples/reproduce-impact.py) and [saved examples](../examples/impact-examples.json) reproduce the arithmetic. Tax illustrations are for a simplified FY 2025–26 listed-equity long-term-gain situation qualifying for the 12.5% rate, with the ₹1.25 lakh annual threshold, no other gains/losses or basic-exemption adjustment, and **before cess, surcharge, fees and rounding**. Statutory eligibility must be separately checked. [S020](../references/sources.md#s020)
 
 ### E1 — Missing purchase cost
 
@@ -30,11 +30,11 @@ Under the stated tax assumptions, computed tax changes from ₹34,375 to ₹1,34
 
 ### E2 — RIL/Jio cost must be allocated, not duplicated
 
-Synthetic pre-demerger cost ₹2,00,000. Apply the issuer ratio in Chapter 03: RIL receives ₹1,90,640 of cost and the child ₹9,360. If the parent incorrectly retains the whole cost while the child also receives its allocation, aggregate basis is overstated by **₹9,360**. Correcting records can increase a future tax computation; it is not inherently a tax-saving product.
+Synthetic pre-demerger cost ₹2,00,000. Apply the issuer ratio in [rules and effective dates](rules.md): RIL receives ₹1,90,640 of cost and the child ₹9,360. If the parent incorrectly retains the whole cost while the child also receives its allocation, aggregate basis is overstated by **₹9,360**. Correcting records can increase a future tax computation; it is not inherently a tax-saving product.
 
 ### E3 — Child shares are not “free” merely because there was no payment on receipt
 
-Synthetic holding: 1,000 ITC shares with historical total cost ₹3,00,000. Under the issuer event described in Chapter 03, 100 Hotels shares carry ₹40,530 aggregate allocated cost, or ₹405.30 each; parent cost becomes ₹2,59,470. At a synthetic sale price ₹200 per Hotels share, proceeds are ₹20,000 and the simple difference is **a ₹20,530 loss**, rather than a ₹20,000 gain produced by zero cost.
+Synthetic holding: 1,000 ITC shares with historical total cost ₹3,00,000. Under the issuer event described in [rules and effective dates](rules.md), 100 Hotels shares carry ₹40,530 aggregate allocated cost, or ₹405.30 each; parent cost becomes ₹2,59,470. At a synthetic sale price ₹200 per Hotels share, proceeds are ₹20,000 and the simple difference is **a ₹20,530 loss**, rather than a ₹20,000 gain produced by zero cost.
 
 The cost error is **₹40,530**. The tax utility of any loss depends on eligibility, timing, other gains and filing rules. No instant refund is implied.
 
@@ -52,7 +52,7 @@ The issuer correction in Case C4 concerns ₹54,040 versus ₹50,040: **₹4,000
 
 ### E7 — ₹24 lakh is a claim value, not money saved
 
-A synthetic uncontested demat claim worth ₹24,00,000 lies above the earlier ₹15 lakh simplified-documentation threshold and below the revised ₹30 lakh threshold documented in Chapter 12. This motivates rule-version checking. The product cannot claim it “saved ₹24 lakh”; the amount remains the investor's asset. Measure whether the correct documentary route is identified and accepted.
+A synthetic uncontested demat claim worth ₹24,00,000 lies above the earlier ₹15 lakh simplified-documentation threshold and below the revised ₹30 lakh threshold documented in [inheritance research](inheritance.md). This motivates rule-version checking. The product cannot claim it “saved ₹24 lakh”; the amount remains the investor's asset. Measure whether the correct documentary route is identified and accepted.
 
 ### E8 — Measuring a procedural clock
 

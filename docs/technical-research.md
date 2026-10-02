@@ -1,4 +1,4 @@
-# 08 — Technical research: what would make the system substantive?
+# Technical research: what would make the system substantive?
 
 This is a feasibility model and evaluation design. No working reconstruction engine has been built in this research task.
 

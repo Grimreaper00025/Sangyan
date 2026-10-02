@@ -1,4 +1,4 @@
-# 06 — Existing solutions and the remaining hypothesis
+# Existing solutions and the remaining hypothesis
 
 **There is no defensible “no existing solutions” claim.** Several products and public systems address substantial portions of this journey. This is a documentation review, not hands-on testing of paid software or an audit of service quality.
 
@@ -21,23 +21,23 @@
 
 ## MProfit is the first benchmark, not a footnote
 
-Its published workflows cover transfer between portfolios [S007](sources.md#s007), historical trade imports [S008](sources.md#s008), corporate actions [S004](sources.md#s004), and eCAS reconciliation [S005](sources.md#s005). Rights entitlements and partly paid shares already have a handling workflow [S006](sources.md#s006). Gifts and traded-bond transfers broaden that coverage [S009](sources.md#s009), [S045](sources.md#s045).
+Its published workflows cover transfer between portfolios [S007](../references/sources.md#s007), historical trade imports [S008](../references/sources.md#s008), corporate actions [S004](../references/sources.md#s004), and eCAS reconciliation [S005](../references/sources.md#s005). Rights entitlements and partly paid shares already have a handling workflow [S006](../references/sources.md#s006). Gifts and traded-bond transfers broaden that coverage [S009](../references/sources.md#s009), [S045](../references/sources.md#s045).
 
-The particularly relevant limitation is precise: MProfit's Zerodha external-trades integration instructs the user to supply actual purchase date and amount for accurate calculations. [S003](sources.md#s003)
+The particularly relevant limitation is precise: MProfit's Zerodha external-trades integration instructs the user to supply actual purchase date and amount for accurate calculations. [S003](../references/sources.md#s003)
 
 This supports a **hypothesis**, not proof, that incomplete-evidence reconstruction remains a differentiated task. A competitor may have workflows not described in the inspected page. Do not state that MProfit cannot preserve cost through transfers or calculate corporate actions; its documentation contradicts that.
 
 ## Physical recovery and inheritance are also occupied markets
 
-Share Samadhan and Recoversy directly address difficult recovery work. Yellow and EasyInherit offer broader inheritance assistance. Their marketing does not establish independently verified recovery rates; similarly, their existence does not establish that every low-value retail case is served affordably. [S039](sources.md#s039), [S040](sources.md#s040), [S041](sources.md#s041), [S062](sources.md#s062), [S063](sources.md#s063)
+Share Samadhan and Recoversy directly address difficult recovery work. Yellow and EasyInherit offer broader inheritance assistance. Their marketing does not establish independently verified recovery rates; similarly, their existence does not establish that every low-value retail case is served affordably. [S039](../references/sources.md#s039), [S040](../references/sources.md#s040), [S041](../references/sources.md#s041), [S062](../references/sources.md#s062), [S063](../references/sources.md#s063)
 
 An honest differentiation test asks: **Can a claimant obtain a correct, evidence-linked, portable dossier with less expert rework, using documents they already possess?** A chat interface or a directory of RTAs would not answer this.
 
 ## Public infrastructure can absorb a weak product
 
-The August 2026 IEPFA announcement describes a Portal 2.0 roadmap with entitlement search, prefilled IEPF-5 and claimant/verification improvements; pilot and launch were planned for October and November respectively. These are announced milestones, not verified completed deployment. [S064](sources.md#s064)
+The August 2026 IEPFA announcement describes a Portal 2.0 roadmap with entitlement search, prefilled IEPF-5 and claimant/verification improvements; pilot and launch were planned for October and November respectively. These are announced milestones, not verified completed deployment. [S064](../references/sources.md#s064)
 
-MITRA already covers inactive/unclaimed mutual-fund discovery, while KRA demise reporting exists independently. [S061](sources.md#s061), [S059](sources.md#s059)
+MITRA already covers inactive/unclaimed mutual-fund discovery, while KRA demise reporting exists independently. [S061](../references/sources.md#s061), [S059](../references/sources.md#s059)
 
 Therefore, generic form filling, asset discovery and death notification are weak standalone novelty claims. A durable contribution would sit upstream of these systems: reconciling the underlying records and explaining precisely which evidence supports each claim.
 

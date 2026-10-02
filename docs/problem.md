@@ -1,4 +1,4 @@
-# 01 — The problem and its boundaries
+# The problem and its boundaries
 
 ## Working problem statement
 
@@ -6,7 +6,7 @@ An ordinary long-term investor can possess the correct number of shares yet lack
 
 The immediate symptom may be an empty purchase-price field. The harder underlying problem is reconstructing the correct lots, dates, cost allocations and supporting evidence without quietly treating a guess as a fact.
 
-**Evidence anchor:** Zerodha identifies transfer-related adjustments its tax reports do not perform automatically; Groww directs investors to previous-broker records for missing purchase information. These are acknowledged workflow boundaries, not allegations of misconduct. [S001](sources.md#s001), [S002](sources.md#s002)
+**Evidence anchor:** Zerodha identifies transfer-related adjustments its tax reports do not perform automatically; Groww directs investors to previous-broker records for missing purchase information. These are acknowledged workflow boundaries, not allegations of misconduct. [S001](../references/sources.md#s001), [S002](../references/sources.md#s002)
 
 ## Four distinct questions
 

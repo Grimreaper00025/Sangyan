@@ -1,4 +1,4 @@
-# 12 — Inheritance and transmission: the expanded Track B research
+# Inheritance and transmission: the expanded Track B research
 
 ## The common thread with demat history
 
@@ -8,27 +8,27 @@ The financial history should survive the claim. A family can complete a transmis
 
 ## The most important update: use the July 2026 framework
 
-**Primary source synopsis — S057:** circular dated 23 July 2026, effective 30 days later. QTP ceilings are ₹10,000 for physical holdings and ₹30,000 for demat; simplified-documentation ceilings are ₹10 lakh and ₹30 lakh respectively. Physical/SOA aggregation is per listed entity/AMC; demat is per beneficial owner. The no-nominee QTP route is restricted to specified immediate relatives. Disputed or competing claims are excluded. The settlement period is 21 calendar days after receipt of all required documents. The framework covers nominee/no-nominee branches, standard forms, document alternatives and survivorship; it removes mandatory probate requirements. Read Annexure §§1–7 and the grid, especially exceptions, before applying it. [S057](sources.md#s057)
+**Primary source synopsis — S057:** circular dated 23 July 2026, effective 30 days later. QTP ceilings are ₹10,000 for physical holdings and ₹30,000 for demat; simplified-documentation ceilings are ₹10 lakh and ₹30 lakh respectively. Physical/SOA aggregation is per listed entity/AMC; demat is per beneficial owner. The no-nominee QTP route is restricted to specified immediate relatives. Disputed or competing claims are excluded. The settlement period is 21 calendar days after receipt of all required documents. The framework covers nominee/no-nominee branches, standard forms, document alternatives and survivorship; it removes mandatory probate requirements. Read Annexure §§1–7 and the grid, especially exceptions, before applying it. [S057](../references/sources.md#s057)
 
-The old ₹5 lakh/₹15 lakh values must therefore not drive a current application. The March consultation records the older thresholds; an old NSDL form also still surfaced in search, illustrating the danger of using accessible documents without checking their version. [S069](sources.md#s069), [S070](sources.md#s070)
+The old ₹5 lakh/₹15 lakh values must therefore not drive a current application. The March consultation records the older thresholds; an old NSDL form also still surfaced in search, illustrating the danger of using accessible documents without checking their version. [S069](../references/sources.md#s069), [S070](../references/sources.md#s070)
 
 This is **not** a claim that no-nominee cases need no evidence, that all large cases require court proceedings, or that “probate optional” resolves a contested will.
 
 ## Nominee and heir are different roles
 
-The Supreme Court's *Shakti Yezdani* judgment, 14 December 2023, rejects the idea that nomination creates a separate succession route overriding succession law. [S060](sources.md#s060)
+The Supreme Court's *Shakti Yezdani* judgment, 14 December 2023, rejects the idea that nomination creates a separate succession route overriding succession law. [S060](../references/sources.md#s060)
 
 Software should therefore record at least `registered_holder`, `surviving_holder`, `nominee`, `claimant`, `executor_or_representative`, and `asserted_legal_heir` as distinct roles. One person may have several roles. An upload should not silently convert an asserted relationship into an adjudicated entitlement.
 
 ## A regulator-confirmed link between inheritance and tax reporting
 
-SEBI's 19 September 2025 circular identifies possible inappropriate capital-gains assessment when a nominee passes securities to legal heirs. It requires reporting entities to use the **TLH** reason code from 1 January 2026. [S058](sources.md#s058)
+SEBI's 19 September 2025 circular identifies possible inappropriate capital-gains assessment when a nominee passes securities to legal heirs. It requires reporting entities to use the **TLH** reason code from 1 January 2026. [S058](../references/sources.md#s058)
 
 This validates the relevance of preserving the **reason for a movement**, not just the quantity. It also weakens a pitch claiming the regulator has never addressed the problem. A proposed tool could compare claimant evidence with available transaction records and flag missing or contradictory classification; it cannot directly alter CBDT or depository reporting. No post-implementation error rate was found.
 
 ## Existing centralised reporting must be acknowledged
 
-The October 2023 KRA circular introduced centralised demise reporting effective January 2024. Linked intermediaries have defined notification and verification duties. Physical holdings have additional connectivity/PAN qualifications. [S059](sources.md#s059)
+The October 2023 KRA circular introduced centralised demise reporting effective January 2024. Linked intermediaries have defined notification and verification duties. Physical holdings have additional connectivity/PAN qualifications. [S059](../references/sources.md#s059)
 
 Accordingly, a new “tell every broker somebody died” service is not novel by itself. The research opportunity is preparing a correct, consistent evidence packet and tracking what each institution actually acknowledged, with claimant authorisation.
 
@@ -55,9 +55,9 @@ These are investigation directions, not six features to implement during four da
 
 **Demat plus several physical folios.** An account-level process and issuer-level processes may coexist. The product must track the scope of each evidence item rather than ask repeatedly for identical information or imply one submission covers all institutions.
 
-**Name/address mismatch.** A spelling variation can be consistent with the same person, but similarity is not proof. The July 2026 mutual-fund announcement explicitly addresses operational mismatch handling; the detailed relevant procedures must govern any document recommendation. [S065](sources.md#s065)
+**Name/address mismatch.** A spelling variation can be consistent with the same person, but similarity is not proof. The July 2026 mutual-fund announcement explicitly addresses operational mismatch handling; the detailed relevant procedures must govern any document recommendation. [S065](../references/sources.md#s065)
 
-**Shares already in IEPF.** Determine whether the case needs an entitlement/verification route before treating it as an ordinary demat move. The 2024 official verification kit contains fields for company and transfer history, including amalgamation-related data. [S026](sources.md#s026)
+**Shares already in IEPF.** Determine whether the case needs an entitlement/verification route before treating it as an ordinary demat move. The 2024 official verification kit contains fields for company and transfer history, including amalgamation-related data. [S026](../references/sources.md#s026)
 
 ## A credible research fixture
 

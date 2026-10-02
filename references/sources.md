@@ -1,6 +1,6 @@
 # Annotated source catalogue
 
-Research cut-off: **1 October 2026**. The access field distinguishes full/relevant text inspection from indexed extracts. Provider statements establish documented functionality, not independent performance. Historical and draft sources are expressly labelled. Use the [evidence register](11-evidence-register.md) for claim-level confidence.
+Research cut-off: **1 October 2026**. The access field distinguishes full/relevant text inspection from indexed extracts. Provider statements establish documented functionality, not independent performance. Historical and draft sources are expressly labelled. Use the [evidence register](../docs/evidence-register.md) for claim-level confidence.
 
 ## S001
 
@@ -609,7 +609,7 @@ Research cut-off: **1 October 2026**. The access field distinguishes full/releva
 
 ## S056
 
-**[Sangyan Problem Statement and Participant Charter](SANGYAN-Problem-Statement.pdf)**
+**[Sangyan Problem Statement and Participant Charter](problem-statement.pdf)**
 
 - Publisher: SNTC IIT (BHU), SEBI and NSDL as stated in supplied brief
 - Date/period: 2026-10-01 to 2026-10-04 event

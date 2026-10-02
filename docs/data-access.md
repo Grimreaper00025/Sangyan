@@ -1,4 +1,4 @@
-# 07 — Data access and independent feasibility
+# Data access and independent feasibility
 
 ## What a standalone prototype can actually use
 
@@ -18,21 +18,21 @@ The core research demonstration can use files and a curated set of public events
 
 ## CAS is valuable but not a magic historical database
 
-Official materials establish consolidation and account services. An NSDL e-services presentation lists month-wise statements and access to past CAS for specified recent windows. That is a user-interface description, not proof older records were destroyed or cannot be requested. [S012](sources.md#s012), [S013](sources.md#s013), [S014](sources.md#s014)
+Official materials establish consolidation and account services. An NSDL e-services presentation lists month-wise statements and access to past CAS for specified recent windows. That is a user-interface description, not proof older records were destroyed or cannot be requested. [S012](../references/sources.md#s012), [S013](../references/sources.md#s013), [S014](../references/sources.md#s014)
 
 Research must test what actual files contain. Distinguish opening balances, period transactions, market values and acquisition costs. Mutual-fund SOA data can have a different structure and history coverage from demat equity.
 
 ## Account Aggregator: useful possible input, not a dependency assumption
 
-ReBIT's equities schema includes transaction fields such as ISIN, units, rate, timestamp, type and narration; holdings include current-value-related fields. Schema existence does not prove every participating provider supplies complete historical acquisitions, previous-owner basis, corporate-action interpretation or access for a legal heir. [S015](sources.md#s015)
+ReBIT's equities schema includes transaction fields such as ISIN, units, rate, timestamp, type and narration; holdings include current-value-related fields. Schema existence does not prove every participating provider supplies complete historical acquisitions, previous-owner basis, corporate-action interpretation or access for a legal heir. [S015](../references/sources.md#s015)
 
 A standalone team cannot assume it is an authorised Financial Information User. Eligibility, regulated partnerships, consent, live provider coverage and permissible use would need separate validation. Upload-based evaluation avoids making access promises it cannot keep.
 
 ## Broker APIs: what the documented fields do and do not establish
 
-Kite Connect's holdings endpoint includes quantity and average price. Those fields are useful observations, not a proof-carrying, multi-decade acquisition ledger. Its `average_price` should not be confused with similarly named market-quote fields. [S016](sources.md#s016)
+Kite Connect's holdings endpoint includes quantity and average price. Those fields are useful observations, not a proof-carrying, multi-decade acquisition ledger. Its `average_price` should not be confused with similarly named market-quote fields. [S016](../references/sources.md#s016)
 
-MProfit's external-trades workflow demonstrates that an API connection can still leave original acquisition inputs to the user. [S003](sources.md#s003)
+MProfit's external-trades workflow demonstrates that an API connection can still leave original acquisition inputs to the user. [S003](../references/sources.md#s003)
 
 ## Corporate-action corpus requirements
 
