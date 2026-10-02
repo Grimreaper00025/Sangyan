@@ -1,67 +1,56 @@
-# Sangyan — Demat history, inheritance and investor-rights research
+# Virasat — Family accounts and nominees
 
-**Research cut-off: 1 October 2026. Version 1.0.**
+**Current prototype: 2 October 2026.** Virasat follows the supplied Track B brief's **Nominee & Family Wealth Tracker** direction. One focused journey helps a family list demat accounts, bank deposits and mutual fund folios, notice missing or uncertain nominations, and follow one request through to a record check.
 
-**Direction:** a Track B evidence system connecting securities history, transmission and inheritance claims. Reconstruct acquisitions and corporate actions, identify the applicable claim route, detect documentary gaps, and preserve the history after assets reach the claimant.
+The authoritative brief is the supplied [SANGYAN problem statement](references/problem-statement.pdf). Earlier securities-history and transmission research is preserved as background; it does not define the current product journey.
 
-**Authoritative brief:** the supplied [SANGYAN problem statement](references/problem-statement.pdf). It supersedes the website for this dossier. Read [Track B alignment](docs/track-b.md) and [inheritance research](docs/inheritance.md) first for the expanded direction requested during this research.
+## Working journey
 
-This folder contains desk research, source assessments, reproducible numerical illustrations, and a validation agenda. It is not a working product or a claim that investors have already recovered money through it.
+1. Choose English, Hindi, Bengali, Marathi, Tamil or Urdu. The first screen contains only the language question and tiles.
+2. Answer three short questions: account type, institution and nominee status. Home exits the current step and offers the unfinished account when you return. The last question explains what a nominee means and offers Yes/No/Not sure. Optional family/account nicknames, nominee nickname or relationship, and last four digits can be added later through Edit account. Full account numbers, PAN, passwords and identity documents are not requested.
+3. Open a missing or uncertain account and follow its institution-specific next task. A visible checklist explains what to check, what to ask and what confirms registration. Official sources stay alongside the task; HDFC Bank deposit accounts have a narrowly verified NetBanking hint.
+4. Record that a request was submitted. This leaves registration unconfirmed.
+5. Check a statement or institution confirmation that actually records nomination. A receipt alone does not satisfy this step. This remains the user's reported record check; Virasat does not authenticate it.
+6. Review a family summary or save a password-encrypted `.virasat` file to resume later.
 
-## What the research establishes
+This build has no death intake, inheritance decision, portfolio calculator, prices, grievance filing, IEPF claims, account discovery or live institutional submission. A nominee flag does not determine inheritance rights.
 
-The narrow problem is real: securities can arrive in a new account while usable acquisition information remains with the old broker or the investor. Broker documentation explicitly requires manual inputs in some transfer workflows. Public accounts describe families unable to supply those inputs after moving long-held shares. See [the cases](docs/cases.md) and [claim register](docs/evidence-register.md).
+## Run and check
 
-**The competitive objection is substantial.** MProfit already covers imports, corporate actions, transfers, and reconciliation. Building another portfolio ledger would have weak differentiation. The remaining hypothesis is an evidence-reconstruction workflow for incomplete or contradictory records, with traceable conclusions and explicit unresolved fields. That hypothesis still needs a hands-on competitor comparison and real document packs.
-
-**National financial harm is not established.** There are large relevant markets and quantified adjacent operational failures, but no defensible estimate here of how many investors have incorrect acquisition histories or how many rupees they lose. The [impact research](docs/impact.md) keeps population statistics, documented operational counts, and synthetic investor calculations separate.
-
-## Repository layout
-
-```text
-README.md    Start here and follow the reading guide below
-docs/        Research notes, evidence register and research log
-references/  Original problem statement and source catalogues
-examples/    Reproducible calculations and their saved results
+```sh
+npm --prefix app run dev
+npm --prefix app test
 ```
 
-## Reading guide
+The existing preview runs at `http://127.0.0.1:4173/`. Language switching stays on `/`, uses native-script labels, and preserves the current list and unfinished ordinary form edits. Old locale entry links are canonicalized to `/` by the preview. Urdu glyphs read right to left within inline text; all blocks keep the same left alignment and layout order as English.
 
-| File | What it answers |
+See [app instructions](app/README.md), [current build plan](docs/build-plan.md), and [recorded implementation checks](docs/implementation-checks.md).
+
+## Boundaries that matter
+
+- **Local preparation:** no account login, case server, database, analytics, automatic uploads or case persistence in browser storage. Reload clears the session. Downloaded files remain on the user's device.
+- **Encrypted resume:** explicit local download using AES-256-GCM, PBKDF2-SHA256 with 600,000 iterations, random salt/nonce and authenticated version data. Passwords are not recoverable. Browser memory release is not forensic erasure.
+- **Deliberate sharing:** the plaintext summary preview discloses institution labels, family/nominee nicknames and optional last four digits. Private free-text record notes are omitted. Share only deliberately.
+- **Evidence states:** reported by the user, request submitted, and registration checked in a record are separate. None is automated institutional verification.
+- **Current guidance:** demat/MF nomination guidance uses SEBI's 29 May 2026 circular, effective 1 September 2026. Bank deposits use the Banking Companies (Nomination) Rules, 2025. Actual forms and eligibility are confirmed with the institution. These are different regimes; the app does not impose one universal document checklist.
+- **Languages:** six complete draft interface dictionaries; fluent-reader and legal-language review remain pending. No approved fluency claim. Official forms are not translated.
+- **Accessibility:** keyboard entry, visible focus, text-size A−/A+, contrast, reduced motion and optional device-local voice. The design targets WCAG 2.2 AA; human assistive-technology review remains a release gate.
+
+No recovery, financial saving, legal compliance certification, institutional acceptance or performance guarantee is claimed. Actual local Lighthouse reports and their tested conditions are recorded in [implementation checks](docs/implementation-checks.md).
+
+## Repository guide
+
+| Path | Purpose |
 |---|---|
-| [Problem and boundaries](docs/problem.md) | Exactly whose problem this is; what is and is not broken |
-| [Market plumbing](docs/market-plumbing.md) | Where history fragments; ownership, cost, quantity and time are different records |
-| [Rules and effective dates](docs/rules.md) | FIFO, corporate actions, legal versioning, current physical-share processes |
-| [Documented cases](docs/cases.md) | Ordinary investor anecdotes, issuer correction, court case, public commentary |
-| [Quantitative impact](docs/impact.md) | Verified scale, carefully bounded ₹ illustrations, impact measurement |
-| [Existing solutions](docs/existing-solutions.md) | Competitors, substitutes, disconfirming evidence and the surviving gap |
-| [Data access](docs/data-access.md) | What can actually be obtained independently; unavailable data and permission constraints |
-| [Technical feasibility](docs/technical-research.md) | Reconstruction model, ambiguity, invariants, evaluation and failure modes |
-| [Physical-share extension](docs/physical-shares.md) | How it fits; what software can prepare and what institutions must decide |
-| [Decision and validation](docs/validation.md) | Strongest wedge, weak points, interview questions, stop/go criteria and Sangyan fit |
-| [Evidence register](docs/evidence-register.md) | Auditable claims, strength, counterevidence and remaining gaps |
-| [Inheritance and transmission](docs/inheritance.md) | Current rules, sequential deaths, nominee/heir distinction, claim-readiness research |
-| [Track B and system directions](docs/track-b.md) | How the components form one system; strongest complete user journey |
-| [Sources](references/sources.md) | Annotated source catalogue with URLs and reading locators |
-| [Machine-readable sources](references/sources.json) | Same catalogue for continued research |
-| [Impact examples](examples/impact-examples.json) | Inputs, outputs and assumptions for the numerical illustrations |
-| [Reproduction script](examples/reproduce-impact.py) | Standard-library Python calculations; run `python3 examples/reproduce-impact.py --check` from the repository root |
-| [Research method and exclusions](docs/research-log.md) | Search scope, access limitations, corrections and rejected claims |
+| [app/](app/README.md) | Current Virasat interface, tracker logic and checks |
+| [Track B](docs/track-b.md) | Current selected direction and original brief analysis |
+| [Nomination guidance](docs/nomination-guidance.md) | Source locators, current scope and limitations |
+| [Implementation checks](docs/implementation-checks.md) | Observed verification and untested limits |
+| [Background problem research](docs/problem.md) | Earlier acquisition-history thesis |
+| [Background technical research](docs/technical-research.md) | Earlier reconstruction research model |
+| [Background validation](docs/validation.md) | Earlier candidate directions and validation gaps |
+| [Background inheritance research](docs/inheritance.md) | Earlier transmission research |
+| [Evidence register](docs/evidence-register.md) | Prior research claim register |
+| [Sources](references/sources.md) | Prior annotated source catalogue |
 
-## The strongest formulation
-
-> Your shares reached the new account. Can you still prove their financial history?
-
-The proposed research target turns claimant-supplied records and authoritative documents into an evidence-linked securities history and claim-readiness dossier. It must distinguish what is documented, what is derived, what conflicts, and what cannot be recovered from the available evidence. Successful transmission and correct post-transmission acquisition history are separate outcomes.
-
-The meaningful demonstration would be **a difficult historical case resolved correctly, including an honest refusal on an impossible case**. A tax calculator, company-name lookup, or polished dashboard alone would not establish that this problem has been solved.
-
-## Evidence labels used throughout
-
-- **Verified primary:** official rule, issuer filing, depository material, or provider documentation. Provider documentation establishes the provider's stated workflow, not independent performance.
-- **Anecdote:** public investor account; not independently authenticated.
-- **Derived:** arithmetic reproducible from stated inputs.
-- **Hypothesis:** a proposed explanation, capability or business opportunity needing validation.
-- **Open:** evidence was insufficient or access was incomplete.
-
-Sources are linked by IDs such as [S001](references/sources.md#s001). Dates in a document take precedence over a search engine's crawl or publication label. The dossier uses short source summaries and original analysis; it does not reproduce entire articles, transcripts, or commercial manuals.
+Original research documents retain their dated context and evidence labels. Their earlier scope recommendations are superseded by the current focused product choice above.

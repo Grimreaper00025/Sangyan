@@ -1,5 +1,7 @@
 # Inheritance and transmission: the expanded Track B research
 
+**Background research:** this dated share-history/transmission investigation is preserved for reference. The current Virasat product follows the focused nominee tracker in the [current build plan](build-plan.md). Earlier scope recommendations here are superseded.
+
 ## The common thread with demat history
 
 Inheritance changes the question from “which purchase created these shares?” to “which documented events connect these securities to this claimant?” Both require identity, account/security history, dated evidence and explicit unresolved links.

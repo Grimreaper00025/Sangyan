@@ -1,0 +1,11 @@
+SYNTHETIC TEST RECORD — NOT A REAL CONTRACT NOTE
+Document ID: synthetic-purchase-record
+Page reference: 1
+Security: ITC Limited
+Demo security key: DEMO-ITC (not an ISIN)
+Demo holder: FAMILY-HOLDER-01
+Quantity: 1000
+Total original acquisition cost: INR 300000.00
+Original acquisition date: unknown
+Use only to test the ITC / ITC Hotels cost allocation.
+Remove the cost or its source reference to test the unknown-cost path.

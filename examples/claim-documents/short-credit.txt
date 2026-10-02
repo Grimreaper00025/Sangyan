@@ -1,0 +1,12 @@
+SYNTHETIC CREDIT — NO ACTUAL ASSETS WERE TRANSFERRED
+Document ID / movement reference: SYNTHETIC-MOVEMENT-01
+Page reference: 1
+Security: ITC Hotels Limited
+Demo security key: DEMO-ITCHOTELS (not an ISIN)
+Demo recipient: FAMILY-NOMINEE-01
+Demo receiving account: DEMO-NOMINEE-ACCOUNT
+Movement date: 30 September 2026 (synthetic)
+Expected quantity: 100
+Received quantity: 90
+Expected difference: -10
+Identity/date/reference match is a fixture assertion, not independent verification.

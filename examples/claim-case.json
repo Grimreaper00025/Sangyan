@@ -1,0 +1,134 @@
+{
+  "schema_version": "0.1",
+  "case_id": "synthetic-nominee-itc-001",
+  "status": "fixture_specification",
+  "synthetic": true,
+  "planning_date": "2026-10-02",
+  "warning": "This specifies a proposed demonstration. Input document files, application behaviour and external review are not yet completed. No actual transmission or recovery is established.",
+  "scenario": {
+    "holding_mode": "demat",
+    "holder_configuration": "sole_holder",
+    "holder_status": "deceased",
+    "claimant_role": "recorded_nominee",
+    "competing_claims_declared": false,
+    "institutional_acceptance": null,
+    "no_intervening_trades": true
+  },
+  "proposed_documents": [
+    {
+      "id": "purchase-record",
+      "kind": "acquisition_evidence",
+      "purpose": "optional_history_evidence",
+      "file": null
+    },
+    {
+      "id": "eligible-holding",
+      "kind": "record_date_holding_evidence",
+      "purpose": "event_eligibility_evidence",
+      "file": null
+    },
+    {
+      "id": "current-statement",
+      "kind": "holding_statement",
+      "purpose": "current_holding_evidence",
+      "file": null
+    },
+    {
+      "id": "nomination-record",
+      "kind": "nomination_evidence",
+      "purpose": "route_condition_evidence",
+      "file": null
+    },
+    {
+      "id": "death-document",
+      "kind": "synthetic_death_document",
+      "purpose": "procedural_document_example_external_verification_pending",
+      "file": null
+    },
+    {
+      "id": "claimant-account",
+      "kind": "client_master_list",
+      "purpose": "procedural_document_example",
+      "file": null
+    },
+    {
+      "id": "request-form",
+      "kind": "draft_transmission_request",
+      "purpose": "procedural_document_example",
+      "file": null
+    }
+  ],
+  "history_input": {
+    "security": "ITC Limited",
+    "quantity": 1000,
+    "original_cost_inr": "300000.00",
+    "acquisition_date": null,
+    "quantity_evidence_id": "eligible-holding",
+    "cost_evidence_id": "purchase-record"
+  },
+  "issuer_event": {
+    "type": "demerger",
+    "parent_security": "ITC Limited",
+    "child_security": "ITC Hotels Limited",
+    "effective_date": "2025-01-01",
+    "record_date": "2025-01-06",
+    "child_units": 1,
+    "parent_units_required": 10,
+    "parent_cost_fraction": "0.8649",
+    "child_cost_fraction": "0.1351",
+    "source_id": "S022",
+    "source_revision_date": "2025-01-28",
+    "source_url": "https://itcportal.com/content/dam/itc-corporate/stock-exchange-/2025/lodr-28jan25.pdf",
+    "source_locator": "Page 3, paragraphs 1–3 and allocation table"
+  },
+  "procedural_reference": {
+    "source_id": "S057",
+    "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2026/1784869499027.pdf",
+    "source_date": "2026-07-23",
+    "source_locator": "Annexure sections 1, 4.1 and 6.1; Annexure-3",
+    "review_status": "implementation_review_pending",
+    "scope": "An initial uncontested nominee transmission-preparation path; no final entitlement determination"
+  },
+  "expected_history_output": {
+    "parent_quantity": 1000,
+    "child_quantity": 100,
+    "parent_allocated_cost_inr": "259470.00",
+    "child_allocated_cost_inr": "40530.00",
+    "child_unit_allocated_cost_inr": "405.30",
+    "total_allocated_cost_inr": "300000.00",
+    "acquisition_date_status": "unresolved_until_supported",
+    "claim_outcome": "not_established"
+  },
+  "variants": [
+    {
+      "id": "missing-required-document",
+      "change": "Remove the death-document example.",
+      "expected": "Identify the missing procedural document while preserving supported history."
+    },
+    {
+      "id": "missing-original-cost",
+      "change": "Remove the purchase-record and original-cost observation.",
+      "expected": "Cost becomes unknown, not zero. Evaluate the procedural documents separately."
+    },
+    {
+      "id": "conflicting-holder",
+      "change": "Insert a conflicting holder/account identifier in a document.",
+      "expected": "Expose the contradiction with sources and require resolution before merging the affected records."
+    },
+    {
+      "id": "duplicate-file",
+      "change": "Upload the same holding statement twice.",
+      "expected": "Do not duplicate holdings or allocated cost."
+    },
+    {
+      "id": "competing-claims",
+      "change": "Declare a competing claim.",
+      "expected": "Preserve the evidence and leave the automatic procedural path."
+    },
+    {
+      "id": "credit-mismatch",
+      "change": "Supply a simulated credit for only 90 ITC Hotels shares.",
+      "expected": "Report a 10-share shortfall against the conditional expected quantity; do not claim successful recovery."
+    }
+  ]
+}

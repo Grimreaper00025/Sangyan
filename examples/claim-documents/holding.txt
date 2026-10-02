@@ -1,0 +1,12 @@
+SYNTHETIC TEST RECORD — NOT ISSUED BY A BROKER OR DEPOSITORY
+Document ID: synthetic-record-date-statement
+Page reference: 1
+Security: ITC Limited
+Demo security key: DEMO-ITC (not an ISIN)
+Demo holder: FAMILY-HOLDER-01
+Demo holding account: DEMO-OLD-ACCOUNT
+Record date: 6 January 2025
+Quantity: 1000
+No intervening trades: declared for this synthetic fixture only
+Original acquisition date: unknown
+Institutional verification: not performed

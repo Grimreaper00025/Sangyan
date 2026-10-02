@@ -1,5 +1,7 @@
 # Technical research: what would make the system substantive?
 
+**Background research:** this dated share-history/transmission investigation is preserved for reference. The current Virasat product follows the focused nominee tracker in the [current build plan](build-plan.md). Earlier scope recommendations here are superseded.
+
 This is a feasibility model and evaluation design. No working reconstruction engine has been built in this research task.
 
 ## The core problem is constrained reconciliation

@@ -1,0 +1,11 @@
+{
+  "package": "pdfjs-dist",
+  "version": "6.3.289",
+  "license": "Apache-2.0",
+  "source": "https://github.com/mozilla/pdf.js/releases/tag/v6.3.289",
+  "tarball_sha512": "6478d25690dadc3ea2cccabcff4e25be48640135262fda71e8284f69773593a9d4d8cae1960d7fec5d1b754a82c148f0dcdb0f4df3d9b0c0d453a64871169e43",
+  "assets": {
+    "pdf.js": "f80490490320511e5df18c580b9edd6b5db8058dceebaf6f161992e0a964b9e2",
+    "pdf.worker.js": "8ab0e5e30031b4a06ecfddd5ae9562f0227f830ee7ec9ed1a968b134243d2386"
+  }
+}

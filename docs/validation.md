@@ -1,5 +1,7 @@
 # What to pursue, and what could kill it
 
+**Background research:** this dated share-history/transmission investigation is preserved for reference. The current Virasat product follows the focused nominee tracker in the [current build plan](build-plan.md). Earlier scope recommendations here are superseded.
+
 ## Research recommendation
 
 Pursue **a securities-history and claim-evidence system**, with Track B's family/inheritance journey as the user-facing entry point. Retain acquisition reconstruction as the technically substantive engine and post-transmission continuity as a distinctive outcome.

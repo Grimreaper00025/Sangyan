@@ -1,5 +1,11 @@
 # Track B fit and a coherent larger system
 
+## Current product choice — Virasat
+
+The user selected the brief’s Nominee & Family Wealth Tracker direction: a family account list across demat, bank deposits and mutual fund folios, missing nominations, an institution-specific next task, and progress through submitted request to a checked registration record. This focused choice supersedes the earlier securities-history and transmission journey recommendations below. See the [current build plan](build-plan.md).
+
+The analysis below is preserved as background from the earlier research direction.
+
 ## Authoritative problem statement
 
 The supplied six-page PDF specifies **1–4 October 2026, a four-day sprint**. Track B concerns making investor rights, protections and complaint processes usable, explicitly naming senior citizens, homemakers and legal heirs. It values depth on one complete journey. Required outputs include a live demo, a 3–5 minute video and a PPT. [S056](../references/sources.md#s056)

@@ -1,5 +1,7 @@
 # The problem and its boundaries
 
+**Background research:** this dated share-history/transmission investigation is preserved for reference. The current Virasat product follows the focused nominee tracker in the [current build plan](build-plan.md). Earlier scope recommendations here are superseded.
+
 ## Working problem statement
 
 An ordinary long-term investor can possess the correct number of shares yet lack a reliable, usable record of how those shares were acquired. Moving brokers, holding shares through corporate restructurings, dematerialising old certificates, or receiving securities from another person can separate today's holding from the documents needed to explain its history.
