@@ -53,3 +53,18 @@ test('a delayed play rejection caused by pause cannot overwrite a later resume',
  const pending=[];const {reader,audio}=setup(()=>new Promise((_,reject)=>pending.push(reject)));
  reader.start(dictionaries.en.homeTitle);reader.pause();reader.resume();pending[0]({name:'AbortError'});await Promise.resolve();assert.equal(reader.state,'loading');audio.onplaying();assert.equal(reader.state,'playing');reader.stop();
 });
+test('a late media error cannot replace an intentional pause',()=>{
+ const {reader,audio}=setup();reader.start(dictionaries.en.homeTitle);reader.pause();audio.onerror();assert.equal(reader.state,'paused');reader.resume();audio.onplaying();assert.equal(reader.state,'playing');reader.stop();
+});
+test('real playback progress clears a buffering timeout on constrained browsers',async()=>{
+ const audio={currentTime:0,pause(){},load(){},removeAttribute(){},play(){return Promise.resolve();}};
+ const reader=createReader({createAudio:()=>audio,catalog,getDictionary:language=>dictionaries[language],timeoutMs:15});
+ reader.start(dictionaries.en.homeTitle);audio.currentTime=.5;audio.ontimeupdate();
+ await new Promise(resolve=>setTimeout(resolve,30));assert.equal(reader.state,'playing');
+ audio.onwaiting();await new Promise(resolve=>setTimeout(resolve,30));assert.equal(reader.state,'error');reader.stop();
+});
+test('next and repeat from pause start a new clip with an accurate playback state',()=>{
+ const {reader,audio,events}=setup();reader.start([{text:dictionaries.en.homeTitle},{text:dictionaries.en.homeIntro}]);
+ audio.onplaying();reader.pause();reader.next();assert.equal(reader.state,'loading');audio.onplaying();assert.equal(reader.state,'playing');assert.equal(events.at(-1).index,1);
+ reader.pause();reader.repeat();assert.equal(reader.state,'loading');audio.onplaying();assert.equal(reader.state,'playing');assert.equal(events.at(-1).index,1);reader.stop();
+});
