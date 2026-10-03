@@ -31,9 +31,12 @@ Keep CSP restricted to same-origin assets; `form-action 'none'`, no frames/objec
 ## Release evidence
 
 1. Public build and all automated tests pass.
-2. Browser exercises show practice cannot confirm accounts, receipts cannot complete nomination, checkboxes work, drafts survive internal navigation only, and reload/clear remove them.
+2. Browser exercises show practice cannot confirm accounts, receipts cannot complete nomination, contextual choices work, drafts survive internal navigation only, and reload/clear remove them.
 3. Personal persistence/import/export controls are absent; known legacy removal and preference-only writes have regression tests.
 4. Public worker cache scope and audio privacy regressions pass; no new private endpoint is introduced.
 5. Check keyboard focus, 320px reflow and enlarged text; inspect browser errors and run Lighthouse on the same built assets.
 6. Independent agent reviews the diff; fix actionable findings and retest affected behavior.
 7. Before broad release, complete source/legal-language review, actual regional narration, physical-device/assistive-technology and intended-user testing. No automated score substitutes for these.
+
+## In-context preview
+Required decision guidance belongs in the preparation flow. Extra examples and sources may be disclosed in place. Do not move essential information into a separate lesson library, infer comprehension from navigation, or infer external-form correctness from self-reported choices. Short English preview labels remain until language and audio review is complete.

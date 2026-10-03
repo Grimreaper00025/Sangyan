@@ -1,6 +1,6 @@
 # Virasat browser prototype
 
-Static, session-only nomination tracker with a six-step learning companion. `dist/` contains authored assets and generated language entry pages. Node.js 22+; no application dependency installation.
+Static, session-only nomination tracker with a contextual form companion. `dist/` contains authored assets and generated language entry pages. Node.js 22+; no application dependency installation.
 
 ```sh
 npm run build:public
@@ -12,9 +12,9 @@ Preview: `http://127.0.0.1:4173/`. Generate public assets after editing JS, CSS,
 
 ## Functionality
 
-Account setup → institutional check → form/process learning → preparation → reported submission → user checks registration evidence → in-session family review.
+Account setup → institutional check → guided preparation alongside the official form → reported submission → user checks registration evidence → in-session family review.
 
-The learning companion explains fields with meaning, purpose, information location and mistakes; fixed fictional exercises provide corrective feedback. Temporary checklists and a six-reason troubleshooting guide support real-world handoff. Learning cannot mutate account records. Bank deposits, securities folios, demat-held funds, unknown contexts and deceased-holder requests receive different guidance. Only the applicable securities path shows the detailed SEBI-based field guide. This is an explainer, not an official form, a personal-data form filler, or a guarantee of acceptance.
+The companion is the preparation journey itself. Short explanations, relevant warnings and optional fictional examples accompany each decision. Minor-nominee guidance appears only for that situation. There is no separate lesson or errors library. Reported receipt, correction and confirmation have different next actions. Companion navigation and examples cannot change account records; explicit outcome actions hand back to the existing tracker checks. Bank deposits, securities folios, demat-held funds, unknown contexts and deceased-holder requests receive distinct routing. This is a companion to an external official form, not an official form, automatic verification or a guarantee of acceptance.
 
 The directory and existing reviewed provider routes remain: HDFC Bank, SBI deposit channels, Axis savings, Zerodha first addition versus correction, Groww demat and HDFC MF folios. Directory inclusion does not imply detailed route coverage. Official sources and scope stay alongside guidance. Submission, registration and family review are separate observations; institution/context changes invalidate stale checks.
 

@@ -1,37 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {coachRoute,createNominationCoach,FIELD_GUIDE,COACH_SOURCE} from '../dist/nomination-coach.js';
+import {coachRoute,createNominationCoach,COACH_SOURCE} from '../dist/nomination-coach.js';
 const act=(c,action,value='')=>c.handle({closest:()=>({dataset:{coachAction:action,coachValue:String(value)}})});
-test('coach separates bank, folio, demat-held funds, unknown context and deceased claims',()=>{
- assert.equal(coachRoute({type:'bank'}),'bank');assert.equal(coachRoute({type:'mf',mfMode:'folio'}),'securities');assert.equal(coachRoute({type:'mf',mfMode:'demat'}),'demat-linked');assert.equal(coachRoute({type:'mf',mfMode:'unknown'}),'unknown');assert.equal(coachRoute({type:'demat',holderDeceased:true}),'deceased');
- const c=createNominationCoach();act(c,'step',1);for(const a of [{type:'bank'},{type:'mf',mfMode:'unknown'},{type:'mf',mfMode:'demat'}])assert.doesNotMatch(c.render(a),/These are mandatory nominee particulars/);
-});
-test('practice distinguishes request receipt from confirmed nomination without changing frozen account',()=>{
- const a=Object.freeze({type:'demat',holding:'sole',review:'reported',nomination:'unknown'}),c=createNominationCoach();act(c,'step',4);act(c,'outcome','done');assert.match(c.render(a),/does not establish registration or rejection/);act(c,'outcome','wait');assert.match(c.render(a),/Correct\. Keep the acknowledgement/);assert.equal(a.nomination,'unknown');assert.equal(a.review,'reported');
-});
-test('preparation state is temporary, isolated and has no personal-data inputs',()=>{
- const c=createNominationCoach();act(c,'step',3);act(c,'check','form');assert.match(c.render({type:'demat'}),/1 of 4/);act(c,'check','form');assert.match(c.render({type:'demat'}),/0 of 4/);act(c,'check','route');c.reset();act(c,'step',3);assert.match(c.render({type:'demat'}),/0 of 4/);assert.doesNotMatch(c.render({type:'demat'}),/type="(?:text|file|password)"/);
-});
-test('deceased route stops learning steps and never offers new nomination form',()=>{
- const c=createNominationCoach();act(c,'deceased');const html=c.render({type:'demat'});assert.match(html,/Stop the new-nomination journey/);assert.doesNotMatch(html,/aria-label="Nomination learning steps"/);act(c,'deceased');assert.match(c.render({type:'demat'}),/aria-label="Nomination learning steps"/);
-});
-test('field guide explains optional particulars and source boundaries',()=>{
- assert.ok(FIELD_GUIDE.every(f=>f.meaning&&f.why&&f.where&&f.check));const c=createNominationCoach();act(c,'step',1);const html=c.render({type:'demat'});assert.match(html,/particulars are optional/);assert.ok(html.includes(COACH_SOURCE));assert.match(html,/English text-only preview/);assert.match(html,/does not verify any institution/);
-});
-test('invalid actions are rejected and stuck route provides actionable correction guidance',()=>{
- const c=createNominationCoach();assert.equal(act(c,'step',99),false);assert.equal(act(c,'stuck','toString'),false);act(c,'step',5);act(c,'stuck','rejected');assert.match(c.render({type:'demat'}),/exact correction required in writing/);assert.equal(c.handle(null),false);
-});
-test('fictional rehearsal counts only three correct field choices and never mutates real status',()=>{
- const a=Object.freeze({type:'demat',holding:'sole',review:'reported',nomination:'missing'}),c=createNominationCoach();act(c,'step',2);
- assert.match(c.render(a),/0 of 3 fictional fields understood/);assert.doesNotMatch(c.render(a),/Practice complete\./);
- act(c,'practice-name','tara');act(c,'practice-relationship','mother');act(c,'practice-dob','omit');
- assert.match(c.render(a),/1 of 3 fictional fields understood/);assert.doesNotMatch(c.render(a),/Practice complete\./);
- act(c,'practice-relationship','daughter');act(c,'practice-dob','birth');
- assert.match(c.render(a),/3 of 3 fictional fields understood/);assert.match(c.render(a),/Practice complete\./);assert.match(c.render(a),/not an official submission/);
- assert.equal(a.review,'reported');assert.equal(a.nomination,'missing');assert.doesNotMatch(c.render(a),/type="(?:text|file|password)"/);
- act(c,'practice-dob','today');assert.match(c.render(a),/2 of 3 fictional fields understood/);assert.doesNotMatch(c.render(a),/Practice complete\./);
- assert.equal(act(c,'practice-name','arbitrary personal name'),false);c.reset();act(c,'step',2);assert.match(c.render(a),/0 of 3 fictional fields understood/);
-});
-test('securities minor field rehearsal is not applied to bank or unidentified fund routes',()=>{
- const c=createNominationCoach();act(c,'step',2);for(const a of [{type:'bank'},{type:'mf',mfMode:'unknown'},{type:'mf',mfMode:'demat'}]){assert.doesNotMatch(c.render(a),/Minor nominee’s date of birth/);assert.doesNotMatch(c.render(a),/data-coach-action="practice-dob"/);}
-});
+const account=Object.freeze({id:'one',type:'demat',holding:'sole',review:'reported',nomination:'missing'});
+function advance(c,n){for(let i=0;i<n;i++)act(c,'next');}
+test('unsafe routes stop form guidance and actions',()=>{for(const a of [{type:'mf',mfMode:'demat'},{type:'mf',mfMode:'unknown'},{type:'demat',holderDeceased:true}]){const c=createNominationCoach();assert.doesNotMatch(c.render(a),/data-coach-action="next"/);assert.equal(act(c,'next'),false);}assert.equal(coachRoute({type:'bank'}),'bank');});
+test('sequential journey requires minor context and produces response intents without tracker mutation',()=>{const c=createNominationCoach();c.render(account);advance(c,3);act(c,'next');assert.match(c.render(account),/Confirm whether your intended nominee/);act(c,'minor','unsure');act(c,'next');assert.match(c.render(account),/Confirm whether your intended nominee/);act(c,'minor','yes');assert.match(c.render(account),/mandatory for a minor nominee/);advance(c,2);assert.equal(act(c,'response','submitted'),'submitted');assert.equal(act(c,'response','blocked'),true);assert.match(c.render(account),/exact rejection or correction reason/);assert.equal(act(c,'record-blocked'),'blocked');assert.equal(act(c,'response','confirm'),'confirm');assert.equal(act(c,'response','unsure'),true);assert.match(c.render(account),/Keep the current account status unchanged/);assert.equal(account.nomination,'missing');assert.equal(account.review,'reported');});
+test('bank guidance never applies securities minor particulars',()=>{const c=createNominationCoach(),a={id:'bank',type:'bank'};c.render(a);advance(c,3);act(c,'minor','yes');const html=c.render(a);assert.match(html,/Ask the bank which date-of-birth/);assert.doesNotMatch(html,/It is mandatory for a minor nominee/);});
+test('state follows account context in memory and resets for changed context and clear',()=>{const c=createNominationCoach();c.render(account);advance(c,2);assert.match(c.render(account),/Enter the intended nominee/);assert.match(c.render({...account,id:'two'}),/Start with the correct/);assert.match(c.render(account),/Enter the intended nominee/);assert.match(c.render({...account,institutionId:'changed'}),/Start with the correct/);c.reset();assert.match(c.render(account),/Start with the correct/);});
+test('deceased toggle blocks an active journey and response intents',()=>{const c=createNominationCoach();c.render(account);act(c,'deceased');assert.match(c.render(account),/claim or transmission/);assert.equal(act(c,'next'),false);assert.equal(act(c,'response','confirm'),false);act(c,'deceased');assert.equal(act(c,'next'),true);});
+test('official links are HTTPS only and escaped; no personal-input form, course tabs or quizzes',()=>{const c=createNominationCoach();const html=c.render(account,{url:'javascript:alert(1)'});assert.doesNotMatch(html,/javascript:|<input|<textarea|<nav|quiz/i);assert.ok(html.includes(COACH_SOURCE));assert.match(c.render(account,{url:'https://example.org/form'}),/href="https:\/\/example.org\/form"/);assert.equal(act(c,'response','confirm'),false);assert.equal(act(c,'unknown'),false);assert.equal(c.handle(null),false);});
+test('response entry supports existing requests while respecting unsupported contexts',()=>{const c=createNominationCoach();assert.equal(c.startResponse(account),true);assert.match(c.render(account),/What response did the institution/);assert.equal(c.startResponse({type:'mf',mfMode:'unknown'}),false);assert.equal(act(c,'response','confirm'),false);});
+test('attempted example requires correction and unknown holding blocks handoff',()=>{const c=createNominationCoach(),a={...account,holding:'unknown'};c.render(a);advance(c,2);act(c,'example','holder');act(c,'next');assert.match(c.render(a),/Try the example again/);act(c,'example','nominee');act(c,'next');act(c,'minor','no');advance(c,2);assert.match(c.render(a),/update its account context before submission/);assert.doesNotMatch(c.render(a),/What response did the institution/);});
+
+test('inline example feedback stays expanded after an answer',()=>{const c=createNominationCoach();c.render(account);advance(c,2);act(c,'example','holder');assert.match(c.render(account),/<details open><summary>Help with name and relationship/);act(c,'example','nominee');assert.match(c.render(account),/<details open><summary>Help with name and relationship/);});

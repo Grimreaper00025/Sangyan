@@ -5,11 +5,11 @@
 ## Current journey
 
 1. Choose a language, then identify the account type, institution, holding context and nomination status in four setup stages.
-2. Follow the account-specific check/preparation route. Supported provider routes and clearly labelled general fallbacks remain separate.
-3. Select **Understand the form & process** to open six learning steps: your route, fields, fictional practice, preparation, after submission and troubleshooting.
-4. Read what a field means, why it exists, where to find the information and what to check. Securities guidance cites SEBI's 29 May 2026 circular, sections 6, 7, 9.3, 10.1 and Annexure A. Bank deposits and MF units held in demat receive distinct routing; this is not a universal or official form.
-5. Practise with fixed fictional choices. Practice and checklist completion never submit a request or change the account's registration status.
-6. Record submission and a later user-reported institutional record check separately. Family information can be reviewed on screen during the current session.
+2. Check the existing nomination, then prepare alongside the institution’s official form in one guided journey.
+3. Work through the account reference, nominee particulars, applicable minor details and consent. Each decision includes a short explanation and optional inline help or a fictional example. No separate lesson tabs or common-errors library.
+4. Use the account-specific official route; banking and securities guidance stay separate. Unknown contexts, demat-held funds and deceased-holder situations are redirected before form guidance.
+5. Choose the response actually received: receipt, correction, confirmation or uncertainty. A receipt never confirms registration; a claimed confirmation still goes through the existing evidence/date checks.
+6. Review secondary account and family information on demand during this session. Companion choices remain temporary and cannot independently mutate registration status.
 
 ## No personal-data persistence
 
@@ -27,7 +27,7 @@ npm --prefix app test
 npm --prefix app run dev
 ```
 
-Preview: `http://127.0.0.1:4173/`. Run the [browser acceptance checklist](app/tests/browser-audit.md) after functional changes. Verification evidence and remaining release gates are in [the branch checkpoint](docs/nomination-expansion-2026-10-04.md). Build generation must run after every public asset change so offline clients receive a consistent shell.
+Preview: `http://127.0.0.1:4173/`. Run the [browser acceptance checklist](app/tests/browser-audit.md) after functional changes. Current verification evidence and remaining release gates are in [the in-context preview audit](docs/audits/2026-10-04-in-context/observations.md). The earlier [branch checkpoint](docs/nomination-expansion-2026-10-04.md) describes the superseded library layout. Build generation must run after every public asset change so offline clients receive a consistent shell.
 
 ## Language and accessibility integration
 
