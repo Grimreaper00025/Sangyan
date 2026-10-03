@@ -1,0 +1,133 @@
+{
+  "phase": "verified-final-3",
+  "name": "severe",
+  "url": "http://127.0.0.1:4178/hi",
+  "version": "13.5.0",
+  "userTimings": {
+    "type": "table",
+    "headings": [
+      {
+        "key": "name",
+        "valueType": "text",
+        "label": "Name"
+      },
+      {
+        "key": "timingType",
+        "valueType": "text",
+        "label": "Type"
+      },
+      {
+        "key": "startTime",
+        "valueType": "ms",
+        "granularity": 0.01,
+        "label": "Start Time"
+      },
+      {
+        "key": "duration",
+        "valueType": "ms",
+        "granularity": 0.01,
+        "label": "Duration"
+      }
+    ],
+    "items": [
+      {
+        "name": "virasat-ready",
+        "startTime": 5378.419,
+        "timingType": "Mark"
+      }
+    ]
+  },
+  "settings": {
+    "rttMs": 800,
+    "throughputKbps": 160,
+    "requestLatencyMs": 800,
+    "downloadThroughputKbps": 160,
+    "uploadThroughputKbps": 64,
+    "cpuSlowdownMultiplier": 8
+  },
+  "scores": {
+    "performance": 0.7,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  "metrics": {
+    "first-contentful-paint": 3873.799,
+    "largest-contentful-paint": 3873.799,
+    "total-blocking-time": 346.3779999999997,
+    "cumulative-layout-shift": 0,
+    "total-byte-weight": 56265
+  },
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4178/hi",
+      "transferSize": 2048,
+      "resourceSize": 3908
+    },
+    {
+      "url": "http://127.0.0.1:4178/styles.css",
+      "transferSize": 6399,
+      "resourceSize": 23814
+    },
+    {
+      "url": "http://127.0.0.1:4178/locale.js",
+      "transferSize": 1891,
+      "resourceSize": 2805
+    },
+    {
+      "url": "http://127.0.0.1:4178/locale-catalog.js",
+      "transferSize": 758,
+      "resourceSize": 295
+    },
+    {
+      "url": "http://127.0.0.1:4178/tracker.js",
+      "transferSize": 4423,
+      "resourceSize": 12451
+    },
+    {
+      "url": "http://127.0.0.1:4178/institutions.js",
+      "transferSize": 3743,
+      "resourceSize": 8361
+    },
+    {
+      "url": "http://127.0.0.1:4178/speech.js",
+      "transferSize": 1984,
+      "resourceSize": 3707
+    },
+    {
+      "url": "http://127.0.0.1:4178/guides.js",
+      "transferSize": 1758,
+      "resourceSize": 3405
+    },
+    {
+      "url": "http://127.0.0.1:4178/privacy.js",
+      "transferSize": 1559,
+      "resourceSize": 2593
+    },
+    {
+      "url": "http://127.0.0.1:4178/audio-catalog.js",
+      "transferSize": 2780,
+      "resourceSize": 29084
+    },
+    {
+      "url": "http://127.0.0.1:4178/main.js",
+      "transferSize": 18057,
+      "resourceSize": 60130
+    },
+    {
+      "url": "http://127.0.0.1:4178/locales/hi-22f37c1975bf.json",
+      "transferSize": 10865,
+      "resourceSize": 47574
+    },
+    {
+      "url": "http://127.0.0.1:4178/favicon.svg",
+      "transferSize": 0,
+      "resourceSize": 208
+    },
+    {
+      "url": "http://127.0.0.1:4178/favicon.svg",
+      "transferSize": 0,
+      "resourceSize": 208
+    }
+  ]
+}

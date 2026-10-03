@@ -1,0 +1,99 @@
+{
+  "phase": "before",
+  "name": "severe",
+  "url": "http://127.0.0.1:4176/en",
+  "version": "13.5.0",
+  "settings": {
+    "rttMs": 800,
+    "throughputKbps": 160,
+    "requestLatencyMs": 562.5,
+    "downloadThroughputKbps": 1474.5600000000002,
+    "uploadThroughputKbps": 675,
+    "cpuSlowdownMultiplier": 8
+  },
+  "scores": {
+    "performance": 0.56,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  "metrics": {
+    "first-contentful-paint": 9628.4902,
+    "largest-contentful-paint": 13628.4902,
+    "total-blocking-time": 0,
+    "cumulative-layout-shift": 0,
+    "total-byte-weight": 108313
+  },
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4176/en",
+      "transferSize": 1487,
+      "resourceSize": 2675
+    },
+    {
+      "url": "http://127.0.0.1:4176/styles.css",
+      "transferSize": 6210,
+      "resourceSize": 23272
+    },
+    {
+      "url": "http://127.0.0.1:4176/i18n.js",
+      "transferSize": 808,
+      "resourceSize": 666
+    },
+    {
+      "url": "http://127.0.0.1:4176/virasat-copy.js",
+      "transferSize": 21647,
+      "resourceSize": 88106
+    },
+    {
+      "url": "http://127.0.0.1:4176/journey-copy.js",
+      "transferSize": 39103,
+      "resourceSize": 150069
+    },
+    {
+      "url": "http://127.0.0.1:4176/tracker.js",
+      "transferSize": 4367,
+      "resourceSize": 12451
+    },
+    {
+      "url": "http://127.0.0.1:4176/institutions.js",
+      "transferSize": 3687,
+      "resourceSize": 8361
+    },
+    {
+      "url": "http://127.0.0.1:4176/speech.js",
+      "transferSize": 1912,
+      "resourceSize": 3637
+    },
+    {
+      "url": "http://127.0.0.1:4176/guides.js",
+      "transferSize": 1702,
+      "resourceSize": 3405
+    },
+    {
+      "url": "http://127.0.0.1:4176/main.js",
+      "transferSize": 17601,
+      "resourceSize": 58749
+    },
+    {
+      "url": "http://127.0.0.1:4176/privacy.js",
+      "transferSize": 1503,
+      "resourceSize": 2593
+    },
+    {
+      "url": "http://127.0.0.1:4176/audio-copy.js",
+      "transferSize": 4964,
+      "resourceSize": 13852
+    },
+    {
+      "url": "http://127.0.0.1:4176/audio-catalog.js",
+      "transferSize": 2724,
+      "resourceSize": 29084
+    },
+    {
+      "url": "http://127.0.0.1:4176/favicon.svg",
+      "transferSize": 598,
+      "resourceSize": 208
+    }
+  ]
+}

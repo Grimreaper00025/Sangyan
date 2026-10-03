@@ -16,7 +16,7 @@ test('every released language has actual current recordings for all exported pub
    assert.equal(text,dictionaries[language][key],`${language}/${key} stale source`);
    const entry=report.entries[key],file=new URL(`../dist/audio/${language}/${release.revision}/${key}.mp3`,import.meta.url),data=await readFile(file);
    assert.equal(entry.textHash,hash(text));assert.equal(entry.sha256,hash(data));assert.equal(data.length,entry.bytes);assert.ok(entry.seconds>0&&entry.seconds<90);assert.ok(data.length<370000);
-   assert.equal(audioQueue([{text}],language).length,1,`${language}/${key} cannot be played`);
+   assert.equal(audioQueue([{text}],language,audioCatalog,dictionaries[language]).length,1,`${language}/${key} cannot be played`);
   }
  }
 });

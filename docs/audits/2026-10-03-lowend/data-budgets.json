@@ -1,0 +1,65 @@
+{
+  "measuredAt": "2026-10-03T12:10:56.234Z",
+  "units": "Bytes are exact; KB in the report means 1000 bytes, KiB means 1024 bytes. Gzip sizes exclude HTTP/TLS headers.",
+  "languages": {
+    "en": {
+      "textBytes": 24963,
+      "textGzipBytes": 8771,
+      "clips": 357,
+      "audioTotalBytes": 6024544,
+      "medianClipBytes": 10238,
+      "maxClipBytes": 60254,
+      "homeFirstFiveBytes": 85365
+    },
+    "hi": {
+      "textBytes": 47574,
+      "textGzipBytes": 10389,
+      "clips": 357,
+      "audioTotalBytes": 5797696,
+      "medianClipBytes": 9566,
+      "maxClipBytes": 66593,
+      "homeFirstFiveBytes": 83445
+    },
+    "bn": {
+      "textBytes": 48244,
+      "textGzipBytes": 10050,
+      "clips": 357,
+      "audioTotalBytes": 6391168,
+      "medianClipBytes": 11103,
+      "maxClipBytes": 64865,
+      "homeFirstFiveBytes": 96981
+    },
+    "mr": {
+      "textBytes": 47758,
+      "textGzipBytes": 10537,
+      "clips": 357,
+      "audioTotalBytes": 5889280,
+      "medianClipBytes": 9568,
+      "maxClipBytes": 67841,
+      "homeFirstFiveBytes": 81045
+    },
+    "ta": {
+      "textBytes": 61895,
+      "textGzipBytes": 11113,
+      "clips": 357,
+      "audioTotalBytes": 6589120,
+      "medianClipBytes": 10820,
+      "maxClipBytes": 72929,
+      "homeFirstFiveBytes": 90357
+    },
+    "ur": {
+      "textBytes": 34921,
+      "textGzipBytes": 9617,
+      "clips": 357,
+      "audioTotalBytes": 6873184,
+      "medianClipBytes": 11780,
+      "maxClipBytes": 72542,
+      "homeFirstFiveBytes": 97941
+    }
+  },
+  "audioBitrateKbps": 32,
+  "nominalMinuteAudioBytes": 240000,
+  "maxAudioCacheBytes": 12582912,
+  "maxAudioCacheEntries": 256,
+  "maximumAccounts": 50
+}

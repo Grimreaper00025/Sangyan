@@ -1,0 +1,392 @@
+{
+  "measuredAt": "2026-10-03T12:19:01.480Z",
+  "lighthouseVersion": "13.5.0",
+  "method": "Three fresh Lighthouse navigations per release; real-time DevTools throttling on desktop Chrome. Not a physical low-RAM phone.",
+  "profile": {
+    "rttMs": 800,
+    "throughputKbps": 160,
+    "requestLatencyMs": 800,
+    "downloadThroughputKbps": 160,
+    "uploadThroughputKbps": 64,
+    "cpuSlowdownMultiplier": 8
+  },
+  "finalPublicTextSourceSha256": "6c1a22a0ec1d527e226eb70e3acfbdd01ce822906a6c79215cb16098f6a89a60",
+  "before": {
+    "first-contentful-paint": {
+      "min": 8154.132,
+      "median": 8677.547,
+      "max": 10344.32,
+      "values": [
+        10344.32,
+        8677.547,
+        8154.132
+      ]
+    },
+    "largest-contentful-paint": {
+      "min": 8154.132,
+      "median": 8677.547,
+      "max": 10344.32,
+      "values": [
+        10344.32,
+        8677.547,
+        8154.132
+      ]
+    },
+    "total-blocking-time": {
+      "min": 0,
+      "median": 0,
+      "max": 31.810999999999694,
+      "values": [
+        31.810999999999694,
+        0,
+        0
+      ]
+    },
+    "cumulative-layout-shift": {
+      "min": 0,
+      "median": 0,
+      "max": 0,
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "total-byte-weight": {
+      "min": 107715,
+      "median": 107715,
+      "max": 107715,
+      "values": [
+        107715,
+        107715,
+        107715
+      ]
+    }
+  },
+  "after": {
+    "first-contentful-paint": {
+      "min": 3641.646,
+      "median": 3873.799,
+      "max": 4305.992,
+      "values": [
+        4305.992,
+        3641.646,
+        3873.799
+      ]
+    },
+    "largest-contentful-paint": {
+      "min": 3641.646,
+      "median": 3873.799,
+      "max": 4305.992,
+      "values": [
+        4305.992,
+        3641.646,
+        3873.799
+      ]
+    },
+    "total-blocking-time": {
+      "min": 108.56900000000041,
+      "median": 346.3779999999997,
+      "max": 899.6049999999987,
+      "values": [
+        899.6049999999987,
+        108.56900000000041,
+        346.3779999999997
+      ]
+    },
+    "cumulative-layout-shift": {
+      "min": 0,
+      "median": 0,
+      "max": 0,
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "total-byte-weight": {
+      "min": 56265,
+      "median": 56265,
+      "max": 56265,
+      "values": [
+        56265,
+        56265,
+        56265
+      ]
+    }
+  },
+  "finalReadyMs": {
+    "min": 5219.082,
+    "median": 5378.419,
+    "max": 5990.205,
+    "values": [
+      5990.205,
+      5219.082,
+      5378.419
+    ]
+  },
+  "performanceScore": {
+    "before": {
+      "min": 61,
+      "median": 62,
+      "max": 63,
+      "values": [
+        61,
+        62,
+        63
+      ]
+    },
+    "after": {
+      "min": 54,
+      "median": 70,
+      "max": 81,
+      "values": [
+        54,
+        81,
+        70
+      ]
+    }
+  },
+  "otherCategories": [
+    {
+      "performance": 0.54,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    {
+      "performance": 0.81,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    {
+      "performance": 0.7,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    }
+  ],
+  "extreme64kbps": {
+    "phase": "release-64kbps",
+    "name": "severe",
+    "url": "http://127.0.0.1:4178/hi",
+    "version": "13.5.0",
+    "userTimings": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "name",
+          "valueType": "text",
+          "label": "Name"
+        },
+        {
+          "key": "timingType",
+          "valueType": "text",
+          "label": "Type"
+        },
+        {
+          "key": "startTime",
+          "valueType": "ms",
+          "granularity": 0.01,
+          "label": "Start Time"
+        },
+        {
+          "key": "duration",
+          "valueType": "ms",
+          "granularity": 0.01,
+          "label": "Duration"
+        }
+      ],
+      "items": [
+        {
+          "name": "virasat-ready",
+          "startTime": 11522.668,
+          "timingType": "Mark"
+        }
+      ]
+    },
+    "settings": {
+      "rttMs": 1500,
+      "throughputKbps": 64,
+      "requestLatencyMs": 1500,
+      "downloadThroughputKbps": 64,
+      "uploadThroughputKbps": 64,
+      "cpuSlowdownMultiplier": 8
+    },
+    "scores": {
+      "performance": 0.53,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "metrics": {
+      "first-contentful-paint": 8814.435,
+      "largest-contentful-paint": 8814.435,
+      "total-blocking-time": 209.65899999999965,
+      "cumulative-layout-shift": 0,
+      "total-byte-weight": 56173
+    },
+    "requests": [
+      {
+        "url": "http://127.0.0.1:4178/hi",
+        "transferSize": 2048,
+        "resourceSize": 3908
+      },
+      {
+        "url": "http://127.0.0.1:4178/styles.css",
+        "transferSize": 6307,
+        "resourceSize": 23499
+      },
+      {
+        "url": "http://127.0.0.1:4178/locale.js",
+        "transferSize": 1891,
+        "resourceSize": 2805
+      },
+      {
+        "url": "http://127.0.0.1:4178/locale-catalog.js",
+        "transferSize": 758,
+        "resourceSize": 295
+      },
+      {
+        "url": "http://127.0.0.1:4178/tracker.js",
+        "transferSize": 4423,
+        "resourceSize": 12451
+      },
+      {
+        "url": "http://127.0.0.1:4178/institutions.js",
+        "transferSize": 3743,
+        "resourceSize": 8361
+      },
+      {
+        "url": "http://127.0.0.1:4178/speech.js",
+        "transferSize": 1984,
+        "resourceSize": 3707
+      },
+      {
+        "url": "http://127.0.0.1:4178/guides.js",
+        "transferSize": 1758,
+        "resourceSize": 3405
+      },
+      {
+        "url": "http://127.0.0.1:4178/privacy.js",
+        "transferSize": 1559,
+        "resourceSize": 2593
+      },
+      {
+        "url": "http://127.0.0.1:4178/audio-catalog.js",
+        "transferSize": 2780,
+        "resourceSize": 29084
+      },
+      {
+        "url": "http://127.0.0.1:4178/main.js",
+        "transferSize": 18057,
+        "resourceSize": 60130
+      },
+      {
+        "url": "http://127.0.0.1:4178/locales/hi-22f37c1975bf.json",
+        "transferSize": 10865,
+        "resourceSize": 47574
+      },
+      {
+        "url": "http://127.0.0.1:4178/favicon.svg",
+        "transferSize": 0,
+        "resourceSize": 208
+      },
+      {
+        "url": "http://127.0.0.1:4178/favicon.svg",
+        "transferSize": 0,
+        "resourceSize": 208
+      }
+    ],
+    "note": "This navigation precedes only the 315-byte narrow-screen reading-controls CSS repair; it is not a test of streamed audio at 64 kbps."
+  },
+  "excluded": [
+    "final-severe.json: trace failed with NO_NAVSTART; no performance value."
+  ],
+  "limitations": [
+    "Navigation measurements are not field INP or user completion rates.",
+    "No RAM, thermal, battery or physical-phone claims.",
+    "Earlier intermediate / simulated runs retained separately and excluded from final medians.",
+    "Final three-run sample retains a 900 ms blocking-time outlier; its cause is not established. Final worst-case interaction responsiveness remains a release concern."
+  ],
+  "beforeCssRepair": {
+    "after": {
+      "first-contentful-paint": {
+        "min": 3416.781,
+        "median": 3460.583,
+        "max": 3615.855,
+        "values": [
+          3416.781,
+          3615.855,
+          3460.583
+        ]
+      },
+      "largest-contentful-paint": {
+        "min": 3416.781,
+        "median": 3460.583,
+        "max": 3615.855,
+        "values": [
+          3416.781,
+          3615.855,
+          3460.583
+        ]
+      },
+      "total-blocking-time": {
+        "min": 28.152000000000044,
+        "median": 44.197000000001026,
+        "max": 52.20500000000084,
+        "values": [
+          44.197000000001026,
+          28.152000000000044,
+          52.20500000000084
+        ]
+      },
+      "cumulative-layout-shift": {
+        "min": 0,
+        "median": 0,
+        "max": 0,
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "total-byte-weight": {
+        "min": 56608,
+        "median": 56608,
+        "max": 56608,
+        "values": [
+          56608,
+          56608,
+          56608
+        ]
+      }
+    },
+    "finalReadyMs": {
+      "min": 5184.269,
+      "median": 5195.85,
+      "max": 5293.261,
+      "values": [
+        5184.269,
+        5195.85,
+        5293.261
+      ]
+    },
+    "performanceScore": {
+      "min": 81,
+      "median": 83,
+      "max": 84,
+      "values": [
+        84,
+        81,
+        83
+      ]
+    }
+  },
+  "finalRunFiles": [
+    "verified-final-severe.json",
+    "verified-final-2-severe.json",
+    "verified-final-3-severe.json"
+  ]
+}

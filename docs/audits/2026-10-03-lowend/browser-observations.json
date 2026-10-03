@@ -1,0 +1,102 @@
+{
+  "verifiedAt": "2026-10-03T13:33:16.632Z",
+  "functionalChecks": [
+    {
+      "check": "Hindi to English language change at account step 2",
+      "result": "State Bank of India preserved in institution input"
+    },
+    {
+      "check": "Uncached Tamil selected with localhost:4178 server stopped",
+      "result": "Tamil retry message shown; previous English form and SBI value preserved"
+    },
+    {
+      "check": "Tamil retry after server restart",
+      "result": "Tamil form rendered with State Bank of India still selected"
+    },
+    {
+      "check": "New Hindi navigation with server stopped",
+      "result": "Full Hindi home reopened from public cache"
+    },
+    {
+      "check": "Previously played Hindi audio with server stopped",
+      "result": "Playing state and read-along part 1 of 5 observed"
+    }
+  ],
+  "reflowBefore": [
+    {
+      "preloads": [
+        "/locale.js",
+        "/locale-catalog.js",
+        "/tracker.js",
+        "/institutions.js",
+        "/speech.js",
+        "/guides.js",
+        "/privacy.js",
+        "/audio-catalog.js"
+      ],
+      "scrollWidth": 320,
+      "view": "Tamil home 100%",
+      "width": 320
+    },
+    {
+      "dialogScrollWidth": 286,
+      "dialogWidth": 286,
+      "scrollWidth": 320,
+      "view": "Tamil settings 100%",
+      "width": 320
+    },
+    {
+      "dialogScrollWidth": 309,
+      "dialogWidth": 286,
+      "fontSize": "32px",
+      "scrollWidth": 320,
+      "view": "Tamil settings 200%",
+      "width": 320
+    }
+  ],
+  "reflowAfter": [
+    {
+      "controls": [
+        {
+          "left": 37,
+          "right": 81,
+          "text": "A−"
+        },
+        {
+          "left": 87,
+          "right": 233,
+          "text": "200%"
+        },
+        {
+          "left": 239,
+          "right": 283,
+          "text": "A+"
+        }
+      ],
+      "dialogScrollWidth": 286,
+      "dialogWidth": 286,
+      "fontSize": "32px",
+      "scrollWidth": 320,
+      "view": "Tamil settings 200% fixed",
+      "width": 320
+    },
+    {
+      "fontSize": "32px",
+      "scrollWidth": 320,
+      "view": "Tamil home 200%",
+      "width": 320
+    },
+    {
+      "fontSize": "32px",
+      "scrollWidth": 320,
+      "view": "Tamil account form 200%",
+      "width": 320
+    }
+  ],
+  "limitations": [
+    "Synthetic local drafts only",
+    "Audio playback state verified; fluent pronunciation not reviewed",
+    "Viewport emulation does not test physical device RAM",
+    "Initial small-screen check was interrupted by approval-review usage limits; resumed after usage became available"
+  ]
+}

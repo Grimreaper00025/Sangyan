@@ -1,0 +1,96 @@
+{
+  "phase": "final",
+  "name": "severe",
+  "url": "http://127.0.0.1:4178/en",
+  "version": "13.5.0",
+  "error": {
+    "code": "NO_NAVSTART",
+    "message": "Something went wrong with recording the trace over your page load. Please run Lighthouse again. (NO_NAVSTART)",
+    "errorStack": "LighthouseError: NO_NAVSTART\n    at LHTraceProcessor.createNoNavstartError (file:///private/tmp/virasat-audit-tools/node_modules/lighthouse/core/lib/lh-trace-processor.js:17:12)\n    at LHTraceProcessor.computeTimeOrigin (file:///private/tmp/virasat-audit-tools/node_modules/lighthouse/core/lib/tracehouse/trace-processor.js:1007:33)\n    at LHTraceProcessor.processTrace (file:///private/tmp/virasat-audit-tools/node_modules/lighthouse/core/lib/tracehouse/trace-processor.js:824:32)\n    at ProcessedTrace.compute_ (file:///private/tmp/virasat-audit-tools/node_modules/lighthouse/core/computed/processed-trace.js:16:29)\n    at ProcessedTrace.request (file:///private/tmp/virasat-audit-tools/node_modules/lighthouse/core/computed/computed-artifact.js:72:29)\n    at TraceEngineResult.compute_ (file:///private/tmp/virasat-audit-tools/node_modules/lighthouse/core/computed/trace-engine-result.js:235:49)\n    at TraceEngineResult.request (file:///private/tmp/virasat-audit-tools/node_modules/lighthouse/core/computed/computed-artifact.js:72:29)\n    at TraceElements.getArtifact (file:///private/tmp/virasat-audit-tools/node_modules/lighthouse/core/gather/gatherers/trace-elements.js:330:31)\n    at file:///private/tmp/virasat-audit-tools/node_modules/lighthouse/core/gather/runner-helpers.js:106:45\n    at async collectPhaseArtifacts (file:///private/tmp/virasat-audit-tools/node_modules/lighthouse/core/gather/runner-helpers.js:123:5)",
+    "artifactKey": "TraceElements"
+  },
+  "settings": {
+    "rttMs": 800,
+    "throughputKbps": 160,
+    "requestLatencyMs": 562.5,
+    "downloadThroughputKbps": 1474.5600000000002,
+    "uploadThroughputKbps": 675,
+    "cpuSlowdownMultiplier": 8
+  },
+  "scores": {
+    "performance": null,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  "metrics": {
+    "total-byte-weight": 55108
+  },
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4178/en",
+      "transferSize": 1957,
+      "resourceSize": 3701
+    },
+    {
+      "url": "http://127.0.0.1:4178/styles.css",
+      "transferSize": 6307,
+      "resourceSize": 23499
+    },
+    {
+      "url": "http://127.0.0.1:4178/locale.js",
+      "transferSize": 1891,
+      "resourceSize": 2805
+    },
+    {
+      "url": "http://127.0.0.1:4178/locale-catalog.js",
+      "transferSize": 758,
+      "resourceSize": 295
+    },
+    {
+      "url": "http://127.0.0.1:4178/tracker.js",
+      "transferSize": 4423,
+      "resourceSize": 12451
+    },
+    {
+      "url": "http://127.0.0.1:4178/institutions.js",
+      "transferSize": 3743,
+      "resourceSize": 8361
+    },
+    {
+      "url": "http://127.0.0.1:4178/speech.js",
+      "transferSize": 1984,
+      "resourceSize": 3707
+    },
+    {
+      "url": "http://127.0.0.1:4178/guides.js",
+      "transferSize": 1758,
+      "resourceSize": 3405
+    },
+    {
+      "url": "http://127.0.0.1:4178/privacy.js",
+      "transferSize": 1559,
+      "resourceSize": 2593
+    },
+    {
+      "url": "http://127.0.0.1:4178/audio-catalog.js",
+      "transferSize": 2780,
+      "resourceSize": 29084
+    },
+    {
+      "url": "http://127.0.0.1:4178/main.js",
+      "transferSize": 18048,
+      "resourceSize": 60101
+    },
+    {
+      "url": "http://127.0.0.1:4178/locales/en-03602502de66.json",
+      "transferSize": 9246,
+      "resourceSize": 24963
+    },
+    {
+      "url": "http://127.0.0.1:4178/favicon.svg",
+      "transferSize": 654,
+      "resourceSize": 208
+    }
+  ]
+}

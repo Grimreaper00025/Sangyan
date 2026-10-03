@@ -1,4 +1,4 @@
-import {languages,translate} from './i18n.js';
+import {languages,translate,loadLanguage,keepLanguageOffline,loadingText,retryText} from './locale.js';
 import {emptyTracker,emptyAccount,sampleTracker,validateAccount,attention,orderedAccounts,counts,transition,saveWorkspace,restoreWorkspace,today,validDate,SOURCES} from './tracker.js';
 import {searchInstitutions,matchInstitution,institutionById} from './institutions.js';
 import {guideFor} from './guides.js';
@@ -10,7 +10,6 @@ const main=$('main'),live=$('#live');
 const codes=languages.map(([code])=>code);
 const initialLanguage=location.pathname.replace(/\/$/,'').slice(1);
 let lang=codes.includes(initialLanguage)?initialLanguage:'en',chosen=codes.includes(initialLanguage);
-if(chosen)history.replaceState(null,'','/');
 let current=emptyTracker(),view='home',selected='',draft=null,step=0,editorMode='new',dirty=false,generation=0;
 let pendingDematSource='',pendingEditor=null,unfinished=null,returnView='home',savedFile=false,shareNames=true,shareLocation=true;
 let speechRate=.9,textLevel=100,dialogOrigin=null,routeMode='online';
@@ -94,8 +93,8 @@ function openProgress(next){openEditor(next);}
 function pageDirection(){document.documentElement.lang=lang;document.documentElement.dir='ltr';document.body.classList.toggle('urdu',lang==='ur');document.querySelectorAll('[data-speak], h1, h2, h3, label, legend, summary, .help, .error, .account-row-main, .status-pill, .record-facts, .language-tiles strong').forEach(el=>{el.dir=lang==='ur'?'rtl':'ltr';});}
 function draw(focus=true){
  reader.stop();speechScope=main;document.body.classList.toggle('language-gate',!chosen);$('.site-header').hidden=!chosen;$('footer').hidden=!chosen;$('.skip').hidden=!chosen;
- if(!chosen){main.className='';main.innerHTML=`<section class="language-picker"><div class="gate-brand">${$('.brand').innerHTML}</div><h1>Choose your language</h1><div class="language-tiles">${languages.map(([code,label])=>`<button type="button" data-language="${code}" lang="${code}"><strong dir="${code==='ur'?'rtl':'ltr'}">${label}</strong></button>`).join('')}</div></section>`;return;}
- main.className='app-shell';$('#language-button').textContent=languages.find(([c])=>c===lang)[1];$('#language-button').setAttribute('aria-label',t('language')+': '+languages.find(([c])=>c===lang)[1]);$('#access-toggle').setAttribute('aria-label',t('readingSettings'));$('#home-button').setAttribute('aria-label',t('home'));$('#help').textContent=t('privacyHelp');$('#clear').textContent=t('clear');$('.skip').textContent=t('skip');
+ if(!chosen){main.className='';main.innerHTML=`<section class="language-picker"><div class="gate-brand">${$('.brand').innerHTML}</div><h1>Choose your language</h1><div class="language-tiles">${languages.map(([code,label])=>`<button type="button" data-language="${code}" lang="${code}"><strong dir="${code==='ur'?'rtl':'ltr'}">${label}</strong></button>`).join('')}</div><p class="language-status" role="status"></p></section>`;return;}
+ document.querySelectorAll('[data-startup-disabled]').forEach(el=>el.disabled=false);main.className='app-shell';$('#language-button').textContent=languages.find(([c])=>c===lang)[1];$('#language-button').setAttribute('aria-label',t('language')+': '+languages.find(([c])=>c===lang)[1]);$('#access-toggle').setAttribute('aria-label',t('readingSettings'));$('#home-button').setAttribute('aria-label',t('home'));$('#help').textContent=t('privacyHelp');$('#clear').textContent=t('clear');$('.skip').textContent=t('skip');
  if(['detail','check','prepare','confirm','submit','family','followup'].includes(view)&&!account()){view='home';draft=null;}
  main.innerHTML=(current.synthetic&&!['home','summary'].includes(view)?copy('sample','p','sample-label'):'')+({home,form:accountForm,detail,check:checkResult,prepare,confirm:progressForm,submit:progressForm,followup:progressForm,family:familyForm,summary,save:vault,resume:vault}[view]||home)();pageDirection();
  if($('#account-institution'))bindInstitution();
@@ -139,7 +138,16 @@ function audioAction(id,scope){
 function dialogHead(id,key){return `<div class="dialog-head"><h2 id="${id}" data-speak>${t(key)}</h2><button type="button" class="dialog-close" data-close aria-label="${t('close')}">×</button></div>`;}
 function openDialog(id,body){reader.stop();dialogOrigin=document.activeElement;const dialog=$('#'+id);dialog.innerHTML=body.replace('</div>','</div>'+listenBar(id+'-'));speechScope=dialog;pageDirection();dialog.showModal();dialog.querySelector('[data-close]')?.addEventListener('click',()=>dialog.close());return dialog;}
 function confirmAction(key,action){const d=openDialog('confirm-dialog',`${dialogHead('confirm-title','beforeContinue')}${copy(key)}<div class="button-row">${button('confirm-cancel','cancel')}${button('confirm-action','continue','primary')}</div>`);$('#confirm-cancel').onclick=()=>d.close();$('#confirm-action').onclick=()=>{d.close();action();};$('#confirm-cancel').focus();}
-function languageDialog(){const d=openDialog('language-dialog',`${dialogHead('language-title','language')}${copy('languageHelp')}<div class="language-tiles">${languages.map(([code,label])=>`<button type="button" data-language="${code}" lang="${code}" aria-pressed="${code===lang}"><strong dir="${code==='ur'?'rtl':'ltr'}">${label}</strong></button>`).join('')}</div>`);d.onclick=e=>{const b=e.target.closest('[data-language]');if(b){lang=b.dataset.language;d.close();draw(false);}};}
+function languageDialog(){const d=openDialog('language-dialog',`${dialogHead('language-title','language')}${copy('languageHelp')}<div class="language-tiles">${languages.map(([code,label])=>`<button type="button" data-language="${code}" lang="${code}" aria-pressed="${code===lang}"><strong dir="${code==='ur'?'rtl':'ltr'}">${label}</strong></button>`).join('')}</div><p class="language-status" role="status"></p>`);d.onclick=e=>{const b=e.target.closest('[data-language]');if(b)chooseLanguage(b.dataset.language,d);};}
+let languageRequest=0;
+async function chooseLanguage(next,dialog=null,focus=true){
+ const request=++languageRequest,scope=dialog||main,status=scope.querySelector('.language-status');
+ if(status){status.lang=next;status.dir=next==='ur'?'rtl':'ltr';status.textContent=loadingText[next];}
+ scope.setAttribute('aria-busy','true');reader.stop();
+ try{await loadLanguage(next);if(request!==languageRequest||(dialog&&!dialog.open))return;lang=next;chosen=true;keepLanguageOffline(lang);dialog?.close();history.replaceState(null,'','/');draw(focus&&!dialog);if(!performance.getEntriesByName('virasat-ready').length)performance.mark('virasat-ready');}
+ catch{if(request===languageRequest){if(status)status.textContent=retryText[next];const choices=scope.querySelector('.startup-languages');if(choices)choices.hidden=false;}}
+ finally{if(request===languageRequest||dialog&&!dialog.open)scope.removeAttribute('aria-busy');}
+}
 function accessDialog(){
  const contrast=document.body.classList.contains('high-contrast'),motion=document.body.classList.contains('no-motion'),spacing=document.body.classList.contains('more-spacing');
  const d=openDialog('access-dialog',`${dialogHead('access-title','readingSettings')}<section class="settings-section"><h3>${t('appearance')}</h3><div class="size-control"><span>${t('textSize')}</span><button id="smaller" aria-label="${t('smaller')}">A−</button><output id="text-size">${textLevel}%</output><button id="larger" aria-label="${t('larger')}">A+</button></div>${[['contrast',contrast],['motion',motion],['lineSpacing',spacing]].map(([k,on])=>`<label class="setting-switch"><span>${t(k)}</span><input id="setting-${k}" role="switch" type="checkbox" ${on?'checked':''}></label>`).join('')}</section><section class="settings-section"><h3>${t('voice')}</h3>${copy('voiceHelp','p','help')}<fieldset class="speed-control"><legend>${t('speed')}</legend>${[[.75,'slower'],[.9,'normalSpeed'],[1.05,'faster']].map(([rate,k])=>`<label><input name="speed" type="radio" value="${rate}" ${speechRate===rate?'checked':''}><span>${t(k)}</span></label>`).join('')}</fieldset><p id="voice-status" role="status" class="help"></p>${details('audioCache',copy('audioData')+button('clear-audio','clearAudio','text-button'))}${copy('audioDraft','p','micro')}</section>${copy('readingPreferences','p','help')}${button('reset-settings','resetSettings','text-button')}`);
@@ -169,7 +177,7 @@ async function handleVault(form){
    const keep=$('#keep-device').checked;let storageFailed=false;if(keep){try{localStorage.setItem(deviceKey,sealed);deviceCopy=true;}catch{storageFailed=true;}}
    download(sealed,`virasat-${today()}.virasat`);dirty=false;savedFile=true;$('#vault-status').textContent=t(storageFailed?'deviceUnavailable':'saved');$('#password').value='';$('#password-repeat').value='';const next=document.createElement('div');next.className='save-complete';next.innerHTML=copy('savedNext')+(!keep&&deviceCopy?copy('olderDeviceCopy','p','help'):'')+button('return-after-save','returnTask','primary');form.querySelector('.save-complete')?.remove();form.append(next);next.querySelector('button').focus();
   }else{let encrypted;const file=$('#saved-file').files[0];if($('#use-device')?.checked){encrypted=localStorage.getItem(deviceKey);if(!encrypted)throw new Error('invalidSave');}else{if(!file){showError('saved-file-error','chooseFile');$('#saved-file').focus();return;}if(file.size>2*1024*1024)throw new Error('invalidSave');encrypted=await file.text();}
-   const restored=restoreWorkspace(await openCase(encrypted,password));if(run!==generation||view!=='resume')return;current=restored.tracker;pendingEditor=restored.editor;unfinished=restored.draft?{account:restored.draft,step:restored.step,sourceId:restored.linkFrom}:null;pendingDematSource=restored.linkFrom;lang=restored.language||lang;dirty=false;savedFile=true;draft=null;view='home';generation++;draw();announce('restored');
+   const restored=restoreWorkspace(await openCase(encrypted,password));let restoredLanguage=lang;if(restored.language){try{await loadLanguage(restored.language);restoredLanguage=restored.language;}catch{/* Keep the current language when the saved language is not available offline. */}}if(run!==generation||view!=='resume')return;current=restored.tracker;pendingEditor=restored.editor;unfinished=restored.draft?{account:restored.draft,step:restored.step,sourceId:restored.linkFrom}:null;pendingDematSource=restored.linkFrom;lang=restoredLanguage;keepLanguageOffline(lang);dirty=false;savedFile=true;draft=null;view='home';generation++;draw();announce('restored');
   }
  }catch(error){if(view===(saving?'save':'resume'))$('#vault-status').textContent=t(['passwordShort','invalidSave','cannotUnlock','invalidAccount','invalidDate'].includes(error.message)?error.message:'cannotUnlock');}
  finally{if(submit.isConnected)submit.disabled=false;}
@@ -206,7 +214,7 @@ main.addEventListener('submit',async e=>{
 });
 main.addEventListener('click',async e=>{
  const target=e.target.closest('button,a');if(!target)return;
- if(target.dataset.language){lang=target.dataset.language;chosen=true;draw();return;}
+ if(target.dataset.language){e.preventDefault();chooseLanguage(target.dataset.language);return;}
  if(target.dataset.account){selected=target.dataset.account;go('detail');return;}
  if(target.dataset.removeNominee!==undefined){draft.nominees.splice(Number(target.dataset.removeNominee),1);draft.familyReviewedOn='';markDirty();draw(false);$('#add-nominee')?.focus();return;}
  const id=target.id;
@@ -243,6 +251,5 @@ for(const d of document.querySelectorAll('dialog')){d.addEventListener('click',e
 window.addEventListener('beforeunload',e=>{if(dirty&&(current.accounts.length||draft||unfinished)){e.preventDefault();e.returnValue='';}});
 window.addEventListener('pagehide',()=>reader.stop());
 
-draw(false);
-
 if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});
+if(chosen)chooseLanguage(lang,null,false);else draw(false);

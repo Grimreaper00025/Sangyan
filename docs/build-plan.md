@@ -1,3 +1,5 @@
+> Latest audit: [low-bandwidth and low-end-device checkpoint](low-bandwidth-audit-2026-10-03.md), with 63 passing tests, measured download savings, real-time network/CPU stress runs and an explicit physical-device validation gap.
+
 > Latest delivery: [bundled audio and Bharat-first checkpoint](audio-checkpoint-2026-10-03.md). Device-voice setup has been replaced by on-demand recordings.
 
 **Latest checkpoint:** See [the major UX checkpoint and release audit](major-checkpoint-2026-10-03.md) for the current implementation, deployment and remaining human-validation work. Earlier scores and coverage below describe prior iterations.

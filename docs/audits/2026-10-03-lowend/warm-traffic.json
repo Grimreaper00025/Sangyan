@@ -1,0 +1,14 @@
+{
+  "measuredAt": "2026-10-03T12:10:01.889Z",
+  "method": "Same browser, same origin, second navigation to /en after offline installation completed; server-side response body accounting.",
+  "requests": [
+    {
+      "time": 1791029369347,
+      "path": "/sw.js",
+      "status": 304,
+      "bodyBytes": 0,
+      "conditional": true
+    }
+  ],
+  "bodyBytes": 0
+}

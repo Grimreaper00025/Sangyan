@@ -5,7 +5,7 @@ import {dictionaries} from '../dist/i18n.js';
 const catalog=Object.fromEntries(Object.entries(dictionaries).map(([lang,d])=>[lang,{revision:'012345abcdef',keys:Object.keys(d)}]));
 function setup(play=()=>Promise.resolve()){
  const events=[],audio={pause(){this.pauses=(this.pauses||0)+1;},load(){},removeAttribute(){this.src='';},play(){this.plays=(this.plays||0)+1;return play();}};
- const reader=createReader({createAudio:()=>audio,catalog,onChange:e=>events.push(e)});
+ const reader=createReader({createAudio:()=>audio,catalog,getDictionary:language=>dictionaries[language],onChange:e=>events.push(e)});
  return {audio,reader,events};
 }
 test('recorded instructions work in all six languages without a speech synthesis API',()=>{
@@ -17,7 +17,7 @@ test('recorded instructions work in all six languages without a speech synthesis
 });
 test('private values and unknown languages never become audio URLs',()=>{
  const entries=[{text:'My account 123456789 password secret',source:1},{text:dictionaries.hi.homeIntro,source:2}];
- const queue=audioQueue(entries,'hi',catalog);assert.equal(queue.length,1);assert.equal(queue[0].source,2);assert.ok(!queue[0].url.includes('123456789'));
+ const queue=audioQueue(entries,'hi',catalog,dictionaries.hi);assert.equal(queue.length,1);assert.equal(queue[0].source,2);assert.ok(!queue[0].url.includes('123456789'));
  assert.deepEqual(audioQueue(entries,'xx',catalog),[]);
  const {reader,audio}=setup();assert.equal(reader.start(entries[0].text),false);assert.equal(audio.src,undefined);
 });
@@ -46,7 +46,7 @@ test('playback uses one audio element, preserves pitch and ends cleanly',()=>{
 });
 test('slow connections stop waiting and expose retry instead of spinning forever',async()=>{
  const audio={pause(){},load(){},removeAttribute(){},play(){return new Promise(()=>{});}};
- const reader=createReader({createAudio:()=>audio,catalog,timeoutMs:10});reader.start(dictionaries.en.homeTitle);
+ const reader=createReader({createAudio:()=>audio,catalog,getDictionary:language=>dictionaries[language],timeoutMs:10});reader.start(dictionaries.en.homeTitle);
  await new Promise(r=>setTimeout(r,25));assert.equal(reader.state,'error');reader.stop();
 });
 test('a delayed play rejection caused by pause cannot overwrite a later resume',async()=>{

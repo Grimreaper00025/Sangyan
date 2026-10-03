@@ -1,0 +1,622 @@
+{
+  "before": {
+    "requests": [
+      {
+        "time": 1791029309197,
+        "path": "/en",
+        "status": 200,
+        "bodyBytes": 1061,
+        "conditional": false
+      },
+      {
+        "time": 1791029309349,
+        "path": "/styles.css",
+        "status": 200,
+        "bodyBytes": 5785,
+        "conditional": false
+      },
+      {
+        "time": 1791029309350,
+        "path": "/i18n.js",
+        "status": 200,
+        "bodyBytes": 377,
+        "conditional": false
+      },
+      {
+        "time": 1791029309355,
+        "path": "/virasat-copy.js",
+        "status": 200,
+        "bodyBytes": 21214,
+        "conditional": false
+      },
+      {
+        "time": 1791029309369,
+        "path": "/journey-copy.js",
+        "status": 200,
+        "bodyBytes": 38670,
+        "conditional": false
+      },
+      {
+        "time": 1791029309371,
+        "path": "/tracker.js",
+        "status": 200,
+        "bodyBytes": 3935,
+        "conditional": false
+      },
+      {
+        "time": 1791029309371,
+        "path": "/speech.js",
+        "status": 200,
+        "bodyBytes": 1480,
+        "conditional": false
+      },
+      {
+        "time": 1791029309373,
+        "path": "/institutions.js",
+        "status": 200,
+        "bodyBytes": 3255,
+        "conditional": false
+      },
+      {
+        "time": 1791029309373,
+        "path": "/guides.js",
+        "status": 200,
+        "bodyBytes": 1270,
+        "conditional": false
+      },
+      {
+        "time": 1791029309376,
+        "path": "/main.js",
+        "status": 200,
+        "bodyBytes": 17168,
+        "conditional": false
+      },
+      {
+        "time": 1791029309379,
+        "path": "/privacy.js",
+        "status": 200,
+        "bodyBytes": 1071,
+        "conditional": false
+      },
+      {
+        "time": 1791029309382,
+        "path": "/audio-copy.js",
+        "status": 200,
+        "bodyBytes": 4532,
+        "conditional": false
+      },
+      {
+        "time": 1791029309385,
+        "path": "/audio-catalog.js",
+        "status": 200,
+        "bodyBytes": 2292,
+        "conditional": false
+      },
+      {
+        "time": 1791029309435,
+        "path": "/sw.js",
+        "status": 200,
+        "bodyBytes": 1413,
+        "conditional": false
+      },
+      {
+        "time": 1791029309478,
+        "path": "/",
+        "status": 200,
+        "bodyBytes": 1061,
+        "conditional": false
+      },
+      {
+        "time": 1791029309479,
+        "path": "/index.html",
+        "status": 200,
+        "bodyBytes": 1061,
+        "conditional": false
+      },
+      {
+        "time": 1791029309479,
+        "path": "/styles.css",
+        "status": 200,
+        "bodyBytes": 5785,
+        "conditional": false
+      },
+      {
+        "time": 1791029309481,
+        "path": "/main.js",
+        "status": 200,
+        "bodyBytes": 17168,
+        "conditional": false
+      },
+      {
+        "time": 1791029309482,
+        "path": "/i18n.js",
+        "status": 200,
+        "bodyBytes": 377,
+        "conditional": false
+      },
+      {
+        "time": 1791029309482,
+        "path": "/favicon.svg",
+        "status": 200,
+        "bodyBytes": 208,
+        "conditional": false
+      },
+      {
+        "time": 1791029309485,
+        "path": "/virasat-copy.js",
+        "status": 200,
+        "bodyBytes": 21214,
+        "conditional": false
+      },
+      {
+        "time": 1791029309492,
+        "path": "/journey-copy.js",
+        "status": 200,
+        "bodyBytes": 38670,
+        "conditional": false
+      },
+      {
+        "time": 1791029309495,
+        "path": "/audio-copy.js",
+        "status": 200,
+        "bodyBytes": 4532,
+        "conditional": false
+      },
+      {
+        "time": 1791029309496,
+        "path": "/tracker.js",
+        "status": 200,
+        "bodyBytes": 3935,
+        "conditional": false
+      },
+      {
+        "time": 1791029309497,
+        "path": "/institutions.js",
+        "status": 200,
+        "bodyBytes": 3255,
+        "conditional": false
+      },
+      {
+        "time": 1791029309497,
+        "path": "/guides.js",
+        "status": 200,
+        "bodyBytes": 1270,
+        "conditional": false
+      },
+      {
+        "time": 1791029309497,
+        "path": "/privacy.js",
+        "status": 200,
+        "bodyBytes": 1071,
+        "conditional": false
+      },
+      {
+        "time": 1791029309498,
+        "path": "/speech.js",
+        "status": 200,
+        "bodyBytes": 1480,
+        "conditional": false
+      },
+      {
+        "time": 1791029309499,
+        "path": "/audio-catalog.js",
+        "status": 200,
+        "bodyBytes": 2292,
+        "conditional": false
+      },
+      {
+        "time": 1791029309499,
+        "path": "/audio-credits.html",
+        "status": 200,
+        "bodyBytes": 950,
+        "conditional": false
+      }
+    ],
+    "bodyBytes": 207852,
+    "requestsCount": 30,
+    "statuses": {
+      "200": 30
+    },
+    "audioRequests": 0
+  },
+  "after": {
+    "requests": [
+      {
+        "time": 1791034401801,
+        "path": "/en",
+        "status": 200,
+        "bodyBytes": 1475,
+        "conditional": false
+      },
+      {
+        "time": 1791034401945,
+        "path": "/styles.css",
+        "status": 200,
+        "bodyBytes": 5918,
+        "conditional": false
+      },
+      {
+        "time": 1791034401947,
+        "path": "/locale.js",
+        "status": 200,
+        "bodyBytes": 1403,
+        "conditional": false
+      },
+      {
+        "time": 1791034401948,
+        "path": "/locale-catalog.js",
+        "status": 200,
+        "bodyBytes": 295,
+        "conditional": false
+      },
+      {
+        "time": 1791034401949,
+        "path": "/tracker.js",
+        "status": 200,
+        "bodyBytes": 3935,
+        "conditional": false
+      },
+      {
+        "time": 1791034401950,
+        "path": "/speech.js",
+        "status": 200,
+        "bodyBytes": 1496,
+        "conditional": false
+      },
+      {
+        "time": 1791034401951,
+        "path": "/institutions.js",
+        "status": 200,
+        "bodyBytes": 3255,
+        "conditional": false
+      },
+      {
+        "time": 1791034401952,
+        "path": "/guides.js",
+        "status": 200,
+        "bodyBytes": 1270,
+        "conditional": false
+      },
+      {
+        "time": 1791034401952,
+        "path": "/privacy.js",
+        "status": 200,
+        "bodyBytes": 1071,
+        "conditional": false
+      },
+      {
+        "time": 1791034401953,
+        "path": "/audio-catalog.js",
+        "status": 200,
+        "bodyBytes": 2292,
+        "conditional": false
+      },
+      {
+        "time": 1791034401959,
+        "path": "/main.js",
+        "status": 200,
+        "bodyBytes": 17568,
+        "conditional": false
+      },
+      {
+        "time": 1791034401964,
+        "path": "/locales/en-03602502de66.json",
+        "status": 200,
+        "bodyBytes": 8771,
+        "conditional": false
+      },
+      {
+        "time": 1791034402151,
+        "path": "/sw.js",
+        "status": 200,
+        "bodyBytes": 2080,
+        "conditional": false
+      },
+      {
+        "time": 1791034402183,
+        "path": "/favicon.svg",
+        "status": 200,
+        "bodyBytes": 208,
+        "conditional": false
+      },
+      {
+        "time": 1791034402256,
+        "path": "/index.html",
+        "status": 200,
+        "bodyBytes": 1334,
+        "conditional": false
+      },
+      {
+        "time": 1791034402257,
+        "path": "/styles.css",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402257,
+        "path": "/favicon.svg",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402261,
+        "path": "/main.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402261,
+        "path": "/locale-catalog.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402262,
+        "path": "/locale.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402262,
+        "path": "/tracker.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402265,
+        "path": "/institutions.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402268,
+        "path": "/guides.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402269,
+        "path": "/speech.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402269,
+        "path": "/privacy.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402272,
+        "path": "/audio-catalog.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791034402272,
+        "path": "/audio-credits.html",
+        "status": 200,
+        "bodyBytes": 950,
+        "conditional": false
+      }
+    ],
+    "bodyBytes": 53321,
+    "requestsCount": 27,
+    "statuses": {
+      "200": 16,
+      "304": 11
+    },
+    "audioRequests": 0
+  },
+  "intermediateAfter": {
+    "requests": [
+      {
+        "time": 1791029320023,
+        "path": "/en",
+        "status": 200,
+        "bodyBytes": 1475,
+        "conditional": false
+      },
+      {
+        "time": 1791029320190,
+        "path": "/styles.css",
+        "status": 200,
+        "bodyBytes": 5826,
+        "conditional": false
+      },
+      {
+        "time": 1791029320192,
+        "path": "/locale-catalog.js",
+        "status": 200,
+        "bodyBytes": 295,
+        "conditional": false
+      },
+      {
+        "time": 1791029320197,
+        "path": "/locale.js",
+        "status": 200,
+        "bodyBytes": 1403,
+        "conditional": false
+      },
+      {
+        "time": 1791029320200,
+        "path": "/tracker.js",
+        "status": 200,
+        "bodyBytes": 3935,
+        "conditional": false
+      },
+      {
+        "time": 1791029320202,
+        "path": "/institutions.js",
+        "status": 200,
+        "bodyBytes": 3255,
+        "conditional": false
+      },
+      {
+        "time": 1791029320203,
+        "path": "/speech.js",
+        "status": 200,
+        "bodyBytes": 1496,
+        "conditional": false
+      },
+      {
+        "time": 1791029320206,
+        "path": "/audio-catalog.js",
+        "status": 200,
+        "bodyBytes": 2292,
+        "conditional": false
+      },
+      {
+        "time": 1791029320207,
+        "path": "/privacy.js",
+        "status": 200,
+        "bodyBytes": 1071,
+        "conditional": false
+      },
+      {
+        "time": 1791029320209,
+        "path": "/locales/en-03602502de66.json",
+        "status": 200,
+        "bodyBytes": 8771,
+        "conditional": false
+      },
+      {
+        "time": 1791029320219,
+        "path": "/main.js",
+        "status": 200,
+        "bodyBytes": 17559,
+        "conditional": false
+      },
+      {
+        "time": 1791029320220,
+        "path": "/guides.js",
+        "status": 200,
+        "bodyBytes": 1270,
+        "conditional": false
+      },
+      {
+        "time": 1791029320358,
+        "path": "/sw.js",
+        "status": 200,
+        "bodyBytes": 2080,
+        "conditional": false
+      },
+      {
+        "time": 1791029320379,
+        "path": "/favicon.svg",
+        "status": 200,
+        "bodyBytes": 208,
+        "conditional": false
+      },
+      {
+        "time": 1791029320437,
+        "path": "/index.html",
+        "status": 200,
+        "bodyBytes": 1334,
+        "conditional": false
+      },
+      {
+        "time": 1791029320439,
+        "path": "/styles.css",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320439,
+        "path": "/favicon.svg",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320443,
+        "path": "/main.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320443,
+        "path": "/locale-catalog.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320444,
+        "path": "/locale.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320444,
+        "path": "/tracker.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320445,
+        "path": "/institutions.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320445,
+        "path": "/guides.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320446,
+        "path": "/privacy.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320446,
+        "path": "/speech.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320447,
+        "path": "/audio-catalog.js",
+        "status": 304,
+        "bodyBytes": 0,
+        "conditional": true
+      },
+      {
+        "time": 1791029320448,
+        "path": "/audio-credits.html",
+        "status": 200,
+        "bodyBytes": 950,
+        "conditional": false
+      }
+    ],
+    "bodyBytes": 53220,
+    "requestsCount": 27,
+    "statuses": {
+      "200": 16,
+      "304": 11
+    },
+    "audioRequests": 0
+  }
+}

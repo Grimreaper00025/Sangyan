@@ -1,10 +1,10 @@
-import {dictionaries} from './i18n.js';
+import {dictionaryFor} from './locale.js';
 import {audioCatalog} from './audio-catalog.js';
 
 // Public dictionary matches only. Neither arbitrary text nor user entries can become a URL.
 export const normalizeSpeech=text=>String(text).replace(/[↗→]/g,'').replace(/\s+/gu,' ').trim();
-export function audioQueue(blocks,language,catalog=audioCatalog){
- const release=catalog[language],dictionary=dictionaries[language];
+export function audioQueue(blocks,language,catalog=audioCatalog,dictionary=dictionaryFor(language)){
+ const release=catalog[language];
  if(!release||!dictionary)return [];
  const keys=new Map(release.keys.filter(key=>Object.hasOwn(dictionary,key)).map(key=>[normalizeSpeech(dictionary[key]),key]));
  return blocks.map(block=>{
@@ -13,7 +13,7 @@ export function audioQueue(blocks,language,catalog=audioCatalog){
   return {text:dictionary[key],source:block.source??null,url:`/audio/${language}/${release.revision}/${key}.mp3`};
  }).filter(Boolean);
 }
-export function createReader({createAudio=()=>new Audio(),catalog=audioCatalog,onChange=()=>{},timeoutMs=20000}={}){
+export function createReader({createAudio=()=>new Audio(),catalog=audioCatalog,getDictionary=dictionaryFor,onChange=()=>{},timeoutMs=20000}={}){
  let audio=null,queue=[],index=0,token=0,attempt=0,state='idle',rate=.9,timer=null;
  const update=(next,error='')=>{state=next;onChange({state,index,total:queue.length,text:queue[index]?.text||'',source:queue[index]?.source??null,error});};
  const clearTimer=()=>{clearTimeout(timer);timer=null;};
@@ -41,7 +41,7 @@ export function createReader({createAudio=()=>new Audio(),catalog=audioCatalog,o
   stop,
   start(blocks,options={}){
    stop();rate=[.75,.9,1.05].includes(options.rate)?options.rate:.9;
-   queue=audioQueue(Array.isArray(blocks)?blocks:[{text:blocks}],options.language||'en',catalog);
+   queue=audioQueue(Array.isArray(blocks)?blocks:[{text:blocks}],options.language||'en',catalog,getDictionary(options.language||'en'));
    if(!queue.length){update('unavailable');return false;}playCurrent();return true;
   },
   pause(){if(['playing','loading'].includes(state)){attempt++;clearTimer();audio.pause();update('paused');}},

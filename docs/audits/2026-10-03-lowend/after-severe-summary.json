@@ -1,0 +1,99 @@
+{
+  "phase": "after",
+  "name": "severe",
+  "url": "http://127.0.0.1:4177/en",
+  "version": "13.5.0",
+  "settings": {
+    "rttMs": 800,
+    "throughputKbps": 160,
+    "requestLatencyMs": 562.5,
+    "downloadThroughputKbps": 1474.5600000000002,
+    "uploadThroughputKbps": 675,
+    "cpuSlowdownMultiplier": 8
+  },
+  "scores": {
+    "performance": 0.55,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  "metrics": {
+    "first-contentful-paint": 7631.3495,
+    "largest-contentful-paint": 12008.466,
+    "total-blocking-time": 0,
+    "cumulative-layout-shift": 0.09219319562575942,
+    "total-byte-weight": 55296
+  },
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4177/en",
+      "transferSize": 1803,
+      "resourceSize": 3555
+    },
+    {
+      "url": "http://127.0.0.1:4177/styles.css",
+      "transferSize": 6307,
+      "resourceSize": 23499
+    },
+    {
+      "url": "http://127.0.0.1:4177/locale.js",
+      "transferSize": 1884,
+      "resourceSize": 2798
+    },
+    {
+      "url": "http://127.0.0.1:4177/locale-catalog.js",
+      "transferSize": 758,
+      "resourceSize": 295
+    },
+    {
+      "url": "http://127.0.0.1:4177/tracker.js",
+      "transferSize": 4423,
+      "resourceSize": 12451
+    },
+    {
+      "url": "http://127.0.0.1:4177/institutions.js",
+      "transferSize": 3743,
+      "resourceSize": 8361
+    },
+    {
+      "url": "http://127.0.0.1:4177/speech.js",
+      "transferSize": 1984,
+      "resourceSize": 3707
+    },
+    {
+      "url": "http://127.0.0.1:4177/guides.js",
+      "transferSize": 1758,
+      "resourceSize": 3405
+    },
+    {
+      "url": "http://127.0.0.1:4177/main.js",
+      "transferSize": 17962,
+      "resourceSize": 59834
+    },
+    {
+      "url": "http://127.0.0.1:4177/privacy.js",
+      "transferSize": 1559,
+      "resourceSize": 2593
+    },
+    {
+      "url": "http://127.0.0.1:4177/audio-catalog.js",
+      "transferSize": 2780,
+      "resourceSize": 29084
+    },
+    {
+      "url": "http://127.0.0.1:4177/locales/en-03602502de66.json",
+      "transferSize": 9246,
+      "resourceSize": 24963
+    },
+    {
+      "url": "http://127.0.0.1:4177/favicon.svg",
+      "transferSize": 654,
+      "resourceSize": 208
+    },
+    {
+      "url": "http://127.0.0.1:4177/favicon.svg",
+      "transferSize": 435,
+      "resourceSize": 208
+    }
+  ]
+}

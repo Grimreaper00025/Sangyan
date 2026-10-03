@@ -1,13 +1,14 @@
 # Virasat browser prototype
 
-A private family nominee tracker for demat accounts, bank deposits and mutual fund folios. `dist/` is authored static source, not generated build output. No application dependency installation is needed.
+A private family nominee tracker for demat accounts, bank deposits and mutual fund folios. `dist/` holds authored static code plus generated, checked-in language packs and entry pages. No application dependency installation is needed.
 
 ```sh
+npm run build:public
 npm run dev
 npm test
 ```
 
-Preview: `http://127.0.0.1:4173/`. The first visit offers six languages. Old locale entry URLs select a language and canonicalize to `/`. Modern ES modules, Web Crypto and native dialog support are required.
+Preview: `http://127.0.0.1:4173/`. The first visit offers six languages. Locale entry URLs immediately show translated introductory text, load only the chosen dictionary, and canonicalize to `/`. Modern ES modules, Web Crypto and native dialog support are required.
 
 ## Current journey
 
@@ -21,11 +22,11 @@ Family nicknames, optional last four digits, multiple nominee notes and record l
 
 Encrypted `.virasat` saves include account records, incomplete new-account setup, an unfinished existing-account form, language and the originating fund for an unfinished demat-account addition. Returning from Save restores the correct form draft. Optional device storage contains only the encrypted envelope; it is off until requested. The application does not store the password or make automatic cloud requests. Changes require an explicit new save. Old schema-2 tracker files migrate to schema 3.
 
-All six interface dictionaries are drafts: English, Hindi, Bengali, Marathi, Tamil and Urdu. Switching language preserves the current form. Urdu uses RTL text with the established left-aligned LTR page layout. Date fields normalize supported regional numerals. Every main view and help/confirmation dialog offers bundled audio of public guidance, with one Listen/Pause/Continue button, speed control, replay/skip, matching text and recoverable loading/network states. All six languages use build-time recordings; users need no installed speech voices. Private entered values cannot become audio requests. Public instructions load on demand and previously played clips can replay offline in supported browsers. A service worker caches the public shell and limits audio storage to 12 MiB / 256 files. First-use audio needs a connection; storage restrictions and browser eviction can remove offline copies. See [audio generation, provenance and review limits](audio/README.md). The reading dialog supports 90–200% text, contrast, spacing and reduced motion. These non-sensitive reading preferences are remembered locally; Reset restores defaults.
+All six interface dictionaries are drafts: English, Hindi, Bengali, Marathi, Tamil and Urdu. Switching language preserves the current form. Urdu uses RTL text with the established left-aligned LTR page layout. Date fields normalize supported regional numerals. Every main view and help/confirmation dialog offers bundled audio of public guidance, with one Listen/Pause/Continue button, speed control, replay/skip, matching text and recoverable loading/network states. All six languages use build-time recordings; users need no installed speech voices. Private entered values cannot become audio requests. Public instructions load on demand and previously played clips can replay offline in supported browsers. Chosen text packs are cached for offline use; an uncached language needs a connection and offers a readable retry without changing the form. A service worker caches the public shell and limits audio storage to 12 MiB / 256 files. First-use audio needs a connection; storage restrictions and browser eviction can remove offline copies. See [audio generation, provenance and review limits](audio/README.md). The reading dialog supports 90–200% text, contrast, spacing and reduced motion. These non-sensitive reading preferences are remembered locally; Reset restores defaults.
 
 ## Verification
 
-`npm test` runs the current, shared/background and audio release checks. Browser acceptance steps are in [tests/browser-audit.md](tests/browser-audit.md); the previous-flow automation is archived and not a current runner. See the [audio checkpoint](../docs/audio-checkpoint-2026-10-03.md), fresh Lighthouse report, screenshots and exact limitations. None is a WCAG conformance claim, a fluent-language review or evidence of target-user completion.
+`npm test` runs the current, shared/background and audio release checks. Browser acceptance steps are in [tests/browser-audit.md](tests/browser-audit.md); the previous-flow automation is archived and not a current runner. See the [low-bandwidth audit](../docs/low-bandwidth-audit-2026-10-03.md) for before/after data costs, network/CPU stress results and outstanding real-device tests, and the [audio checkpoint](../docs/audio-checkpoint-2026-10-03.md), fresh Lighthouse report, screenshots and exact limitations. None is a WCAG conformance claim, a fluent-language review or evidence of target-user completion.
 
 ## Security and hosting
 
@@ -34,3 +35,5 @@ Static files only. No analytics, third-party fonts, uploads, automatic account l
 Production uses the existing Vercel `sangyan` project at **https://sangyan-xi.vercel.app**. Root directory: `app`. `vercel.json` serves `dist/`, preserves six locale entry routes and applies CSP/framing/MIME/referrer/permissions restrictions. Deploy only the authored static output and hosting configuration; research, archive and tests are not public assets. The older `.openai` manifest is historical and is not the current host.
 
 The product does not discover accounts, authenticate records, adjudicate succession, allocate inheritance or process deceased-customer claims. Bank lockers and safe custody are outside the tracked deposit types. First-use audio connectivity, fluent-language and accent review, real screen-reader/low-end-device use and provider-specific coverage remain explicit limits.
+
+Run `npm run build:public` after editing public copy, HTML, CSS, JavaScript or the worker. It validates effective dictionaries, generates content-addressed JSON and localized entry pages, and derives an offline shell revision from the complete public shell. No model or frontend dependency is installed. `npm test` checks locale/audio consistency and recovery. Public non-versioned files revalidate with ETags; hashed language packs and audio are immutable. Do not add private records or generated user exports to these caches.
