@@ -4,12 +4,14 @@
 
 ## Current journey
 
-1. Choose a language, then identify the account type, institution, holding context and nomination status in four setup stages.
+1. Choose a language. Use **Help me get started** if account types are unfamiliar, or **Help after someone has died** for separate, account-free claim orientation. Otherwise identify the account type, institution, holding context and nomination status in four setup stages.
 2. Check the existing nomination, then prepare alongside the institution’s official form in one guided journey.
-3. Work through the account reference, nominee particulars, applicable minor details and consent. Each decision includes a short explanation and optional inline help or a fictional example. No separate lesson tabs or common-errors library.
+3. Choose online guidance or branch/service-centre assistance, then work through the account reference, nominee particulars, applicable minor details and consent. Each decision includes a short explanation and optional inline help or a fictional example. No separate lesson tabs or common-errors library.
 4. Use the account-specific official route; banking and securities guidance stay separate. Unknown contexts, demat-held funds and deceased-holder situations are redirected before form guidance.
 5. Choose the response actually received: receipt, correction, confirmation or uncertainty. A receipt never confirms registration; a claimed confirmation still goes through the existing evidence/date checks.
 6. Review secondary account and family information on demand during this session. Companion choices remain temporary and cannot independently mutate registration status.
+
+See the [three-persona gap analysis and reviewed plan](docs/persona-improvements-2026-10-04.md). Claims guidance is bounded orientation, not filing or entitlement determination.
 
 ## No personal-data persistence
 

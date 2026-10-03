@@ -15,3 +15,7 @@
 11. Retain public-only offline cache/audio regression tests, checked-in manifest integrity and shell version generation. A private value must not become a network URL, recording text, cache key or log. Review new source changes for storage/network sinks. No new record endpoints are allowed.
 
 Keep synthetic-only screenshots and observations in `docs/audits/`. Do not commit real user data or claim manual scenarios that were not run. Physical low-end Android, TalkBack/VoiceOver and intended-user tests remain release gates.
+
+12. Persona entry: unknown account type gives a concrete institution question without requiring setup. After-death orientation works without an account, separates bank/demat/folio/unknown, and gives minor/unsure users a safe independent assistance route. It never changes nomination state.
+13. Assisted nomination: select branch guidance; check institution scope, progress and primary action. Unknown context has an edit recovery; not-submitted returns to preparation without a submission. Correction reasons produce relevant questions without inventing institutional reasons.
+14. Sample isolation: start a sample family edit, leave it pending, then use guided entry to start personal setup. After confirmation, no sample pending edit or record can be resumed. Real-workspace pending edits remain available.

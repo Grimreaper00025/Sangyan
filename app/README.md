@@ -34,6 +34,9 @@ Reading settings, keyboard focus, regional digits and public audio caching remai
 
 ## Verification and hosting
 
-Run `npm test`, then [browser acceptance](tests/browser-audit.md). The current checkpoint is [nomination expansion](../docs/nomination-expansion-2026-10-04.md). The full suite includes historical crypto/domain cases; report current feature evidence separately.
+Run `npm test`, then [browser acceptance](tests/browser-audit.md). The current plan is [three-persona improvements](../docs/persona-improvements-2026-10-04.md), with evidence in `docs/audits/2026-10-04-personas/`. The full suite includes historical crypto/domain cases; report current feature evidence separately.
 
 Existing production: **https://sangyan-xi.vercel.app**, Vercel project `sangyan`, root `app`, output `dist`. This branch has not been deployed. Preserve CSP, no-referrer, framing, MIME and permissions protections. Do not publish research, tests, audit artifacts or private records. Existing worker-controlled tabs may use the previous release until closed; review rollout before claiming the production site uses the no-storage policy.
+
+## Assisted entry and claim orientation
+`journey-entry.js` supplies fixed-choice, account-free starting help and separate after-death orientation. Its setup intent can open nomination setup only in the living-holder path. Claims never emit nomination submission/confirmation intents. Clear its state with all session data. New branch preference, context-edit recovery and correction-specific questions remain in `nomination-coach.js`.

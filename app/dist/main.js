@@ -5,6 +5,8 @@ import {guideFor} from './guides.js';
 import {createReader} from './speech.js';
 import {sessionText,hasSessionText,clearLegacyRecords} from './session-policy.js';
 import {createNominationCoach} from './nomination-coach.js';
+import {createJourneyEntry} from './journey-entry.js';
+const entry=createJourneyEntry();
 const coach=createNominationCoach();
 const legacyRemoved=clearLegacyRecords();
 
@@ -41,9 +43,11 @@ function details(key,body,id=''){return `<details ${id?`id="${id}"`:''}><summary
 function saveNotice(){return `<div class="session-notice" role="note"><p>${esc(t('sessionShort'))}</p><details><summary>${esc(t('privacyHelp'))}</summary><p>${esc(t('sessionNotice'))}${legacyRemoved?' '+esc(t('legacyRemoved')):''}</p></details></div>`;}
 
 function row(a){return `<button type="button" class="account-row" data-account="${a.id}" aria-label="${esc([accountTitle(a),ownerText(a.owner),t(attention(a))].filter(Boolean).join(', '))}"><span class="account-symbol">${icon(a.type)}</span><span class="account-row-main"><strong>${esc(accountTitle(a))}</strong><span>${[ownerText(a.owner),a.label?a.institution:'',t(a.type),a.last4?'•••• '+a.last4:''].filter(Boolean).map(esc).join(' · ')}</span><span class="row-task">${esc(t(taskKey(a)))}</span></span><span class="account-row-status">${status(a)}${a.followupOn?`<span class="review-due">${a.followupOn<=today()?t('followDue'):t('reviewDate')} · ${date(a.followupOn)}</span>`:''}</span><span class="row-arrow">${icon('arrow')}</span></button>`;}
+function entryPage(){return `${button('back-list','home','back-button')}${entry.render()}${saveNotice()}`;}
+function entryLinks(){return `<div class="entry-links" lang="en"><p class="micro">Guided help · English text-only preview</p><div class="coach-options"><button type="button" id="entry-start">Help me get started</button><button type="button" id="entry-claim">Help after someone has died</button></div></div>`;}
 function home(){
  const c=counts(current),items=orderedAccounts(current.accounts),familyRemaining=items.filter(a=>!a.familyReviewedOn).length,next=items.find(a=>isDue(a)||!['confirmed','optout','linked'].includes(attention(a)))||items.find(a=>a.review==='confirmed'&&!a.familyReviewedOn);
- return `${heading('homeTitle','homeIntro')}${c.total?`${current.synthetic?copy('sample','p','sample-label'):''}<div class="overview-counts"><div><strong>${number(c.total)}</strong><span>${t('accounts')}</span></div><div><strong>${number(current.accounts.filter(a=>isDue(a)||!['confirmed','optout','linked'].includes(attention(a))).length)}</strong><span>${t('needsAttention')}</span></div><div><strong>${number(c.confirmed)}</strong><span>${t('checkedCount')}</span></div></div>${next?`<section class="next-task"><div>${copy('next','p','overline')}<h2>${esc(accountTitle(next))}</h2><p data-speak>${esc(t(taskKey(next)))}</p></div><button type="button" class="primary" data-account="${next.id}">${t('resumeTask')} <span aria-hidden="true">→</span></button></section>`:''}${familyRemaining?`<p class="family-progress">${t('familyRemaining')}: ${number(familyRemaining)}</p>`:''}<div class="home-actions">${button('add',current.synthetic?'startOwnList':'add',next?'secondary':'primary')}${button('summary','summary','text-button')}</div>`:`<div class="home-actions">${button('add','startCheck','primary')}</div>${copy('startHelp','p','start-help')}<div class="example-types">${['bank','demat','mf'].map(k=>`<span>${icon(k)}${t(k)}</span>`).join('')}</div>${button('demo','example','text-button')}${details('howWorks',copy('howWorksText'))}${details('helpScope',copy('helpScopeText'))}`}${pendingEditor?button('continue-editor','unfinishedChanges','unfinished-link'):''}${unfinished?`<button type="button" id="continue-draft" class="unfinished-link">${t('unfinished')} ${icon('arrow')}</button>`:''}${c.total?`<section class="account-list" aria-label="${t('accounts')}"><div class="list-heading"><h2>${t('accounts')}</h2></div>${items.map(row).join('')}</section>`:''}${saveNotice()}`;
+ return `${heading('homeTitle','homeIntro')}${c.total?`${current.synthetic?copy('sample','p','sample-label'):''}<div class="overview-counts"><div><strong>${number(c.total)}</strong><span>${t('accounts')}</span></div><div><strong>${number(current.accounts.filter(a=>isDue(a)||!['confirmed','optout','linked'].includes(attention(a))).length)}</strong><span>${t('needsAttention')}</span></div><div><strong>${number(c.confirmed)}</strong><span>${t('checkedCount')}</span></div></div>${next?`<section class="next-task"><div>${copy('next','p','overline')}<h2>${esc(accountTitle(next))}</h2><p data-speak>${esc(t(taskKey(next)))}</p></div><button type="button" class="primary" data-account="${next.id}">${t('resumeTask')} <span aria-hidden="true">→</span></button></section>`:''}${familyRemaining?`<p class="family-progress">${t('familyRemaining')}: ${number(familyRemaining)}</p>`:''}<div class="home-actions">${button('add',current.synthetic?'startOwnList':'add',next?'secondary':'primary')}${button('summary','summary','text-button')}</div>`:`<div class="home-actions">${button('add','startCheck','primary')}</div>${copy('startHelp','p','start-help')}<div class="example-types">${['bank','demat','mf'].map(k=>`<span>${icon(k)}${t(k)}</span>`).join('')}</div>${button('demo','example','text-button')}${details('howWorks',copy('howWorksText'))}`}${entryLinks()}${pendingEditor?button('continue-editor','unfinishedChanges','unfinished-link'):''}${unfinished?`<button type="button" id="continue-draft" class="unfinished-link">${t('unfinished')} ${icon('arrow')}</button>`:''}${c.total?`<section class="account-list" aria-label="${t('accounts')}"><div class="list-heading"><h2>${t('accounts')}</h2></div>${items.map(row).join('')}</section>`:''}${saveNotice()}`;
 }
 function options(name,key,values,description=false){return `<fieldset class="choice-group"><legend data-speak>${t(key)}</legend><div class="${description?'type-options':'choice-options'}">${values.map(([value,label,desc])=>`<label><input aria-describedby="${name}-error" type="radio" name="${name}" value="${value}" ${draft[name]===value?'checked':''}><span>${description?icon(value):''}<span><strong data-speak>${esc(t(label))}</strong>${desc?`<span data-speak>${esc(t(desc))}</span>`:''}</span></span></label>`).join('')}</div><p class="error field-error" id="${name}-error" role="alert"></p></fieldset>`;}
 const hints={label:'nicknameExample',owner:'ownerExample',nomineeNote:'nomineeNoteExample',last4:'last4Example',recordNote:'recordNoteExample',recordLocation:'locationHelp'};
@@ -98,7 +102,7 @@ function draw(focus=true){
  if(!chosen){main.className='';main.innerHTML=`<section class="language-picker"><div class="gate-brand">${$('.brand').innerHTML}</div><h1>Choose your language</h1><div class="language-tiles">${languages.map(([code,label])=>`<button type="button" data-language="${code}" lang="${code}"><strong dir="${code==='ur'?'rtl':'ltr'}">${label}</strong></button>`).join('')}</div><p class="language-status" role="status"></p></section>`;return;}
  document.querySelectorAll('[data-startup-disabled]').forEach(el=>el.disabled=false);main.className='app-shell';$('#language-button').textContent=languages.find(([c])=>c===lang)[1];$('#language-button').setAttribute('aria-label',t('language')+': '+languages.find(([c])=>c===lang)[1]);$('#access-toggle').setAttribute('aria-label',t('readingSettings'));$('#home-button').setAttribute('aria-label',t('home'));$('#help').textContent=t('privacyHelp');$('#clear').textContent=t('clear');$('.skip').textContent=t('skip');
  if(['detail','check','prepare','confirm','submit','family','followup'].includes(view)&&!account()){view='home';draft=null;}
- main.innerHTML=(current.synthetic&&!['home','summary'].includes(view)?copy('sample','p','sample-label'):'')+({home,form:accountForm,detail,check:checkResult,prepare,confirm:progressForm,submit:progressForm,followup:progressForm,family:familyForm,summary}[view]||home)();pageDirection();
+ main.innerHTML=(current.synthetic&&!['home','summary'].includes(view)?copy('sample','p','sample-label'):'')+({home,entry:entryPage,form:accountForm,detail,check:checkResult,prepare,confirm:progressForm,submit:progressForm,followup:progressForm,family:familyForm,summary}[view]||home)();pageDirection();
  if($('#account-institution'))bindInstitution();
  if(focus){main.focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});}
 }
@@ -199,10 +203,24 @@ main.addEventListener('click',async e=>{
  if(target.dataset.account){selected=target.dataset.account;go('detail');return;}
  if(target.dataset.removeNominee!==undefined){draft.nominees.splice(Number(target.dataset.removeNominee),1);draft.familyReviewedOn='';markDirty();draw(false);$('#add-nominee')?.focus();return;}
  const id=target.id;
+ if(id==='entry-start'||id==='entry-claim'){id==='entry-claim'?entry.startClaim():entry.reset();go('entry');return;}
+ if(view==='entry'){
+  const result=entry.handle(target);
+  if(result){
+   if(typeof result==='string'&&result.startsWith('setup-')){
+    const type=result.slice(6),start=()=>{if(current.synthetic){current=emptyTracker();pendingEditor=null;unfinished=null;selected='';coach.reset();}if(begin()){draft.type=type;step=1;draw();}};
+    if(current.synthetic||unfinished)confirmAction(current.synthetic?'startOwnHelp':'replaceDraft',start);else start();
+   }else {draw(false);$('.coach-content')?.focus();}
+   return;
+  }
+ }
+
  if(view==='prepare'){
   const result=coach.handle(target);
   if(result){
-   if(result==='submitted')openProgress('submit');
+   if(result==='claim-help'){entry.startClaim();go('entry');}
+   else if(result==='edit-context')openEditor('form');
+   else if(result==='submitted')openProgress('submit');
    else if(result==='confirm')openProgress('confirm');
    else if(result==='blocked')storeAccount(transition(account(),'blocked'));
    else {draw(false);$('.coach-content')?.focus();}
@@ -233,7 +251,7 @@ main.addEventListener('click',async e=>{
  if(id==='copy-question'){try{await navigator.clipboard.writeText(t('askText'));target.textContent=t('copied');}catch{const range=document.createRange();range.selectNodeContents(target.previousElementSibling);const sel=window.getSelection();sel.removeAllRanges();sel.addRange(range);}}
 });
 $('#home-button').onclick=()=>go('home');$('.brand').onclick=e=>{e.preventDefault();go('home');};$('#language-button').onclick=languageDialog;$('#access-toggle').onclick=accessDialog;$('#help').onclick=helpDialog;
-function clearSession(){generation++;reader.stop();coach.reset();current=emptyTracker();unfinished=null;pendingEditor=null;pendingDematSource='';draft=null;selected='';dirty=false;shareNames=true;shareLocation=true;for(const d of document.querySelectorAll('dialog')){if(d.open)d.close();d.replaceChildren();}view='home';draw(false);}
+function clearSession(){generation++;reader.stop();coach.reset();entry.reset();current=emptyTracker();unfinished=null;pendingEditor=null;pendingDematSource='';draft=null;selected='';dirty=false;shareNames=true;shareLocation=true;for(const d of document.querySelectorAll('dialog')){if(d.open)d.close();d.replaceChildren();}view='home';draw(false);}
 $('#clear').onclick=()=>confirmAction('clearAsk',()=>{clearSession();main.focus();announce('clearDone');});
 for(const d of document.querySelectorAll('dialog')){d.addEventListener('click',e=>{const id=e.target.closest('button')?.id;if(id?.startsWith(d.id+'-'))audioAction(id.slice(d.id.length+1),d);});d.addEventListener('close',()=>{reader.stop();speechScope=main;if(dialogOrigin?.isConnected)dialogOrigin.focus();});}
 // A visible session notice replaces the old unsaved-file navigation prompt.
