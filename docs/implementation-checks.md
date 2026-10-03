@@ -1,3 +1,5 @@
+> Latest verification: [audio checkpoint](audio-checkpoint-2026-10-03.md), with 52 automated checks, six-language playback, offline recovery and fresh mobile audit. Earlier results below are historical.
+
 **Latest checkpoint:** See [the major UX checkpoint and release audit](major-checkpoint-2026-10-03.md) for the current implementation, deployment and remaining human-validation work. Earlier scores and coverage below describe prior iterations.
 
 # Virasat implementation checks

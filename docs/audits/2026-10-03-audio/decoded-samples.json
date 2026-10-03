@@ -1,0 +1,326 @@
+[
+  {
+    "language": "bn",
+    "key": "homeTitle",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "bn",
+    "key": "homeIntro",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "bn",
+    "key": "nomineeExplain",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "bn",
+    "key": "confirmationRequired",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "bn",
+    "key": "dateExample",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "bn",
+    "key": "voiceHelp",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "bn",
+    "key": "sbiAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "bn",
+    "key": "hdfcSavings",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "bn",
+    "key": "zerodhaAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "mr",
+    "key": "homeTitle",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "mr",
+    "key": "homeIntro",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "mr",
+    "key": "nomineeExplain",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "mr",
+    "key": "confirmationRequired",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "mr",
+    "key": "dateExample",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "mr",
+    "key": "voiceHelp",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "mr",
+    "key": "sbiAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "mr",
+    "key": "hdfcSavings",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "mr",
+    "key": "zerodhaAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "en",
+    "key": "homeTitle",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "en",
+    "key": "homeIntro",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "en",
+    "key": "nomineeExplain",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "en",
+    "key": "confirmationRequired",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "en",
+    "key": "dateExample",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "en",
+    "key": "voiceHelp",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "en",
+    "key": "sbiAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "en",
+    "key": "hdfcSavings",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "en",
+    "key": "zerodhaAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ur",
+    "key": "homeTitle",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ur",
+    "key": "homeIntro",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ur",
+    "key": "nomineeExplain",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ur",
+    "key": "confirmationRequired",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ur",
+    "key": "dateExample",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ur",
+    "key": "voiceHelp",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ur",
+    "key": "sbiAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ur",
+    "key": "hdfcSavings",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ur",
+    "key": "zerodhaAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ta",
+    "key": "homeTitle",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ta",
+    "key": "homeIntro",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ta",
+    "key": "nomineeExplain",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ta",
+    "key": "confirmationRequired",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ta",
+    "key": "dateExample",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ta",
+    "key": "voiceHelp",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ta",
+    "key": "sbiAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ta",
+    "key": "hdfcSavings",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "ta",
+    "key": "zerodhaAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "hi",
+    "key": "homeTitle",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "hi",
+    "key": "homeIntro",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "hi",
+    "key": "nomineeExplain",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "hi",
+    "key": "confirmationRequired",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "hi",
+    "key": "dateExample",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "hi",
+    "key": "voiceHelp",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "hi",
+    "key": "sbiAction",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "hi",
+    "key": "hdfcSavings",
+    "decodes": true,
+    "error": ""
+  },
+  {
+    "language": "hi",
+    "key": "zerodhaAction",
+    "decodes": true,
+    "error": ""
+  }
+]

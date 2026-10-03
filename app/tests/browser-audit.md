@@ -25,3 +25,13 @@ Record exact observations, limitations, source hashes and screenshots in `docs/a
 - Online/in-person route switching retains account status. The handoff save checkpoint disappears only after a deliberate successful save.
 - Sentence next/replay/previous and pause work; skip while paused must restart audible playback. Stale completion callbacks must not advance the new session. Read-along never contains input values or private account names.
 - Reopen the app to verify reading size, contrast, spacing and voice preferences persist. Account records remain locked until deliberately reopened. Reset restores reading defaults.
+
+## Bundled-audio regression checks (3 October checkpoint)
+
+- Each of the six languages must enter playing state after Listen, without checking or installing an operating-system voice. Playback begins only after user action.
+- Main button changes Listen → Pause → Continue; previous/repeat/next keeps the matching public transcript. Stop, language change, route change and dialog dismissal stop the previous queue.
+- Read the privacy, confirmation and settings dialogs. Check no duplicate dialog-control IDs. Public validation messages are available to Listen; entered passwords, account nicknames and private notes never enter the audio queue.
+- While online, play an instruction, then make the test origin unavailable. Reload must use the public shell where service workers/storage are supported. Played audio should replay; a new instruction must offer Retry. Restore the origin and retry at the same place. Do not describe all clips as pre-downloaded.
+- At 320 px and 200% text, check every language's expanded player and the settings dialog for horizontal overflow and reachable controls. Reset temporary preferences afterwards.
+- The audio asset test must validate all six manifests against current copy and every MP3 checksum. Check live MIME type, CSP and byte ranges separately.
+- Fluency, accent, comprehension, physical low-end Android and actual screen-reader review remain separate human validation tasks.

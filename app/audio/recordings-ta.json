@@ -1,0 +1,2511 @@
+{
+  "language": "ta",
+  "revision": "90759f22f698",
+  "model": {
+    "model": "facebook/mms-tts-tam",
+    "revision": "e9cf59dae34f0f51e3b1842876a658e4516f9fe4"
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "entries": {
+    "nomineeYes": {
+      "textHash": "aa9456d7a26a0ca2ceafa7028ebd63dc819ef70c409e4b9079271aeee76585b4",
+      "spoken": "ஆம்",
+      "bytes": 3327,
+      "seconds": 0.678,
+      "sha256": "808830ba956debbb9177413685a92976800d4cccbc142dadc21ac6aaead596ff"
+    },
+    "nomineeNo": {
+      "textHash": "f9ca4f449e88df489c74d0a657613723b043861ec38d31436238a73bb69c1081",
+      "spoken": "இல்லை",
+      "bytes": 3806,
+      "seconds": 0.811,
+      "sha256": "565afadf14054323288b1792c859252927d7871b86bfbbd00826bf2eba3f1ec0"
+    },
+    "nomineeExplain": {
+      "textHash": "27584f56abb0a3599110cab599e515bfeed37162cf79870d6d527d9ab355e045",
+      "spoken": "கணக்குதாரர் இறந்தபின் நியமிக்கப்பட்டவர் நிறுவனத்தில் கோரிக்கை அளிக்கலாம். நியமனம் செயல்முறைக்கு உதவும்; சட்ட வாரிசை முடிவு செய்யாது. சரிபார்க்கவில்லை என்றால் “தெரியவில்லை” தேர்ந்தெடுக்கவும்.",
+      "bytes": 60547,
+      "seconds": 14.978,
+      "sha256": "a15d750b987a8fb24da648a0b284b566eed2e357d34a8e3940c771b6dcaf8138"
+    },
+    "day": {
+      "textHash": "c9281a50c231cd949138101162f68d48eed2e09ba0c317137d10e1becddf999e",
+      "spoken": "நாள்",
+      "bytes": 3704,
+      "seconds": 0.769,
+      "sha256": "72f5073cdd49eab6a132065a6287d5ac782b300f5dc57a812a425ec1151f2b35"
+    },
+    "month": {
+      "textHash": "9de1cca33fe8916d0a3570f7218fa3882ec78b8220b73725471b8563472ae46e",
+      "spoken": "மாதம்",
+      "bytes": 4090,
+      "seconds": 0.883,
+      "sha256": "7b27635d2fe15b2756e41fd25370ddedd6112ef52d9070b6d6bb4c1551ad682f"
+    },
+    "year": {
+      "textHash": "a66b99ae57e79bc22e49ac4f272dc8545e15ece97bbe4f500a6d0768c9a0610e",
+      "spoken": "ஆண்டு",
+      "bytes": 4377,
+      "seconds": 0.947,
+      "sha256": "013463deac886ab0bf580a3ab100cad93c708c844f0cdf7bee5d1adc984aec3f"
+    },
+    "dateExample": {
+      "textHash": "7d0d9a98b6961b7e966e179378d4f6f1d56cf685a68ed3f4626bbb36dea49019",
+      "spoken": "எடுத்துக்காட்டு: பதினான்கு / பூஜ்ஜியம் ஒன்பது / இரண்டாயிரத்து இருபத்தாறு என்பது பதினான்கு செப்டம்பர் இரண்டாயிரத்து இருபத்தாறு. உங்கள் பதிவிலுள்ள தேதியைப் பயன்படுத்தவும்.",
+      "bytes": 55744,
+      "seconds": 13.782,
+      "sha256": "76e20a461b5281f337ed20ebee8c85ed804f88cd3a74cc4802dc9a7820b7f02b"
+    },
+    "submissionExample": {
+      "textHash": "8294a3c04de92cf6b318ea3235b4a8a77ce5118092eb523bf565c9696db0dabd",
+      "spoken": "விண்ணப்பம் அனுப்பிய நாளைப் பயன்படுத்தவும். எடுத்துக்காட்டு: பதினான்கு / பூஜ்ஜியம் ஒன்பது / இரண்டாயிரத்து இருபத்தாறு.",
+      "bytes": 37510,
+      "seconds": 9.237,
+      "sha256": "f68e9a73e99b9a27b0682486a0b9464d04c3074ea9e796bc13ba1720289983ef"
+    },
+    "statementExample": {
+      "textHash": "3781b7157758ed9d8b15d2e0b4b502f911305dcf30bcdada5542f9f2ad6145f5",
+      "spoken": "நியமிக்கப்பட்டவர் பெயர் அல்லது “நாமினேஷன்: யெஸ்” காட்டும் அறிக்கை. இருப்புத்தொகை மட்டும் போதாது.",
+      "bytes": 32133,
+      "seconds": 7.894,
+      "sha256": "ce93cdd5bf320e3711b2b02efc72ed95751fe356597117dcbf09408311e49940"
+    },
+    "registrationExample": {
+      "textHash": "084841a884cc9d273ba8944003a3ca4e7ed374cbd6362940b1bedb2d265c367e",
+      "spoken": "இந்தக் கணக்கில் நியமனம் பதிவானதை உறுதிசெய்யும் வங்கி, தரகர் அல்லது பண்டின் கடிதம்/மின்னஞ்சல். விண்ணப்ப ரசீது வேறுபட்டது.",
+      "bytes": 39048,
+      "seconds": 9.603,
+      "sha256": "f04306080e402de28412da82cc61cf08ca3766286cb45031a930da30a8d84464"
+    },
+    "requiredInstitution": {
+      "textHash": "fce384679d758a6a68e421d90cf320fb693d9831f9fae10c84d7542ec91bdd13",
+      "spoken": "பதிவிலுள்ள வங்கி, தரகர் அல்லது பண்டின் பெயரைச் சேர்க்கவும்.",
+      "bytes": 16392,
+      "seconds": 3.95,
+      "sha256": "247f3e1594cc2a2b90d5116f8be72e172105b68dd064e9ab019ce185c32814a1"
+    },
+    "requiredRecord": {
+      "textHash": "4fc2e37ecb607c4293fefa5a5cdc03f7b3fc550a26a5fdb3e2352f94a7ea1b5b",
+      "spoken": "சரிபார்த்த பதிவின் வகையைத் தேர்ந்தெடுக்கவும்.",
+      "bytes": 13507,
+      "seconds": 3.224,
+      "sha256": "81ed7021b1bace2e63f8037e4f36c14569e067d852622ca884ccff92344bb445"
+    },
+    "requiredCheck": {
+      "textHash": "f2a2ede01e5159aa4057aaae8f77c76e250f32aaee6d2f3da5446e573179e2fa",
+      "spoken": "இந்தக் கணக்கின் நியமனம் பதிவில் இருப்பதை உறுதிசெய்யவும்.",
+      "bytes": 18114,
+      "seconds": 4.38,
+      "sha256": "e91a20ff938d2aae6b09784cd78b40318c1c11500e50ed51136907feb0d5766d"
+    },
+    "institutionExample": {
+      "textHash": "c942b940480bffe7d1727015c00a6806c3d6fe0af4b46f6e9065ea00cd686b85",
+      "spoken": "எடுத்துக்காட்டு: எச் டீ எப் சீ வங்கி அல்லது அறிக்கையிலுள்ள பெயர்.",
+      "bytes": 21863,
+      "seconds": 5.324,
+      "sha256": "72579c1b997fcc9eaa037e43c8347015ec285de1f883ee12c10096677ba0a8c7"
+    },
+    "nicknameExample": {
+      "textHash": "14b727ecf779a2bf86e4f5cd0bf4ae849c5564b0bebd38d7f3c7ebd41522dc82",
+      "spoken": "எடுத்துக்காட்டு: குடும்பச் சேமிப்பு.",
+      "bytes": 12260,
+      "seconds": 2.927,
+      "sha256": "fd5ba0084897f21d5f5b6855bc3af95505401121570d087074b01eccc03e6993"
+    },
+    "ownerExample": {
+      "textHash": "8eee4fdbeb7664cfc416c39f388938ba4b8b840d5875ac654c6a0dc38e999250",
+      "spoken": "எடுத்துக்காட்டு: நான் அல்லது பெற்றோர்.",
+      "bytes": 13217,
+      "seconds": 3.145,
+      "sha256": "53d369bbd95fa2b9892f675f70e3435d838f8cbe076b92b0153b8e9aa26442d9"
+    },
+    "nomineeNoteExample": {
+      "textHash": "bdce6b8f65f57983f619be6165f5f7d7c4f40cbf60110b24442f4acbe9e65fa7",
+      "spoken": "எடுத்துக்காட்டு: துணைவர் / அனு. செல்லப்பெயர் அல்லது உறவு மட்டும்.",
+      "bytes": 25319,
+      "seconds": 6.169,
+      "sha256": "a3bda00b118e0169f31e8f2eddbfa957de82fcf0fa4767bf0963ea5030b3d318"
+    },
+    "last4Example": {
+      "textHash": "dfa809a04c6de965a5ffab956fbb33b7d93e1afe54356350e05356472e746b13",
+      "spoken": "எடுத்துக்காட்டு: ஒன்று இரண்டு மூன்று நான்கு. கடைசி நான்கு இலக்கங்கள் மட்டும்.",
+      "bytes": 27905,
+      "seconds": 6.83,
+      "sha256": "06353dcbbc4492f4043f67d90520983946fd0e38420e459574dbffde9c8ace04"
+    },
+    "recordNoteExample": {
+      "textHash": "527d7fe1ffaebf83d9981e6f2cb5c0f99f557fbfa3c35ff42615a774767eb96f",
+      "spoken": "விருப்பம்: ரசீது அல்லது பதிவைக் கண்டறிய ஒரு சிறு குறிப்பு.",
+      "bytes": 18886,
+      "seconds": 4.579,
+      "sha256": "ee37f856792d4c71f8bdf609d1af0b196e288e2683a3f04d8eb9d2b8c371e7b5"
+    },
+    "bankLocation": {
+      "textHash": "4fb9cbc071c9c2ca9df0d07fbb9780da64030eff56051308b12becb681f6ea27",
+      "spoken": "பாஸ்புக், அறிக்கை அல்லது வைப்பு ரசீதிலுள்ள வங்கிப் பெயரைச் சேர்க்கவும்.",
+      "bytes": 18497,
+      "seconds": 4.481,
+      "sha256": "f6da8d47f7c244c35ff7f58285e6b450967f24043bb6e44d1fcc66b60292db99"
+    },
+    "dematLocation": {
+      "textHash": "f52bc515c30cabbb3099eb5ed2ee9ba0b947243e1055f0e8885ed055dc438e0d",
+      "spoken": "டீமேட் அறிக்கையிலுள்ள தரகர் அல்லது வங்கிப் பெயரைச் சேர்க்கவும்; பங்கு நிறுவனப் பெயரை அல்ல.",
+      "bytes": 25890,
+      "seconds": 6.313,
+      "sha256": "d7bf727f5e243280e8411954c0a29aba25c5d767303897cc250d284ffd562a7e"
+    },
+    "mfLocation": {
+      "textHash": "02713de27041dfac27cfae804afe3f841e28f2b92333248efdeb6b4046f933fb",
+      "spoken": "போலியோ அறிக்கையிலுள்ள மியூச்சுவல் பண்டைப் பதிவு செய்யவும். பதிவாளர் உதவலாம்; டீமேட் யூனிட்களுக்கு டீமேட் வழியைப் பயன்படுத்தவும்.",
+      "bytes": 41631,
+      "seconds": 10.264,
+      "sha256": "fde64861cc592d7acfb8f954b3cee85652db8335e58894f4dac67ad84fd51e40"
+    },
+    "checkLocation": {
+      "textHash": "c83671996d0fb52f406e25e273812c984d29c6e123cf88857f068c7889da8538",
+      "spoken": "இந்தக் கணக்கின் விவரங்கள் அல்லது சமீபத்திய அறிக்கையில் நியமிக்கப்பட்டவர் அல்லது நியமன நிலையைப் பார்க்கவும்.",
+      "bytes": 31362,
+      "seconds": 7.681,
+      "sha256": "3c96a4afc51cdca1fb4781fd6996d2fe9977c20acad089175f83b9504b589544"
+    },
+    "askInstitution": {
+      "textHash": "59ec00380f491445ef2a30f0447cab258ab89f11e26526d88d9e0e76a092ee76",
+      "spoken": "காணப்படாவிட்டால் நிறுவனத்திடம் கேளுங்கள்: “இந்தக் கணக்கில் நியமனம் பதிவானதா? எழுத்தில் உறுதிப்படுத்த முடியுமா?”",
+      "bytes": 36835,
+      "seconds": 9.07,
+      "sha256": "77bda9b1e62cde5ad42cf108cad7f06e39c4fcf50d3fe0592a7b2185af89c458"
+    },
+    "keepUnknown": {
+      "textHash": "fe279074b1f20e0871bfb80ac44ef5ca1991279d4c1d87b36c8cdcb2e6fb5884",
+      "spoken": "சரிபார்க்கும் வரை “தெரியவில்லை” என வைத்திருக்கவும். நியமனம் இல்லை என நிறுவனம் உறுதிசெய்தால் “சேர்க்கப்படவில்லை” என்பதைத் தேர்ந்தெடுக்கவும்.",
+      "bytes": 36160,
+      "seconds": 8.902,
+      "sha256": "ca8cfb421f7e9c66ae727b32769cb360977b9ceadbc3457e7ab8d4a3db1ef42d"
+    },
+    "submitKeep": {
+      "textHash": "e6fc69b78b3feb04b98e765a8e8f498c5f89d0776ecec59e2b92ba47cf6fd252",
+      "spoken": "நிறுவனத்தின் அதிகாரப்பூர்வ வழியில் விண்ணப்பிக்கவும். தேதியுள்ள ஒப்புகை அல்லது ரசீதை வைத்திருக்கவும்.",
+      "bytes": 28095,
+      "seconds": 6.879,
+      "sha256": "95b5f2fca03d1e687a1aa2eb69ecc5a5ffbee559c811703345973dae4c05cdc4"
+    },
+    "confirmRegistration": {
+      "textHash": "35d7255e3a36199789aa08d1f31b7d330dbf7c2a9ce3908108f0a1cd0e704aef",
+      "spoken": "இந்தக் கணக்கையும் நியமனப் பதிவையும் காட்டும் அறிக்கை அல்லது எழுத்து உறுதிப்படுத்தலைச் சரிபார்க்கவும். விண்ணப்ப ரசீது மட்டும் பதிவை உறுதிசெய்யாது.",
+      "bytes": 39240,
+      "seconds": 9.671,
+      "sha256": "765e6224bdd540c0eb1f5c7c159ed784594151b06bbbda2470805eb511958322"
+    },
+    "followRequest": {
+      "textHash": "57a3911736b63c469630c60a514b5ea958ae014a394f8a58a8180b59b6aca12f",
+      "spoken": "விண்ணப்ப தேதி, ரசீது குறிப்புடன் நியமனம் பதிவானதா என நிறுவனத்திடம் கேளுங்கள்.",
+      "bytes": 27234,
+      "seconds": 6.658,
+      "sha256": "621e39b9133c52da53928626b6edc390a38b0c4f824163bafd8986ae89446028"
+    },
+    "waitRegistration": {
+      "textHash": "a786ab5a5bcc8b71419fd6659060c6e319124dfdda1e9e3c4b68a36050c6cbb8",
+      "spoken": "பதிவுச் சான்று கிடைக்கும் வரை உறுதிப்படுத்தலுக்காகக் காத்திருப்பதாக வைத்திருக்கவும்.",
+      "bytes": 20901,
+      "seconds": 5.085,
+      "sha256": "bf63ddc80e2348addfe30c6ca2efdfa8ba3e59b48d247d77b6a05eff6ecc0457"
+    },
+    "hdfcPath": {
+      "textHash": "d3e64ee380c5780db6d962037a4042ba7b03cb6cf5435557462b24196a5d13e9",
+      "spoken": "நெட்பேங்கிங்: கணக்குகள் → உங்கள் கணக்கு → கணக்கு விவரங்கள் → நியமிக்கப்பட்டவர்/உரிமையாளர் விவரங்கள்.",
+      "bytes": 34141,
+      "seconds": 8.39,
+      "sha256": "a52bd7bfaa1722abe1c0d5163ef750652cfc2194bd80770b19fbdbe92a84c0cd"
+    },
+    "hdfcHolding": {
+      "textHash": "59eb9dded5ec6f08c6e85e4a82881e318256e97f3b86da3fb1fe311a22315219",
+      "spoken": "ஒரே உரிமையாளர்: அங்கே சேர்க்கவும்/மாற்றவும். கூட்டுக் கணக்குதாரர்கள் ஒன்றாகக் கிளைக்கு வர வங்கி பரிந்துரைக்கிறது.",
+      "bytes": 35968,
+      "seconds": 8.852,
+      "sha256": "37f90ee1e87fe17a9f4011f0667665e0b1b1191135fe5d59fd602f84f7eabaf7"
+    },
+    "hdfcSource": {
+      "textHash": "215f4e950687b9a18936059e4245499b1222c586524b320e207f03aa1d404e2f",
+      "spoken": "எச் டீ எப் சீ வங்கி வழிமுறைகள்",
+      "bytes": 10623,
+      "seconds": 2.508,
+      "sha256": "f0003fe20d89046dc01695a93c696290ffbaccc80836227ad9d762ef6dc859ee"
+    },
+    "whatToDo": {
+      "textHash": "ca9711aa1237adf6ef77c179dab67e771fe8f3e6269b99769d741874c32642c5",
+      "spoken": "செய்ய வேண்டியது",
+      "bytes": 6685,
+      "seconds": 1.513,
+      "sha256": "11bdf208d07900e71a0d41bcad2eb13ef4fe4d4699c255bfb08f97d3d668df3d"
+    },
+    "home": {
+      "textHash": "327b91c4f08e87fe15212371001efba2ea6fe7370261ad17114ba19a2111b5d8",
+      "spoken": "முகப்பு",
+      "bytes": 4569,
+      "seconds": 1.006,
+      "sha256": "db2690ea37e460f3a987df7350256b0d79cd4fe415f942ef03244de926ee2055"
+    },
+    "continue": {
+      "textHash": "f16a2ea2ccf6fc63b535f9e0cc7a53a4dc37ab921b0b0177c5d7bba2bc9cdd01",
+      "spoken": "தொடரவும்",
+      "bytes": 4765,
+      "seconds": 1.045,
+      "sha256": "857a3a57c555b93b1f590bec07092f1665ad69fd5a1f158873143b30edcdba88"
+    },
+    "unfinished": {
+      "textHash": "e75d39fc9db6616f0980b1f7c7853def830ab0f8c57b39149fd85bb4c443f886",
+      "spoken": "முடிக்காத கணக்கைத் தொடரவும்",
+      "bytes": 9663,
+      "seconds": 2.267,
+      "sha256": "dd33ca167dbc9e9ec185beb0a693af27ba1ddc4ab979ab75e388b8bc0d4434bf"
+    },
+    "step": {
+      "textHash": "92ecac98932c433d30be362ace4a9229e1e0d035592ce6b76ea33d5ad89650ed",
+      "spoken": "படி",
+      "bytes": 3225,
+      "seconds": 0.671,
+      "sha256": "13bdf63400393bf242bf8c9cefac552649ea239ed5f9fd6a759c85cd227b6d13"
+    },
+    "of": {
+      "textHash": "af7efddab539ec53362d9864ee43085ce57cc4db7c1aa834ffac108d4ab4fd16",
+      "spoken": "இல்",
+      "bytes": 2839,
+      "seconds": 0.554,
+      "sha256": "e66880b09e360de6b9248f178720d8c7bb2a1bda58742d08cb5a202b7b7caa2d"
+    },
+    "homeTitle": {
+      "textHash": "19ac0afede316a036915f84d1ff0450276e1d30f1e8092e56a16cb8ba6004af9",
+      "spoken": "குடும்பக் கணக்குகளின் விவரங்களை ஒன்றாக வைத்திருங்கள்.",
+      "bytes": 16286,
+      "seconds": 3.913,
+      "sha256": "4fc1ba1203c03be5dce0d1cb9b4790f2e2c85d9c4e3bee792e5fe87431a61084"
+    },
+    "homeIntro": {
+      "textHash": "c3bac966549f0acf28050f7cc5fa85e3dfecb4fbdf3992e9fee9cd6851a80ac6",
+      "spoken": "நியமனத்தைச் சரிபார்த்து, மீதமுள்ள பணியை முடித்து, குடும்பத்திற்கான தெளிவான பதிவை வைத்திருங்கள்.",
+      "bytes": 27998,
+      "seconds": 6.856,
+      "sha256": "fdf5ff4e8f10cdb0604ed7231df2a7d265907cf05e5c5f2c38a9210d954d97b9"
+    },
+    "typeQuestion": {
+      "textHash": "b963e235331ff8c4fc07aaa3b4e6d95320288526a5784ca762d360daa64b5403",
+      "spoken": "இது எந்த வகையான கணக்கு?",
+      "bytes": 12065,
+      "seconds": 2.872,
+      "sha256": "0cfda5797cd7a527b01e5c8d6d83e46105888d5088cd2f0c7ccad144f087c184"
+    },
+    "institutionQuestion": {
+      "textHash": "88a9a686b97e34fafe77886f437a3d361067c412425c7582f6466d6397aa7796",
+      "spoken": "கணக்கு எந்த நிறுவனத்தில் உள்ளது?",
+      "bytes": 13704,
+      "seconds": 3.284,
+      "sha256": "de8b7a17bfce2ab974c40be0a9e31f39477cb4793ba27ce6fc1cc4b8942d4c65"
+    },
+    "dematDescription": {
+      "textHash": "5a56754d5c7ddfec9b13cfa3a54fbf397fa9ff3065fb7266d2affe3abaadcf25",
+      "spoken": "தரகர் அல்லது வங்கியில் உள்ள பங்குகள்",
+      "bytes": 11109,
+      "seconds": 2.625,
+      "sha256": "0db43c7fcfda1622062826701242001d715e97d4e3e9fcc9a8f696f9d2be54c5"
+    },
+    "bankDescription": {
+      "textHash": "84685b737e94e50212503462bd521e03b5cb7080c44a8ab27d58737fff70fe77",
+      "spoken": "வங்கியில் சேமிப்பு அல்லது வைப்பு",
+      "bytes": 10820,
+      "seconds": 2.562,
+      "sha256": "e581b1e91d09702e4b8ef1d4e83bfadb78f78895f4baef7e0199fcb7195bd82c"
+    },
+    "mfDescription": {
+      "textHash": "c560f80be73a000e54d4b342b54d5fdc2d2cc172618c38451af3dc79ad968ff0",
+      "spoken": "மியூச்சுவல் பண்டில் உள்ள போலியோ",
+      "bytes": 11874,
+      "seconds": 2.829,
+      "sha256": "eb235d7d4b8028e5224a87745e473c3b3e40f98edfcc2678329909d64683a319"
+    },
+    "nomineeNote": {
+      "textHash": "0eda493be38d694ac0a411b26fa82cb12d279c96a6ee44460126ffb96790d642",
+      "spoken": "நியமிக்கப்பட்டவரின் செல்லப்பெயர் அல்லது உறவு (விருப்பம்)",
+      "bytes": 14176,
+      "seconds": 3.388,
+      "sha256": "a4abdf77b4671ca4a5bcb02c43d580bf80f567caa42b697c1a83f0c37b47867d"
+    },
+    "nominees": {
+      "textHash": "65defe507776aa24db5a84d059c950c1fef1cafd44b6ebd97c9f324681afa7cb",
+      "spoken": "நியமிக்கப்பட்டவரின் குறிப்புகள்",
+      "bytes": 9853,
+      "seconds": 2.307,
+      "sha256": "c1b493bc954a5d049e5ba4cebdd07454af08db76d640701431fe0dcaf61d497f"
+    },
+    "missingGuide": {
+      "textHash": "a8b2e2d639fe1d1d133ce0394d927b3cce36d1a9482f70dbad911727bfd1939b",
+      "spoken": "நிறுவனத்தின் நியமன வசதியைப் பயன்படுத்தவும் அல்லது தற்போதைய படிவத்தைக் கேட்கவும்.",
+      "bytes": 26465,
+      "seconds": 6.461,
+      "sha256": "118c0fa7a93eb2ae9df55ddb8c9db82ed297f62af0a0c78cae0b0ce232164034"
+    },
+    "title": {
+      "textHash": "0dfae82eeb19fdbf3dd8871b7a4ef1b128faf5664b347df363dddcbed6265e5c",
+      "spoken": "குடும்பக் கணக்குகள்",
+      "bytes": 6682,
+      "seconds": 1.524,
+      "sha256": "a87bf78efcef36d9d212b0670680d0c42533a79fd3d5bc979d7df5371a2eebd9"
+    },
+    "intro": {
+      "textHash": "ffa1b826f5aa3f260e13dfdb186dcc643e90e1329b7782efe6b42cbff5a2714f",
+      "spoken": "நியமிக்கப்பட்ட நபர்களைக் கண்காணிக்கவும். விடுபட்டதைச் சரிசெய்யவும்.",
+      "bytes": 20218,
+      "seconds": 4.903,
+      "sha256": "441f8ecdcd4fff2d9bcd33afe6ceb33d90e2e3725af920cddc6cc943ebfb2024"
+    },
+    "add": {
+      "textHash": "107d2592ad2dfe86be5f31e31dc515e01d8df87ccf651f6b5dfc7aed4446ada2",
+      "spoken": "கணக்கைச் சேர்க்கவும்",
+      "bytes": 6680,
+      "seconds": 1.525,
+      "sha256": "849349a6bf24d98350d98a4deac561b04976d559aef89585eee3b99162dff1ab"
+    },
+    "edit": {
+      "textHash": "f1ff30c1ad79ef218a0390a2d7e41bb0c39d8b7b24b9f79f895e5c16de482864",
+      "spoken": "கணக்கைத் திருத்தவும்",
+      "bytes": 6969,
+      "seconds": 1.601,
+      "sha256": "d0394a725de5509615adb8b025e797ea2446250f1067448a03fac08587ada189"
+    },
+    "emptyTitle": {
+      "textHash": "e734391a99dfa9beb2b2fb382652827504966edc82a1c0faa26bd5844027a03c",
+      "spoken": "ஒரு கணக்கில் தொடங்கவும்",
+      "bytes": 7743,
+      "seconds": 1.782,
+      "sha256": "ab8399a4bac5b143e771a18c4a484c68589c30c16723b6814c603b7740e2ea07"
+    },
+    "emptyIntro": {
+      "textHash": "d626fd2e8e3f5f399586e4893d0275f9db5e193dab584bd8014b8347dd90f2ab",
+      "spoken": "டீமேட், வங்கி அல்லது மியூச்சுவல் பண்ட். ஒவ்வொரு கணக்கிலும் நியமனத்தைப் பார்க்கவும்.",
+      "bytes": 25407,
+      "seconds": 6.194,
+      "sha256": "c57867d4103142461d8052de6b8cf3f1a81c9f7cff94cf17bdbd9dce25c2b578"
+    },
+    "example": {
+      "textHash": "a5f7df7c55aba6d59243bb00fb7ec270f56be0ed1d1f05a9e83974549dd5001c",
+      "spoken": "உதாரணம் பார்க்கவும்",
+      "bytes": 7836,
+      "seconds": 1.818,
+      "sha256": "e06c2603525f3f28b4c6bbcda2bded309689dc13cc1b0a7f341cd551dbf34e0c"
+    },
+    "sample": {
+      "textHash": "c48fb13f4e9cf48919946a0d81ea130584aa701cdd95d86ea0ec1be29616f50d",
+      "spoken": "உதாரணக் குடும்பம் · கற்பனைக் கணக்குகள்",
+      "bytes": 12443,
+      "seconds": 2.968,
+      "sha256": "d151b4e8eed7d9c2a374c70e752f104a743149ea40936c1669aa1176fabbbf84"
+    },
+    "resume": {
+      "textHash": "3d137d5bbc96fd9c79e2a6c56342cc93531a19c85d93f2cf3d91526ffedfdf0e",
+      "spoken": "சேமித்த பட்டியலைத் திறக்கவும்",
+      "bytes": 10427,
+      "seconds": 2.464,
+      "sha256": "affd30bfcb87003c89dcf4f00a0d64886e740c65d753c23ae114e8617ccc4e21"
+    },
+    "accounts": {
+      "textHash": "81c16a38829fcde4f73370dc5471b119595d737363f15b812706e51477343cf8",
+      "spoken": "கணக்குகள்",
+      "bytes": 4861,
+      "seconds": 1.059,
+      "sha256": "e0ae7c50a11797d8adb3f3c353d4e2b49820566e3880d99079811f637cd91501"
+    },
+    "needAction": {
+      "textHash": "7d00e515923eefa31e036fb422fb212d97dff81e98609e215bd195bf5c7416ab",
+      "spoken": "கவனம் தேவை",
+      "bytes": 5631,
+      "seconds": 1.265,
+      "sha256": "df2dc602c66b81b2c08881c33826a5aea685ee8a32ca5f104362514e1eec74a2"
+    },
+    "next": {
+      "textHash": "c18a6e20759b14b294c7759aa84eba5e24681e7baa7d3570862c9a78c68cd85c",
+      "spoken": "அடுத்த படி",
+      "bytes": 5337,
+      "seconds": 1.182,
+      "sha256": "2ca92594f5a06a6aa2cbcd48f18c5399c4e9d18f4a8050a9d8e954ec22436d79"
+    },
+    "allTypes": {
+      "textHash": "e7623b4be5b4518200b7b9a0776f4f8dcea6934fa9254bc191c45b4299a2f4d7",
+      "spoken": "அனைத்துக் கணக்குகள்",
+      "bytes": 6397,
+      "seconds": 1.459,
+      "sha256": "02ed51acdab0b904b01620dbfa7690f7286e22103bc8f983627f354f6c289dc2"
+    },
+    "allClear": {
+      "textHash": "614749f6c91f38d90741e7f3bc5b7564aff25e25792b3fd911d021d38d7537d4",
+      "spoken": "பதிவுகளைப் புதுப்பித்து வைத்திருக்கவும்",
+      "bytes": 12061,
+      "seconds": 2.861,
+      "sha256": "1399e974ea39de72f6b85f71670576e8bdade9702165e2c30dfcfc50d9511428"
+    },
+    "type": {
+      "textHash": "6611ed1ee04d59b7efebc250b9d4a5b1017040c6222c307b679bec79ad1f8336",
+      "spoken": "கணக்கு வகை",
+      "bytes": 5145,
+      "seconds": 1.135,
+      "sha256": "aa535e4fc16632dffe899037db47dc61607b48bc1b318b4656175aa1020b8a4e"
+    },
+    "demat": {
+      "textHash": "a69f5d0905836aafa970f3307bc942550436de702cb7299ac68464f5a27af09d",
+      "spoken": "டீமேட்",
+      "bytes": 3994,
+      "seconds": 0.841,
+      "sha256": "1721b4c4192d195a39e3a98a4b33af65f03cefbc03599d84aee91d025a78c18a"
+    },
+    "bank": {
+      "textHash": "ffd97c60a627f641f481a7ff157625bf48ed5e23060a6b4362c6f9fadd589a11",
+      "spoken": "வங்கி வைப்பு",
+      "bytes": 5241,
+      "seconds": 1.161,
+      "sha256": "e1cf51f136ecca795cedab874a4ac0d15696a5f4a3fca9d49c8b7cb7d8fc50e9"
+    },
+    "mf": {
+      "textHash": "bae11787bd1fe1b50aefcccd109f4ea62c2da6cddd9cb44acc915d0d2b97f0be",
+      "spoken": "மியூச்சுவல் பண்ட் போலியோ",
+      "bytes": 9175,
+      "seconds": 2.158,
+      "sha256": "d948120af65ae6fc2a1950e1aed7e167f1ab116a36e0e7a8dbb363d641073dd5"
+    },
+    "institution": {
+      "textHash": "725940faaf4278204d6ae839bf4bc69d28d6eefa302b988bf64dc1bc11962ba5",
+      "spoken": "வங்கி, தரகர் அல்லது பண்ட் பெயர்",
+      "bytes": 9472,
+      "seconds": 2.227,
+      "sha256": "eac3d806734d453c092a330858ddb407bf3beb4c77cc23ec56e4bd9117698b37"
+    },
+    "nickname": {
+      "textHash": "f5412ad85212a72c7056f5400116395b0650d27adf6c28d0f061d4c3c024a31b",
+      "spoken": "கணக்கின் செல்லப்பெயர் (விருப்பம்)",
+      "bytes": 8893,
+      "seconds": 2.072,
+      "sha256": "a918137e31101debf98efd76e9ddfd743f807f5fab26a1c9225c72fa4379d51c"
+    },
+    "owner": {
+      "textHash": "586888f08957a504b1d4a6514330e4b9bc76511bc19f13a271ce158b0d0899d0",
+      "spoken": "குடும்ப உறுப்பினரின் செல்லப்பெயர் (விருப்பம்)",
+      "bytes": 11386,
+      "seconds": 2.704,
+      "sha256": "5721c4c2d8ed94a91b9eafdc3d775235cb5302d7cb8db9ab21977039cd454a39"
+    },
+    "last4": {
+      "textHash": "38c0fac642b438fc1464a6c3de5ce83616d613f27257b059d742cb78c9bd7ed8",
+      "spoken": "கடைசி நான்கு இலக்கங்கள் (விருப்பம்)",
+      "bytes": 12442,
+      "seconds": 2.954,
+      "sha256": "f2345f116a62b6dc4816200f1350708ab8e462597f55da2efbbb06f3ab1d992b"
+    },
+    "extra": {
+      "textHash": "6f464231e86a723f2922d7b6cdc6dea1e03a9e4f4d29f58144b73ed279e6fb1f",
+      "spoken": "செல்லப்பெயர் அல்லது கடைசி நான்கு இலக்கங்களைச் சேர்க்கவும்",
+      "bytes": 18970,
+      "seconds": 4.603,
+      "sha256": "d98e51e566cb211d24182a02f0dae221382d214f96bd45d121d957d495c22659"
+    },
+    "noIds": {
+      "textHash": "7e25ea9516970a53c490c15f3817cd4700fd0a49921c68d24bdf1d5bb29599ee",
+      "spoken": "செல்லப்பெயர்களைப் பயன்படுத்தவும். முழுக் கணக்கு எண்கள், பான், கடவுச்சொற்களை இங்கே சேர்க்க வேண்டாம்.",
+      "bytes": 27802,
+      "seconds": 6.815,
+      "sha256": "54e2711a3dc8f1cca53b0d4524f5e55dffb09d9fe316d2da4b1caf2cca53771d"
+    },
+    "nomination": {
+      "textHash": "0f22fa91ab62340f43df5656cb6885f95709859c28dbd5f18dcdcd7505e9bae2",
+      "spoken": "நியமிக்கப்பட்ட நபர் பதிவு செய்யப்பட்டுள்ளாரா?",
+      "bytes": 14367,
+      "seconds": 3.437,
+      "sha256": "94218e11f891e3134cd0bc1f1e81d1d0dc9643490882c4251bf401512b38c054"
+    },
+    "registered": {
+      "textHash": "4dde4ff5625ccb0fc4909a725c07960acf6ed3a0e8d09d5948fa3dad740cd977",
+      "spoken": "பதிவு செய்யப்பட்டுள்ளது",
+      "bytes": 7743,
+      "seconds": 1.778,
+      "sha256": "cb60050828116c0c529f3ef2ca8180701316cf3fec33ec4c323c2e6d1d1796c9"
+    },
+    "missing": {
+      "textHash": "6514bccb91b6e452de80ab1fe67c40dce4114bcafe1083ef0c67c8c32b93eb8a",
+      "spoken": "சேர்க்கப்படவில்லை",
+      "bytes": 6780,
+      "seconds": 1.542,
+      "sha256": "2b8aad5113f3bbc97b19ed311c09330a9bd0c4960ad4127979cca15cde89a105"
+    },
+    "unknown": {
+      "textHash": "594c23b59bfc98f870619d00e34dc26d069667dd85a57aa17b640bef12dba2fc",
+      "spoken": "தெரியவில்லை",
+      "bytes": 4956,
+      "seconds": 1.094,
+      "sha256": "c405850d899beafce551a05d40bae04a55829f6bcf7273b90dacbe3dd1a9a5ba"
+    },
+    "reported": {
+      "textHash": "98282fc7f35eb9f1e59492f2b7877e0cb112d9bfa169bd0fc8d324ee27927f61",
+      "spoken": "நீங்கள் தெரிவித்தது",
+      "bytes": 7357,
+      "seconds": 1.683,
+      "sha256": "b94ea9faaf21e89362e7f14f6c25508771b13a93a447b5dc3541e3045ea7dcad"
+    },
+    "submitted": {
+      "textHash": "795b6996602aea9b5a7a541424bebe9bfb51360c4b17b2646ed043ac006d5ae3",
+      "spoken": "கோரிக்கை சமர்ப்பிக்கப்பட்டது",
+      "bytes": 8990,
+      "seconds": 2.093,
+      "sha256": "7c50cb3a1aab88d8d5c37255463baedfc8de169aa8442fb7eb07abaeeeecf52b"
+    },
+    "confirmed": {
+      "textHash": "5af0bded99175e7c4015f2d54b8f5b1fa2c48ed19957ef7296b404dd659a1cd6",
+      "spoken": "பதிவில் சரிபார்க்கப்பட்டது",
+      "bytes": 8318,
+      "seconds": 1.94,
+      "sha256": "e1dcd7d931712d8fc41245ce3a5e8bdb7a391a435d9b964128d027a14f63624e"
+    },
+    "review": {
+      "textHash": "da0635132193dcf271f58503beaee5ed663edcdea131f694f5935f6a983bbddd",
+      "spoken": "பதிவைச் சரிபார்க்கவும்",
+      "bytes": 7739,
+      "seconds": 1.782,
+      "sha256": "a21681c807c18a343807114916c9b75c7e6f200b02c477b09937bb277006e368"
+    },
+    "awaiting": {
+      "textHash": "d4f5efc84980e6ed2089abc372d284dd3020119e352e6d4310a76d7d636ffee2",
+      "spoken": "உறுதிப்படுத்தல் நிலுவை",
+      "bytes": 7837,
+      "seconds": 1.803,
+      "sha256": "8106898e38c32c41467fa9feea7754bc6a574b4529242e57c799cfae892069ff"
+    },
+    "checkedOn": {
+      "textHash": "286b5f3dde1ccd3bb5748a6b2f3167ed88c575272c174c4d8d587bb999d17d79",
+      "spoken": "கடைசியாகச் சரிபார்த்தது",
+      "bytes": 8798,
+      "seconds": 2.049,
+      "sha256": "27db0a5e90703abde00af6611e28481896221f0c5b6408f285c7f10f8b19ce60"
+    },
+    "neverChecked": {
+      "textHash": "6fdd0612ce46a5d25b658c307ebdbac8b6248c0c8398179de01b96412985885a",
+      "spoken": "இன்னும் சரிபார்க்கவில்லை",
+      "bytes": 7841,
+      "seconds": 1.819,
+      "sha256": "268d26eab81c57ddae0095575fad2f2961730888683a9d04c4828ef1af3d91a0"
+    },
+    "update": {
+      "textHash": "993588a9297ae112de851f9ce88c38ac62622aeb5ef34148b79f55789dfe18ad",
+      "spoken": "மாற்றங்களைச் சேமிக்கவும்",
+      "bytes": 8603,
+      "seconds": 1.998,
+      "sha256": "5e6cd1305f15dbef135b9ef59e72ead0dae23e41a7c6ea3121d0ed5b2ef5fb76"
+    },
+    "back": {
+      "textHash": "5d5e57aedd5782ff7b1129d09969621fbbdc78c43224a3e82e766b5d2456f0ff",
+      "spoken": "பின்செல்",
+      "bytes": 4473,
+      "seconds": 0.97,
+      "sha256": "eb35de45aabf0a1166426604dace1058b245af1b674d73e6423295674534e525"
+    },
+    "cancel": {
+      "textHash": "1883c9a57a315b5ca3e750c8329263d24e938ea625f2a7f1d71e7801213d4189",
+      "spoken": "ரத்துசெய்",
+      "bytes": 4859,
+      "seconds": 1.061,
+      "sha256": "3d32e7a72458c499fe42090ec0155635e24d8c17d9116fa300aebfa31109fef5"
+    },
+    "open": {
+      "textHash": "aed5b2c96d6676da85459b6379639c8dfcbc54bca930670d2186ac7aaf99d31c",
+      "spoken": "அடுத்த படியைப் பார்க்கவும்",
+      "bytes": 8505,
+      "seconds": 1.969,
+      "sha256": "249458828d820eda715ae1549b5f497723727643283e887a0cac925102fefdaa"
+    },
+    "registerTask": {
+      "textHash": "aef2082d390553798ece74a9a5fae08ba22b99ba1502d387cf81d2528976388f",
+      "spoken": "உங்கள் நிறுவனத்தில் நியமனத்தைச் சேர்க்கவும்",
+      "bytes": 11489,
+      "seconds": 2.723,
+      "sha256": "2a75cb93ffab327f1a468af9cf4d4591fbdec9a39668ca154f7bcf3b310085d5"
+    },
+    "checkTask": {
+      "textHash": "32d8066617d79244fc2e55a0f75a3cc14a299f0b98aa4f2c883e88cb81423003",
+      "spoken": "நியமன நிலையைச் சரிபார்க்கவும்",
+      "bytes": 10814,
+      "seconds": 2.55,
+      "sha256": "e91a1affc988fc9df247d44e4450521cbf8699487f6f5bccec8ea056a67aae31"
+    },
+    "confirmTask": {
+      "textHash": "f96165fb2c545aea7c1055f8f7d5b305188aa9781e5b61e76e0c00337c39edd8",
+      "spoken": "கோரிக்கை பதிவு செய்யப்பட்டதா என்பதைப் பார்க்கவும்",
+      "bytes": 16768,
+      "seconds": 4.044,
+      "sha256": "0f88fa19a6ae687e63d5265c35417365f3db0aab5bdb0342ca016df962f55c77"
+    },
+    "recordTask": {
+      "textHash": "5421c95ce4935522284262da13d0003366fc59b5682acb47e15aa6d7de925bbb",
+      "spoken": "உறுதிப்படுத்தலைப் பதிவுகளுடன் வைத்திருக்கவும்",
+      "bytes": 12447,
+      "seconds": 2.957,
+      "sha256": "044d00a76c24e8d74a137ec2b5a75f40cdf49da1e43f392c38e95ee78aaa32f7"
+    },
+    "dematGuide": {
+      "textHash": "f35910c54c1d6a77229d356ab80eb7549fcc4c2fd012394e8ebde9d5b7661e61",
+      "spoken": "டீமேட் கணக்கை நிர்வகிக்கும் தரகர் அல்லது வங்கியிடம் தற்போதைய நியமனப் படிவம் அல்லது அதிகாரப்பூர்வ இணைய வழியைக் கேட்கவும்.",
+      "bytes": 38079,
+      "seconds": 9.376,
+      "sha256": "8d9a3c1315aed91e3309e9da493d4cd2c7138efcdf62eadd90c3c966c4e15b04"
+    },
+    "bankGuide": {
+      "textHash": "51221fe7c828687050520fbe86a180478270db31f66f3861db91b7f24194affa",
+      "spoken": "வங்கிக் கிளை அல்லது கிடைக்கும் அதிகாரப்பூர்வ இணைய நியமன வசதியைப் பயன்படுத்தவும். தற்போதைய வைப்பு நியமனப் படிவத்தைக் கேட்கவும்.",
+      "bytes": 39806,
+      "seconds": 9.81,
+      "sha256": "0acaae1d9da0eb7496c76bdc19696e54ebbc625a70c068cfa8a3f19798ebcf80"
+    },
+    "mfGuide": {
+      "textHash": "e05aa0a136b2c8656471a7d4e6179762f24574e1b61122f65b65a5d6e5eed529",
+      "spoken": "மியூச்சுவல் பண்ட் அல்லது அதன் பதிவாளரின் அதிகாரப்பூர்வ சேவை மையம் அல்லது இணைய வழியைப் பயன்படுத்தவும். யூனிட்கள் டீமேட்டில் இருந்தால் அதன் நியமன வழியைப் பயன்படுத்தவும்.",
+      "bytes": 50748,
+      "seconds": 12.546,
+      "sha256": "22fd2d68fe31deb424bdf5890b3d9c8c55c868eea13b3eb0119049c1d878973c"
+    },
+    "checkGuide": {
+      "textHash": "aa8cf6416cc4f8420ab5be43181715e62fb1b9ca360304b7281bd495f4289136",
+      "spoken": "சமீபத்திய அறிக்கையைப் பார்க்கவும் அல்லது நிறுவனத்திடம் கேட்கவும். நினைவிலுள்ள நியமனத்துக்கு உறுதிப்படுத்தல் தேவைப்படலாம்.",
+      "bytes": 34239,
+      "seconds": 8.415,
+      "sha256": "7b8e536e6dbc3aad35f7352e0260eff2bcc92f86b1e252358ccd7d04c71f8539"
+    },
+    "receiptGuide": {
+      "textHash": "7e0c2464e0cb6f5df95c76ff8b4fac5124e9b4eeb17bfcc141954bbe2791bfc0",
+      "spoken": "ரசீதை வைத்திருக்கவும். பின்னர் அறிக்கை அல்லது உறுதிப்படுத்தலில் நியமனம் பதிவானதா பார்க்கவும்.",
+      "bytes": 28193,
+      "seconds": 6.894,
+      "sha256": "f2596db81a692454b4c373e2914a0f5f4875e508118db2e976957108667b0a87"
+    },
+    "institutionOnly": {
+      "textHash": "b995b55eac5014a915db0467fcce5ff736f406eca01c072ac34855951b59511c",
+      "spoken": "விராசத் உங்கள் முன்னேற்றத்தைப் பதிவு செய்கிறது. பதிவு நிறுவனத்தில்தான் நடைபெறும்.",
+      "bytes": 25508,
+      "seconds": 6.233,
+      "sha256": "9b01bf2688532d921cb4d0f571d009fedf7bc3b81df0f7d31da8fe7b4929a826"
+    },
+    "source": {
+      "textHash": "ea85fc670d61da5ec7058cff98a462dabd47830479798f3b669844cdc1ba870f",
+      "spoken": "அதிகாரப்பூர்வ வழிகாட்டுதல்",
+      "bytes": 8987,
+      "seconds": 2.099,
+      "sha256": "8294b1d04361ad923c2e55051d7f406cd49277c001567bfc4c8a143938882d39"
+    },
+    "sourceNote": {
+      "textHash": "48a32df7fef3f808c52870d524a7f295c18735e9895480b935ceb0cf687b49c3",
+      "spoken": "தற்போதைய படிவத்தையும் தகுதியையும் நிறுவனத்தில் உறுதிசெய்யவும்.",
+      "bytes": 20415,
+      "seconds": 4.958,
+      "sha256": "3447f359c7633cfb939a69b5812c08f3c05d4e086a1bcf660bc2971303570f6d"
+    },
+    "markSubmitted": {
+      "textHash": "de970a13be305fae88923c07f8c9d9eb3517299eb58af9e72004e5dd7e4272b2",
+      "spoken": "கோரிக்கையைச் சமர்ப்பித்தேன்",
+      "bytes": 9090,
+      "seconds": 2.131,
+      "sha256": "d57e6a0a8217dd925ce659dbf41b1ca4153514fd87fd614855fb0e61340e7765"
+    },
+    "markConfirmed": {
+      "textHash": "953ba9fb68eda7088b21bb8690196db394d9c94ae5f0aa51229457ea7d2a3509",
+      "spoken": "உறுதிப்படுத்தலைச் சரிபார்த்தேன்",
+      "bytes": 8994,
+      "seconds": 2.092,
+      "sha256": "94b6d4c680d6a47c039d45c3fa3e5e318e5c67a7c85cba1c60581c087f57340b"
+    },
+    "submissionDate": {
+      "textHash": "aaac41145fa1a03ec5eca042b606c4a846e61ac991bcbb70b0d785c0fc3807db",
+      "spoken": "சமர்ப்பித்த தேதி",
+      "bytes": 6787,
+      "seconds": 1.552,
+      "sha256": "fcb53b18079137b198f12d8198fbf41963dd9e82964a49b0d416037ea8d2d611"
+    },
+    "confirmationDate": {
+      "textHash": "4d2ebf6b72ebd0e19a5ee4042dca3b9f3185858df14d9bec45e79ee062726b25",
+      "spoken": "பதிவிலுள்ள தேதி",
+      "bytes": 6501,
+      "seconds": 1.486,
+      "sha256": "109b6688268763f0e77e15cc4349c00485e95826df21b5607bda5cf51ba9701d"
+    },
+    "recordKind": {
+      "textHash": "9e3063f1c34e27caa617877aa20e03c1fa4f0daaaeaabac7fc85846f7016ef1b",
+      "spoken": "எதைச் சரிபார்த்தீர்கள்?",
+      "bytes": 8511,
+      "seconds": 1.976,
+      "sha256": "c45099ef071f386ac742cbb5fc1fa616c2213a08ac2a5296c2de3897e99fb786"
+    },
+    "choose": {
+      "textHash": "ac77cb38f5583689dd8e5ea4c96eac204268b8f10c60827448f1da3aea6ddee1",
+      "spoken": "தேர்வுசெய்",
+      "bytes": 5435,
+      "seconds": 1.217,
+      "sha256": "f648486f07d41ac5718e68066a4742323ce08baf4066bb2bbce65651f75489df"
+    },
+    "statement": {
+      "textHash": "5721209bcf1f99ecc4876056bac8df220df2c348ecac1bfb253065ca0185ff46",
+      "spoken": "கணக்கு / இருப்பு அறிக்கை",
+      "bytes": 9182,
+      "seconds": 2.138,
+      "sha256": "b1e601f9d61f8601af0680b6a75212d1a5cd49ea917358b09e431a2a74bdfbed"
+    },
+    "registration": {
+      "textHash": "0289a73ba1cb90046945b6fdc23106ffa41edb290b5430b7bb2f3f758cc5f3b2",
+      "spoken": "நிறுவனப் பதிவு உறுதிப்படுத்தல்",
+      "bytes": 10337,
+      "seconds": 2.434,
+      "sha256": "8f3d8ac749602427ed74b33ea134dd2bdf599982f7c6152c43ce8c96686a260f"
+    },
+    "recordNote": {
+      "textHash": "bb10e27a61071b5f9232cc3314865a112f898f7f86523134b1f46ed6448741f6",
+      "spoken": "பதிவின் சிறு குறிப்பு (விருப்பம்)",
+      "bytes": 8895,
+      "seconds": 2.082,
+      "sha256": "9a0e6ed295865d0b4a2e020464238a31dc53c9c4ead390393a7888dbb9d8131d"
+    },
+    "confirmationCheck": {
+      "textHash": "2b0bb9ef901bc24f1302bbee4b6b95fdec1569e33abf351120cf58628581bc8d",
+      "spoken": "பதிவில் நியமனம் பதிவாகியுள்ளது; கோரிக்கை பெற்ற ரசீது மட்டும் அல்ல.",
+      "bytes": 23590,
+      "seconds": 5.742,
+      "sha256": "72043fb5519faca9ffc85139f4c2769d382084a27a1642fb695d2eafdcf57ae3"
+    },
+    "progress": {
+      "textHash": "f0948819987c8ae491a9118730aaecc637f2740278435527a47125379b467cdf",
+      "spoken": "முன்னேற்றம்",
+      "bytes": 4957,
+      "seconds": 1.102,
+      "sha256": "42b1b626f6804da5fdb2527fcf656f454ba83bae0006fc572e2d3745449a8ea9"
+    },
+    "evidence": {
+      "textHash": "4d2667d434d601567cf353bf55ebfb9cc68dbf57432bc7295d121fb87031fd1f",
+      "spoken": "உங்கள் பதிவுச் சரிபார்ப்பு",
+      "bytes": 7933,
+      "seconds": 1.826,
+      "sha256": "8e75456127518cf61e173971797ffbfd17cc2cc80ae6480ec72765216bbb3004"
+    },
+    "selfReport": {
+      "textHash": "d280bf54d8bd962423210e66926208d9ad5cd155bf06e5d179cbc8713f27d243",
+      "spoken": "நீங்கள் உள்ளிட்டது. விராசத் நிறுவனப் பதிவுகளைச் சரிபார்க்கவில்லை.",
+      "bytes": 19455,
+      "seconds": 4.706,
+      "sha256": "252bc559780ba568e2b117665df90684e4c0af63a9b46195bfbfbf5703136bbf"
+    },
+    "remove": {
+      "textHash": "7f007e3d81dd44b4d71f9f34ffb3f86dec51676080996414a037e04c87d531ef",
+      "spoken": "கணக்கை அகற்று",
+      "bytes": 6203,
+      "seconds": 1.402,
+      "sha256": "2a12af4ddbbc6b27e13555bcc462525a66a4aaf718702730db364cca6027117b"
+    },
+    "removeAsk": {
+      "textHash": "edfe049ac495930add1cd06353669c7336ab91264100da2bd65c53a8cae85e5b",
+      "spoken": "இந்தக் கணக்கைப் பட்டியலிலிருந்து அகற்றவா?",
+      "bytes": 12638,
+      "seconds": 3.014,
+      "sha256": "9cc69ca47af100d3e6c5cbff7b3377e653d47c9505a4caf769f3f2fd59a5a0a3"
+    },
+    "summary": {
+      "textHash": "9d5ad1a9c747e8c86cef3efa9baf7f3b0bc79f38de8bc6eea537a20aa9a7d2e2",
+      "spoken": "குடும்பச் சுருக்கம்",
+      "bytes": 6876,
+      "seconds": 1.58,
+      "sha256": "744dcef4debdc62762a7685bed73df0951e1ec5cc62f4b1e1a891ea72545b2f8"
+    },
+    "summaryIntro": {
+      "textHash": "6834293f02dc90935e9bf19b9b7ffc3052de46b1ba2c6b3d0bf1c91e0b0fac69",
+      "spoken": "பகிரும் முன் குடும்பத்துக்குத் தேவையான தகவலைச் சரிபார்க்கவும்.",
+      "bytes": 17633,
+      "seconds": 4.252,
+      "sha256": "d8de7ba849b573d19fc32fc474e56817de86f504709ac0a566e6200764805c83"
+    },
+    "summaryNotice": {
+      "textHash": "0b60cea77d5dbfcf89a74bf7f9ee3a85fe0a235694aa8af8f1642a98573291c2",
+      "spoken": "கணக்குப் பெயர்கள், குடும்பம் மற்றும் நியமிக்கப்பட்டவரின் செல்லப்பெயர்கள், சேர்த்த கடைசி நான்கு இலக்கங்கள் உள்ளன. பதிவுக் குறிப்புகள் விடப்பட்டுள்ளன. நம்பிக்கையானவருடன் மட்டும் பகிரவும்.",
+      "bytes": 56322,
+      "seconds": 13.94,
+      "sha256": "0a161339dfbcbf2c9f6f88481d4a23efa3465ec3035f9082c66cbaef9ef9f85e"
+    },
+    "print": {
+      "textHash": "2dd852d00a21a49c250b683a4143dfcb2c731f1b084f3740a5b88df4d11b5d7a",
+      "spoken": "அச்சிடு அல்லது பீ டீ எப் சேமி",
+      "bytes": 13018,
+      "seconds": 3.099,
+      "sha256": "d0e8b9f559a8fe15a0b1bbf5b58005b253477b7e8a935dc49f70496049f64a1a"
+    },
+    "export": {
+      "textHash": "9de91148ce9f61b2445886fb1e86d6ce8d789e006e01f8b59d1f8fb9c66f29a2",
+      "spoken": "படிக்கக்கூடிய நகலைப் பதிவிறக்கவும்",
+      "bytes": 11771,
+      "seconds": 2.793,
+      "sha256": "5e845388cf3ac9d5c414056c0d37568f5660eabb78a00fdbc65f6a5bbb1eee1f"
+    },
+    "save": {
+      "textHash": "43f1bb762e88bb4b9baf0898775a4ec0aa6f45c3b31a5a99b2d9993d6f7c864b",
+      "spoken": "உங்கள் பணியைச் சேமிக்கவும்",
+      "bytes": 8313,
+      "seconds": 1.932,
+      "sha256": "0b1569cca75c647cbd98f97266b1a3d6feac8ef2e712cc3c9f26728a5776ab11"
+    },
+    "saveShort": {
+      "textHash": "c115adf45af9c2d7e5ab0b4663ffacb8a3bae1e33578b30fee4ad2eb5fe711f8",
+      "spoken": "பின்னருக்காகச் சேமிக்கவும்",
+      "bytes": 8318,
+      "seconds": 1.94,
+      "sha256": "384592d4a11e1321681130d2e2034eb674895226b236b5e3b40c191b09db510e"
+    },
+    "saveIntro": {
+      "textHash": "a59b1c3bba9b19acf3e1342d2191c872bbc2bd0621210faf8bcba554ae6c2e10",
+      "spoken": "பூட்டப்பட்ட கோப்பைப் பதிவிறக்கவும். திரும்பும்போது அதே கடவுச்சொல்லுடன் இங்கே திறக்கவும்.",
+      "bytes": 29054,
+      "seconds": 7.105,
+      "sha256": "1cd35f675e3f42aa46da35e8f967c220c0cb77934d6435f0baadebcec121fb4a"
+    },
+    "savedFile": {
+      "textHash": "4ce261d8b3a622ccba63f29910c2741a1d50ef7005e37b33cc4e1b00bcf53c8d",
+      "spoken": "உங்கள் .விராசத் கோப்பு",
+      "bytes": 9854,
+      "seconds": 2.317,
+      "sha256": "d14095db2d86f128a8c7719f5ce695eec1f839f243b13f4e452b566f31dc595e"
+    },
+    "password": {
+      "textHash": "e65a28f55ed47c48bf1db62a7f42b6d507b454749afad5b8491a542152f0c0bf",
+      "spoken": "கடவுச்சொல்",
+      "bytes": 5245,
+      "seconds": 1.165,
+      "sha256": "762ce74d834e0c6d4d22493613975c543a3de398b86791cf11b9b8d0d1d7aa6f"
+    },
+    "passwordHelp": {
+      "textHash": "c61d01edbf7e9b0004d1a3cce3ed3565d08b27a02d30c5d8e34479945acf87d1",
+      "spoken": "குறைந்தது பன்னிரண்டு எழுத்துகள். பாதுகாப்பாக வைக்கவும்; மீட்க முடியாது.",
+      "bytes": 23105,
+      "seconds": 5.63,
+      "sha256": "bbec8bfb7b63b5b2b38f2afbca3638d38399a7b6069dbeba56f8396549ffe272"
+    },
+    "saving": {
+      "textHash": "b4ab46bba4ac447c69c111a33ac4f6980cbed2f6574df19664da9f3e8dbe4f95",
+      "spoken": "பட்டியல் பாதுகாக்கப்படுகிறது…",
+      "bytes": 9947,
+      "seconds": 2.339,
+      "sha256": "9de4dbc99e2d4aa8dffc85abbd8447cfa0262f240c885ef080720c598a84db74"
+    },
+    "saved": {
+      "textHash": "307a0fd36b75328bc280c9187afc8d4174de42e3edc966a25cbfe8bb98d08684",
+      "spoken": "மறைகுறியாக்கப்பட்ட கோப்பு பதிவிறக்கப்பட்டது. கடவுச்சொல்லைத் தனியாக வைக்கவும்.",
+      "bytes": 24154,
+      "seconds": 5.894,
+      "sha256": "c4161bd60ff5ab483da18301dc07e52c1d0c7ae131adee128ca00c55f84c3cc6"
+    },
+    "restored": {
+      "textHash": "d9d941336ae93fa6825840103981e92be7548d7b90a4d832b3dadbec4e8db43b",
+      "spoken": "பட்டியல் திறக்கப்பட்டது.",
+      "bytes": 8797,
+      "seconds": 2.045,
+      "sha256": "b667b97c5653bbbed31af2ff2481a446ef8589b2c1ec35a9b1f6f59152b3f109"
+    },
+    "passwordShort": {
+      "textHash": "75cb4c970f6a5ac667ec9779f9e565a37cb217ef16d1552872089c89af92ab7d",
+      "spoken": "பன்னிரண்டு முதல் இருநூற்று ஐம்பத்தாறு எழுத்துகள் கொண்ட கடவுச்சொல்லைப் பயன்படுத்தவும்.",
+      "bytes": 26082,
+      "seconds": 6.382,
+      "sha256": "e7b17ff5426d595ad962742b6bf13ad32682d43e1333b216aab8d3930f2409a2"
+    },
+    "cannotUnlock": {
+      "textHash": "6756559624c850f6985e56158cb51cdfe7b5f92c1938433850499b6967880693",
+      "spoken": "கடவுச்சொல் அல்லது மறைகுறியாக்கப்பட்ட கோப்பை உறுதிசெய்ய முடியவில்லை.",
+      "bytes": 20417,
+      "seconds": 4.953,
+      "sha256": "eb2968e3ae34ed2e6e554e2919ca6f40ec441c6e1dc7f0bf41146f9573a37ad8"
+    },
+    "invalidSave": {
+      "textHash": "e25bbeaf7905d9b7fecbfefa1444b60e5c5be9b16936b1c1e2757ebd0a28e92d",
+      "spoken": "சேமித்த பட்டியல் செல்லாது அல்லது மிகப் பெரியது.",
+      "bytes": 16864,
+      "seconds": 4.06,
+      "sha256": "b8a5d985fa1ae5f5844cea4e9d55d5553ebcf09ad03cd91fd55f5ba159c8b8f5"
+    },
+    "invalidAccount": {
+      "textHash": "e5d1f7eb837c471525fc6925f8e4e7a95b56cde35bb0d1e51c36fdbd789102d3",
+      "spoken": "நிறுவனப் பெயரை உள்ளிடவும். குறிப்பு சேர்த்தால் சரியாக நான்கு இலக்கங்கள் பயன்படுத்தவும்.",
+      "bytes": 29059,
+      "seconds": 7.111,
+      "sha256": "86915caafd71675096706f95daf08266cdc18dfc8580256ac1639bdfd7ba5b6f"
+    },
+    "invalidDate": {
+      "textHash": "c51b5403dd0690fed1682e12ca487afe715af1c322fd82973472a9c118b883dc",
+      "spoken": "இன்று வரை சரியான தேதியைப் பயன்படுத்தவும். சமர்ப்பிக்கும் முன் உறுதிப்படுத்தல் இருக்க முடியாது.",
+      "bytes": 26656,
+      "seconds": 6.513,
+      "sha256": "261ed6890e3fa7e971aa372c8f08d77236d80e24797fc0c37783295e56224e2f"
+    },
+    "submissionRequired": {
+      "textHash": "17bff28102ff4c84d3f2a0d217935a7bdbf2d7bd6c21a501f087ad2a0ae988ec",
+      "spoken": "கோரிக்கையைச் சமர்ப்பித்த தேதியைச் சேர்க்கவும்.",
+      "bytes": 12839,
+      "seconds": 3.06,
+      "sha256": "7b7fe978c331ac3fb7fa0f35ce33f7630f8e942dbcbbe7235fa35a5ee0511394"
+    },
+    "confirmationRequired": {
+      "textHash": "40fad59b9f182285dfca73a07224f33c808443fd6dee16482adece77dad14930",
+      "spoken": "பதிவு வகை, தேதி சேர்த்து பதிவு செய்யப்பட்டுள்ளதை உறுதிசெய்யவும். ரசீது மட்டும் போதாது.",
+      "bytes": 27145,
+      "seconds": 6.641,
+      "sha256": "4aaa8a79a3fb4f02430cb0cab3fdcb9464910587d785302b2955069d0d7902a3"
+    },
+    "accountLimit": {
+      "textHash": "0acaa07c5c8d63f30a81526ae838a28e71381831a2976454da15f71067c6747f",
+      "spoken": "இந்தப் பட்டியலில் ஐம்பது கணக்குகள் வரை சேர்க்கலாம்.",
+      "bytes": 16289,
+      "seconds": 3.929,
+      "sha256": "ce4e3a2ab9448db303d9e58276439b5470e8b7ea371215396363c37ff5bb0e37"
+    },
+    "updated": {
+      "textHash": "b2557eba3fae21df8c353baeeb93765d736cc0e5fefa6dc94d76fffd6229328c",
+      "spoken": "பட்டியல் புதுப்பிக்கப்பட்டது.",
+      "bytes": 8892,
+      "seconds": 2.072,
+      "sha256": "dec08db9aabbceb231a1fe93f512d020d8b31e80817cd3dc02e1c526be058ae3"
+    },
+    "privacyHelp": {
+      "textHash": "8ce73090e5ad907c2c759cfc0ee39f016ea4a723796187393de3107de97925eb",
+      "spoken": "தனியுரிமை மற்றும் உதவி",
+      "bytes": 8992,
+      "seconds": 2.09,
+      "sha256": "666758faf740b74ce3aa93a9d306ee35d755c72dfaeacfde1882a2bd696b4b89"
+    },
+    "privacyDetail": {
+      "textHash": "ccba44216a4995ca0962161599c8a41e825078c773a9a2a4c3bb5fc41849cdcd",
+      "spoken": "பட்டியல் உலாவி நினைவகத்தில் இருக்கும். மீண்டும் ஏற்றினால் அழியும். பின்னர் தொடர மறைகுறியாக்கப்பட்ட கோப்பைச் சேமிக்கவும். பதிவிறக்கங்கள் சாதனத்தில் இருக்கும்.",
+      "bytes": 48738,
+      "seconds": 12.048,
+      "sha256": "8282e07b237e1df00b1a353c9e74aa6c7670405f0bff0e4cc56af76c5e279267"
+    },
+    "translationNotice": {
+      "textHash": "b3448bd7173b93bec6e5274b54dcec5d1ba9fbc4b0ed1cc65a9a508c80250bd8",
+      "spoken": "மொழிபெயர்ப்புகள் வரைவு; சரளமான வாசகர் ஆய்வு நிலுவையில். அதிகாரப்பூர்வப் படிவங்கள் மூல மொழியில் இருக்கும்.",
+      "bytes": 34438,
+      "seconds": 8.469,
+      "sha256": "c496233e1a24857e71a38141c6e7c0e65423b2f65e16cb091be3f9112d6f3882"
+    },
+    "boundary": {
+      "textHash": "d33ac20622c8e44896910a04e7516381b2f96a5d6664c7fd06e1e9d6d0051859",
+      "spoken": "இந்தப் பட்டியல் வாரிசுரிமையைத் தீர்மானிக்காது; கணக்குகளைக் கண்டறியாது; கோரிக்கைகளைச் சமர்ப்பிக்காது.",
+      "bytes": 29917,
+      "seconds": 7.336,
+      "sha256": "f4d17b1c7d67c906febffadbe220866cf341a2e3e10db84fb5b3313b306b15d5"
+    },
+    "clear": {
+      "textHash": "0b1fc3f2c5c60900c74f7c894a26ecbb71d45bb4b721535416b217ab5d252b3b",
+      "spoken": "இந்த அமர்வை அழி",
+      "bytes": 6298,
+      "seconds": 1.437,
+      "sha256": "424083136de76356f6ff18256c3613d9b1cf656806714c2f9d665100eb048178"
+    },
+    "clearAsk": {
+      "textHash": "c58de888b8e7fef8a456ab8dc9a5da280a64e5f77bd944c99ef7d7241258b872",
+      "spoken": "இந்த அமர்வின் பட்டியலை அழிக்கவா? பதிவிறக்கங்கள் இருக்கும்.",
+      "bytes": 19645,
+      "seconds": 4.757,
+      "sha256": "bcdec7dbd8eb67a90740174493dea63c66ba5b6e78ac826aad60522ff07cf116"
+    },
+    "clearDone": {
+      "textHash": "b52b4baec17824642203c6466742d96b036364f810199143b337169600923fb6",
+      "spoken": "அமர்வு அழிக்கப்பட்டது.",
+      "bytes": 7838,
+      "seconds": 1.803,
+      "sha256": "f78c5b3232c621b29ff18ee99f312ccf25ea1a4ddbc52b19cba08eb330c68f3e"
+    },
+    "language": {
+      "textHash": "d8dbf0f63eea6caf9d75aa5f227601c7b144a45b184db799a4f607b26bfab8c3",
+      "spoken": "மொழி",
+      "bytes": 3613,
+      "seconds": 0.762,
+      "sha256": "23d946ed72c468e5926cf0394cb9da43d9e4fc47c46f7d98014bc5e96c303ddb"
+    },
+    "access": {
+      "textHash": "767da28cb07f57bbe5f0e7780b5bb01f060c92ff86216fa1b0359ce57c548d48",
+      "spoken": "அணுகல்தன்மை",
+      "bytes": 5339,
+      "seconds": 1.185,
+      "sha256": "4817cae0570543bd52795574bf7286cf05a1b471337c5c45ec7f26bd9d5518da"
+    },
+    "textSize": {
+      "textHash": "e8e4188f12cf9c55faa282844d1f4c70f71471c9c00cc22a9f381e942e0d1197",
+      "spoken": "எழுத்து அளவு",
+      "bytes": 5533,
+      "seconds": 1.242,
+      "sha256": "eafad35cc5f9605709e52de901777df75eee85d2597c8b5725cd3e46077797e0"
+    },
+    "smaller": {
+      "textHash": "11fd3e50989d6506f0bfe59d87b148c053e387fe4f90b226d3e723539a451d7f",
+      "spoken": "சிறிய எழுத்து",
+      "bytes": 6012,
+      "seconds": 1.356,
+      "sha256": "87575fc44fce632a5890eccc0f35af2d2d91fa33f291c876c6b23852301ded64"
+    },
+    "larger": {
+      "textHash": "5ce8b26d691229b0d7acb5024b08f38ecac11565b720e8c066ba727846b9e128",
+      "spoken": "பெரிய எழுத்து",
+      "bytes": 5723,
+      "seconds": 1.286,
+      "sha256": "905f158b44f9e8e556ae16506c9d1a2779088bb19876fa58d00b7c752ca529a0"
+    },
+    "contrast": {
+      "textHash": "2c55fb9ae2de31896f7616911f366ef7bb6f0547a33b37ece08e1c5629fb0728",
+      "spoken": "அதிக நிற வேறுபாடு",
+      "bytes": 7741,
+      "seconds": 1.777,
+      "sha256": "7f482344d2d886bf74992140a6bf38857c6bb0a82afffd9ac0a854d02d177a91"
+    },
+    "motion": {
+      "textHash": "0da84b8458e23fc65a9f280e1f1e0d5f7e4c845d01ce3dfac5630a28b1be0602",
+      "spoken": "இயக்கத்தைக் குறை",
+      "bytes": 6107,
+      "seconds": 1.387,
+      "sha256": "c226ac107787aa10f11ffa267971f00bcda679c87d847dd233c7933b900ef0a4"
+    },
+    "read": {
+      "textHash": "4b602b21d000e82ffb20d4c1edd6c970d18580a7e852a1fa838ef5a891056766",
+      "spoken": "வழிமுறைகளைக் கேளுங்கள்",
+      "bytes": 7545,
+      "seconds": 1.742,
+      "sha256": "1ce15572f859dcaff54313272ceca7fbbf5a642ff29ee084d14378fda8565d59"
+    },
+    "speechUnavailable": {
+      "textHash": "e80401a59435d7a3c5da8068dbfebcc909c1269234bffc08b076411ba88f917b",
+      "spoken": "இந்த வழிமுறையின் ஒலி இன்னும் தயாராகவில்லை. எழுதப்பட்ட வழிமுறை இங்கே உள்ளது.",
+      "bytes": 26182,
+      "seconds": 6.395,
+      "sha256": "214db03d58dda1a35807a028cd43fdbbd1c0af7eda557f73a9108357574aac64"
+    },
+    "close": {
+      "textHash": "167aef4b1bccfd6187f33d5d4e26c7c1ec3826ee84ff877b0e0661d2afd6b89f",
+      "spoken": "மூடு",
+      "bytes": 3706,
+      "seconds": 0.778,
+      "sha256": "9fad63c693fde32b17d276e7ac677c332fcfed924c474f072464b7a78f5c12fd"
+    },
+    "skip": {
+      "textHash": "8a3144707f96261b4ed01500e53894147d0f31843c33b638e3a6325a11ea42bb",
+      "spoken": "முக்கிய உள்ளடக்கத்திற்குச் செல்",
+      "bytes": 9561,
+      "seconds": 2.242,
+      "sha256": "789011a5f6d2a0ac6426ba521541ba00ad14e0e910dc9fcd88befa472d2a4b53"
+    },
+    "nothing": {
+      "textHash": "cb04cb26c63e9c863853428ce1fee17cd4e74805a2d4fa54a588b347d9576a93",
+      "spoken": "இந்தப் பார்வையில் கணக்குகள் இல்லை",
+      "bytes": 10428,
+      "seconds": 2.464,
+      "sha256": "a7a035bb157dd572df10656f724210bff2d4d8b163c4eaeffcdbdd041b012939"
+    },
+    "optoutNote": {
+      "textHash": "b9337734aee8512018e7129a7a9d3ea3785e4e825b70f2190bb32cf946b3292f",
+      "spoken": "நியமனம் சேர்க்காதது விருப்பத் தேர்வாக இருக்கலாம். பதிவைப் பார்த்து கணக்கு உரிமையாளருடன் முடிவுசெய்யவும்.",
+      "bytes": 33951,
+      "seconds": 8.332,
+      "sha256": "53581532ed6ae55b5d39acd1923c9dd72531e4c70bfaaf67c89ecd6843624612"
+    },
+    "startCheck": {
+      "textHash": "87d6bd090d7df2b67044ec255437050d16a594212a43a89352fd5d4e4702007d",
+      "spoken": "ஒரு கணக்கைச் சரிபார்க்கவும்",
+      "bytes": 8895,
+      "seconds": 2.066,
+      "sha256": "d0819e8f0b843d629f0fb48fbfd3714369b44a8fe44796376156d0386cc36171"
+    },
+    "startHelp": {
+      "textHash": "30fbdd5b6bb9c97141dbbfac673d19325a7ad26e79bbbb5b1afc841186182c13",
+      "spoken": "பாஸ்புக், அறிக்கை அல்லது நீங்கள் பயன்படுத்தும் செயலியுடன் தொடங்குங்கள். முதலில் ஒரு கணக்கு போதும்.",
+      "bytes": 27902,
+      "seconds": 6.836,
+      "sha256": "c58daab0b36920a3581c61ad22ef22a67a74c1271a141874108c9098bed66604"
+    },
+    "resumeTask": {
+      "textHash": "8f44f57b32fea564b705272357b70764139b4645d2596b7f09126077ad60d246",
+      "spoken": "இந்தப் பணியைத் தொடரவும்",
+      "bytes": 8607,
+      "seconds": 1.999,
+      "sha256": "c1e73344a3641a7d29b8cb63ee104ce0bc245ec07309a1821c1824953b1100ba"
+    },
+    "needsAttention": {
+      "textHash": "8dce9e55400d252066d00c5fd58d8eda0d7c10d0730a559a29746d5cf78bf33b",
+      "spoken": "இன்னும் செய்ய வேண்டியது",
+      "bytes": 8035,
+      "seconds": 1.854,
+      "sha256": "f401ed343c80d8decd030a27ca08ecc690dcb44a02cf3b26572ec3a5759e2dc5"
+    },
+    "checkedCount": {
+      "textHash": "5338f71f91543ca895ebd6b120bdb5fa51ddd640f435372a671ca27e1e24518f",
+      "spoken": "சரிபார்த்த பதிவுகள்",
+      "bytes": 7553,
+      "seconds": 1.734,
+      "sha256": "469c6fe265b1b26a6393dd2545b991e49c19f5cd7aeaef1b9c7affddfb464e25"
+    },
+    "howWorks": {
+      "textHash": "91652c17211e1719f98edcbb66e23d601f5e576a7796aec7c564dfd66145d7a9",
+      "spoken": "இது எப்படி உதவும்",
+      "bytes": 7549,
+      "seconds": 1.73,
+      "sha256": "89cbd19b18f59429b41df270a53560f46e709fe7d5d3d66f903f1b4a12c9bf26"
+    },
+    "howWorksText": {
+      "textHash": "3e5ca40507788cd549fb26ffd237b42a90356e09c3f6fa17d290d524a4f35151",
+      "spoken": "சரியான இடத்தில் சரிபார்க்கவும், அடுத்த பணிக்குத் தயாராகவும், முடிவைப் பதிவுசெய்யவும் உதவுகிறோம். உண்மையான மாற்றத்தை வங்கி, தரகர் அல்லது பண்ட் செய்கிறது.",
+      "bytes": 44897,
+      "seconds": 11.065,
+      "sha256": "762a0206d847f7263fd8abdad4103aa11c3b8c30d43b949cb7de5bffac1e0252"
+    },
+    "searchBank": {
+      "textHash": "5849757d4c60676a3e67bed4822e7ee37999dd1e028c915cd1cda5b613f23f1b",
+      "spoken": "உங்கள் வங்கியைத் தேடவும்",
+      "bytes": 8031,
+      "seconds": 1.87,
+      "sha256": "914ad4a06dcf032cede378c921796fa9017c36a4365772759bfd87a194b76bf9"
+    },
+    "searchDemat": {
+      "textHash": "87c50c20539b73186c4f9931d3ca29e78fa2dd58e08651fa0372e992ad2069c6",
+      "spoken": "தரகர் அல்லது வங்கியைத் தேடவும்",
+      "bytes": 10528,
+      "seconds": 2.477,
+      "sha256": "b556a1268619aa5f10bef029ea8e30eeb173005bfc198f21578524fa3a5145a2"
+    },
+    "searchMf": {
+      "textHash": "cdde590a369c31848c11e286a1ba8f3f7ff265859b69e5619479f3df00580a9a",
+      "spoken": "உங்கள் மியூச்சுவல் பண்டைத் தேடவும்",
+      "bytes": 9853,
+      "seconds": 2.312,
+      "sha256": "8bfefcee40c0fa56cd3b24fd49f31f4262dcce9cff7d6f0f4d0b1602b099a92f"
+    },
+    "searchHelp": {
+      "textHash": "b81f6f29e263802eb043b8d382ea9803a131aa59fc058ee5a87ffc5d43db3f2c",
+      "spoken": "பெயர் அல்லது சுருக்கத்தை உள்ளிடவும். பட்டியலில் இல்லாத நிறுவனத்தையும் சேர்க்கலாம்.",
+      "bytes": 23007,
+      "seconds": 5.604,
+      "sha256": "df4c2da7cac47284f283933949cdbafadebd2dba07d105475e2ae9cbad095310"
+    },
+    "useTyped": {
+      "textHash": "2f62bb6fbf6dd4b9b7925d21cbff4e93cb03857fba23d2826a951635a5b8d318",
+      "spoken": "இந்தப் பெயரைப் பயன்படுத்தவும்",
+      "bytes": 9565,
+      "seconds": 2.25,
+      "sha256": "fed72b774d1e2eb3c3a1866f20d0a18845a1c985b7be0c933eb0d50850334426"
+    },
+    "suggestions": {
+      "textHash": "189a9b63938d708b2df5e52985e3479171e0d7ac426700a08cca13506280fe7e",
+      "spoken": "பொருந்தும் நிறுவனங்கள்",
+      "bytes": 6784,
+      "seconds": 1.543,
+      "sha256": "e6c64dccc57dbe4c0a7f2872f10552e790014472e3b8d5b171806d0017a6ba64"
+    },
+    "noMatches": {
+      "textHash": "485489775c6c57774e4e5407baff1746194ed1468608013f592d2b1b8656cb17",
+      "spoken": "பொருத்தம் இல்லை. எழுத்தைச் சரிபார்க்கவும் அல்லது உள்ளிட்ட பெயரை வைத்திருக்கவும்.",
+      "bytes": 22526,
+      "seconds": 5.484,
+      "sha256": "ad5b80be5c8fff367cd67396ad870870f3a9e81df4d915d3e1d04a5eb4881e64"
+    },
+    "accountContext": {
+      "textHash": "fa9d3b3e0331b48417b806349f57dc432c5d7db3aedad439ff5af1b33057d42a",
+      "spoken": "இந்தக் கணக்கைப் பற்றி",
+      "bytes": 7843,
+      "seconds": 1.8,
+      "sha256": "0ab0e125a2eedc1f24c8a9a8026e21b7caf504ae4aebe2075a9a1a9e71cac0c1"
+    },
+    "contextHelp": {
+      "textHash": "9d38009e42bcaa18ab301ccb437936b11086413d9bd362eff8ea91d982d23777",
+      "spoken": "சரியான வழிமுறையைக் காட்ட இவை உதவும். தெரியாவிட்டால் அதைக் குறிப்பிடலாம்.",
+      "bytes": 24640,
+      "seconds": 6.001,
+      "sha256": "185aa7d259079819b4f7758b8554eade86ee9cc9503fcf2fa5db3d589af2ae01"
+    },
+    "whose": {
+      "textHash": "26399ac08623ec0d03a572cb7d6826c6c725dae00d4d203333994d6fd13687a8",
+      "spoken": "இது யாருடைய கணக்கு?",
+      "bytes": 7834,
+      "seconds": 1.801,
+      "sha256": "e90a5011e58aa38b6f55e61b3526a4f79e210415bfbe918979a71537ee23c821"
+    },
+    "me": {
+      "textHash": "1e37b98ed10847a478c3f9d0293428d745b944966b741a47d1efbcc7c09d9d98",
+      "spoken": "என்னுடையது",
+      "bytes": 5335,
+      "seconds": 1.198,
+      "sha256": "afb73f0029e6e275ab735f4341f2849592fc5248ca13cb3bd0e465488e294bf1"
+    },
+    "parent": {
+      "textHash": "dcf5d575adb31a9c2666f253b76c1f94de755dc62fda0bf18692abc29b7a6e0c",
+      "spoken": "பெற்றோருடையது",
+      "bytes": 5915,
+      "seconds": 1.334,
+      "sha256": "d6a2f1133c60e1d31741811d6be0ad32ae2028a702506d20eb07e90dd1f1c8e1"
+    },
+    "familyMember": {
+      "textHash": "48a5dea4c7b2270b68cc5cacebb3d50749db568b81d9834ff255415baa776168",
+      "spoken": "குடும்ப உறுப்பினருடையது",
+      "bytes": 8609,
+      "seconds": 1.999,
+      "sha256": "80729854021abb3b38905dbebd5454dc2fc49cd8b890437224991dc2bab1d269"
+    },
+    "holderQuestion": {
+      "textHash": "cc6250e43302d2f504ce241041629ce73ad245a112fdceadb342b8767c0a051a",
+      "spoken": "கணக்கு தனிப்பட்டதா, கூட்டுக் கணக்கா?",
+      "bytes": 11011,
+      "seconds": 2.614,
+      "sha256": "55cdac27724aba67f29063d887793713366fedb645d4b56f087fb90ebab82217"
+    },
+    "sole": {
+      "textHash": "ea48f593976da606de8e64df23cf4d7ebe3ff4bb4db3f50219e831c9b3d84eee",
+      "spoken": "ஒரு கணக்குதாரர்",
+      "bytes": 6489,
+      "seconds": 1.485,
+      "sha256": "e5ade78079bfa72b24f462bb9b230f14c98041d6f36b92c66bd8f94ff3d6f58b"
+    },
+    "joint": {
+      "textHash": "2491520100c19388f1239b3ae72ec8600a3017626db60cd9b94d18a7916ddfb1",
+      "spoken": "கூட்டுக் கணக்குதாரர்கள்",
+      "bytes": 7162,
+      "seconds": 1.637,
+      "sha256": "0cd5ddb9df706fc35362198e5550590aa15e74877ff9685d41f0e0d9ededac3f"
+    },
+    "bankProduct": {
+      "textHash": "1b45128331445f5a540debdc63678746122287dd40e03c02aa1b665d89085109",
+      "spoken": "எந்த வகை வங்கிக் கணக்கு?",
+      "bytes": 9088,
+      "seconds": 2.133,
+      "sha256": "cf89256a76da8c45744997de2749e08334cdee73379a5c1dc58dd623331aa40e"
+    },
+    "savings": {
+      "textHash": "c9d5176f0e044d0abcc02bef020ee4a7fc93bffda81397de2c3cee9fee7b24c2",
+      "spoken": "சேமிப்புக் கணக்கு",
+      "bytes": 7068,
+      "seconds": 1.623,
+      "sha256": "bf03adf8aca8779812f10f74596920452c5eeeee05d7b9502ed916015040920e"
+    },
+    "deposit": {
+      "textHash": "4de701a1916a3d0bfea32779696d14643855a9bace598a0f271f09d3ef1fefdc",
+      "spoken": "நிலையான அல்லது தொடர் வைப்பு",
+      "bytes": 9180,
+      "seconds": 2.138,
+      "sha256": "6981fff88609accc99e10e2462454a612e4e578dfe2cab4c586825ca319e4357"
+    },
+    "mfMode": {
+      "textHash": "72deb5b86da856e22eba96a1d1b8536a45a64636fd7e12f9a5997303af0e462e",
+      "spoken": "இந்த பண்டுகள் எப்படி வைக்கப்பட்டுள்ளன?",
+      "bytes": 11291,
+      "seconds": 2.682,
+      "sha256": "99d21608124801f1707e9c039ea71003fa109f4d99d1dadc865c38da62939177"
+    },
+    "folioMode": {
+      "textHash": "cff580f13da69a4fca90325e86156400f21729e9891297c696279cd2fc9b7ca4",
+      "spoken": "பண்டில் தனி போலியோ",
+      "bytes": 7646,
+      "seconds": 1.769,
+      "sha256": "9b119c54c6bc365bf66252c7d423c0f98e761fedb2f4949abc58f847b861c35f"
+    },
+    "dematMode": {
+      "textHash": "4d715742eea8aeea8851ddb348d64697a5833d90f6073c7c442e0f193b61b02e",
+      "spoken": "டீமேட் கணக்கில்",
+      "bytes": 6590,
+      "seconds": 1.499,
+      "sha256": "f4a11cecb152f06815cd68d422792a091673cd8e8770f83794b0e6f7b10b6ed0"
+    },
+    "identifyHelp": {
+      "textHash": "0d7b5bf64676ca9bbabfd2e7df82a5422928b627d3b955c67faf38c87ffe42f8",
+      "spoken": "அடையாளம் காண உதவுங்கள்",
+      "bytes": 9089,
+      "seconds": 2.123,
+      "sha256": "439f28a06c29036f313d71fbaaeb518439a50ccbc19eafc403c7d99de336e330"
+    },
+    "identifyText": {
+      "textHash": "92aeb437eecee9713f13143947ce386f8c413d00fe67c91f5995e4842956d2da",
+      "spoken": "பண்ட் அறிக்கையில் போலியோ எண், பண்ட் பெயர் இருக்கும். டீமேட் அறிக்கையில் டீ பீ ஐ டீ / கிளையன்ட் ஐ டீ அல்லது பீ ஓ ஐ டீ இருக்கும். தெரியாவிட்டால் நிறுவனத்தைக் கேளுங்கள்.",
+      "bytes": 52193,
+      "seconds": 12.9,
+      "sha256": "254535725148ecdb58cccac284a621b009b821ed10b4ecc26138b135c577d397"
+    },
+    "change": {
+      "textHash": "d5ab7356056ba1811b072f37517ffb28a669a9b0a4bf4fc2d55332aa2b11257c",
+      "spoken": "மாற்றம் தேவை",
+      "bytes": 6875,
+      "seconds": 1.568,
+      "sha256": "401d50e8cb5b054c04d2613664b26939e5355920bab9a9999e6635742ebead6d"
+    },
+    "optout": {
+      "textHash": "85d5b6d8af3ab9a7712037f04ea9cc7dc42f5d46265f7c67a113004b4708e7fa",
+      "spoken": "நியமனம் செய்யாத தேர்வு",
+      "bytes": 9179,
+      "seconds": 2.146,
+      "sha256": "79d83e416a44af6960514eb1c9a0abe16ea2bda4783fe95a74b3aa75a048c7c4"
+    },
+    "blocked": {
+      "textHash": "7099e6ce6494ead1ac599ab05c4017168818fb9717eb110cdfd7d07ab079c068",
+      "spoken": "உதவி தேவை",
+      "bytes": 5532,
+      "seconds": 1.24,
+      "sha256": "1f612b9f13472af4dbb948b38404129a49775625d4ec3894cbc81d5d16a00690"
+    },
+    "helpCheck": {
+      "textHash": "db62c4c8537906fde6c19f979e5f9778dfcd7cc98eae179a650bd73b5c200435",
+      "spoken": "சரிபார்க்க உதவுங்கள்",
+      "bytes": 7358,
+      "seconds": 1.683,
+      "sha256": "fbaa2731e86ca884142bfe7a3e72b38d8b653de7fe28ff58631ebf0563f5f422"
+    },
+    "whatFound": {
+      "textHash": "93ce6c2d9f9a4cab3a96038dc6e0b556e648f92059f6e75d4601be83ec27623c",
+      "spoken": "என்ன கண்டறிந்தீர்கள்?",
+      "bytes": 7262,
+      "seconds": 1.674,
+      "sha256": "9f18cbfb3e095529049730c68108e596443abd8ba321a871aa4c9ab856d33ccb"
+    },
+    "foundYes": {
+      "textHash": "7c868af68a3b08111a49965528cedaf1bc250a4c47c80c4f1ed95453e15726c8",
+      "spoken": "நியமனம் பதிவாகியுள்ளது",
+      "bytes": 10333,
+      "seconds": 2.441,
+      "sha256": "9c6b15f49976b854198a480454a207fd6dd68339f481d7d4dd14689d7a243d4d"
+    },
+    "foundNo": {
+      "textHash": "fa922139a7f2f1e00de7ac69e1166c489de9ea35f3864e2116d567480ddb9eff",
+      "spoken": "நியமனம் பதிவாகவில்லை",
+      "bytes": 9948,
+      "seconds": 2.344,
+      "sha256": "78e548091c6558b744bb894371f6c30aff8d64655bf6520a8d5576ed9993e31b"
+    },
+    "foundChange": {
+      "textHash": "add65847cbaa3880abca3396aa0149781b56446379616c392691ce2960c134df",
+      "spoken": "விவரங்களை மாற்ற வேண்டும்",
+      "bytes": 9184,
+      "seconds": 2.158,
+      "sha256": "2940112757613035417866097c4aadf995ac58b540556ba899259673abc3f190"
+    },
+    "foundUnknown": {
+      "textHash": "b77e6c318d1910767eb1f38fc35b24a8b1d95077a31bd86dd242ebb9906e31bf",
+      "spoken": "கண்டுபிடிக்க முடியவில்லை",
+      "bytes": 8513,
+      "seconds": 1.975,
+      "sha256": "75a8812ae1cc4e7166251c2ae9cee7733288f354b6896979bb84fcbe4e58f40b"
+    },
+    "prepare": {
+      "textHash": "7992d48415a10dfbb101066132d61dae6b8700e3f2e4825c08f56cc2812564fb",
+      "spoken": "அடுத்த படிக்குத் தயாராகவும்",
+      "bytes": 9660,
+      "seconds": 2.256,
+      "sha256": "5d56a714ad20ccd60942cf3e9730d349f83e988ad74da9b1cc82581ff5e289e0"
+    },
+    "checkFirst": {
+      "textHash": "12a24777def4dd8bb5319d75d926f72b0b370c2ad7a745539c605d2f33e1e82b",
+      "spoken": "மாற்றுவதற்கு முன் சரிபார்க்கவும்",
+      "bytes": 10623,
+      "seconds": 2.507,
+      "sha256": "19116196333a010ac79546b6ad352779cb773af09d901a0fe7f4ab3b1ca0fea0"
+    },
+    "openOfficial": {
+      "textHash": "7e2a0c64b3ea147fe4731a186037155cb026b57498c04cb8ab0dded4bd3112c4",
+      "spoken": "அதிகாரப்பூர்வ வழிமுறைகளைத் திறக்கவும்",
+      "bytes": 12353,
+      "seconds": 2.938,
+      "sha256": "886682175c77229136b60446ef8ae5accc8a8a0827efe8feb63b6c5f20f45302"
+    },
+    "prepareIntro": {
+      "textHash": "59bebf3c7d5faa26d5db18105680b0c8faa824fede9a1fc3482e8a6cb7b7ea46",
+      "spoken": "நிறுவனத்திற்காக இவற்றைத் தயாராக வைத்திருங்கள். இங்கே உள்ளிட வேண்டாம்.",
+      "bytes": 22721,
+      "seconds": 5.524,
+      "sha256": "8db65ce1b7d45e81059caef8a85e9c6da3c118efc4be2d21cc9ac376490acab5"
+    },
+    "prepareNames": {
+      "textHash": "6edd261be5a3c08f3b16b960f4ac168a02154d0b358f58883edf9b089e4d3596",
+      "spoken": "பதிவிலுள்ள நியமிக்கப்பட்டவரின் பெயர் மற்றும் உறவு.",
+      "bytes": 16097,
+      "seconds": 3.871,
+      "sha256": "993d497cd4501dbc1aa943c95718d004d90cce5dcdf248a8491eb5c1232af4ad"
+    },
+    "prepareMinor": {
+      "textHash": "6c4869e26b05689c93c80fdc88a3a316fd1f868551e5062c9f270b81efa43bad",
+      "spoken": "நியமிக்கப்பட்டவர் குழந்தையெனில் தற்போதைய படிவத்தின் பிறந்த தேதி, பாதுகாவலர் பகுதிகளைப் பாருங்கள்.",
+      "bytes": 30881,
+      "seconds": 7.567,
+      "sha256": "4a80769a43b2771906b5cf42c9271811b4178a8c78f6b96e9bf4c7bd018faab6"
+    },
+    "prepareAccess": {
+      "textHash": "167e5ce33a68f27275eaaa6afca33f2ef23eb34e6c3c0b700df0ce5ed850b288",
+      "spoken": "உங்கள் கணக்கு விவரம் மற்றும் நிறுவனத்தின் அதிகாரப்பூர்வ சேவைக்கான அணுகல். கடவுச்சொல், ஓ டீ பீ ஆகியவற்றை அங்கே மட்டுமே பயன்படுத்தவும்.",
+      "bytes": 48162,
+      "seconds": 11.896,
+      "sha256": "d0bf9d4ccfdb13fa210d961d3dc969033a9ba993c06174328f9397b041b1ddcd"
+    },
+    "jointGuide": {
+      "textHash": "e57c470f30cbad820ae49fb17369358a128b84dfc420e3c9432bc3c498514206",
+      "spoken": "கூட்டுக் கணக்கில் எல்லா கணக்குதாரர்களையும் இணைக்கவும். சமர்ப்பிக்கும் முன் கையொப்பம், வழிமுறையை நிறுவனத்திடம் கேளுங்கள்.",
+      "bytes": 33855,
+      "seconds": 8.322,
+      "sha256": "7ee250fd51e6b61ec6d2968c048c3335ed9dae7fa8957f1485f97efe6d98d7eb"
+    },
+    "unknownContext": {
+      "textHash": "1aaed33c20410b1fc3db65f4924912be396186332a7cf108f8976b0da0a4fbc6",
+      "spoken": "ஆன்லைன் வழியைத் தேர்வுசெய்வதற்கு முன் அறிக்கையில் பெயர்கள், கணக்கு வகையைப் பாருங்கள். நிறுவனம் உதவலாம்.",
+      "bytes": 27139,
+      "seconds": 6.628,
+      "sha256": "2cd562ea2e7521d84247876154860b060f5249fb3f030446fb337480c0149d13"
+    },
+    "hdfcSavings": {
+      "textHash": "7e21a27cd44c905aa52b621099f6827583a338e585642b396e324d20b93db8f6",
+      "spoken": "எச் டீ எப் சீ நெட் பேங்கிங்-இல் அக்கவுண்ட்ஸ் → கணக்கு → அக்கவுண்ட் டீடெயில்ஸ் → நாமினீ அண்ட் அக்கவுண்ட் ஹோல்டர் டீடெயில்ஸ் திறக்கவும்.",
+      "bytes": 38944,
+      "seconds": 9.597,
+      "sha256": "03d1ab8e0bd46bb0881e6cbd73bdaf62e90de13a341e4b1c0c596d3f9ad6e718"
+    },
+    "hdfcDeposit": {
+      "textHash": "d161cc85d520431c99ac82bf5137ee1433fcb4b5f6695796954599beb2cf2227",
+      "spoken": "எச் டீ எப் சீ நெட் பேங்கிங்-இல் எப் டீ/ஆர் டீ → வைப்பைத் தேர்ந்தெடுத்து → ஆட் நாமினீ அல்லது சேஞ்ச் நாமினீ பார்க்கவும். சேமிப்புக் கணக்கிலிருந்து தனியாகச் சரிபார்க்கவும்.",
+      "bytes": 51136,
+      "seconds": 12.627,
+      "sha256": "83d3b9daaac1e76aeca397626bd287c95f1e7797556efeb9a8bd98c8b8792c7a"
+    },
+    "hdfcAction": {
+      "textHash": "75e974f24db26462d2572a2552d1b9245721e2c3f903d343eae945c3fa29113f",
+      "spoken": "தனி கணக்குதாரர் உரிய கணக்கு விவரங்களில் ஆட் நாமினீ அல்லது சேஞ்ச் நாமினீ பயன்படுத்தலாம். கூட்டுக் கணக்கிற்கு மற்றவர்களுடன் கிளை வழியைப் பயன்படுத்தவும்.",
+      "bytes": 43455,
+      "seconds": 10.723,
+      "sha256": "624c6981ed84ee1ce5b8ba013f3bdfdc095e8742c21e5b87d25a881a0ca155b3"
+    },
+    "zerodhaCheck": {
+      "textHash": "0387de8ed0a4c017e235f16e57f529934de4ffa147c735ee0d37d13396596b97",
+      "spoken": "ஜெரோதா கன்சோல் → அக்கவுண்ட் → நாமினீஸ் திறக்கவும். அந்த டீமேட்டில் உள்ள காயின் உள்ளிட்ட பண்டுகளுக்கும் இதே நியமனம் பொருந்தும்.",
+      "bytes": 38177,
+      "seconds": 9.39,
+      "sha256": "a4ff2ef3f52ac4ddcdfb9c75279f7650ff439897b5e62c36f93af8ace224f6e4"
+    },
+    "zerodhaAction": {
+      "textHash": "4b63e94943824bcdd52338c818665dfe43452f4c03ea29be1961640fcd01146a",
+      "spoken": "கன்சோல் வழிமுறைகளைப் பயன்படுத்தவும். கூட்டு கணக்கு அல்லது ஆதாருடன் கைப்பேசி இணைக்கப்படாதவர்களுக்கு ஜெரோதா ஆப்லைன் படிவத்தைக் குறிப்பிடுகிறது. இணைப்பில் தற்போதைய தேவைகளைப் பாருங்கள்.",
+      "bytes": 54786,
+      "seconds": 13.555,
+      "sha256": "48da71847f0a089b32874f61ac3a2df7acffa1b7056c6177e8672e039632e09d"
+    },
+    "hdfcMfGuide": {
+      "textHash": "329e53ad8786e2e0633530314a2cfc10a8fad4348fd8a6363c9c36b8446e5edd",
+      "spoken": "தற்போதைய படிவம், சமர்ப்பிக்கும் வழிமுறைக்கு எச் டீ எப் சீ மியூச்சுவல் பண்ட் நாமினீ ரெஜிஸ்ட்ரேஷன் பக்கத்தைப் பார்க்கவும். முதலில் அறிக்கையிலுள்ள போலியோவைச் சரிபார்க்கவும்.",
+      "bytes": 45280,
+      "seconds": 11.18,
+      "sha256": "7646e59c16eeaf93d19fde9bc1aa687c6584b7fa14ce08653024139df8c84f27"
+    },
+    "mfDematHelp": {
+      "textHash": "351f35a59a3bbe9da6ec0c9d5f330241b570a0614912454247b834ec43ebcd40",
+      "spoken": "இந்த யூனிட்களுக்கு டீமேட் கணக்கின் நியமனம் பொருந்தும். தரகர் அல்லது டீ பீ மூலம் அந்தக் கணக்கைப் பாருங்கள்; தனி போலியோ நியமனம் தேவை எனக் கருத வேண்டாம்.",
+      "bytes": 45376,
+      "seconds": 11.193,
+      "sha256": "4996b000bbcef86583d5ad69c7b8e05d27689d24e735fbe681bf046a0139ae4d"
+    },
+    "useDemat": {
+      "textHash": "4dafc42e4e025c8414ad4a2f3335ccf6ebff261197b5091db1ddf3edb49c915e",
+      "spoken": "டீமேட் கணக்கைச் சரிபார்க்கவும்",
+      "bytes": 10141,
+      "seconds": 2.377,
+      "sha256": "e7f5607b9907b1f411a41fd89774eefeacc325301aada12c6fe18927fc7fc2b7"
+    },
+    "routeFallback": {
+      "textHash": "64d3ee587c29216158e1de372c5792de8f91ab0c7aa5d3d18fb3ad06248808f7",
+      "spoken": "இந்த நிறுவனத்திற்கு பொதுவான வழிகாட்டல் உள்ளது. சரியான திரை அல்லது படிவத்தை அதிகாரப்பூர்வ சேவையில் உறுதிசெய்யவும்.",
+      "bytes": 35010,
+      "seconds": 8.603,
+      "sha256": "fc7b04a16cde98c35e35b80d2a77f571a955b564b1beb9f0fdaa32f78b19dfd3"
+    },
+    "offlineHelp": {
+      "textHash": "dc5174b081a775060219565ebfc504f4f053d6cc0a92e62f3440dd663cfff065",
+      "spoken": "நேரில் செல்ல விரும்புகிறீர்களா?",
+      "bytes": 10432,
+      "seconds": 2.462,
+      "sha256": "a0c9c7cac3b73f655f0f8f5804c89e702e2a159ecce54675971eb017d18c00ab"
+    },
+    "offlineText": {
+      "textHash": "b51f731263cef2f185385ffea78f2ecbcbafbd932db68a0dd4d46d3719d81a9e",
+      "spoken": "கணக்கு அல்லது போலியோ விவரத்துடன் கிளை அல்லது சேவை மையத்திற்குச் செல்லவும். நியமனம் அல்லது மாற்றம், தேதியிட்ட ரசீதைக் கேளுங்கள். யார் வரவேண்டும் என்பதை முன்கூட்டியே கேளுங்கள்.",
+      "bytes": 54112,
+      "seconds": 13.37,
+      "sha256": "9e44bd025ca0803510f807fcb290c0bf537031ae8ae9ce449de470877d28719e"
+    },
+    "askHelp": {
+      "textHash": "4322804099d2f00a8d441e89bf4651728bd8ecaf30bd5cc77e9f6a59e634724a",
+      "spoken": "நீங்கள் கேட்கக்கூடிய கேள்வி",
+      "bytes": 9276,
+      "seconds": 2.174,
+      "sha256": "e3f6e569d2bc9bf41a67277cb930387ff257d5e9bff8ebf60c8d56a74b10543f"
+    },
+    "askText": {
+      "textHash": "0a31f40d4eb8fb717c325ad58a74fbfd9ead9cd0102c1788ea1aeed697ee7d55",
+      "spoken": "இந்தக் கணக்கில் நியமனம் பதிவாகியுள்ளதா பாருங்கள். இல்லையெனில் அல்லது மாற்ற வேண்டுமெனில் எந்தப் படிவம் அல்லது ஆன்லைன் வழியைப் பயன்படுத்துவது? முடிவை எழுத்தில் தரவும்.",
+      "bytes": 53628,
+      "seconds": 13.259,
+      "sha256": "0331482a25cf5936f954790885a24d31379f51ed2645ce87bbb42edac1f3f6ad"
+    },
+    "copyQuestion": {
+      "textHash": "9f4f98584aaaa6cdaf8476c11d2e91415373971c346428321d1da5fd8038f4f7",
+      "spoken": "கேள்வியை நகலெடுக்கவும்",
+      "bytes": 9281,
+      "seconds": 2.181,
+      "sha256": "588aa1d19c11988a2dc9e39420f90b61eda41f2f4094b345dc64691f54a39e71"
+    },
+    "copied": {
+      "textHash": "929c17f8bdb19124109d9d4b61823d8c0f6e54a4c2a1cbc1c17f614e492fe464",
+      "spoken": "நகலெடுக்கப்பட்டது",
+      "bytes": 6971,
+      "seconds": 1.602,
+      "sha256": "8ead0bda13d8e64adf9d5083a668751cdef78bc04ab87352a75c135a7d33d2b5"
+    },
+    "followup": {
+      "textHash": "5bdbdddf6e55893e7fa01c70dd3d25999627acd15722554e6f1db5fad7aff0cc",
+      "spoken": "மீண்டும் பார்க்கும் தேதியைத் தேர்வுசெய்யவும்",
+      "bytes": 13309,
+      "seconds": 3.18,
+      "sha256": "7dffc73594c9162896f8cad02cc66d1ee8da7102aefe3b7ea8a8adf62e81c577"
+    },
+    "followupHelp": {
+      "textHash": "81114d4726303e35fee5c5622492aba6445ba7922dde00077f22978e7ebfd298",
+      "spoken": "இது உங்கள் நினைவூட்டல் தேதி; நிறுவனத்தின் காலக்கெடு அல்ல. அறிவிப்பிற்கு நாள்காட்டியில் பதிவிறக்கவும்.",
+      "bytes": 32513,
+      "seconds": 7.989,
+      "sha256": "4aa844c25017a7263d3b30e168e0e1a580109c88e5ea2eaedcf764cfb5e42f29"
+    },
+    "calendar": {
+      "textHash": "65606f8604a7aceb29625fdc3ad310a91b2a18376f6755f0cd316960aa7b5adf",
+      "spoken": "நாள்காட்டி நினைவூட்டலைப் பதிவிறக்கவும்",
+      "bytes": 13789,
+      "seconds": 3.292,
+      "sha256": "75ac7453f4b6fbed50d7da5d78761e02a24331a80cc4d5cecc8a62c452a5acf1"
+    },
+    "followDue": {
+      "textHash": "c0f911a509d406eb6daa0c25b89c4bfaea4f63ef6b6a915199bfde4a2fdd504f",
+      "spoken": "மறுபரிசீலனை நேரம்",
+      "bytes": 8030,
+      "seconds": 1.864,
+      "sha256": "58dd2f3b6bb34898784feb969ee371c06db29af39fa17841c5155b33d247bf2c"
+    },
+    "requestHelp": {
+      "textHash": "7b805e3b7afab25f6f886e38a257ddfbd43122901c303a01853f98e35122ccd4",
+      "spoken": "கோரிக்கைக்கு உதவி தேவை",
+      "bytes": 8608,
+      "seconds": 2.007,
+      "sha256": "99b6ed8233071bef53a3ae540d24661a044dc5ca28c87ce51ce317611b4851e5"
+    },
+    "blockedHelp": {
+      "textHash": "503a37ca3ee25712b3f1244434c141cc6224808bc5a460ee6d2ef24dfc0d716a",
+      "spoken": "நிறுவனத்தின் பதிலை வைத்திருங்கள். என்ன குறை, என்ன திருத்தம், மீண்டும் எப்படி சமர்ப்பிப்பது எனக் கேளுங்கள். நிராகரிக்கப்பட்ட அல்லது முழுமையற்ற கோரிக்கை பதிவு அல்ல.",
+      "bytes": 50176,
+      "seconds": 12.4,
+      "sha256": "6b98a737b29f9d00fec19358ce55a1277d52c2e548fcff0684f8c7a8458f9f93"
+    },
+    "recheck": {
+      "textHash": "b0242ca300934d58b832c45a94266bd40ba098593753bd0b17546206b5069b4b",
+      "spoken": "மீண்டும் சரிபார்க்கவும்",
+      "bytes": 8604,
+      "seconds": 1.995,
+      "sha256": "cab50e4f9a25dc342962ea775186485ba7a66809f95321cfe81965ee4d43ee36"
+    },
+    "familyRecord": {
+      "textHash": "71ff146b259fe9d307b2ca4a9e04633593ea33ca40283cae1533122c3479a661",
+      "spoken": "குடும்பத்திற்கான பதிவு",
+      "bytes": 8609,
+      "seconds": 2.0,
+      "sha256": "8ca3fef0badc46583a0a96c375d81b439059d01716709b699f96fefd347a271c"
+    },
+    "familyHelp": {
+      "textHash": "e10626f36813a4e30395a954a2da8302991165410516b4bc7792677e3b614608",
+      "spoken": "குடும்பம் கணக்கை அடையாளம் கண்டு பதிவுகளைக் கண்டறிய உதவும் தகவலை மட்டும் சேர்க்கவும். தனிப்பட்ட விவரங்களை விடலாம்.",
+      "bytes": 34911,
+      "seconds": 8.57,
+      "sha256": "9d486ae013dca7876d10ed53e98a54292b522cecb18eb01b8c5c96e8dfaa27b2"
+    },
+    "recordLocation": {
+      "textHash": "f3e03ed3d482e6842904fe920b655ad8a952e32ce17d1f0df57363d661f11a5c",
+      "spoken": "குடும்பம் பதிவை எங்கே காணலாம்? (விருப்பம்)",
+      "bytes": 14467,
+      "seconds": 3.477,
+      "sha256": "189af3abfcfe43a77935d0b1d4d50fad38f14899a8b8025b68692b7c98927c6e"
+    },
+    "locationHelp": {
+      "textHash": "7cc87a232cc9617b2c0e43c458ee900c8f3443eda1cef8e53aaeef0e4899beac",
+      "spoken": "உதாரணம்: வீட்டில் நீலக் கோப்பு. இந்த இடம் குடும்பத் தாளில் சேர்க்கப்படும். கடவுச்சொல் அல்லது முழு கணக்கு எண்ணைச் சேர்க்க வேண்டாம்.",
+      "bytes": 38561,
+      "seconds": 9.482,
+      "sha256": "c6c98fced691fe8533d04c3fa6548c2288c45deeb4e1c10e435d95b339b3e5de"
+    },
+    "addNomineeNote": {
+      "textHash": "81a6e24145d4c406ad9c6ff854eb361bc783bb5998b49e69692e3b9ba3709e9a",
+      "spoken": "மற்றொரு நியமனக் குறிப்பைச் சேர்க்கவும்",
+      "bytes": 11203,
+      "seconds": 2.655,
+      "sha256": "eaabff0238a1a08b2607a5a3605f248e9687efaf8b7c88b842ba4ddc55d13126"
+    },
+    "optionalDetails": {
+      "textHash": "ee96500b964710cb97ee39e8cd492478110483c24f6ebef30aedeee699cb373e",
+      "spoken": "குடும்ப விவரங்கள் விருப்பமானவை",
+      "bytes": 10628,
+      "seconds": 2.504,
+      "sha256": "899f5a65cfa2125c9f2d54dd877ae0cb495c74a5ea3edfdcf388484a50c8fdb9"
+    },
+    "notProvided": {
+      "textHash": "9f1761f00639a2f62863766664b07a42f7313f8b6f2b8e0fde9b34d4471a46af",
+      "spoken": "இந்தப் பட்டியலில் சேர்க்கப்படவில்லை",
+      "bytes": 9952,
+      "seconds": 2.335,
+      "sha256": "127c71a9fd12dad52bb5913e8a02e917ab3c2b421942573b09a6ba450fef0cab"
+    },
+    "unsaved": {
+      "textHash": "d609ede7a57665ed3f5b95897d6358d4c9574506d4fc0517880dd4a9424d153a",
+      "spoken": "மாற்றங்கள் பின்னருக்காகச் சேமிக்கப்படவில்லை",
+      "bytes": 14172,
+      "seconds": 3.388,
+      "sha256": "9242db4de1e3df2b8b4048f201b5c9172706168a38f5d83d286a40baab550877"
+    },
+    "savedStatus": {
+      "textHash": "9fd9c6b7b0993ced67fcb6d714b27495a647860061f4682301e2fbcacc129f74",
+      "spoken": "பதிவிறக்கிய கோப்பில் சேமிக்கப்பட்டது",
+      "bytes": 11008,
+      "seconds": 2.592,
+      "sha256": "5d172713d3163116b904fe9119278ffdb3675fe0eefa7d3b083a119f950ca94d"
+    },
+    "passwordAgain": {
+      "textHash": "0410f0c394b546a2345fa41e22ef1100c7b7684ac8cc15317fceed2bd2315b8c",
+      "spoken": "கடவுச்சொல்லை மீண்டும் உள்ளிடவும்",
+      "bytes": 10530,
+      "seconds": 2.481,
+      "sha256": "21a0eea2136749d4e202d91d972ea1595b4339f73b2da3a9fa55742b0fd1a866"
+    },
+    "passwordMismatch": {
+      "textHash": "f7451f3d99abc3f0f77a6c83f82ea722ee7f00ac06f2c41c076a263c5d4598df",
+      "spoken": "கடவுச்சொற்கள் பொருந்தவில்லை.",
+      "bytes": 8613,
+      "seconds": 2.006,
+      "sha256": "a455d5c94f05e46f9849d8a6ef325730bd740bfb9d92f82de8d6c6b9d7bc66d9"
+    },
+    "showPassword": {
+      "textHash": "b00541f491f07358106b58dfeb0dbb534afb338112c5ab454f8c25264f123bc8",
+      "spoken": "கடவுச்சொல்லைக் காட்டு",
+      "bytes": 7553,
+      "seconds": 1.746,
+      "sha256": "ca72007d7bdb02176c9ddf87d933737ddc75067e4b4f4343d239c94351aa5c06"
+    },
+    "saveTip": {
+      "textHash": "1334e0a63bebcdf49bda3e4bc16e317f7f930499a17970c05afd9ea9dc446471",
+      "spoken": "பதிவிறக்கியபின் டவுன்லோட்ஸ்-இல் .விராசத் கோப்பைக் காணலாம். கடவுச்சொல்லைத் தனியே வைத்திருங்கள். புதிய மாற்றங்களை மீண்டும் சேமிக்கவும்.",
+      "bytes": 39996,
+      "seconds": 9.855,
+      "sha256": "42fa308e763683bb4220d13b3a414e698eb6197ceaba943c3f85b41ab0640825"
+    },
+    "evidenceScope": {
+      "textHash": "1ca48b08cfddd0631eb0651cd4018cee821c5277ed39217cab8b0578d375a9b8",
+      "spoken": "பதிவு என்ன காட்டுகிறது?",
+      "bytes": 7746,
+      "seconds": 1.786,
+      "sha256": "c12a03ef4639dae3a55bb061fa466c878ad590e31d5558764c3d1c0ef2d67881"
+    },
+    "statusOnly": {
+      "textHash": "77a92927d58e2659f7f9dca5c072bc7c84288f8e20500f9d8c3becc006bb2a87",
+      "spoken": "நியமனம் பதிவாகியுள்ளது என்ற நிலை",
+      "bytes": 14463,
+      "seconds": 3.466,
+      "sha256": "47293de6835296df5b6d7dc78a7c0330c2e10d85d4cf6b3c0abad93b4e117f21"
+    },
+    "detailsChecked": {
+      "textHash": "dc790752831f57871aba9265b34f531ed0003800f4a4e7cc110cc05502645f58",
+      "spoken": "நியமிக்கப்பட்டவரின் விவரங்களையும் பார்த்தேன்",
+      "bytes": 12259,
+      "seconds": 2.925,
+      "sha256": "4f3e9a794ae44421c80f19856bf5136ebde4e109b9d920978f449ceaaa2bf351"
+    },
+    "receiptExample": {
+      "textHash": "e8454d605a0a5525044b0714d132b6c2b41c441bfe785ffaa66a2801bd74af45",
+      "spoken": "“உங்கள் கோரிக்கை பெறப்பட்டது” என்றால் பணி இன்னும் நிலுவையில் உள்ளது.",
+      "bytes": 20803,
+      "seconds": 5.06,
+      "sha256": "f63b673a0b14c87e170c75b89904b28f2f3128cfaef2dce932dcba783c0c1b92"
+    },
+    "registeredExample": {
+      "textHash": "f59f46b7d09177c7de6664c9872eb063c90966b57c6dd92cb328272fc23b537f",
+      "spoken": "“நாமினேஷன் ரெஜிஸ்டர்ட்” அல்லது “நாமினேஷன்: யெஸ்” பதிவைக் காட்டும். கணக்கையும் சரிபார்க்கவும்.",
+      "bytes": 29926,
+      "seconds": 7.338,
+      "sha256": "d8db3d283f402154fcdb7ee7cc143820dd178061e9f8e47d8c032afe1247145d"
+    },
+    "seeEvidence": {
+      "textHash": "cf3504cf9e1c69e94296baf2e962f716cee2df4ccaab74e438d763c4fe5fd0a1",
+      "spoken": "எது உறுதிப்படுத்தல்?",
+      "bytes": 6880,
+      "seconds": 1.577,
+      "sha256": "d695865f4f5d5a2ee7bcbed4643420b8dee875349159f6b203793a0b6f2512c3"
+    },
+    "fictionalExample": {
+      "textHash": "f587fb90e5f9cd1b6f96d96ca79060e95205a3c882f71d3191232537fd8efdbc",
+      "spoken": "விளக்கம் மட்டுமே",
+      "bytes": 6597,
+      "seconds": 1.499,
+      "sha256": "e6605b0aa50f830e365a5a04300042d7167c19a9182a1497903c16a11ff5179e"
+    },
+    "pause": {
+      "textHash": "e86b5e91e50df1a352604bd3bacf2b66ef6ccb6126babf6a8a08f4e68884762e",
+      "spoken": "இடைநிறுத்து",
+      "bytes": 5434,
+      "seconds": 1.217,
+      "sha256": "5afc914d914aa7d36bfc9ea3b794dd8dc0ebbd2508c55ad4e34b1f902bc6883a"
+    },
+    "resumeAudio": {
+      "textHash": "f8c5fadc36269d4a9cdd4e00b767ba7ae02593e2f8aedf3562112b9c5fd90266",
+      "spoken": "தொடர்ந்து கேளுங்கள்",
+      "bytes": 6496,
+      "seconds": 1.477,
+      "sha256": "960790bfdee4da0ec5bf556ee2b4be50accd6dcff7118eb235a299b1e9e53c7c"
+    },
+    "stop": {
+      "textHash": "6d358b89b64a26111121dbe1fe8e29f988cfd35437f250f40125968f0bb2d788",
+      "spoken": "நிறுத்து",
+      "bytes": 5433,
+      "seconds": 1.209,
+      "sha256": "67bef75fb6a616991c41bbd35a0cd6dadf4a15b0e257966a5eb3bf606be13d26"
+    },
+    "listening": {
+      "textHash": "b4b0117cbaa347be134026ea82b02daa7bd7c8f6644bcbb25024096a81ced9e1",
+      "spoken": "பக்கம் வாசிக்கப்படுகிறது",
+      "bytes": 7838,
+      "seconds": 1.807,
+      "sha256": "17d2d3be9a98c30604a5bc1b0d79477d2f41e52885a07a89abd266edcd1bfe6c"
+    },
+    "finishedAudio": {
+      "textHash": "cabff112a5e35a2b34d8c7aaadacc19fc7e325fd341aaf5752e69bd36467bc4a",
+      "spoken": "வாசித்து முடிந்தது",
+      "bytes": 7170,
+      "seconds": 1.64,
+      "sha256": "1c2e3afc767e9c4989b4418988d5084ef155fe0c4a56446001ade109a6afac8d"
+    },
+    "voice": {
+      "textHash": "b20f97912d982ae2fc9d60bab4c0d5a8afe467018ed9f014fcb59e71803727d4",
+      "spoken": "கேட்பது",
+      "bytes": 4762,
+      "seconds": 1.041,
+      "sha256": "be668a702bc588f89a8545fecec5436a14213a14c4dd32e7a717011480baaef8"
+    },
+    "speed": {
+      "textHash": "d111bd46a6644f70f974bab9ca3d50591d4b6c7f8841cecca49198e1101841ac",
+      "spoken": "வாசிக்கும் வேகம்",
+      "bytes": 7258,
+      "seconds": 1.66,
+      "sha256": "dbb3116404a5e6560890dc0c9b082b928064b7099ced0ecc574d64438d9b89b2"
+    },
+    "slower": {
+      "textHash": "ffc644176801b4878724f9efed7d5b9267d579052a87bfe77dae5a07b33bf562",
+      "spoken": "மெதுவாக",
+      "bytes": 4763,
+      "seconds": 1.042,
+      "sha256": "85dfc27e24ac55a331c0f94c125b556aaf6b041026ba854b5feabea6c0c99acb"
+    },
+    "normalSpeed": {
+      "textHash": "ecaf6ff103c110da05548212d4f1640178cea9fde5441944741fe8df92595045",
+      "spoken": "இயல்பாக",
+      "bytes": 4864,
+      "seconds": 1.063,
+      "sha256": "ab5b94f916f3a78ad765ab28827cdc1e76369492e4db7ced4d6684754f5f6aac"
+    },
+    "faster": {
+      "textHash": "84e6999523f4ffff0fadea954b31bcd333ef8ae239ebe428a90c0a33058caba0",
+      "spoken": "வேகமாக",
+      "bytes": 4859,
+      "seconds": 1.077,
+      "sha256": "21e3e77f77f6f09ef6cf842e0549deaf70c8433192cd561070ca132696d644a3"
+    },
+    "previewVoice": {
+      "textHash": "0c8ce5f4989f6dd53ac6e41424daab3b6128bd0427813dd3032723a1f3714792",
+      "spoken": "குரலைக் கேட்டுப் பார்க்கவும்",
+      "bytes": 8417,
+      "seconds": 1.956,
+      "sha256": "950d01f58add6811e98dbfdff7c40854840c32816726fe399f9a749a67005022"
+    },
+    "voicePreview": {
+      "textHash": "517de2944a542ac4c7d20237530202b8cdf07dad4d76768e0b8dd1768d35dc76",
+      "spoken": "உங்கள் மொழியில் வழிமுறைகளை ஒவ்வொரு படியாக வாசிப்பேன்.",
+      "bytes": 17921,
+      "seconds": 4.343,
+      "sha256": "168cd3916b3ada24084725d3a347a4a564b307158ea8f38637b67fc338e01ef6"
+    },
+    "voiceHelp": {
+      "textHash": "6c1d671edae65ce849365853a3e9a83a6f8cce11fee9cf4677a577fbf06d19ef",
+      "spoken": "ஆறு மொழிகளிலும் ஒலி உள்ளது. குரலை நிறுவ வேண்டியதில்லை. எழுதப்பட்ட வழிமுறைகள் மட்டும் ஒலிக்கும்; உங்கள் தகவலும் கடவுச்சொல்லும் தனிப்பட்டதாகவே இருக்கும்.",
+      "bytes": 49790,
+      "seconds": 12.308,
+      "sha256": "78325929c33243f02903f8c5f28f6a812d5340bf476413d3edc84dc2676fd769"
+    },
+    "speechError": {
+      "textHash": "420196fdcd734ef8ba7b5142ae68002de6484c4701a25349ec50842d38f65dd8",
+      "spoken": "ஒலியை ஏற்ற முடியவில்லை. இணைய இணைப்பைச் சரிபார்த்து மீண்டும் முயலவும். விட்ட இடத்திலிருந்து கேட்கலாம்.",
+      "bytes": 32800,
+      "seconds": 8.049,
+      "sha256": "902d502cd3d1eff95d9e14d7ee8f2355a1eafdaee0eb42e2894c9376af31d7ed"
+    },
+    "readingSettings": {
+      "textHash": "aafef8ba7c11db657c98c1fb7bfca2413522def6778f19899f194c501fbc6f28",
+      "spoken": "படித்தல் மற்றும் கேட்டல்",
+      "bytes": 8420,
+      "seconds": 1.947,
+      "sha256": "55a77ce1f4cd2476a2831a624ce07df4d7675dd936c1bc1c0cfd52c619a4c1a4"
+    },
+    "appearance": {
+      "textHash": "9c5fc239c565bc8e5fb2568bbcca7d0675f739ae01c912b31704712674571cb6",
+      "spoken": "படிக்கும் வசதி",
+      "bytes": 6207,
+      "seconds": 1.408,
+      "sha256": "1943effb21549b937b240bdd123fba94e61ad26fbb6e4bb4d9c3de289a4469f5"
+    },
+    "lineSpacing": {
+      "textHash": "576c181d82191e0d6d25bd8fcfa8be2f00cf45c206156fa558a3e53d3269dd83",
+      "spoken": "வரிகளுக்கிடையில் அதிக இடம்",
+      "bytes": 8896,
+      "seconds": 2.086,
+      "sha256": "38766068348bf1ea012420fc4466805f7550344f00451249b260f2f734b59b53"
+    },
+    "resetSettings": {
+      "textHash": "4bc4730eb2ed5140fe0196fc0a4be53f7f8e0d4552766a76507e40fcfbb92cca",
+      "spoken": "வாசிப்பு அமைப்புகளை மீட்டமைக்கவும்",
+      "bytes": 11970,
+      "seconds": 2.846,
+      "sha256": "6aa54e8e8455583cf8fe381913ce970481d666025a82bb45f126140f3b1489d4"
+    },
+    "languageHelp": {
+      "textHash": "ab151942d5f80e6707cb813fc1a410a66e5c780a61db0bfa3ceaa39234a93c69",
+      "spoken": "எப்போது வேண்டுமானாலும் மொழியை மாற்றலாம். உங்கள் பணி அப்படியே இருக்கும்.",
+      "bytes": 23777,
+      "seconds": 5.794,
+      "sha256": "6aed87b529b9e6ac927e614da161892f5d82ad25b92efeae14e9f206719cda4e"
+    },
+    "removeNote": {
+      "textHash": "c50fda17557127de8978e817d19ead5abeabf998ae7448b986bb1623ab7101b0",
+      "spoken": "இந்தக் குறிப்பை அகற்று",
+      "bytes": 7455,
+      "seconds": 1.722,
+      "sha256": "8bda30aa458ea31b5fcf5d4f6bb874656c9aadb16b39eaeccecf36f995c88c10"
+    },
+    "optoutHelp": {
+      "textHash": "9ad287c31298899d12b4f05039a464fb394035dfe0d4b1904dea5e73e1f8a737",
+      "spoken": "இது இந்தப் பட்டியலில் உள்ள தேர்வை மட்டும் பதிவு செய்கிறது. முறையான ஆப்ட் அவுட் நிறுவனத்தில் செய்யப்பட வேண்டும். பின்னர் தேர்வை மறுபரிசீலிக்கலாம்.",
+      "bytes": 43455,
+      "seconds": 10.723,
+      "sha256": "a64b63248acee9bc0a2283dc68b166b2500a5402f79637767ec1934a80f70e27"
+    },
+    "chooseType": {
+      "textHash": "05f823923c55bb700643259f6113bcb3d841eb67a7779d9459f165a2c05781d6",
+      "spoken": "தொடர கணக்கு வகையைத் தேர்ந்தெடுக்கவும்.",
+      "bytes": 12063,
+      "seconds": 2.864,
+      "sha256": "20436f1cfe940ec2b7afa8c27ef18f48b1ee4be4e968c8861b22ff200d133fda"
+    },
+    "currentRecord": {
+      "textHash": "420c81d8e0032fd5152f5ca817ea5f3c986d97d475dd7d64c936a09b4f4bde87",
+      "spoken": "இப்போது பதிவாகியுள்ளது",
+      "bytes": 9090,
+      "seconds": 2.122,
+      "sha256": "e26bc3a9290baf29b492b2284ae199da7c7b72e2df3e8537cc332a9a6469115a"
+    },
+    "history": {
+      "textHash": "8920f1dd5bb5835dc916a638faefd46569f1b813201fe648b7f9e4dd06232939",
+      "spoken": "உங்கள் புதுப்பிப்புகள்",
+      "bytes": 6204,
+      "seconds": 1.409,
+      "sha256": "f41ec1a5e547a343fc359f62ffe8f152d4d462d653b1ad6e768a3b5376354a6f"
+    },
+    "reviewDate": {
+      "textHash": "fb01f469419eb1716827f4f2793e2cae32ef3b9f58cf7605824462755d7dc867",
+      "spoken": "அடுத்த மறுபரிசீலனை",
+      "bytes": 7455,
+      "seconds": 1.724,
+      "sha256": "ed4676908255b7e8a2cb2f1e2c401a692770ba7c8341be0ee5d9c22ac62edf11"
+    },
+    "shareNames": {
+      "textHash": "c04332d209530dfacd652e0787034418018edc8a5bc97a088af2c855104da8ce",
+      "spoken": "குடும்ப மற்றும் நியமனக் குறிப்புகளைச் சேர்க்கவும்",
+      "bytes": 14847,
+      "seconds": 3.562,
+      "sha256": "100bc1013eddf3a065bf66418e58fd1ac0c476e6e907c5597a38c701e4e5ea32"
+    },
+    "shareLocation": {
+      "textHash": "15e11f087b4b83ff12ed4aa39b59d8d1db1b7b926d58541a5d176ff35c7a9d7c",
+      "spoken": "பதிவின் இருப்பிடத்தைச் சேர்க்கவும்",
+      "bytes": 9570,
+      "seconds": 2.241,
+      "sha256": "4be984cc2be2297096e801481a0e97539f03c640ca0417184120a93907e6e2df"
+    },
+    "shareHelp": {
+      "textHash": "ab9c6ba56bc2297e80706ab0d3d29bd763e3479b2e32aca520c43874f1dd7a4e",
+      "spoken": "சேர்ப்பவற்றைத் தேர்ந்தெடுத்து கீழே பார்க்கவும். பதிவிறக்கிய நகலுக்கு கடவுச்சொல் இல்லை.",
+      "bytes": 25598,
+      "seconds": 6.251,
+      "sha256": "9e7ac11c2d8df6a4c80631c87e10f24e0391761979786bf56353a9678a2b33d8"
+    },
+    "helpScope": {
+      "textHash": "dd8a3b3785c3fdd479cf81fc9b125506afe08baadbb257b3d37caea46d90e1d8",
+      "spoken": "கணக்குதாரர் இறந்துவிட்டாரா?",
+      "bytes": 10622,
+      "seconds": 2.512,
+      "sha256": "d8bf6f829c97fc07ab4a4fb6d687427292e16e4ca8ee5726b5eae2b3f23a1ba1"
+    },
+    "helpScopeText": {
+      "textHash": "a8b447b5774fc9985df544efd7be2211b3ab2ea852a0154b4857bbf454b45c4c",
+      "spoken": "இந்த வழி உயிருடன் உள்ள கணக்குதாரரின் நியமனத்திற்கானது. இறந்திருந்தால் இறப்புக் கோரிக்கை அல்லது பரிமாற்ற நடைமுறையை நிறுவனத்திடம் கேளுங்கள். அவர் சார்பாக புதிய நியமனம் தொடங்க வேண்டாம்.",
+      "bytes": 57762,
+      "seconds": 14.295,
+      "sha256": "8fc79c8f7856e32c9b157125412f55475d85854611bba8bcbf574e54dc74abe9"
+    },
+    "openDevice": {
+      "textHash": "6a155e66f56d5186389ee9cf2cacd41ff7b05231f55d69471a52de2cd70c4119",
+      "spoken": "இந்தச் சாதனத்தின் பூட்டிய நகலைத் திறக்கவும்",
+      "bytes": 14943,
+      "seconds": 3.585,
+      "sha256": "9abe9516ec5a5ff0364873fc5280729b8b2b7a62b77d1425cab0a8cf544e366a"
+    },
+    "keepDevice": {
+      "textHash": "18d032ec64bb3af00bbce68952ce680d6571da74333b13d05c309abbc46d173c",
+      "spoken": "இந்தச் சாதனத்திலும் பூட்டிய நகலை வைத்திருக்கவும்",
+      "bytes": 15135,
+      "seconds": 3.632,
+      "sha256": "c40145ba4b92872bc8725e957238c38c5f5fec094bddb23cd312093884cad832"
+    },
+    "deviceHelp": {
+      "textHash": "93d7edf7834edbed5b0745e4040ca3596ebe40949b45e184eadfaf9b9fbb56f9",
+      "spoken": "விருப்பம்: இந்த உலாவியில் கடவுச்சொல் பாதுகாப்புள்ள நகலை வைக்கலாம். மாற்றிய பின் மீண்டும் சேமிக்கவும். பகிரப்பட்ட சாதனத்தில் இதைத் தேர்ந்தெடுக்க வேண்டாம். கடவுச்சொல்லைச் சேமிப்பதில்லை.",
+      "bytes": 56799,
+      "seconds": 14.061,
+      "sha256": "0885070b4ef5fd095136448b18ece902438676aae107e4933345ca3b2cc77ebf"
+    },
+    "forgetDevice": {
+      "textHash": "fea864c6193ee8c564461f3307a465dcaffb6b6e49fecdcdfd2c301c38eab847",
+      "spoken": "இந்தச் சாதனத்தின் சேமித்த நகலை அகற்றவும்",
+      "bytes": 14273,
+      "seconds": 3.418,
+      "sha256": "21ede1abbb97416058aa6bf5a9e37aaf64908007212d788344789261d2cd3e8d"
+    },
+    "forgetDeviceAsk": {
+      "textHash": "553fecb4ee406496bdd194c7582e894520700d35e927a1985e5fee39f008d7bb",
+      "spoken": "சாதனத்தின் பூட்டிய நகலை அகற்றவா? பதிவிறக்கிய கோப்புகள் இருக்கும்.",
+      "bytes": 22244,
+      "seconds": 5.417,
+      "sha256": "e7ab3488cc8f98e4c0ce91410e10503a261ebb7d55fbe3fd8b2ccc697a7a47cf"
+    },
+    "deviceUnavailable": {
+      "textHash": "d1dfac316c7dfc78688fe7f6298e21e2d24499340f2d88495f43ed72fe10fe97",
+      "spoken": "கோப்பு பதிவிறங்கியது. உலாவியில் நகல் வைக்க முடியவில்லை. திரும்ப வர பதிவிறக்கிய கோப்பைப் பயன்படுத்தவும்.",
+      "bytes": 32614,
+      "seconds": 8.002,
+      "sha256": "3ccdc5b844cc60197c2e3437f4f673ac95e9b94ed1b915aa543e10183d48bedc"
+    },
+    "chooseFile": {
+      "textHash": "edb07eeb38ef482d029bdff06b9f36419fc473151d419998b2e22a363480c507",
+      "spoken": "சேமித்த .விராசத் கோப்பையோ சாதன நகலையோ தேர்ந்தெடுக்கவும்.",
+      "bytes": 22047,
+      "seconds": 5.373,
+      "sha256": "a8895dc4c568c6f2789a6800390da44c05bb0e8f2bdeba892f711c007d325e0b"
+    },
+    "replaceDraft": {
+      "textHash": "79e502cca85896b04e03667061fd952c0a94a806f220a21719ebcb367d3899f2",
+      "spoken": "மற்றொரு கணக்கைத் தொடங்கவா? முடிக்காத கணக்கு மாற்றப்படும்.",
+      "bytes": 18593,
+      "seconds": 4.493,
+      "sha256": "5d33fd02013817b9abb876b363393688f737ea7ab7bfe8a743b729a06cb64a8a"
+    },
+    "replaceList": {
+      "textHash": "24e33742eae8e5f67e5713ad888be157b65c6534a0aa133cf3f02542d03cea61",
+      "spoken": "வேறு பட்டியலைத் திறந்தால் இந்த அமர்வு மாறும். தேவைப்பட்டால் முதலில் சேமிக்கவும்.",
+      "bytes": 23392,
+      "seconds": 5.712,
+      "sha256": "7f0cddab71b3246a71a43cbcf46f00d9c9000e1f72641ba2c2103394f460b067"
+    },
+    "validFollowup": {
+      "textHash": "9c7906b732f173efc4c9efeddbaca822c7a4c7b0c0f550c6325ff4798563d4b8",
+      "spoken": "சரியான தேதியை இடவும் அல்லது மூன்று கட்டங்களையும் காலியாக விடவும்.",
+      "bytes": 22530,
+      "seconds": 5.489,
+      "sha256": "09f8e8973a596da2a7b9cfabc59b39f6db567578c4ca24546034eebb61a243d8"
+    },
+    "seeNext": {
+      "textHash": "a92b248e22661c794580d6fa6b8c47a48a98efca434742225dbd6603b0991acf",
+      "spoken": "எனது அடுத்த படியைப் பார்க்கவும்",
+      "bytes": 10044,
+      "seconds": 2.368,
+      "sha256": "32c71b4c23d3244011c3cf576b46056b1a8e5389c3b586e09072fefbb82cc5c8"
+    },
+    "unfinishedChanges": {
+      "textHash": "ae220b18527b877258e7a0f26f8e3d6f0f0cea97fbf061dd5a3c9b866cec478d",
+      "spoken": "முடிக்காத மாற்றங்களைத் தொடரவும்",
+      "bytes": 9958,
+      "seconds": 2.352,
+      "sha256": "290f2b8810bfffe2d52f9a52f8356d9d9236ff5662614f387311e0da35aa8432"
+    },
+    "linked": {
+      "textHash": "f69167bc48cdb15a0062fb635dd6346ed168ec1174c863f5a2cb1283b75d8ed0",
+      "spoken": "டீமேட் கணக்கைப் பின்பற்றுகிறது",
+      "bytes": 10523,
+      "seconds": 2.479,
+      "sha256": "7208092e3e9ef531f2a03bd4cd4d77253e255e7f8ea6ccb5179d574b5b01aa44"
+    },
+    "linkedTo": {
+      "textHash": "6857ad83b76b96af93dc15faf32be6622ff3c801036299b0f7989ac0a8331c4b",
+      "spoken": "இணைக்கப்பட்ட டீமேட் கணக்கு",
+      "bytes": 8701,
+      "seconds": 2.021,
+      "sha256": "4e53721ed5ac4a8a96a6adfee98885b66cf71f67ba529acbfda3b810cac3efd2"
+    },
+    "privateRecord": {
+      "textHash": "36d1b5faba56c14f4963aaf615528000f19a5cbcf7e4d3a8087d5f8154090a8e",
+      "spoken": "உங்கள் தனிப்பட்ட பதிவுக் குறிப்பு",
+      "bytes": 10146,
+      "seconds": 2.383,
+      "sha256": "f52e27c39378dbfbf8078e221a46285f61b29dfcaaa6778665fa39e6c9a773f1"
+    },
+    "privateRecordHelp": {
+      "textHash": "0a88c8a1f53d471657e2f025c845acb9e98e605bcd7b006a9495f965f4afcc4a",
+      "spoken": "இந்தக் குறிப்பு பூட்டிய கோப்பில் இருக்கும். குடும்பச் சுருக்கத்திலும் ஒலியிலும் சேராது.",
+      "bytes": 24166,
+      "seconds": 5.901,
+      "sha256": "09880b3130d8e8d7e86f1281f40a17e7178471866ef507585e400039aca75608"
+    },
+    "readRules": {
+      "textHash": "286a1656f74cd9686c347ddbb7e046b2126d3865b54eb9ea4e209fdc93d326af",
+      "spoken": "அதிகாரப்பூர்வ விதிகளைப் படிக்கவும்",
+      "bytes": 10334,
+      "seconds": 2.427,
+      "sha256": "7cffc71fe799ef4c40d23e35023df5c2af95197b5739b1507663a80c79762ef5"
+    },
+    "beforeContinue": {
+      "textHash": "f365666637aa8e2a4e049c6b2b3bd68314b8d25449d064ad6d1d717e7783e22a",
+      "spoken": "தொடர்வதற்கு முன்",
+      "bytes": 6307,
+      "seconds": 1.425,
+      "sha256": "12594a783616e02925544bc12045129d72c3dd94c4c960b7974b19019486819c"
+    },
+    "checkConnection": {
+      "textHash": "2fd79eb3dc8fcf7e6e87408baeec7239cfcb006ba1dd1f24167aeba781448092",
+      "spoken": "இவை ஒரே கணக்கைச் சேர்ந்ததா எனச் சரிபார்க்கவும்",
+      "bytes": 17156,
+      "seconds": 4.152,
+      "sha256": "34d0bc8c90e2a07096c8e2927858fcee08b9f3f46d859bf2503f1740af0be8db"
+    },
+    "connectionHelp": {
+      "textHash": "695c1c5988f4292bd659b0ecb8625342c35097b24c873f81185ad3583365aab1",
+      "spoken": "இந்த நிதி அலகுகள் இதே டீமேட் கணக்கில், அதே கணக்குதாரர்களுடன் உள்ளனவா என்று அறிக்கையில் பார்க்கவும். வேறு குடும்ப உறுப்பினர்களின் கணக்குகள் ஒரே நியமனத்தைப் பகிர்வதில்லை.",
+      "bytes": 53443,
+      "seconds": 13.213,
+      "sha256": "8430cb9f83f4f2f04954bbc076a93d6aa8fd288656529f6b3a50a64295e39812"
+    },
+    "sameHolders": {
+      "textHash": "935f5a509f504edb5752d141719003bb58fa579b3af1e3cf34efdc6628d2f90d",
+      "spoken": "அறிக்கையைச் சரிபார்த்தேன்: அலகுகளும் கணக்குதாரர்களும் இந்த டீமேட் கணக்குடன் பொருந்துகின்றனர்.",
+      "bytes": 25984,
+      "seconds": 6.34,
+      "sha256": "a285932dffb3fd888b36eb4e9cee099861c1d210a02b9712953f429120f0ade4"
+    },
+    "linkAccount": {
+      "textHash": "01857a5fd47e003defe4a59cd57e348fb35c27e9691d206894691f3dfceb78a0",
+      "spoken": "இந்த டீமேட் கணக்கை இணைக்கவும்",
+      "bytes": 10624,
+      "seconds": 2.499,
+      "sha256": "34356b876fc53dd6c46c9c04cda63623f5fd490566ede9fad3d27e2c864f54d4"
+    },
+    "replaceChanges": {
+      "textHash": "8e051c39102916188d2cf1db4b790a90cf606c6cd2c7af6e7dd6c3a66403d3ba",
+      "spoken": "மாற்றங்கள் முடிக்கப்படவில்லை. தொடர்ந்தால் அந்த வரைவு மாற்றப்படும். ரத்து செய்து முகப்பிற்குச் சென்று முதலில் முடிக்கவும் அல்லது சேமிக்கவும்.",
+      "bytes": 39139,
+      "seconds": 9.629,
+      "sha256": "48956fd4bb85e95ec161c7976ddd4a79e1fdcf18433010c97c98f7bf963ef802"
+    },
+    "startOwnList": {
+      "textHash": "2acc6fae5d7eebccdd762f12dc92511bd32000f53c7fa389c9238aa3d901fd6a",
+      "spoken": "எனது சொந்தப் பட்டியலைத் தொடங்கவும்",
+      "bytes": 11201,
+      "seconds": 2.656,
+      "sha256": "9dc0393755c9dd33c67fc70e181ee73a8e2ccf607659805d0cb611b484f222cd"
+    },
+    "startOwnHelp": {
+      "textHash": "835fe29699173304fa89d1be3ce9463413d1c7dd235e3db4a3fe5184a8845dfc",
+      "spoken": "உங்கள் குடும்பத்திற்கான புதிய பட்டியலைத் தொடங்கவா? இந்த அமர்வின் கற்பனை எடுத்துக்காட்டு அகற்றப்படும்.",
+      "bytes": 29825,
+      "seconds": 7.312,
+      "sha256": "ed3b44efb7813dcba62c37e713e3041ddb2a536fda229a790e8a0fc9986732c2"
+    },
+    "familyPending": {
+      "textHash": "bdbb95b8517437b42c140fc3099d54bd347b71bfb8b5e55f903293fea2a25b0c",
+      "spoken": "குடும்ப விவரங்கள் இன்னும் சரிபார்க்கப்படவில்லை",
+      "bytes": 15138,
+      "seconds": 3.626,
+      "sha256": "40cf87618043bd30a32bee2a025dd1de07681aaf2890de0fdffaa3d8b2766e49"
+    },
+    "familyReviewed": {
+      "textHash": "505e7c3b2f9c17f9987aac4ef93bb9f558dbcf4d10998d2634122adf47116875",
+      "spoken": "குடும்ப விவரங்கள் சரிபார்க்கப்பட்டன",
+      "bytes": 10531,
+      "seconds": 2.49,
+      "sha256": "c30cbadd118e718b57d9c2d944f211800bc2d44306e6a4c27cef057ff122bf81"
+    },
+    "familyReviewCheck": {
+      "textHash": "374403b4558d2d1139e8c49976d9d9fb7169b07326b6d11d90fd1e3623130593",
+      "spoken": "குடும்பத்தினர் எதைப் பார்க்க வேண்டும் எனச் சரிபார்த்தேன். காலியாக உள்ள விவரங்களை விருப்பத்துடன் தவிர்த்துள்ளேன்.",
+      "bytes": 33094,
+      "seconds": 8.126,
+      "sha256": "fd6cc7904670236b76eba145b8152ff71c0e63536f2d18ca58e0a3911ce570e8"
+    },
+    "familyReviewHelp": {
+      "textHash": "be8cecff57022ac69e53285f89740a481424403c776682624c588d9d1e2d6051",
+      "spoken": "இது தனிச் சரிபார்ப்பு. நியமனம் பதிவு செய்யப்பட்டிருந்தாலும் கணக்கு அல்லது பதிவுகள் எங்கே உள்ளன என்பது குடும்பத்திற்குத் தெரியாது.",
+      "bytes": 37701,
+      "seconds": 9.275,
+      "sha256": "5921e8e47183d4f7f8a9501a2b67d087cd386383f9cb877f578675e976067e63"
+    },
+    "notIncluded": {
+      "textHash": "19d58ef50d26354cf955cfc879c777cdec3dc676c253c7cb5cb016ce2fa4769d",
+      "spoken": "விருப்பத்துடன் சேர்க்கப்படவில்லை",
+      "bytes": 8896,
+      "seconds": 2.085,
+      "sha256": "ac635b67434d663f1e78a5245b5e3cf7e30038705bfe18420a4ee6f9097ef407"
+    },
+    "familyReadyNext": {
+      "textHash": "e567c1cf538267463a4e29778e45f7820daeea74cd6068fbcadc3073ad839b3d",
+      "spoken": "நம்பகமான குடும்ப உறுப்பினர் கண்டுபிடிக்கக்கூடிய இடத்தில் இதை வைக்கவும். விவரங்கள் மாறும்போது மீண்டும் சரிபார்க்கவும்.",
+      "bytes": 36164,
+      "seconds": 8.898,
+      "sha256": "8edd83aa5833a1c979520f9f6d1eef2f56b316dfe63ebef4233f6ce7218f28f5"
+    },
+    "familyRemaining": {
+      "textHash": "c25191a2fe8a2198fc1f3ef40b95bea01a7b0637c31001619578a5f45553b418",
+      "spoken": "குடும்பத்திற்காகச் சரிபார்க்க வேண்டிய பதிவுகள்",
+      "bytes": 13988,
+      "seconds": 3.346,
+      "sha256": "cdbeff420531dd1ed3cc46ef849ae54700d7ddac265cf0f43d0abc14998bd319"
+    },
+    "onlineRoute": {
+      "textHash": "dcd7f118de297628fc05c6168ac5e5b9e635aa93b9c5c6deba3705b1976a0cc6",
+      "spoken": "இணையச் சேவையைப் பயன்படுத்தவும்",
+      "bytes": 10528,
+      "seconds": 2.492,
+      "sha256": "dde2656fe77308f442fa63412fafb4cb84886dbb6767749f82eaddaeb721c367"
+    },
+    "offlineRoute": {
+      "textHash": "e0ae3932baadaa5d7c12c7e8da6d9783e89f8ffbe655375792dc9f1f77dc7f57",
+      "spoken": "நேரில் உதவி பெறவும்",
+      "bytes": 8801,
+      "seconds": 2.06,
+      "sha256": "a3d9e6609269d403ec5b49f3b190886186d80f54f2b71dfe2f6507fde9e22888"
+    },
+    "routeChoice": {
+      "textHash": "aaed0fce4c75b6f3aaeb337a015ed790115ed35a29a0dbc86c3124c664a3c2b1",
+      "spoken": "இதை எப்படிச் செய்ய விரும்புகிறீர்கள்?",
+      "bytes": 10624,
+      "seconds": 2.515,
+      "sha256": "93d1eab741cf08e1a8e9b2195b3b447c101599c2ffe827016eece96d365bf34b"
+    },
+    "saveBeforeLeaving": {
+      "textHash": "86f169dc336a29a34ef7de7f6c6012aea7832cb05cace8c5abdc68ec9a7e2327",
+      "spoken": "அதிகாரப்பூர்வ சேவையைத் திறக்கும் முன் சேமிக்கவும். நடந்ததைப் பதிவு செய்ய இங்கே திரும்பவும்.",
+      "bytes": 26854,
+      "seconds": 6.567,
+      "sha256": "5185ff8cb2dc6bae523854f023c2b1313014cdaa8480ec6d9fc70f657265b3d4"
+    },
+    "offlineContact": {
+      "textHash": "eb975d85925dbb23c31b9eb10ae32ae70614840b3647fa7a2fa3bee1100ffcf6",
+      "spoken": "அதிகாரப்பூர்வ உதவிப் பக்கத்தில் கிளை அல்லது சேவை மையத்தைக் கண்டறியவும். செல்லும் முன் இந்தக் கணக்கின் நியமனப் பணியைச் செய்வார்களா எனக் கேட்கவும்.",
+      "bytes": 44707,
+      "seconds": 11.023,
+      "sha256": "34bba5009db709d72e38b83917b46c03833c28fcbdd293e8e1af09998e07d86e"
+    },
+    "offlineBring": {
+      "textHash": "1769dc3a1dccb4738f83596b3f90f981e6519cdf16be6f57c48f4b3ed073f0fa",
+      "spoken": "தேவையான படிவம், கணக்குதாரர்களின் கையொப்பங்கள் மற்றும் ஆவணங்களைக் கேட்கவும். கணக்கை அடையாளம் காண அறிக்கை அல்லது பாஸ்புக் எடுத்துச் செல்லவும். நிறுவனம் கேட்டால் மட்டுமே அசல் ஆவணங்களைக் கொடுக்கவும்.",
+      "bytes": 61025,
+      "seconds": 15.098,
+      "sha256": "0ce528908a937bdd8bf1ed6af3f6f98190e660c0cd27962f3bd64812b894834d"
+    },
+    "offlineAsk": {
+      "textHash": "504134a3885709eedfb7013c11b235a7984a02f3124052238dc001e7c232ad99",
+      "spoken": "முதலில் தற்போதைய நியமனத்தைச் சரிபார்க்கச் சொல்லவும். மாற்றம் தேவைப்பட்டால் தேதியிட்ட ரசீது மற்றும் இறுதிப் பதிவைப் பெறும் வழியைக் கேட்கவும்.",
+      "bytes": 43839,
+      "seconds": 10.81,
+      "sha256": "9a691da0a01360ec2f8c47744ca992434823835363039435557587aa6c2c03a8"
+    },
+    "scopeGeneral": {
+      "textHash": "d71e1687e5f31a4f6a7c455caca4b59d41e17cd0491291618f3945ea5030115a",
+      "spoken": "இந்தக் கணக்கு வகைக்கான பொதுவான வழிகாட்டல். இந்த நிறுவனத்தின் குறிப்பிட்ட திரைகளை நாங்கள் சரிபார்க்கவில்லை.",
+      "bytes": 32033,
+      "seconds": 7.865,
+      "sha256": "75267837d8cdafd58c2637fde22c2564fc7f22dd697839dd0e805aca0fc838bd"
+    },
+    "scopeHdfc": {
+      "textHash": "b21fa1e34196889b091cc6ff01c7954f12b27cfcf00a26f684af2446be472bb0",
+      "spoken": "எச் டீ எப் சீ பேங்க்: சேமிப்பு மற்றும் எப் டீ/ஆர் டீ வழிகாட்டல்; கூட்டுக் கணக்குகளுக்கு கிளை வழி.",
+      "bytes": 33182,
+      "seconds": 8.144,
+      "sha256": "a0f1ba28d61dccfd92641f5ec9deabe066d5ef7fa57d02f924b51673a37665a1"
+    },
+    "scopeSbi": {
+      "textHash": "335c399c4a1fe709f28b9578d454a62a0afde41a2f38dd5ca0af73889e0bc35d",
+      "spoken": "எஸ் பீ ஐ வைப்புக் கணக்குகள். கிடைக்கும் சேவை வழிகள் விளக்கப்பட்டுள்ளன; உள்நுழைவுத் திரைகள் சோதிக்கப்படவில்லை.",
+      "bytes": 34237,
+      "seconds": 8.401,
+      "sha256": "8de56f80e32de1e8b262555acb7a33d6c9cb6ee4119293506264793dfcc43b44"
+    },
+    "scopeAxis": {
+      "textHash": "48b4a5174c82e18dc3044c6bd46e6940d95241554d1a581d874a0d32b000b2d3",
+      "spoken": "ஆக்சிஸ் பேங்க் சேமிப்புக் கணக்குகளுக்கு மட்டும். எப் டீ/ஆர் டீ நடைமுறை வேறுபடலாம்.",
+      "bytes": 26174,
+      "seconds": 6.399,
+      "sha256": "8b424fb92c0372baa7d4f0ff596646f5f88305cd99c63a630b2e0dcb46669e08"
+    },
+    "scopeZerodhaAdd": {
+      "textHash": "93d365f1a97cf813e1df4e257771f9d12b4b12b7d003ddaac4857b715c3010c1",
+      "spoken": "ஜெரோதா: முதல் நியமன நபரைச் சேர்த்தல். கூட்டுக் கணக்கு அல்லது ஆதார் இணைந்த மொபைல் வசதி இல்லையெனில் நிறுவன உதவி பெறவும்.",
+      "bytes": 42788,
+      "seconds": 10.537,
+      "sha256": "973f007ac3488f7d3b7512b5b42f6172dd5642e399d51ab4461540bfc122bb13"
+    },
+    "scopeZerodhaChange": {
+      "textHash": "8abd92666e1a70111c5ddd86f3d157ed65e12f8c7df9eab02bc40b49a8263273",
+      "spoken": "ஜெரோதா: தற்போதைய நியமன விவரங்களை மாற்றுதல் அல்லது மேலும் ஒருவரைச் சேர்த்தல்.",
+      "bytes": 27911,
+      "seconds": 6.829,
+      "sha256": "a52b657d40ed8c6fa251045e0b13c5d9b07541cfa144563f8689e4de89fa8344"
+    },
+    "scopeGroww": {
+      "textHash": "c759052312d75d008f4a316c63ab9de4a22e1bd0035874093f9f9a30b6b92315",
+      "spoken": "க்ரோ டீமேட் கணக்கு. ஏற்கனவே உள்ள பரஸ்பர நிதி போலியோக்களுக்கு வேறு சேவை தேவைப்படலாம்.",
+      "bytes": 28287,
+      "seconds": 6.913,
+      "sha256": "2839acdf40a3504d8b7e817a0a408e104ae302170f2ab5ca7c716c4f73594426"
+    },
+    "scopeHdfcMf": {
+      "textHash": "ba68ad1062b51775e3b6f2c9e01691a521e179af7d045aa48a87b07808be4b68",
+      "spoken": "எச் டீ எப் சீ மியூச்சுவல் பண்ட் போலியோக்கள். டீமேட்டில் உள்ள அலகுகளுக்கு டீமேட் கணக்கின் நியமனம் பொருந்தும்.",
+      "bytes": 33184,
+      "seconds": 8.139,
+      "sha256": "7d9f6f80fb1a6c4bb1f738b11af873c800b17e56f9d1ff3e552f580b97cf87d3"
+    },
+    "scopeDematFunds": {
+      "textHash": "556cbba95f689fd5ef214bcc54c66ca50cccfa6e8c350cf4e9dd2276ebe5f63a",
+      "spoken": "முதலில் இந்த அலகுகள் உள்ள டீமேட் கணக்கைக் கண்டறிந்து சரிபார்க்கவும்.",
+      "bytes": 20612,
+      "seconds": 4.998,
+      "sha256": "b29a086ab57b34a46d18aba9820e48d4cc33507193e5ef39ca3a93a719e2db74"
+    },
+    "scopeUnknownFunds": {
+      "textHash": "32c9d6fd681c3242f830dbb4cc990162f5caf1d9a9780bafb1379259fd0dbe66",
+      "spoken": "நியமன வழியைத் தேர்ந்தெடுக்கும் முன் முதலீடு எந்த வடிவில் உள்ளது என்பதைக் கண்டறியவும்.",
+      "bytes": 24454,
+      "seconds": 5.958,
+      "sha256": "c10ab28ae2ca41428aa34e06be304e6dd94ae74ef4de4cc8c35c68799942df29"
+    },
+    "sbiAction": {
+      "textHash": "38649d78ec88f8758308cd5f80d4f6e56cfce917c85d2eef190fda60e9101ab1",
+      "spoken": "எஸ் பீ ஐ வைப்புக் கணக்கு நியமனத்தை யோனோ, இணைய வங்கி அல்லது கிளையில் செய்யலாம். குறிப்பிட்ட கணக்கைத் தேர்ந்தெடுக்கவும். தேவையான விருப்பம் இல்லையெனில் தற்போதைய படிவத்துடன் கிளை உதவியைப் பெறவும்.",
+      "bytes": 61694,
+      "seconds": 15.284,
+      "sha256": "115b86922796f685ac1dab5db9e322f4b9d911a2c987114cb4bde16ed624605a"
+    },
+    "axisStart": {
+      "textHash": "eca6d50aa833416c9c0bc82b7f596a4e77bf664c7f21a2e41cec8fa898205be9",
+      "spoken": "ஆக்சிஸ் இணைய வங்கியில் சர்வீசஸ் → அக்கவுண்ட் சர்வீசஸ் → அப்டேட் நாமினீ திறக்கவும். சேமிப்புக் கணக்கைத் தேர்ந்து ஆட் நியூ நாமினீ அல்லது சேஞ்ச் நாமினீ தேர்ந்தெடுக்கவும்.",
+      "bytes": 52478,
+      "seconds": 12.977,
+      "sha256": "ff073e45b2af12f48886d2e87a84dff311ad089f8bf559bbc48bd375d3e75fda"
+    },
+    "axisSubmit": {
+      "textHash": "ca8a7864f0e9f0468636a156a952f0163acd24b9ac32e234c7c18fed6fafa40f",
+      "spoken": "ஆக்சிஸ் உதவிப் பக்கத்தின்படி படிவத்தை உருவாக்கி நிரப்பி கையொப்பமிட்டு பதிவேற்றி நெட் செக்யூர் குறியீட்டுடன் உறுதிசெய்யவும். அச்சிடவோ பதிவேற்றவோ முடியாவிட்டால் கிளையை அணுகவும்.",
+      "bytes": 57471,
+      "seconds": 14.221,
+      "sha256": "71681ed31cc79c2f1dcd1e57172b60e529043a435dcddcef398977687bfaf237"
+    },
+    "zerodhaChangeForms": {
+      "textHash": "64471bba126a14dcdbe2a246876d2e80f5d58f2fc91dc7376cddd27608080030",
+      "spoken": "ஜெரோதா மாற்ற வழிமுறைகளைத் திறக்கவும். தற்போதைய நியமன மற்றும் கணக்கு மாற்றப் படிவங்களைப் பெற்று பழைய, புதிய விவரங்களை நிரப்பவும்.",
+      "bytes": 43463,
+      "seconds": 10.725,
+      "sha256": "bb58d11858ec949e25cdf0b0b092a62dc4b65fc929613680499a49862d9e3cd2"
+    },
+    "zerodhaChangeSubmit": {
+      "textHash": "8589b3952a1d6326a1d23fa6ffaa8db0d4d46495dcca9b4443b4047903c8b371",
+      "spoken": "ஜெரோதா வழிமுறையின்படி இரு படிவங்களிலும் கையொப்பமிட்டு ஈ சைன் செய்து உதவிக் கோரிக்கையுடன் இணைக்கவும். ஈ சைன் முடியாவிட்டால் மாற்று வழியை உதவிக் குழுவிடம் கேட்கவும்.",
+      "bytes": 53544,
+      "seconds": 13.23,
+      "sha256": "60fbd866ea6908862a3ebad803cd50af95d4c573f8e410d6cbef7f829f97d952"
+    },
+    "growwCheck": {
+      "textHash": "f3d68491ab8a874197d9d9855b876471bbb846d85f5c435ce46cce8ee1d8d84d",
+      "spoken": "க்ரோ-வில் ப்ரொபைல் → அக்கவுண்ட் டீடெயில்ஸ் → நாமினீ டீடெயில்ஸ் திறக்கவும். காட்டப்படும் நியமனம் எந்த முதலீடு அல்லது கணக்குக்குப் பொருந்துகிறது எனச் சரிபார்க்கவும்.",
+      "bytes": 49791,
+      "seconds": 12.288,
+      "sha256": "b12ed232d5617daa4d0c647011e9f93ed18d8f79985e3639e9f2159343e7525c"
+    },
+    "growwAction": {
+      "textHash": "8681f689ec3507eb02764de4afa551b8d0af4240af5c997b42f1fb3ddea9d48d",
+      "spoken": "தகுதியான டீமேட் முதலீடுகளுக்கு எடிட் நாமினீ பயன்படுத்தி க்ரோ சரிபார்ப்பை முடிக்கவும். சுயவிவரம் மாறியதால் அனைத்து பழைய நிதி போலியோக்களும் மாறிவிட்டதாகக் கருதாதீர்கள்; தனியே சரிபார்க்கவும்.",
+      "bytes": 61888,
+      "seconds": 15.32,
+      "sha256": "61cb21b4b35fd7d849d2ecde9fcb9e83becabb4b2565d5fb121e0c4ca3b90f8f"
+    },
+    "readingNow": {
+      "textHash": "ff6266c4ceeeb12d736e146fa3e91d9bc866480547c77a526b0f7048a7016399",
+      "spoken": "இப்போது வாசிக்கிறது",
+      "bytes": 7455,
+      "seconds": 1.716,
+      "sha256": "4c7155f579a4091ae066df440e81b65aa49598b05f13bfb6cfbcfd95a0501efb"
+    },
+    "repeatSentence": {
+      "textHash": "b21ec6c3870d4eba86fc855260bf2cae1742c2d3e740c5470f190c21ddb40d65",
+      "spoken": "இதை மீண்டும் கேளுங்கள்",
+      "bytes": 8131,
+      "seconds": 1.881,
+      "sha256": "3f1505f39e34f1c272207c3b9e0bd9d7ff07ea12cf1928beb70638f2e15bb910"
+    },
+    "nextSentence": {
+      "textHash": "2cef2fb46b2e1aeba270cbd21d9c73151d2b788f47575291a2d1815be38269b8",
+      "spoken": "அடுத்த பகுதி",
+      "bytes": 5633,
+      "seconds": 1.271,
+      "sha256": "3b67b3b1986e5f4d5d167e74ef0c5f2b6073649ddba10dd564935ac9b0c0cac4"
+    },
+    "previousSentence": {
+      "textHash": "aa0d4a184a4820fd1cdfc87f2e1d9d4ba5979318410e6e63b7d29f130b980420",
+      "spoken": "முந்தைய பகுதி",
+      "bytes": 7077,
+      "seconds": 1.618,
+      "sha256": "9be674d167d8291ba92f5fa4ed070fc894126a0a3928acfb4bf95dcaf830f21a"
+    },
+    "readingPreferences": {
+      "textHash": "7a78aa79721ce6baed19ed030ac032b9424affe5f6b312726ac9b3a0ee65fdee",
+      "spoken": "வாசிப்பு அமைப்புகள் இந்தச் சாதனத்தில் நினைவில் இருக்கும். சேமிக்கவும் என்பதைத் தேர்ந்தெடுத்தால் மட்டுமே கணக்கு விவரங்கள் சேமிக்கப்படும். மீட்டமைத்தால் வாசிப்பு விருப்பங்கள் நீங்கும்.",
+      "bytes": 53351,
+      "seconds": 13.187,
+      "sha256": "7612317fa86e7bb47492ea0861885343514144121bfac6c4c02e03f7efd609fb"
+    },
+    "stepType": {
+      "textHash": "6611ed1ee04d59b7efebc250b9d4a5b1017040c6222c307b679bec79ad1f8336",
+      "spoken": "கணக்கு வகை",
+      "bytes": 5149,
+      "seconds": 1.135,
+      "sha256": "e3610bc2281e0b09d5359e740954c65e1c719fdb09ea8dd1ad6bc4c9a1d8b342"
+    },
+    "stepInstitution": {
+      "textHash": "a8a3aa82a0f53c2704b1390525169d9a0f47d26d8c7b0b118f7c8e0a6dc6de97",
+      "spoken": "நிறுவனம்",
+      "bytes": 5060,
+      "seconds": 1.119,
+      "sha256": "ac56d28ae19563ae2a4ef4b2bdda7d0406c752059cb50c183019875358520c60"
+    },
+    "stepContext": {
+      "textHash": "db7c2cd8214483f51ed0433df2a295ee6f51e699f8f4ae802ab9732b4604a5ba",
+      "spoken": "கணக்கு விவரங்கள்",
+      "bytes": 6784,
+      "seconds": 1.558,
+      "sha256": "5d4c1bcf482691602413ac5833b3728c58b6e52fb5d3bf8da6e8c4df5ce99ab8"
+    },
+    "stepNomination": {
+      "textHash": "3fe1442334801b5b22f743722a4ef242f872e9ce8a2aaa9e136fa69578bc5430",
+      "spoken": "நியமனம்",
+      "bytes": 4963,
+      "seconds": 1.081,
+      "sha256": "13da0052e59dceb5c862c4d577c69b7e28c7b8435742996f7ce6a8ae57c35783"
+    },
+    "savedNext": {
+      "textHash": "f7219a10539835b170d90c5854f1859f9f4eedd1c42565a7ca372d7405dc4aef",
+      "spoken": "பூட்டிய நகல் தயார். கோப்பையும் கடவுச்சொல்லையும் மீண்டும் கண்டுபிடிக்கக்கூடிய இடத்தில் வைக்கவும். தயாரானதும் பணிக்குத் திரும்பவும்.",
+      "bytes": 36446,
+      "seconds": 8.974,
+      "sha256": "6dfde4145f7a981ee03d10d3371be63efb78ef83e7648951dedbfbfb34590b68"
+    },
+    "returnTask": {
+      "textHash": "1d589c55d3d790973700b3221b69ef0d3399aa1f1814ec5dd9423ad2d6007931",
+      "spoken": "எனது பணிக்குத் திரும்பவும்",
+      "bytes": 8991,
+      "seconds": 2.111,
+      "sha256": "4c1ec362b3d44e89a0da26df74cf5c9dbf14a9eb4d7a74d1a450736f6cf20bb4"
+    },
+    "olderDeviceCopy": {
+      "textHash": "6b7e7a08d42a264ea80a9c19e6e7e1ef32ae1506b8b9dc70467b8cad1fa5e23d",
+      "spoken": "சாதன நகல் புதுப்பிக்கப்படவில்லை. சமீபத்திய மாற்றங்களுக்கு பதிவிறக்கிய கோப்பைத் திறக்கவும் அல்லது சாதன விருப்பத்தைத் தேர்ந்தெடுத்து மீண்டும் சேமிக்கவும்.",
+      "bytes": 47492,
+      "seconds": 11.713,
+      "sha256": "6a0c57dcf95cff793552f57a0baeabfb6be03cf6c46475a41af651b7a1193bbd"
+    },
+    "haveReady": {
+      "textHash": "a4f533548a82497bb45ccdda878c5949318637e9522f168ce7cd9c68a503be29",
+      "spoken": "இவற்றைத் தயாராக வைத்திருங்கள்",
+      "bytes": 9854,
+      "seconds": 2.324,
+      "sha256": "920b58369ea2881ae955c5b1ccda0ba900a4a48c2e12753952fe16af47d68151"
+    },
+    "audioLoading": {
+      "textHash": "9cb885a2453e4b1ebfc763021da24b51ad5d0158c8cd61b1f9f1ecf8f8babbe9",
+      "spoken": "ஒலி ஏற்றப்படுகிறது…",
+      "bytes": 7937,
+      "seconds": 1.825,
+      "sha256": "3f35f4423cd0a878cb516677fb4e4422b49589bafc4bd802f16335e8b3db8e44"
+    },
+    "audioRetry": {
+      "textHash": "b27df82a337f53959d5fdb88b0e9456d33e4af733b09f8b5616d0e278fb9224e",
+      "spoken": "மீண்டும் முயலவும்",
+      "bytes": 7455,
+      "seconds": 1.722,
+      "sha256": "623fcce28fd98443e3a788b1cefd31616b8fae0e3112052172b503a61ac58aca"
+    },
+    "audioBlocked": {
+      "textHash": "29cb846a1e053da5383e9746ebc10a9d8c438ced63071b887cb0ee79f3d8bb20",
+      "spoken": "அடுத்த பகுதியைக் கேட்க தொடர்ந்து கேளுங்கள் என்பதை அழுத்தவும்.",
+      "bytes": 17825,
+      "seconds": 4.298,
+      "sha256": "b8c56e3af6b14090f45ce5443759e32fea97336adf3b54b66e1b57fc567022d3"
+    },
+    "audioData": {
+      "textHash": "67619aea7833fbaf234e64064c4a5d966abad3003317e27aca2bcf7c64575922",
+      "spoken": "கேட்கும்போது மட்டுமே ஒலி பதிவிறங்கும். ஆதரிக்கும் உலாவிகளில் அண்மையில் கேட்ட வழிமுறைகள் இணையமின்றி இயங்கலாம். முதன்முறை கேட்க இணையம் தேவை.",
+      "bytes": 44318,
+      "seconds": 10.93,
+      "sha256": "fef140964a4fa40f6d94b8fc5b46804b29fd078d500f0a2bf5c1f75fbe316255"
+    },
+    "audioDraft": {
+      "textHash": "be657a968f2fcf659eaa32ac853c6861c3fa142cef6f7c63be7a16fdf3285780",
+      "spoken": "இவை கணினியால் உருவாக்கப்பட்ட குரல்கள். உச்சரிப்பு இன்னும் பரிசீலனையில் உள்ளது. வேறுபாடு கேட்டால் எழுதப்பட்ட வழிமுறையைப் பின்பற்றவும்.",
+      "bytes": 46815,
+      "seconds": 11.562,
+      "sha256": "ae843efb5211ff3487d04dde3b57538aac368d842b737a60ee65d9ce8e041206"
+    },
+    "audioStart": {
+      "textHash": "b041ec678720088b88b95b2539f27fa306ae88f6b7777867bc33c3dea6b1c5e0",
+      "spoken": "கேளுங்கள்",
+      "bytes": 4575,
+      "seconds": 1.005,
+      "sha256": "6cef40599734106164d064499b603ec88b5cb4a5544d72c8b022331d71dd7ae3"
+    },
+    "audioCache": {
+      "textHash": "79d2d820d20794c6d8b98b63e2e3237ab5bd485d9b8666c6e85f291e5db013ee",
+      "spoken": "அண்மையில் கேட்ட ஒலி",
+      "bytes": 7359,
+      "seconds": 1.703,
+      "sha256": "6b3c2bb984c033b1e6f2688101425688f486c1abd5cb21e974dbd32fedccf185"
+    },
+    "clearAudio": {
+      "textHash": "01843c202d179b5d9f74d4afb8702dc20b2c4a9dde6a5cbcc39b3a8454398945",
+      "spoken": "சேமித்த ஒலியை நீக்கவும்",
+      "bytes": 10431,
+      "seconds": 2.449,
+      "sha256": "ae43f6f9be74da764ecf2c3c3a0d770a4207276d97010a9e1a7b2bb6dbbc2f7f"
+    },
+    "audioCleared": {
+      "textHash": "b1fd77395dabf981e7ce9ab74a77e47487f4ece775a2071ef7a62dee9eca4b40",
+      "spoken": "சேமித்த ஒலி நீக்கப்பட்டது. கணக்குப் பட்டியல் மாறவில்லை.",
+      "bytes": 17633,
+      "seconds": 4.257,
+      "sha256": "6d9e8037fed59741345c52a2b26ae8e0df2ef8b01b715e79bf3572ac30bf9d77"
+    },
+    "audioPrivacy": {
+      "textHash": "138a04c38988b0de48bbf7b189b1b91be105969eafb18cb3cf9062b0dc671148",
+      "spoken": "மீண்டும் கேட்பதற்குப் பொதுவான வழிமுறைகள் மட்டுமே சேமிக்கப்படும். ஒலி இந்த இணையதளத்திலிருந்தே வருகிறது; நீங்கள் உள்ளிட்ட தகவல் குரல் சேவைக்கு அனுப்பப்படாது. சேவைப் பதிவுகளில் உங்கள் இணைய முகவரியும் கோரிய ஒலிக் கோப்புகளும் இருக்கலாம்.",
+      "bytes": 72929,
+      "seconds": 18.086,
+      "sha256": "3e7328e2f4630efa7aea3c3f64f3a9073277c43186a45deef15469f2ce9a6c4d"
+    }
+  }
+}

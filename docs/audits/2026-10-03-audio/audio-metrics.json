@@ -1,0 +1,44 @@
+{
+  "en": {
+    "clips": 357,
+    "totalBytes": 6024544,
+    "medianClipBytes": 10238,
+    "largestClipBytes": 60254,
+    "homeIntroBytes": 28382
+  },
+  "hi": {
+    "clips": 357,
+    "totalBytes": 5797696,
+    "medianClipBytes": 9566,
+    "largestClipBytes": 66593,
+    "homeIntroBytes": 26462
+  },
+  "bn": {
+    "clips": 357,
+    "totalBytes": 6391168,
+    "medianClipBytes": 11103,
+    "largestClipBytes": 64865,
+    "homeIntroBytes": 32222
+  },
+  "mr": {
+    "clips": 357,
+    "totalBytes": 5889280,
+    "medianClipBytes": 9568,
+    "largestClipBytes": 67841,
+    "homeIntroBytes": 21470
+  },
+  "ta": {
+    "clips": 357,
+    "totalBytes": 6589120,
+    "medianClipBytes": 10820,
+    "largestClipBytes": 72929,
+    "homeIntroBytes": 27998
+  },
+  "ur": {
+    "clips": 357,
+    "totalBytes": 6873184,
+    "medianClipBytes": 11780,
+    "largestClipBytes": 72542,
+    "homeIntroBytes": 27326
+  }
+}

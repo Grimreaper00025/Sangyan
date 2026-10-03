@@ -1,3 +1,5 @@
+> Latest delivery: [bundled audio and Bharat-first checkpoint](audio-checkpoint-2026-10-03.md). Device-voice setup has been replaced by on-demand recordings.
+
 **Latest checkpoint:** See [the major UX checkpoint and release audit](major-checkpoint-2026-10-03.md) for the current implementation, deployment and remaining human-validation work. Earlier scores and coverage below describe prior iterations.
 
 # Virasat focused build plan

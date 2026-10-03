@@ -1,0 +1,2511 @@
+{
+  "language": "ur",
+  "revision": "f99c9412fe68",
+  "model": {
+    "model": "facebook/mms-tts-urd-script_arabic",
+    "revision": "4c4f53d52e4f0b40cb8e7f36dcef66a2a73619c5"
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "entries": {
+    "nomineeYes": {
+      "textHash": "51dd8a0514dd979a89f7e17479c0f01418642a1c9b59d6eca0478002ae399eef",
+      "spoken": "ہاں",
+      "bytes": 3423,
+      "seconds": 0.698,
+      "sha256": "6fd1480dd8aef588e528c82312b06bcff67fcc49732dad7eb0bbfd71bfc1f315"
+    },
+    "nomineeNo": {
+      "textHash": "8305ce8148521f467c4e8efe68fdb2fb65d5890944bcdea858799a0a03ef29da",
+      "spoken": "نہیں",
+      "bytes": 4862,
+      "seconds": 1.066,
+      "sha256": "fcfaf215b4706e942340472e81f4edc48729cb44980f5593f880a43bbb00fdd5"
+    },
+    "nomineeExplain": {
+      "textHash": "87dca75c3a0bf0e92eb2b77a76a789e98216482399a857e36bb2bfa3abe753f3",
+      "spoken": "اکاؤنٹ ہولڈر کی وفات کے بعد نامزد فرد ادارے میں دعویٰ کر سکتا ہے۔ نامزدگی عمل میں مدد کرتی ہے؛ قانونی وراثت طے نہیں کرتی۔ جانچا نہیں تو “معلوم نہیں” منتخب کریں۔",
+      "bytes": 63715,
+      "seconds": 15.788,
+      "sha256": "7749be5d042d0899dcb66092d5cda17846c6c10a8968212628de62c865b417a9"
+    },
+    "day": {
+      "textHash": "da5e0c514d0d1976176f7154a1e656ab6d3734218e7313b29d632fd2914082f9",
+      "spoken": "دن",
+      "bytes": 3224,
+      "seconds": 0.65,
+      "sha256": "4ab419602f166acf34f9e90512fbb75d1c266729c5288366e3c25344369d0d85"
+    },
+    "month": {
+      "textHash": "06bed9c76e80ed73ceff414eebafbe1c6306675444ef5526ed3a38b53855873d",
+      "spoken": "مہینہ",
+      "bytes": 4954,
+      "seconds": 1.082,
+      "sha256": "c9c429ce328fd588bebfd926dc4439ff83c2922575dcc8f7431860bd8ba62125"
+    },
+    "year": {
+      "textHash": "0d20732d1cce100e4d2bbaeaab3f225279fd3a057f634abf976a4ef2ab9fb5d6",
+      "spoken": "سال",
+      "bytes": 4089,
+      "seconds": 0.874,
+      "sha256": "b7e6dad6e647a78265b092e973b6c7f32771cc234d74491a6bd366d594b7a306"
+    },
+    "dateExample": {
+      "textHash": "bd79b06227e88cd4217f9b0d6e208834f55e3137b8a58b2be7295907b12353e9",
+      "spoken": "مثال: چودہ / صفر نو / دو ہزار چھبیس سے مراد چودہ ستمبر دو ہزار چھبیس ہے۔ اپنے ریکارڈ کی تاریخ دیں۔",
+      "bytes": 42880,
+      "seconds": 10.582,
+      "sha256": "4841710a4e4ed071f389f5b32d2c7af1767dc614a0ca786a54fc4e23b6f42f6e"
+    },
+    "submissionExample": {
+      "textHash": "37a5ae296c2b8f076eedc09b25d304b954887b9d9a9b78aa3d1b66bcab782473",
+      "spoken": "درخواست بھیجنے کا دن دیں۔ مثال: چودہ / صفر نو / دو ہزار چھبیس۔",
+      "bytes": 31558,
+      "seconds": 7.733,
+      "sha256": "e1e868edd72b343fc6cd6c83d08278e5c5d8da0ff8397fd1751a0e1de4463530"
+    },
+    "statementExample": {
+      "textHash": "406ebb601dbd8c46c540b5881742cf76ad9c175a8b777ba2a118e9b1e513ffd0",
+      "spoken": "نامزد فرد کا نام یا “نامینیشن: یس” دکھانے والی اسٹیٹمنٹ۔ صرف بیلنس کافی نہیں۔",
+      "bytes": 36069,
+      "seconds": 8.869,
+      "sha256": "855e47b63b5c7f8b824f8ad1368dbaca2e042842ee8421f4998ac21b338975b3"
+    },
+    "registrationExample": {
+      "textHash": "db48828abf89c471bb49d773e14e1b83e9afe1828898a85c8779a7e645ea3dba",
+      "spoken": "بینک، بروکر یا فنڈ کا خط/ای میل جس میں اس اکاؤنٹ میں نامزدگی درج ہونے کی تصدیق ہو۔ درخواست کی رسید الگ ہے۔",
+      "bytes": 44424,
+      "seconds": 10.957,
+      "sha256": "1d456ecff7d4312df8dad29ea521a0892b114ba506b57289ab9774511b060b64"
+    },
+    "requiredInstitution": {
+      "textHash": "8f82e0b72049301570667aedb0d516b97a93ad0342d6da81ca1b133f123fe427",
+      "spoken": "ریکارڈ پر درج بینک، بروکر یا فنڈ کا نام دیں۔",
+      "bytes": 18984,
+      "seconds": 4.602,
+      "sha256": "72d4e1fd94d5a3df6edd576e994dfd01dc8e959b35cec96c0eeb535e5f7cec25"
+    },
+    "requiredRecord": {
+      "textHash": "f569b8ce1420fd9fd356e858d2755afab6ea54b7f6344288c52997a5688e75b8",
+      "spoken": "جانچے گئے ریکارڈ کی قسم منتخب کریں۔",
+      "bytes": 14371,
+      "seconds": 3.45,
+      "sha256": "6d443f5415d3d8449bc1b839a8021c4d81fd0032fb03a67ed12fea5a4bbf1f59"
+    },
+    "requiredCheck": {
+      "textHash": "f0e14770ab42704dc42a2847daa1ad410ca492e9d5c188b7e811b75398a7e23e",
+      "spoken": "تصدیق کریں کہ ریکارڈ میں اس اکاؤنٹ کی نامزدگی واقعی درج ہے۔",
+      "bytes": 24162,
+      "seconds": 5.886,
+      "sha256": "d3b5ee4f61f2c33877abc82a6b8753ccb94499ede0beb68bd5f0ee239d5dd48d"
+    },
+    "institutionExample": {
+      "textHash": "b4fb0bdf0af200037d687bb578b561965a6fe55c0772238b5a98808b4d061fc1",
+      "spoken": "مثلا: ایچ ڈی ایف سی بینک یا اسٹیٹمنٹ پر درج نام۔",
+      "bytes": 25415,
+      "seconds": 6.193,
+      "sha256": "3335b04d5756b973e074222204e3dd2b743b96923fcdd4d47e8d380227df526a"
+    },
+    "nicknameExample": {
+      "textHash": "777e37c9d2280e8c8774d6ebcecd227599abee1ef3e7649c19f8abf49b8cfe61",
+      "spoken": "مثلا: خاندان کی بچت۔",
+      "bytes": 11780,
+      "seconds": 2.804,
+      "sha256": "60dd942184c1f5475c5675b2ce054725652267854a2ff99be749912aadf1fc26"
+    },
+    "ownerExample": {
+      "textHash": "774719765554f3f1669259f9b3db71b0f6e36b42f57317043f2c5c166aa79e39",
+      "spoken": "مثلا: میں یا والد/والدہ۔",
+      "bytes": 13505,
+      "seconds": 3.23,
+      "sha256": "4360e4ec94911398e459427200164515ef3fb59e7f9c923a7cb17e043c622670"
+    },
+    "nomineeNoteExample": {
+      "textHash": "e12e5417385945f52c07ca773dd9ee1834961319c6b212f3cc438a1313579130",
+      "spoken": "مثلا: شریک حیات / انو۔ صرف عرف یا رشتہ۔",
+      "bytes": 21287,
+      "seconds": 5.176,
+      "sha256": "f58d4e6bd79944205ce77e69d0442bd475440dc529bca7e13a3ea20c60563ad5"
+    },
+    "last4Example": {
+      "textHash": "ddfdf267cd443614f1eb2e07f05cc05545b0c230b62e441e276f8a31aac74bbc",
+      "spoken": "مثلا: ایک دو تین چار۔ صرف آخری چار ہندسے۔",
+      "bytes": 21089,
+      "seconds": 5.135,
+      "sha256": "a296f2edb6a50df85731107772b2142ec5ab692b5b566c5cb9f2179896b2fa61"
+    },
+    "recordNoteExample": {
+      "textHash": "e78ada5a35b68ea33aa2b7a83e3cc3542aa5e747d465ddfe887f4bc5c1023de4",
+      "spoken": "اختیاری: رسید یا ریکارڈ تلاش کرنے کے لیے مختصر نوٹ۔",
+      "bytes": 25414,
+      "seconds": 6.199,
+      "sha256": "eb5340154e5c060705b2b0ed36d66f9d085edd83474cb9d7bb71323a47f52601"
+    },
+    "bankLocation": {
+      "textHash": "d99f9a10a963c2f8d7753ea83acbd7d2530a6d5f08c7d43e7c30d24ec63f9162",
+      "spoken": "پاس بک، اسٹیٹمنٹ یا ڈپازٹ رسید پر درج بینک کا نام دیں۔",
+      "bytes": 21665,
+      "seconds": 5.277,
+      "sha256": "d517b69ca7d680ba60b04d3de9ff94108ae8d8a39e9709c4462242b5bbcd67ae"
+    },
+    "dematLocation": {
+      "textHash": "8facc862b8b139a380f27f5c8473c2c4e9c31cf7e200d0f104dc93f78ed6338c",
+      "spoken": "ڈی میٹ اسٹیٹمنٹ پر درج بروکر یا بینک کا نام دیں، حصص جاری کرنے والی کمپنی کا نہیں۔",
+      "bytes": 29922,
+      "seconds": 7.321,
+      "sha256": "fe87d4a8614f877ffc41f5f1f0004fe7ab2a7a4f9222ea3f60e675049f7ce2f4"
+    },
+    "mfLocation": {
+      "textHash": "2a99bbea14e9d31486c03486b21756a54bbcec73246b4c731c7499c7b78ee6dc",
+      "spoken": "فولیو اسٹیٹمنٹ پر درج میوچل فنڈ کا نام دیں۔ رجسٹرار مدد کر سکتا ہے؛ ڈی میٹ یونٹس کے لیے ڈی میٹ طریقہ ہے۔",
+      "bytes": 41247,
+      "seconds": 10.153,
+      "sha256": "2dae0879dcc41f34b775ddd72326c835a809e906d3f60a245fca796db7444f46"
+    },
+    "checkLocation": {
+      "textHash": "7aa5bc22f573b7cd0dac40343fa63eb941bfbc5254b1833aa4c67f0a5a217f0f",
+      "spoken": "اس اکاؤنٹ کی تفصیل یا تازہ اسٹیٹمنٹ میں نامزد فرد کا نام یا نامزدگی کی حالت دیکھیں۔",
+      "bytes": 32610,
+      "seconds": 7.994,
+      "sha256": "79040ac43f684f25f9cbe0bb4b2ffd4f55c50e72e7b8d2d3dfb1eca3c0069244"
+    },
+    "askInstitution": {
+      "textHash": "014f56d22cebe15d72d5bed77c61907cd07c459aef233b89080b51e9c8db1a8e",
+      "spoken": "نظر نہ آئے تو ادارے سے پوچھیں: “کیا اس اکاؤنٹ میں نامزدگی درج ہے؟ کیا تحریری تصدیق دے سکتے ہیں؟”",
+      "bytes": 37699,
+      "seconds": 9.276,
+      "sha256": "b4ce33ae1ecf775296810af71293573a0842aa56c03f4f97e4e03266b7586571"
+    },
+    "keepUnknown": {
+      "textHash": "7c09e48d27296fc341c663c44c0e6a69b910fc8b561e21962bf723214c5ed0ff",
+      "spoken": "جانچ تک “معلوم نہیں” رکھیں۔ ادارہ کوئی نامزد فرد نہ ہونے کی تصدیق کرے تو “شامل نہیں” منتخب کریں۔",
+      "bytes": 35776,
+      "seconds": 8.807,
+      "sha256": "816bf291b7e67e62bdbfd3c3e75266dd06cb330c2a15d72dba01c061aa5f8fb0"
+    },
+    "submitKeep": {
+      "textHash": "734f6e4c3c7ec8d5c18b0a8b8dbd2575d6cfb90dcb56cb407ab6e3934ad51dbf",
+      "spoken": "ادارے کے سرکاری طریقے سے درخواست دیں۔ تاریخ والی وصولی یا رسید محفوظ رکھیں۔",
+      "bytes": 28671,
+      "seconds": 7.017,
+      "sha256": "9021f3b30b8614f6ca1975fa02b6b6e9aa8a9bc4eba445108900b39cabe0ef17"
+    },
+    "confirmRegistration": {
+      "textHash": "7c9bfbbae541c0f260bd64dbc743eb7b30e79886870831111fa0daccf66507bd",
+      "spoken": "اس اکاؤنٹ اور درج نامزدگی کو ظاہر کرنے والی اسٹیٹمنٹ یا تحریری تصدیق دیکھیں۔ درخواست کی رسید اکیلے اندراج کی تصدیق نہیں۔",
+      "bytes": 46536,
+      "seconds": 11.483,
+      "sha256": "afb3a18b8b41cdfc6f497ae7724a9d10bf515e9efd0670409bf96a92e92bbca0"
+    },
+    "followRequest": {
+      "textHash": "788ca99487941c8b1a67768c11ca959bb975778d5ef314684ee775538cc80db1",
+      "spoken": "درخواست کی تاریخ اور رسید کا حوالہ دے کر ادارے سے پوچھیں کہ نامزدگی درج ہوئی یا نہیں۔",
+      "bytes": 31554,
+      "seconds": 7.738,
+      "sha256": "c47578e2e589bcf98b174a9ea8c8da4bf99612161319dd39cdb653134d6a241f"
+    },
+    "waitRegistration": {
+      "textHash": "bca1f3e2cf2206bdcd216e274b04fa0c4514299b296384d5e60c4f9ae821aeff",
+      "spoken": "اندراج کا ریکارڈ ملنے تک اسے تصدیق کے انتظار میں رکھیں۔",
+      "bytes": 20421,
+      "seconds": 4.954,
+      "sha256": "f09e8df959b75b7abcd9fd7f353a021a78cccc7abcc549b12fcbb8dd7773be3f"
+    },
+    "hdfcPath": {
+      "textHash": "6620be875b430e36d483fe9465ddc83819526b8c1239ae273046a1c1a3c460cd",
+      "spoken": "نیٹ بینکنگ: اکاؤنٹس ← اپنا اکاؤنٹ ← اکاؤنٹ کی تفصیل ← نامزد فرد/کھاتہ دار کی تفصیل۔",
+      "bytes": 37213,
+      "seconds": 9.15,
+      "sha256": "b0944eec7d07dd7499a588df399a0d51019f6b0d460be62bad78bbd95c6f3011"
+    },
+    "hdfcHolding": {
+      "textHash": "9afcb90740a0e5f2c1252dcff0d8070fda7f3743f51d885cab2a094137894021",
+      "spoken": "واحد کھاتہ دار: وہیں شامل/تبدیل کریں۔ مشترکہ کھاتہ داروں کو بینک ساتھ شاخ جانے کا مشورہ دیتا ہے۔",
+      "bytes": 35968,
+      "seconds": 8.852,
+      "sha256": "3831d0bdb84bcfac14cb2ea9d49b8f75a784779dc29a43d00d6685a5361f0872"
+    },
+    "hdfcSource": {
+      "textHash": "ef0e4c2d77799a980739650af3d82e3ba23fb5b34361c3b86781cc0bf0010542",
+      "spoken": "ایچ ڈی ایف سی بینک کی ہدایات",
+      "bytes": 11775,
+      "seconds": 2.799,
+      "sha256": "ef91202a5b3d2f89423824ffea9929d8321ec6844283f1e29265a34a3917f326"
+    },
+    "whatToDo": {
+      "textHash": "19b376743ab192e686a12b2a26a87dcc52bb6ad99402c86269ddf7ccf42ae382",
+      "spoken": "کیا کریں",
+      "bytes": 5533,
+      "seconds": 1.227,
+      "sha256": "519319f1b9b98ac0236042fe2d6a55d84a5e51c396d6d7b1c6dee9ae5bf91211"
+    },
+    "home": {
+      "textHash": "7bb2645c468721fb6a198cc4ed7722ee11dfd8581def462c0dc72835777791e1",
+      "spoken": "ابتدا",
+      "bytes": 4857,
+      "seconds": 1.066,
+      "sha256": "050aea45bf5cbb1a6463b5eea872ccfe9a4ebc818c17dcec2a6a80c23dc90aaa"
+    },
+    "continue": {
+      "textHash": "5d72ed65299a83c77f4a7dafb2581c5677a6ba1826e2db908a5d185a5520fde2",
+      "spoken": "آگے",
+      "bytes": 3997,
+      "seconds": 0.842,
+      "sha256": "0553779fe5ab6d38c72e81c98fae65f000e80ed6f0f5be2df7604e57454ff58f"
+    },
+    "unfinished": {
+      "textHash": "bcf5a47be6ef099b04785657df28542dc497d1e3d67a209847ec463eac1d5171",
+      "spoken": "نامکمل اکاؤنٹ جاری رکھیں",
+      "bytes": 12927,
+      "seconds": 3.08,
+      "sha256": "5ef3c1334426b180edcb2a0678ed23e311d5831ab8aa4753d099762ebb0ddf10"
+    },
+    "step": {
+      "textHash": "ddb46aeae3e8283ffcc0ac3fdecf50212cf25940a23c0252b864daef35ce8cd5",
+      "spoken": "قدم",
+      "bytes": 3801,
+      "seconds": 0.81,
+      "sha256": "b0eedca98a6affeb8d6b990b566d39a749f9916a75ccedda26106b1322463d06"
+    },
+    "of": {
+      "textHash": "77e7a9224bb9c177e9aeadc30835f9b5638b521b73c9bf99f530cd591ead3fd6",
+      "spoken": "از",
+      "bytes": 3703,
+      "seconds": 0.778,
+      "sha256": "230440735a947f1890ab68d2f02628f8a9d0c07e25dbdd16ee377a6eac9ab362"
+    },
+    "homeTitle": {
+      "textHash": "a8f28b88e33736bec8eefdb2442c557f2592e21f7fc35d108669e5090a85199f",
+      "spoken": "خاندان کے اکاؤنٹس کی معلومات ایک جگہ رکھیں۔",
+      "bytes": 18398,
+      "seconds": 4.458,
+      "sha256": "0f8c81a27cf6d60ea4479edb58bf3984bc3d302f138e621ec54977feeec1ccf4"
+    },
+    "homeIntro": {
+      "textHash": "110555c61338c5c58bee04898dc979f5050061bf4875535a874b9abd3dadf003",
+      "spoken": "نامزدگی جانچیں، نامکمل کام پورا کریں اور خاندان کے لیے واضح ریکارڈ رکھیں۔",
+      "bytes": 27326,
+      "seconds": 6.682,
+      "sha256": "9ea56c811af331329b893a2ed09684eaad5e01e12acd30c8eedc0d3c0041f291"
+    },
+    "typeQuestion": {
+      "textHash": "9d8781b55a5d0da947c313a0dd60b977463ca77c4e7fc93b636a2f08cae96a80",
+      "spoken": "یہ کس قسم کا اکاؤنٹ ہے؟",
+      "bytes": 10433,
+      "seconds": 2.45,
+      "sha256": "6b89c6f5552cc133ab6e8c33a4d46dea1981fc38a0443e6e20721f00371cecd6"
+    },
+    "institutionQuestion": {
+      "textHash": "ac735dd1a90699b9d4c98b3db2d5654633135b1c24e69db8603c061fe42e74ab",
+      "spoken": "اکاؤنٹ کس ادارے میں ہے؟",
+      "bytes": 10152,
+      "seconds": 2.389,
+      "sha256": "2e6cc321291dfc2a96feb560612a33e088ce87b5adf7f3c748c2b552cd957e63"
+    },
+    "dematDescription": {
+      "textHash": "22bf6b2984323f1209cb79b44b4709b9ebe498ef162a33b2c651e8be02d84766",
+      "spoken": "بروکر یا بینک میں رکھے حصص",
+      "bytes": 12261,
+      "seconds": 2.91,
+      "sha256": "eddb00dbd100a6b390a138b01dfb7149e0c6e647c529573d7e1047ae2413341b"
+    },
+    "bankDescription": {
+      "textHash": "7ad8d60896dc16a35f8595265f762ed9a9dd4021ffd12ad9989c0ac6532af284",
+      "spoken": "بینک میں بچت یا ڈپازٹ",
+      "bytes": 11780,
+      "seconds": 2.8,
+      "sha256": "3438b8e8101e7e2043c019234b389390797c62ef8ee86c781c6e277ac4d17668"
+    },
+    "mfDescription": {
+      "textHash": "2b2be9f4b513cf23813f16e7a1f3d020f54477893e6948f4994cb0cc9aa0508d",
+      "spoken": "میوچل فنڈ میں رکھا فولیو",
+      "bytes": 13122,
+      "seconds": 3.13,
+      "sha256": "a3679c3c7d2d40cf20acd8dd00521c53fc806993653ad7309703643dde697dfa"
+    },
+    "nomineeNote": {
+      "textHash": "a5e1777eb73f6ba0ee1cacc2416345e33d2677a6006aa9472c626c55996e6d80",
+      "spoken": "نامزد فرد کا مختصر نام یا رشتہ (اختیاری)",
+      "bytes": 18208,
+      "seconds": 4.413,
+      "sha256": "d69b1cc11d70a575a056d65984071c81283bbdc30582f7e53531978976ec59de"
+    },
+    "nominees": {
+      "textHash": "b3f8b80d6bfc8c8fdbb3f77d6eaba6abc09e6f50c8f01b6d9093ac5bd5892f1a",
+      "spoken": "نامزد فرد کا نوٹ",
+      "bytes": 8797,
+      "seconds": 2.042,
+      "sha256": "38d922052eb52d5c5fe4e98449b2f776d4e78e57d9db910dae44bcf14b1603bd"
+    },
+    "missingGuide": {
+      "textHash": "d0b8d37f1adfeb8ea9229a8f6e7c069b2070e0d434bd08b03852abff403ae991",
+      "spoken": "ادارے کی نامزدگی سہولت استعمال کریں یا موجودہ فارم مانگیں۔",
+      "bytes": 24257,
+      "seconds": 5.914,
+      "sha256": "ae8796943dde817966a95d1b0e6b93b5aeed96f4503120c366194f276af75181"
+    },
+    "title": {
+      "textHash": "ff84d1f40a6a142c69166e7acb6974b11ebe98a6a4bc6789618b0fef06fab194",
+      "spoken": "خاندان کے اکاؤنٹس",
+      "bytes": 10138,
+      "seconds": 2.394,
+      "sha256": "655650ab0397a932b5adae4e85c20b234349fbac22fa0655a234063e6312b006"
+    },
+    "intro": {
+      "textHash": "15d9fe2d7c41d9a3e646070019e867d4af5210e492aac43838d1e11e6cf0b547",
+      "spoken": "نامزد افراد کا ریکارڈ رکھیں۔ جو باقی ہے اس پر اگلا قدم لیں۔",
+      "bytes": 26458,
+      "seconds": 6.469,
+      "sha256": "7b713893f02016cb56c8c317c0f8718c27856a3cccf07dfe8d0ec88a43c7a674"
+    },
+    "add": {
+      "textHash": "2ffd80b9d30a7a1ef818f8e7e37ea0d1ce9bec67954f759a8c00dc567ac8f2a9",
+      "spoken": "اکاؤنٹ شامل کریں",
+      "bytes": 8600,
+      "seconds": 2.002,
+      "sha256": "87526b3771e24c9f6e3cf469df61b8025190ea051d245351557616c127221486"
+    },
+    "edit": {
+      "textHash": "32465756295383d78e86053b1952a17e6332509cf941be6ba66c7a47feddac16",
+      "spoken": "اکاؤنٹ میں ترمیم کریں",
+      "bytes": 9369,
+      "seconds": 2.206,
+      "sha256": "1340cc305f0645bc4909673e89f79d8d133a2645eb5819c1f1d75009480f57d1"
+    },
+    "emptyTitle": {
+      "textHash": "82e129876ed781ec308a0b04add8f37334495f7371f396ca22b4bf4ff05f491d",
+      "spoken": "ایک اکاؤنٹ سے شروع کریں",
+      "bytes": 10623,
+      "seconds": 2.516,
+      "sha256": "167330d85bfa81e8c43c371caa156118755af2cd4fa9d996233e893bd729ea41"
+    },
+    "emptyIntro": {
+      "textHash": "9de73739c31731ee9db836fc4c31df63b67057aea542c60aee4e183417ffc98b",
+      "spoken": "ڈی میٹ، بینک یا میوچل فنڈ۔ ایک وقت میں ایک اکاؤنٹ کا نامزد فرد جانچیں۔",
+      "bytes": 26079,
+      "seconds": 6.382,
+      "sha256": "ab3d12cc8fdb546910f8b1555ba42fc92ef64a15989bdfe302e5d8d7fa930b19"
+    },
+    "example": {
+      "textHash": "37cf6930c4537f5535d8819b726e4427fc7f1e6dbff8805fb34918fcfa1d9b5f",
+      "spoken": "مثال دیکھیں",
+      "bytes": 6876,
+      "seconds": 1.57,
+      "sha256": "e187cb24570656a360a5461bdd7bfea3053660ba2b8458447140872272cf2041"
+    },
+    "sample": {
+      "textHash": "c3b9518608b40595584fbc021ce9611b3c7859d50559539911af3c150a7df7dc",
+      "spoken": "مثالی خاندان · فرضی اکاؤنٹس",
+      "bytes": 15707,
+      "seconds": 3.786,
+      "sha256": "8b07b805e187c3dba8fc818b062f21075767a533404335e161653e9dc194fba2"
+    },
+    "resume": {
+      "textHash": "41819aaf8886cc7601f48f899990e6f429486c055f079090fc8c24d56270cfe8",
+      "spoken": "محفوظ فہرست کھولیں",
+      "bytes": 8699,
+      "seconds": 2.017,
+      "sha256": "1654848a6a2785fc64f6bc4f6529bd0f0fef657fc8c044581547007bf28932e2"
+    },
+    "accounts": {
+      "textHash": "45c6f0160eb64d358b22fcb7a073e6082e54342f3df1ad91aca4a155da43b718",
+      "spoken": "اکاؤنٹس",
+      "bytes": 6013,
+      "seconds": 1.354,
+      "sha256": "a7c25500ac440b41db24d361c6d48b9fe72f9ea71c775693c1e13099e9186804"
+    },
+    "needAction": {
+      "textHash": "74145e13957791aee0fc90775852fa6d472bb7d3325209f1269439fb99d51430",
+      "spoken": "توجہ درکار",
+      "bytes": 6591,
+      "seconds": 1.498,
+      "sha256": "11dfd5110c9d9cadc432c43957394a2c64ebd82a14bf1289fd0a775bf2e6b319"
+    },
+    "next": {
+      "textHash": "14406e5427c5b7ecb399a3a92362c41d1cf02923f36fdb30333ceb806d046e7a",
+      "spoken": "اگلا قدم",
+      "bytes": 5529,
+      "seconds": 1.226,
+      "sha256": "5943c09f2fd2265f6dd1289a852953de5e2e30b54611ec9534fdf3d51bcb9a17"
+    },
+    "allTypes": {
+      "textHash": "ca881b626f867094d8759d0a10fcce76352032fa99aa4f72aa3c1bd3317dc476",
+      "spoken": "تمام اکاؤنٹس",
+      "bytes": 7357,
+      "seconds": 1.692,
+      "sha256": "5a90748ab588ad1a22fc56165620ae1e8e38c410829e3b267d6bebcc05d6ea34"
+    },
+    "allClear": {
+      "textHash": "ba84ea3fc3131c28f3715f1f8fe95b6594ce3eaa78234ac92f563e24610af3be",
+      "spoken": "ریکارڈ وقتا فوقتا جانچتے رہیں",
+      "bytes": 13021,
+      "seconds": 3.109,
+      "sha256": "dc04be709498db57eee14bc376b70c927b4bcdf7091d1b0289a7df5ac756688b"
+    },
+    "type": {
+      "textHash": "c61dbe926e1f2e75f7ea4ebfbae53f1523f8a83fb40e4095155795c476fc4d4b",
+      "spoken": "اکاؤنٹ کی قسم",
+      "bytes": 8121,
+      "seconds": 1.882,
+      "sha256": "1a9e2b326cfe8144676a28733d307cdc2a9e93bc6ec5cc8bad93cab546741740"
+    },
+    "demat": {
+      "textHash": "7292c02ba5e3ed198012b7c95dab3d1f730d1a76ce75e366d98fbe0e8b95d1be",
+      "spoken": "ڈی میٹ",
+      "bytes": 4762,
+      "seconds": 1.038,
+      "sha256": "715f8564471a8f16819283a3b911612f14b87c013aec4469ae2a1b7c69269638"
+    },
+    "bank": {
+      "textHash": "e7d3946cc494d8fecff9b4c15abacdb1072657077307bc718bdc8edc1f77d980",
+      "spoken": "بینک ڈپازٹ",
+      "bytes": 7353,
+      "seconds": 1.682,
+      "sha256": "b78bb7be4a404038583966b508d324bbb13817994c837bac9e478fab4de0910a"
+    },
+    "mf": {
+      "textHash": "a25f718dcf1795c17a4a3ff146ae4ad4121a84679a6bc3aba43561ddaa3778bb",
+      "spoken": "میوچل فنڈ فولیو",
+      "bytes": 8407,
+      "seconds": 1.961,
+      "sha256": "2cab6f81b899d3d175e1255ea6857ad4c932b9f21764a5634d436ff3a6c1a274"
+    },
+    "institution": {
+      "textHash": "833a6eec2aec8592e30d8b2bc72a2dc1702cee84bd46c37543c4b7e0fb491174",
+      "spoken": "بینک، بروکر یا فنڈ کا نام",
+      "bytes": 10624,
+      "seconds": 2.501,
+      "sha256": "12c6430aad57eb4742c9505b752d96c52a45bfb388d6e265ac7ad44aefdacada"
+    },
+    "nickname": {
+      "textHash": "419ea339097932995fbf52d7a5e6acc078e2e452c8db1c5cfcc6a93c1a054e77",
+      "spoken": "اکاؤنٹ کا مختصر نام (اختیاری)",
+      "bytes": 13213,
+      "seconds": 3.146,
+      "sha256": "4842ac73bb194aa57ed62107f356ce4de471a4f59531d6550ce042cce3a99f69"
+    },
+    "owner": {
+      "textHash": "d5a460660d93d1b285f3a4ab1d3ec5bc9fe9fb27159ae1fc5b03a78d89c196ff",
+      "spoken": "خاندان کے فرد کا مختصر نام (اختیاری)",
+      "bytes": 15130,
+      "seconds": 3.642,
+      "sha256": "2c5c90288b05bdeb57ce13a766b658f4d5c8e90754aa8ef281f644ea99ce2934"
+    },
+    "last4": {
+      "textHash": "8f568370a5deed6d8d09ee599d002606d16661cc4dbf659c104e4d25554e8e7e",
+      "spoken": "آخری چار ہندسے (اختیاری)",
+      "bytes": 11194,
+      "seconds": 2.65,
+      "sha256": "4922d1dfd6c675ef8ea845991a6606aad25088827249546239fe36c6fbd79590"
+    },
+    "extra": {
+      "textHash": "03174c34ce6d7b9151a0e016612a9e359a95cbfcf3dd5760055e45c377cad814",
+      "spoken": "مختصر نام یا آخری چار ہندسے شامل کریں",
+      "bytes": 17722,
+      "seconds": 4.282,
+      "sha256": "8cb8b8273297751492aa0952b568a34eef1e468ec68caa2c82d97997cc0a3b67"
+    },
+    "noIds": {
+      "textHash": "08118fcb9ab5e0ea9cf1401f7af809f25afaa9da16d5f638cc9924c93c27e7ce",
+      "spoken": "مختصر نام استعمال کریں۔ مکمل اکاؤنٹ نمبر، پین اور پاس ورڈ اس فہرست میں نہ دیں۔",
+      "bytes": 35578,
+      "seconds": 8.751,
+      "sha256": "adad80fe84d059a63ab97f8eccdf0e943fe9af2ba1fb259d31dc2b92a9ac7195"
+    },
+    "nomination": {
+      "textHash": "3e183483f15496cb4b31840ef3a43e5ee34752f1abdc64aec7eedcac722e96e5",
+      "spoken": "کیا نامزد فرد درج ہے؟",
+      "bytes": 8895,
+      "seconds": 2.076,
+      "sha256": "6a86ac0768d60e707ddf329292f7710476117b29626b9c5f527f1609f378c24c"
+    },
+    "registered": {
+      "textHash": "7de3fc42f6c41bfcff245a67084be9ef84d400a0333b0fbe5128f43ddf4bd892",
+      "spoken": "درج ہے",
+      "bytes": 4191,
+      "seconds": 0.903,
+      "sha256": "0389b1e89ae0d5fd0b9dcddc3db046cf9e9191029170c4ddadde32624524b5bc"
+    },
+    "missing": {
+      "textHash": "cfd04789de6be5dc3dcdc61ccd9584ccb4224c06f177c0d1779fa369d1274337",
+      "spoken": "شامل نہیں",
+      "bytes": 6300,
+      "seconds": 1.439,
+      "sha256": "5f6cd5dedc86063a3f852fcdbf6d1ac0e3d2dea5b0eced0d3a0774687f9ee027"
+    },
+    "unknown": {
+      "textHash": "bf5b5140eff7d8af50c696ea5955e8d459c14dbe281dd2614d8f37bc4e41a6f8",
+      "spoken": "معلوم نہیں",
+      "bytes": 7644,
+      "seconds": 1.77,
+      "sha256": "51e437e30401e84875abf8fe044086ed41425b034348c30af4132ac4a846e945"
+    },
+    "reported": {
+      "textHash": "85c17e6292a6c50387d783554a1a4c8e86dc0c7cb9369eb861a26e1ded41bc4d",
+      "spoken": "آپ کی اطلاع",
+      "bytes": 6301,
+      "seconds": 1.418,
+      "sha256": "5a484400f6813efb1a8abd20805748e745afe7902ee5ba1870b7a1c87f31c273"
+    },
+    "submitted": {
+      "textHash": "4f9658a856b7e453edd58196da0472a3fa0c962e5c1b8c39ddbbf72957fd70c4",
+      "spoken": "درخواست جمع کر دی",
+      "bytes": 8702,
+      "seconds": 2.033,
+      "sha256": "4fd2226938b7d39dcbe93316d2aa2a8d94090d969a8d48ba0c091e3fc84f7b7a"
+    },
+    "confirmed": {
+      "textHash": "371d0f254940a17c6f408aadf9f36972e975d17a9c2422c78e293ea04c9963b4",
+      "spoken": "ریکارڈ میں جانچ لیا",
+      "bytes": 9374,
+      "seconds": 2.202,
+      "sha256": "147ca85c34be5cf30df8bebfddf08f003513b1118ef598b50ef684bf3adc08b3"
+    },
+    "review": {
+      "textHash": "3ab35a1d3e85f77125854de20aeb502aa5eaa337b4db2c1f30ac81e4fc04d98a",
+      "spoken": "ریکارڈ جانچیں",
+      "bytes": 7835,
+      "seconds": 1.804,
+      "sha256": "6cb892240211ff4248e8fd3274cdb31ca6881198c6bb926fae7d0794eec7a927"
+    },
+    "awaiting": {
+      "textHash": "7b44b088d5cf080d94fe520fdb0ea492d559e2d080cb7f53c36c9b3118eba79e",
+      "spoken": "تصدیق باقی ہے",
+      "bytes": 6589,
+      "seconds": 1.494,
+      "sha256": "62b2e36fdaa7c020a19e247faf6bf0cf912fe7e0735b3e06ce7dbfe3ea6ca73f"
+    },
+    "checkedOn": {
+      "textHash": "d8de8a44def9df34be3e70d1ef96cf2622cdf4ab2c8e3db7a38afa575b744ff0",
+      "spoken": "آخری جانچ",
+      "bytes": 6686,
+      "seconds": 1.514,
+      "sha256": "c7f1634729c6da077255ba9c0a608f2bae87da64cb6ff6910336b5a6cd23a00c"
+    },
+    "neverChecked": {
+      "textHash": "9b750effdc9165d9b1e2b22a0a53606a5d1459847cd6fd25113ba79c85c77a46",
+      "spoken": "ابھی جانچ نہیں ہوئی",
+      "bytes": 7457,
+      "seconds": 1.71,
+      "sha256": "24581b3d715f5a3651d46ce519d410dbc8955eb49b327d3edf7e9505c92ca73e"
+    },
+    "update": {
+      "textHash": "ffec03d2e128553f0afac75a98ab6ec8b2c2a811bdf7d9e7ba8f76c57a5be62c",
+      "spoken": "تبدیلیاں محفوظ کریں",
+      "bytes": 10907,
+      "seconds": 2.574,
+      "sha256": "77a7f6ebbbdccd9b7c2d8def313b4153e63064252456d844ab6db6ad1124df00"
+    },
+    "back": {
+      "textHash": "d6df4eace00d28e59af02dbe9dd029ab77b0aa823633abe9cc57960379732562",
+      "spoken": "واپس",
+      "bytes": 4281,
+      "seconds": 0.922,
+      "sha256": "3bb584deb99dfb4c4b3d047a7d3fb0d760cc9e4942b5f37c710a78bcbf65b958"
+    },
+    "cancel": {
+      "textHash": "75a8f50fde3d90100e55f8c4e8859c7534808c14c861486877b6721acbd854a9",
+      "spoken": "منسوخ کریں",
+      "bytes": 6587,
+      "seconds": 1.494,
+      "sha256": "591bc21f4c1c43d4e6c8b15948b78181f4720b8e496e84a2bb02135cdaff0380"
+    },
+    "open": {
+      "textHash": "bb3cc81314995b2df1c5e352c34526aee3aaf03cbed7da6d4addbcc43297ffdd",
+      "spoken": "اگلا قدم دیکھیں",
+      "bytes": 8217,
+      "seconds": 1.917,
+      "sha256": "ab647c52561f8f8fe99fc0e5a044105598c861b54ff60ddc1621a55c04bc708f"
+    },
+    "registerTask": {
+      "textHash": "0d3928613be7fc47294f9436e37c4d3eded9672195bb3ae7e95858fa18668b1f",
+      "spoken": "اپنے ادارے میں نامزد فرد شامل کریں",
+      "bytes": 12833,
+      "seconds": 3.07,
+      "sha256": "2cb4b9429233f7c8f1eacf1010aa9fb72a79021e000e7dd4f467fd5112843be1"
+    },
+    "checkTask": {
+      "textHash": "1efb29c3e30a4291a3838d2ab392f5b5fab834b1d527ffec5447999382cd5278",
+      "spoken": "نامزد فرد کی حیثیت جانچیں",
+      "bytes": 11678,
+      "seconds": 2.778,
+      "sha256": "033476efa71968565b60860405f6daecde30a08d489e3a39acbac335ed089587"
+    },
+    "confirmTask": {
+      "textHash": "8dc497e5757b863125da4f7906a9c07f412cc7717d98e1f7dd2f3d77d1ecaadd",
+      "spoken": "جانچیں کہ درخواست درج ہو گئی ہے",
+      "bytes": 12352,
+      "seconds": 2.938,
+      "sha256": "8bd2615ee11cbb9bd1615a2a5c983a92c0015d8dee0ca9ad77e9d9aeb5054b6c"
+    },
+    "recordTask": {
+      "textHash": "bf45fb126eb924ba23bdf7b20eb714efc105d1f02706c94b8cc3244bcacb2988",
+      "spoken": "تصدیق اپنے ریکارڈ کے ساتھ رکھیں",
+      "bytes": 15423,
+      "seconds": 3.706,
+      "sha256": "0244dcee3765183bfcff3792e7756c5c59fccce4c5d77aa44a31644a104db0aa"
+    },
+    "dematGuide": {
+      "textHash": "80259fb71458da43e17454be92c8abc1f764d1b2c162489ac860edde7c00fa62",
+      "spoken": "ڈی میٹ اکاؤنٹ سنبھالنے والے بروکر یا بینک سے موجودہ نامزدگی فارم یا سرکاری آن لائن طریقہ مانگیں۔",
+      "bytes": 42015,
+      "seconds": 10.346,
+      "sha256": "86dad2ac77b552eeb889c8a044f0b585f8b578c7ea68e7272a4d60b520189762"
+    },
+    "bankGuide": {
+      "textHash": "ac56cd7b4043ed606165ecf00ba8f8714f223c2d29787e220c9b6e087c5cb5b5",
+      "spoken": "اپنے بینک کی شاخ یا دستیاب سرکاری آن لائن نامزدگی سہولت استعمال کریں۔ ڈپازٹ کا موجودہ نامزدگی فارم مانگیں۔",
+      "bytes": 45854,
+      "seconds": 11.32,
+      "sha256": "934b536cb4362cb1746377a591222e4e733ea1c64862be67742f3215d68f1135"
+    },
+    "mfGuide": {
+      "textHash": "84e631659bd798f27d0b5c604d861d440c214252bbc25f9276befb5c43e6d63c",
+      "spoken": "میوچل فنڈ یا اس کے رجسٹرار کا سرکاری سروس سینٹر یا آن لائن طریقہ استعمال کریں۔ ڈی میٹ میں یونٹس ہوں تو ڈی میٹ اکاؤنٹ کی نامزدگی استعمال کریں۔",
+      "bytes": 56892,
+      "seconds": 14.069,
+      "sha256": "251301cd53329df80cdd65e8b25981cea5bb7e878ffd15f4291247bcc26bc0b0"
+    },
+    "checkGuide": {
+      "textHash": "0dd59a31959c8b27f7867b10e34d0020098af52eccb404e17fab9277b861fc9d",
+      "spoken": "تازہ اسٹیٹمنٹ دیکھیں یا ادارے سے پوچھیں۔ یاد پر مبنی نامزدگی کی تصدیق درکار ہو سکتی ہے۔",
+      "bytes": 38079,
+      "seconds": 9.369,
+      "sha256": "049bb4207e79889021f068518174b21cf88b4b92e86fc453848f365573d22749"
+    },
+    "receiptGuide": {
+      "textHash": "d2015b4404aff1e8b9d5e7dcf3d6dd9358cdb9df567b36cac354947c14ce0697",
+      "spoken": "رسید محفوظ رکھیں۔ پھر اسٹیٹمنٹ یا تصدیق میں دیکھیں کہ نامزد فرد واقعی درج ہوا ہے۔",
+      "bytes": 32129,
+      "seconds": 7.892,
+      "sha256": "1ea492b2120df98bbdd15e34bfaecf2c886fe1dd5e70b2753207df9d146f46a2"
+    },
+    "institutionOnly": {
+      "textHash": "07a021bb84e790363f8beb0e8c5518c5e1389986149188dc7e202e5a7981b97a",
+      "spoken": "وراثت آپ کی پیش رفت درج کرتا ہے۔ اندراج ادارے میں ہوتا ہے۔",
+      "bytes": 24548,
+      "seconds": 5.988,
+      "sha256": "404fa37a3dcbae47ab07908edf7db3897fa435037635293f9568e0402a220c29"
+    },
+    "source": {
+      "textHash": "2cc3e1c0249982810c96bc2d3701523e13e4f52c2e2a6572985fa277d5e3c30c",
+      "spoken": "سرکاری رہنمائی",
+      "bytes": 8603,
+      "seconds": 1.994,
+      "sha256": "baa759d18bc09aad9c49c0d3ad3e0ebee8c9fb80e727dc1dc30bdd3a770bb939"
+    },
+    "sourceNote": {
+      "textHash": "73f318eb516891b951b48d69ea2d0fd8cafcbca8907f6523d3694299f2f169c3",
+      "spoken": "موجودہ فارم اور اہلیت ادارے سے تصدیق کریں۔",
+      "bytes": 17247,
+      "seconds": 4.171,
+      "sha256": "8582c0739209d94fe9f9a5f25685829b3d898a33432a4efde34a9f056784b1e4"
+    },
+    "markSubmitted": {
+      "textHash": "3d9ec738c1fb0296d45678bcd01ac8af2d556791c833a0bd793f0d3226d37c28",
+      "spoken": "میں نے درخواست جمع کر دی",
+      "bytes": 10338,
+      "seconds": 2.447,
+      "sha256": "b6dabe2eb2d845683211bc52d0b09af6f9cac3df4e80f2ce7e10df91e78058eb"
+    },
+    "markConfirmed": {
+      "textHash": "5458a854696b086982241c5456b92e5c30eb558ff7c3ea9267b9643049f61d98",
+      "spoken": "میں نے تصدیق جانچ لی",
+      "bytes": 9090,
+      "seconds": 2.119,
+      "sha256": "fac70584ec218f0b157d2e42703effbc0232b4e065d771049e67a58b9b673b2e"
+    },
+    "submissionDate": {
+      "textHash": "9248a830ecdc003fdbd55ab5e1ecd8e14453181525a18b7f12b05d7a47652597",
+      "spoken": "جمع کرنے کی تاریخ",
+      "bytes": 8611,
+      "seconds": 2.01,
+      "sha256": "ef0c0470a58be2464c52f6805324d6d17641e6dc8efeae38ee48d6c0908457df"
+    },
+    "confirmationDate": {
+      "textHash": "c9d4608e5e749b0f2082c38fcc834bc549076387fb62201147f7448c8ebe9205",
+      "spoken": "ریکارڈ کی تاریخ",
+      "bytes": 9285,
+      "seconds": 2.17,
+      "sha256": "e8cb65e1083b8f9188fb53f87d837df0b37d15ef033e6ea30accaa644c67d8a7"
+    },
+    "recordKind": {
+      "textHash": "02b5c0cb96bcbe25b8a701fc3008782ef4a7b2dbda58b69ea4c502e0f494703a",
+      "spoken": "آپ نے کیا جانچا؟",
+      "bytes": 7551,
+      "seconds": 1.737,
+      "sha256": "dd0bdc7b873a3622bf71eff75dd908e6dcf7cf55e2a209ecae0aff672924f25a"
+    },
+    "choose": {
+      "textHash": "c3153a454459e3a4485ddde448318dff7f1cfd4f82bc1684402c2bb78b2b016a",
+      "spoken": "منتخب کریں",
+      "bytes": 7163,
+      "seconds": 1.642,
+      "sha256": "de003e4bb7d3e8972471dec7794c2ac02c06347f4d500ae5ed13b7fc6f4d19c2"
+    },
+    "statement": {
+      "textHash": "dc1bfbd1a8da11fd33bede24f1ae245e43128be2f6722f808438916665577866",
+      "spoken": "اکاؤنٹ / ہولڈنگ اسٹیٹمنٹ",
+      "bytes": 12830,
+      "seconds": 3.058,
+      "sha256": "b24096d798f7578ea21d962e56d221518edb9b8ab0a55207ac7ae26c24ba9f94"
+    },
+    "registration": {
+      "textHash": "2d61f72086f890abcc39051a8002be9021ad6e53334be8f5f1fbdad7dd96aa84",
+      "spoken": "ادارے کی اندراج کی تصدیق",
+      "bytes": 12065,
+      "seconds": 2.858,
+      "sha256": "c9764fc8328cf3a42d8f5ed22812e79c9a829c21002844c95f927387d678dec6"
+    },
+    "recordNote": {
+      "textHash": "a696bac2f20da6d7027303f2075c40752ac6a28a78f3f95fbcbbb52b25e2067f",
+      "spoken": "ریکارڈ کا مختصر نوٹ (اختیاری)",
+      "bytes": 14367,
+      "seconds": 3.446,
+      "sha256": "e2cd006b760161116b938b075c60c26399b50edac4a3c52ae0b250c07cdc4219"
+    },
+    "confirmationCheck": {
+      "textHash": "908e2d7b8b3c47b6d6a37bc92e1407684555740c2104be7e4dae42eff29e91a0",
+      "spoken": "ریکارڈ میں نامزدگی درج ہے، صرف درخواست کی رسید نہیں۔",
+      "bytes": 22534,
+      "seconds": 5.475,
+      "sha256": "f1e4845efa29fde7212807d7a0f8160f1ede603138991215f73b3e7d919221fb"
+    },
+    "progress": {
+      "textHash": "87c37561dd267eb87e3b9fe101d3cac27a5871b7be0ca628b5df0d4e226b1f00",
+      "spoken": "پیش رفت",
+      "bytes": 5149,
+      "seconds": 1.14,
+      "sha256": "f9da36cad9bb127f364a6535c350ccc336e3617dd5af2fa36c113157830b2fbf"
+    },
+    "evidence": {
+      "textHash": "a2460c34c9d64e5ca6b01075f70471aefad4069300a2707c5c7a43efcc4f1410",
+      "spoken": "آپ کی ریکارڈ کی جانچ",
+      "bytes": 8413,
+      "seconds": 1.962,
+      "sha256": "9a75cb9b9918249014d40e8c944bc11f730a7b1b0d9ef09ec3adfe1fb4227791"
+    },
+    "selfReport": {
+      "textHash": "fcf2c263c3f4445dcb462c83686045a40a645e61722e77943a026ca736a1bcaf",
+      "spoken": "آپ کی درج کردہ معلومات۔ وراثت نے ادارے کے ریکارڈ نہیں جانچے۔",
+      "bytes": 24447,
+      "seconds": 5.962,
+      "sha256": "c812da382619cadd531bdaa6e927a9fdea6f3a88bc8094d48419f5cf446aa606"
+    },
+    "remove": {
+      "textHash": "44e85819fad90c308ce21cd942c855df32b3ce37b4c4adc46bd3697db1f46bdb",
+      "spoken": "اکاؤنٹ ہٹائیں",
+      "bytes": 7259,
+      "seconds": 1.662,
+      "sha256": "af76d8483d663a4c04bc343be1d4ba6ee4ffafe62dace097cf6003373d81e0a5"
+    },
+    "removeAsk": {
+      "textHash": "d6ae05f9214239eca01e603beb418b3ecce703f6e4e1457734f5edb01eaf818c",
+      "spoken": "یہ اکاؤنٹ فہرست سے ہٹائیں؟",
+      "bytes": 12638,
+      "seconds": 3.023,
+      "sha256": "2eeaa244eb8cb1208b045043982d517409e5660df53220c2ca960e892e6e82bc"
+    },
+    "summary": {
+      "textHash": "d23e990782e0d742111b9b8bf9e24dd82f333a135f0b2f52aa922f355825cd1d",
+      "spoken": "خاندان کا خلاصہ",
+      "bytes": 8796,
+      "seconds": 2.062,
+      "sha256": "6f22832d0d0a7c36201952f22185c2970417a39a1ebe4f839f6e4a1f7129a733"
+    },
+    "summaryIntro": {
+      "textHash": "b6c60f6c15a00b8d21b2f5a9cfcdee135ca1f57cf5b4c5792b5af0cd6a5153c4",
+      "spoken": "شیئر کرنے سے پہلے خاندان کی ضروری معلومات جانچیں۔",
+      "bytes": 18017,
+      "seconds": 4.362,
+      "sha256": "5780242f9a53294fdd551a25fbecc1be5e11e5114b38f4332dc16bd75437f65c"
+    },
+    "summaryNotice": {
+      "textHash": "01a044512d63e0a60fe9961dcb5c41471e0a55c71c012e7e0451186f2076f201",
+      "spoken": "اکاؤنٹ کے نام، خاندان اور نامزد افراد کے مختصر نام اور دیے گئے آخری چار ہندسے شامل ہیں۔ ریکارڈ کے نوٹ شامل نہیں۔ قابل اعتماد فرد سے شیئر کریں۔",
+      "bytes": 54978,
+      "seconds": 13.585,
+      "sha256": "44a099b8171b0537db5517709efd134b93c5b5626b2b2aa59e61a6d1b3653ddd"
+    },
+    "print": {
+      "textHash": "bb9748b36b4fb6c667fb3b2b95cecd51ff507f919289bcce85fa117f6a15d7b7",
+      "spoken": "پرنٹ یا پی ڈی ایف محفوظ کریں",
+      "bytes": 12538,
+      "seconds": 2.983,
+      "sha256": "f91ee23d6e17035f793d9c7e05d5a6e06c70e6c901990063bb65ba971668ec3d"
+    },
+    "export": {
+      "textHash": "c3e8dac079c81526de874f5de8e4e87dd3da2c2b2a94fa105bd9bdac112b9400",
+      "spoken": "پڑھنے کے قابل نقل ڈاؤن لوڈ کریں",
+      "bytes": 12635,
+      "seconds": 3.018,
+      "sha256": "05980ace08d3d141590ebdd5b24012979a4c9cdba72aa76e0cd46b0dd49c5a6e"
+    },
+    "save": {
+      "textHash": "d79ac7f445a6203c68282753753779982beaf26de07d79024f1fb121abac23ad",
+      "spoken": "اپنا کام محفوظ کریں",
+      "bytes": 8697,
+      "seconds": 2.027,
+      "sha256": "9180b751dce1e1d1bd8cf8f35774811361bb30a483e61b24d89daf079d88fb38"
+    },
+    "saveShort": {
+      "textHash": "fdb5bb37256b61d64060bb311bfb6bd2dd03e1597fa09dcd1edbb0486d4d2d4d",
+      "spoken": "بعد کے لیے محفوظ کریں",
+      "bytes": 9374,
+      "seconds": 2.206,
+      "sha256": "12534d5b420c578c35d5a57c1d80c963fc3cf38d4f0dfee008c902211fa0dcc5"
+    },
+    "saveIntro": {
+      "textHash": "4be51af83c0bd431c6d4d639edfa318ae96bf70e19a61c14fa5af3bfd799978b",
+      "spoken": "پاس ورڈ والی فائل ڈاؤن لوڈ کریں۔ واپس آکر اسی پاس ورڈ سے یہاں کھولیں۔",
+      "bytes": 29246,
+      "seconds": 7.172,
+      "sha256": "f51e55e2404b6a982cee7dbdcaedb6fa6a2e4b6f6302d232dcbc590110e1fe15"
+    },
+    "savedFile": {
+      "textHash": "793c7d1738179dc59d7dc8b3aba62b68437af1c00dd39c64358982a82023f30b",
+      "spoken": "آپ کی .وراثت فائل",
+      "bytes": 11006,
+      "seconds": 2.612,
+      "sha256": "b7243f0e9504d451a517d06ea51b74544132d65a1acd32d0e86e1e249213ec27"
+    },
+    "password": {
+      "textHash": "bca24f5cae67cf113644f88e2a588659a3d5fc03ed0d9a27861b9d5f0f752cc5",
+      "spoken": "پاس ورڈ",
+      "bytes": 5245,
+      "seconds": 1.156,
+      "sha256": "c29d3a4d52f8e326243e64260acad9faf96bd70318fcca668d7ff8b669a2b5e7"
+    },
+    "passwordHelp": {
+      "textHash": "5b4de1c5558c546df6630908455a2e3b060d80ac3ff8fa8e843d8ea6ee4e515a",
+      "spoken": "کم از کم بارہ حروف۔ محفوظ رکھیں؛ ہم واپس نہیں لا سکتے۔",
+      "bytes": 23585,
+      "seconds": 5.751,
+      "sha256": "7076e85580540f30e8012f8ea25f8993d6391f65eddbe233cd76d6e1d8080f38"
+    },
+    "saving": {
+      "textHash": "df14d4cfe705bd77acc2450d46cc94161c4c6470308d82850fc10a1afc36a740",
+      "spoken": "فہرست محفوظ ہو رہی ہے…",
+      "bytes": 11771,
+      "seconds": 2.794,
+      "sha256": "96ff8bc62ab21aec5e35a6ba25d49d37976bbc212cff411bf521aecd12fb58da"
+    },
+    "saved": {
+      "textHash": "dab4f477d471823355f1b9b76e3c65ee335819e413579eb928f15c551c259918",
+      "spoken": "خفیہ فائل ڈاؤن لوڈ ہو گئی۔ پاس ورڈ الگ رکھیں۔",
+      "bytes": 19450,
+      "seconds": 4.716,
+      "sha256": "14fe417ad53e2a2a31a067c8bed06001ddea6d2c6bc250e74121e98ddb7e2a4f"
+    },
+    "restored": {
+      "textHash": "f6d16e87514e087d292fb2d71bc32ffa0f1b0416aebb1299b1f4db5f685bec48",
+      "spoken": "فہرست کھل گئی۔",
+      "bytes": 6877,
+      "seconds": 1.563,
+      "sha256": "ba72b0b0ef81ea8a016c9da39e346f75b58ffeb71d4b6e9a0c8b18c1d5c0413f"
+    },
+    "passwordShort": {
+      "textHash": "dc955e1e34ae32048a8c4b25cb1c75b7f504b566fb84bf939c51c433bed7e4be",
+      "spoken": "بارہ سے دو سو چھپن حروف کا پاس ورڈ استعمال کریں۔",
+      "bytes": 18978,
+      "seconds": 4.602,
+      "sha256": "6fd0120b0311a6c1bd106cc46dd03c285dfdcb9b6642a8fea01d4dd52cebf554"
+    },
+    "cannotUnlock": {
+      "textHash": "e66ed6063ad12d822a95d48ae7a07dac46dfc7ed784a497f838175b06af40bb0",
+      "spoken": "پاس ورڈ یا خفیہ فائل کی تصدیق نہیں ہو سکی۔",
+      "bytes": 16289,
+      "seconds": 3.917,
+      "sha256": "47d95b51a0d630d9b0a52c91767151fb4e7ac630d138fcf0d8ec6af656e411b7"
+    },
+    "invalidSave": {
+      "textHash": "62059d3dbff76cc9c9d9af8097c79917d762125b273f085788ffb74f27df55be",
+      "spoken": "محفوظ فہرست غلط یا بہت بڑی ہے۔",
+      "bytes": 16480,
+      "seconds": 3.978,
+      "sha256": "3f3ed1751be7a0a331bcf60073c1986d77121cb80241beaa2ad2489eae8a978d"
+    },
+    "invalidAccount": {
+      "textHash": "949155e875831b88161228b7ddcef1fd063d128fe136ad0d277857e8c72b047c",
+      "spoken": "ادارے کا نام درج کریں۔ حوالہ دیں تو ٹھیک چار ہندسے استعمال کریں۔",
+      "bytes": 25795,
+      "seconds": 6.303,
+      "sha256": "df0b2544f351885c8d316b634a585831a2ed3c7493382f51a7cdb0a078783460"
+    },
+    "invalidDate": {
+      "textHash": "06d700480aa37c2136b087edcd23f1aa9a67a560a3b949bf5f73bb6a2391f39c",
+      "spoken": "آج تک کی درست تاریخ درج کریں۔ تصدیق جمع کرنے سے پہلے نہیں ہو سکتی۔",
+      "bytes": 28192,
+      "seconds": 6.909,
+      "sha256": "28398f23876e483caf71494a2f402de59f6a4a9be8843e7fedbda8fdbec27403"
+    },
+    "submissionRequired": {
+      "textHash": "172c89a9042834fdbc86ff8e9035341ca8e3e6472e630d7d5d342e0018cf8a7f",
+      "spoken": "درخواست جمع کرنے کی تاریخ شامل کریں۔",
+      "bytes": 13991,
+      "seconds": 3.349,
+      "sha256": "c291886c65214f28f839ad169dbc2882361ec9bfbdfebd9c31f77b7a4b20b041"
+    },
+    "confirmationRequired": {
+      "textHash": "263ddd21edc586bc69ca5924a1f17cbe3e78f7947ecd09e6935891b067555a8f",
+      "spoken": "ریکارڈ کی قسم اور تاریخ دیں، پھر اندراج کی تصدیق کریں۔ صرف رسید کافی نہیں۔",
+      "bytes": 30985,
+      "seconds": 7.592,
+      "sha256": "1ffa8ef6cd3a68258e60745bf87465dbf875bb79cdc1525d814b35b555e33bcd"
+    },
+    "accountLimit": {
+      "textHash": "e96f5817931c470bed7dd277c6aa687ab55c8866966e4703a55672df8ab4a1a6",
+      "spoken": "اس فہرست میں پچاس اکاؤنٹس تک رکھ سکتے ہیں۔",
+      "bytes": 15809,
+      "seconds": 3.802,
+      "sha256": "e8c02ca53aca258543a6e6a23f724917c42a8fcbe3ab4dcae7cab54881d56ff5"
+    },
+    "updated": {
+      "textHash": "7b90a48a2e217ad79a79bec7c0f13d620e225382b1e6f8cfcdd46c1373408182",
+      "spoken": "فہرست اپ ڈیٹ ہو گئی۔",
+      "bytes": 8796,
+      "seconds": 2.048,
+      "sha256": "7eaee90a67783ceff60e27efbbe82e1ee155c2db4fe49b87fb0abe4b165a28fe"
+    },
+    "privacyHelp": {
+      "textHash": "141a464ecb75e306bfda59fa16b9ad354314d30a01702185595038a23d6f6b8d",
+      "spoken": "رازداری اور مدد",
+      "bytes": 8896,
+      "seconds": 2.074,
+      "sha256": "b517c89cb14ad4ee681d3cb1edcae6550aba1612d6030e44e139ee36c4755d08"
+    },
+    "privacyDetail": {
+      "textHash": "0613ad896fb58c91030c00237a561729b462869a126b79420e498c974bd01ea7",
+      "spoken": "فہرست براؤزر کی میموری میں رہتی ہے۔ دوبارہ لوڈ سے صاف ہوتی ہے۔ بعد میں واپس آنے کے لیے خفیہ فائل محفوظ کریں۔ ڈاؤن لوڈ آلے پر رہتے ہیں۔",
+      "bytes": 50274,
+      "seconds": 12.409,
+      "sha256": "700a90c778a4a029b4fedecf4daac61a87cf98d4e0c0715aa61499d6c3352a04"
+    },
+    "translationNotice": {
+      "textHash": "2f0652c5baa00b01d64a7ae387de9f448ac2229b9a07bd9442814079b1b99271",
+      "spoken": "ترجمے مسودے ہیں؛ روانی سے پڑھنے والے کی جانچ باقی ہے۔ سرکاری فارم اصل زبان میں رہتے ہیں۔",
+      "bytes": 34534,
+      "seconds": 8.479,
+      "sha256": "6f36ba2baff0075697187b3505b8019c4d98e5d49978862209cbe69d365e7c9a"
+    },
+    "boundary": {
+      "textHash": "5ff5725253f6347629fe883a7145cebb94d7aaa71b168d69997d75aeb581d063",
+      "spoken": "یہ فہرست وراثت کے حقوق طے نہیں کرتی، اکاؤنٹس تلاش نہیں کرتی یا درخواستیں نہیں بھیجتی۔",
+      "bytes": 31165,
+      "seconds": 7.642,
+      "sha256": "40df721751b64f9dceb77f86d684da2c08ebb0508870fee5b641539af538c35d"
+    },
+    "clear": {
+      "textHash": "b60c35b7db01a15a0760fb8b51fd72d02e89f4855c96ecf18b7afa318c62c11f",
+      "spoken": "یہ سیشن صاف کریں",
+      "bytes": 8890,
+      "seconds": 2.084,
+      "sha256": "c231abfa78656bef1514d54fe627ce843d8ba0a6f186d3b684e154b783d41e4b"
+    },
+    "clearAsk": {
+      "textHash": "9682201b1009ea95679aaa1cbf635aa8228daf2b7dcf1771ac481abb57a5b13b",
+      "spoken": "اس سیشن کی فہرست صاف کریں؟ ڈاؤن لوڈ برقرار رہیں گے۔",
+      "bytes": 22237,
+      "seconds": 5.412,
+      "sha256": "ed190e7a1677259dd0ee3a16be58a8998dadec31f9f1429061f8ae7405011fc9"
+    },
+    "clearDone": {
+      "textHash": "6a37ca777cf2f58cd0f6164ca4c234b9926f69d18f778b9d41f2e46d00951983",
+      "spoken": "سیشن صاف ہو گیا۔",
+      "bytes": 7454,
+      "seconds": 1.709,
+      "sha256": "e9355fa724dc2a89e82325db2e555308ad8675b8de2dd4dae0022bb052cbe9b6"
+    },
+    "language": {
+      "textHash": "edd0aba98b4ec2339bba5e98798003abd96b5a4e8cd074205a3416ec15ce1f45",
+      "spoken": "زبان",
+      "bytes": 4765,
+      "seconds": 1.034,
+      "sha256": "be2b62e4e65ac08a8fe937ffffb6642fa77f465d7b7feb5da3f6c4cb848cfa1d"
+    },
+    "access": {
+      "textHash": "2e08b00192f3bf949ee14d8fde12bfe9c58bc7a6a71423c9632eb1e3ce9ac57b",
+      "spoken": "رسائی",
+      "bytes": 4187,
+      "seconds": 0.906,
+      "sha256": "c88ec89ce00b393eabe29c347ca2962903ea7c4d5cdf3121d2b8e769af1b0818"
+    },
+    "textSize": {
+      "textHash": "0b9b4680571f0c7cc5be6000a79833f734a09bb0bbe16ce1faa5724ff0a75a4a",
+      "spoken": "متن کا سائز",
+      "bytes": 7933,
+      "seconds": 1.834,
+      "sha256": "343dc12b2ddadef6d33f62a8e84449e331b2a47d99e618ae0b6e67cadcf7789c"
+    },
+    "smaller": {
+      "textHash": "8d281fc7be31cdd97e9ab7aa5a1aca5935baa8abc925becc2a162b537ae42e6c",
+      "spoken": "چھوٹا متن",
+      "bytes": 6684,
+      "seconds": 1.527,
+      "sha256": "0e78511f60b0c1b7b8503fb41df41857d01fd39869a33808bdefd105e782ca5d"
+    },
+    "larger": {
+      "textHash": "34fd896951f0fabebe4e785fcd724dee18f0ced092dab47b4b03ce0245156cb2",
+      "spoken": "بڑا متن",
+      "bytes": 5435,
+      "seconds": 1.221,
+      "sha256": "06e5917d6e3825df8dd236bcd7843df11fb3113b97ad3138aaebc702696cd2db"
+    },
+    "contrast": {
+      "textHash": "00b116d1202f6d88efbfd048ad86ff4661df509bce43ba8162b27f75e10cd21c",
+      "spoken": "زیادہ تضاد",
+      "bytes": 7453,
+      "seconds": 1.706,
+      "sha256": "9798f80a494c15b9c906e3127c2a25eb5e7d4d3c372b2c0359e4a0ae2748120f"
+    },
+    "motion": {
+      "textHash": "535d6b1712db01c8f3dd882d3d5f7cb2deeaf271810f6660b0fe6e0d44971f91",
+      "spoken": "حرکت کم کریں",
+      "bytes": 6875,
+      "seconds": 1.563,
+      "sha256": "c47f9daed32bae6f3e1f6437e06ce622c6bca0725d84fc238b6ff7a3cd449de2"
+    },
+    "read": {
+      "textHash": "a05ef98bc68fa8e7964350d9500c4fc639def64bcf88546d112d6ddfcc6d61a0",
+      "spoken": "ہدایات سنیں",
+      "bytes": 7161,
+      "seconds": 1.649,
+      "sha256": "eb6ecda54b08a221018e761d9c6dd6a0a60cdfbba0208d6b93c65c0970a4fc43"
+    },
+    "speechUnavailable": {
+      "textHash": "7bf9dee5df65011a60b329f46f702c005e4043ba6b8ab238e0278b4af2d2c333",
+      "spoken": "اس ہدایت کا آڈیو ابھی تیار نہیں۔ لکھی ہوئی ہدایات یہاں موجود ہیں۔",
+      "bytes": 26470,
+      "seconds": 6.473,
+      "sha256": "dd0bab1ae06695ff2cee8972bd58af9d8c71a26c20d5143c5e7a54cb14ac961c"
+    },
+    "close": {
+      "textHash": "133e4f425fea6880132f334069dfbf711e0a0a8ed25da32b151e3669ebffaae8",
+      "spoken": "بند کریں",
+      "bytes": 6202,
+      "seconds": 1.402,
+      "sha256": "21ed3e4a7d2896747e4de767713d3592ef29b0334950532666757fcb96faef17"
+    },
+    "skip": {
+      "textHash": "689f7cf2f85fd5502c237f5a777b24e9d928a266e6c17b80084cd9c23b233986",
+      "spoken": "مرکزی مواد پر جائیں",
+      "bytes": 9561,
+      "seconds": 2.234,
+      "sha256": "67c0e7bccd303d0a6a9ef7446801133fa1c2d252c199759e69db27dfa4c3d37b"
+    },
+    "nothing": {
+      "textHash": "ffa5982b5aa7653f6480eae4592b71dadf974b0ba06526410bd523268808e3ae",
+      "spoken": "اس منظر میں کوئی اکاؤنٹ نہیں",
+      "bytes": 11868,
+      "seconds": 2.815,
+      "sha256": "133d2852878f250bdf99e852a7877ff38d230d2c77641464ddbed1a54ba831bf"
+    },
+    "optoutNote": {
+      "textHash": "e7234b75c33c82d5ae7955ef5273ad4422c4fefe2a81953c14bb85ec6c60c562",
+      "spoken": "نامزد فرد نہ ہونا رضاکارانہ فیصلہ بھی ہو سکتا ہے۔ ریکارڈ جانچ کر اکاؤنٹ ہولڈر کے ساتھ فیصلہ کریں۔",
+      "bytes": 36447,
+      "seconds": 8.962,
+      "sha256": "8bf420b4602961928f10f71a818341c0c8290bf49e0df2cfa61784e1442e1bfb"
+    },
+    "startCheck": {
+      "textHash": "efcb90add17458352fd02f898593c33d2f59556f67ba969638d4187565c36e10",
+      "spoken": "ایک اکاؤنٹ جانچیں",
+      "bytes": 8895,
+      "seconds": 2.083,
+      "sha256": "078fbae2dbd92ceae04630a7fc931807c42fbda018b0cf523a29bff6ab1a3e71"
+    },
+    "startHelp": {
+      "textHash": "57eaa4ce15a86337da6369ceffd91c3d86509d9ab65f23110ee05aef067a5487",
+      "spoken": "پاس بک، اسٹیٹمنٹ یا اپنا معمول کا ایپ لے کر شروع کریں۔ پہلے ایک اکاؤنٹ کافی ہے۔",
+      "bytes": 31070,
+      "seconds": 7.631,
+      "sha256": "8e4ef3514820b7c9ea06edbd0b80dec4ffd49914a8eb9b79569f9ad891a3dba6"
+    },
+    "resumeTask": {
+      "textHash": "f6c1842ba52d235d99d6635f964f5919a15df44f8537141a6eaae54d6d54092e",
+      "spoken": "یہ کام جاری رکھیں",
+      "bytes": 9183,
+      "seconds": 2.138,
+      "sha256": "1938c4c21f059eb8d289f4e3276cd4736fb16411f7b04c9ecd0c67d6ccdd38fa"
+    },
+    "needsAttention": {
+      "textHash": "4ae6c148b7bf6941936bb4cd1b11882274ade03a4e419ffdf2ca8360dd1ec41d",
+      "spoken": "ابھی باقی ہے",
+      "bytes": 6403,
+      "seconds": 1.455,
+      "sha256": "9aa6336f3f6bdd5c0f945bb523588aaa4e505517a04edbadeacc47b96ded6722"
+    },
+    "checkedCount": {
+      "textHash": "c6b477322d3f2663fdf2d74b675e3210fab1b605b0218543d331e8629e9fad53",
+      "spoken": "جانچے گئے ریکارڈ",
+      "bytes": 8705,
+      "seconds": 2.026,
+      "sha256": "3224f42fe41863851db02a1533e652019087ce4906aa1e2a8402d1ee3bcc8bed"
+    },
+    "howWorks": {
+      "textHash": "c62dd9f13a705b3a9949f98a34f355d9af45e92a564aa57872d594db9c8cf8f1",
+      "spoken": "یہ کیسے مدد کرتا ہے",
+      "bytes": 9181,
+      "seconds": 2.141,
+      "sha256": "562eeb3b57da78186b807d0115004e45b83185b335502c164c6a19dab4b93b40"
+    },
+    "howWorksText": {
+      "textHash": "49c0327203a2532a87a820c56207fbffb89cc55be86754a33b4cc71282fa3af9",
+      "spoken": "ہم درست جگہ جانچنے، اگلا قدم تیار کرنے اور نتیجہ رکھنے میں مدد کرتے ہیں۔ اصل تبدیلی بینک، بروکر یا فنڈ کرتا ہے۔",
+      "bytes": 45953,
+      "seconds": 11.35,
+      "sha256": "14210f44d7541cd381e27c08f19cc5ad68a36cfa20a464220a69957d50b85898"
+    },
+    "searchBank": {
+      "textHash": "715bc4c009f4f1b2606cdd19b0c96285f39a351f8ae7cc09fcb9e46803603dbb",
+      "spoken": "اپنا بینک تلاش کریں",
+      "bytes": 8415,
+      "seconds": 1.962,
+      "sha256": "5a382e560c32b33e9ddc65e5ea8fa2f6bd53ac3d50cec32e132ebed7ac78773d"
+    },
+    "searchDemat": {
+      "textHash": "120ef07e534eebe99505b97eecb155bad852e6af92f9d2167ca8bb2ce62eacfd",
+      "spoken": "بروکر یا بینک تلاش کریں",
+      "bytes": 9856,
+      "seconds": 2.315,
+      "sha256": "ae8d797fedbc6b866cdf2532e8c9ab31011592b2aa35c6833fe42eb99b23ac34"
+    },
+    "searchMf": {
+      "textHash": "859acf3286a2677b3cb891a12f86fb725d13dc0f881ef9d76b643656cb22ab2b",
+      "spoken": "اپنا میوچل فنڈ تلاش کریں",
+      "bytes": 10525,
+      "seconds": 2.491,
+      "sha256": "ead64770f215da5f93135fbfb9575b2f030cc5fff0fa3828da0bb6a7e939417f"
+    },
+    "searchHelp": {
+      "textHash": "2d77fcfe100d31d098291359adbc99e06004c14e99e2c0d0f24651c6199d6a04",
+      "spoken": "نام یا مخفف لکھیں۔ فہرست میں نہ ہو تو بھی ادارے کا نام لکھ سکتے ہیں۔",
+      "bytes": 26463,
+      "seconds": 6.466,
+      "sha256": "7e90ba0cb4cc9325099151bb0b0b6a79d98e4ed06bd44d16782bd51aeb15877f"
+    },
+    "useTyped": {
+      "textHash": "1345fa14933849389cfec467b049ed61ed077129622acda2d5ad7476dfaa4bf8",
+      "spoken": "یہی نام رکھیں",
+      "bytes": 7261,
+      "seconds": 1.674,
+      "sha256": "6c213fdb12176c2e961f0d745efafc6bebed36616d0b510bbe4af5c8e0cd60b8"
+    },
+    "suggestions": {
+      "textHash": "6495655a2e25282b5d0db12bbf738df5e8d22a4cf19cabd9331ac503431bc41a",
+      "spoken": "ملتے جلتے ادارے",
+      "bytes": 8608,
+      "seconds": 1.994,
+      "sha256": "548efef0725a987049de779a62c410ba23d12e3322c151813a105a54b8dd65ef"
+    },
+    "noMatches": {
+      "textHash": "fdfc497e6700dc0bf6750c796be20b5ecf7788a75fe8f93708b87fd3ed71b421",
+      "spoken": "کوئی نام نہیں ملا۔ املا جانچیں یا اپنا لکھا نام رکھیں۔",
+      "bytes": 20894,
+      "seconds": 5.074,
+      "sha256": "f86af4f0a944663f24418dead35b73460d071dcf97c29c5a3dc26c4677940e71"
+    },
+    "accountContext": {
+      "textHash": "c95c71a2d6c1ee869fe360d2a09c726459640a4b82eb60cbfd8d8675eb6dc431",
+      "spoken": "اس اکاؤنٹ کے بارے میں",
+      "bytes": 8995,
+      "seconds": 2.102,
+      "sha256": "e279088036da5161332a9824e24c13bb0fb543917ef20779789f665f00b3c6e5"
+    },
+    "contextHelp": {
+      "textHash": "221402e5b004c5d11263bbf004daacaf986f22346417c0dacc4c8bfae4b0ddfb",
+      "spoken": "اس سے درست ہدایات دینے میں مدد ملتی ہے۔ معلوم نہ ہو تو وہ انتخاب کریں۔",
+      "bytes": 27616,
+      "seconds": 6.751,
+      "sha256": "8766d38bdfc6d22e2685ea6e63c870000848ea47418e5c1a4fd05f736dd43499"
+    },
+    "whose": {
+      "textHash": "0b9d28068ae89a6f4b6ba525a3511bfcd3b261692f450ddbc5072278c81617a2",
+      "spoken": "یہ کس کا اکاؤنٹ ہے؟",
+      "bytes": 9754,
+      "seconds": 2.282,
+      "sha256": "989280cad021b913271038bc0ca486045ec5f8d602edb153035a29508eacefca"
+    },
+    "me": {
+      "textHash": "599924a4e3ab9848257bc5f037dcfac43848bf857606b4996f2834295448a16c",
+      "spoken": "میرا",
+      "bytes": 4759,
+      "seconds": 1.034,
+      "sha256": "97fb42c083c7def1250364761803215b9b28af9dd61826310d5a7753310e176b"
+    },
+    "parent": {
+      "textHash": "8af3c86ae4e77ecde2764604c99ae6c3bddb1aa8f85bc57963b1d80bda74f5a0",
+      "spoken": "والد یا والدہ کا",
+      "bytes": 8891,
+      "seconds": 2.077,
+      "sha256": "f5a5c215b0d69d5a0ba1d29b9428ffcd13d2f107047242909c48a303021d23e5"
+    },
+    "familyMember": {
+      "textHash": "88ee261d758c33cdd6d930c2f748e1a383398d149bda0cfefaf802cf517b4175",
+      "spoken": "خاندان کے فرد کا",
+      "bytes": 8225,
+      "seconds": 1.909,
+      "sha256": "0ba25563ca960f2204231071afe27790a6deffc72d3e05dcdc03f249029e0f7a"
+    },
+    "holderQuestion": {
+      "textHash": "c77fae166dc5ad5d42617932f1bb1b911c1f1c2118ba32b3c9ca8fd60c98d6df",
+      "spoken": "اکاؤنٹ اکیلے نام پر ہے یا مشترکہ؟",
+      "bytes": 15811,
+      "seconds": 3.802,
+      "sha256": "0471ab8cafebce680e1b99d064c1d58f74793c5b7e8c15671b3b92dceaaf41cf"
+    },
+    "sole": {
+      "textHash": "399c3391f08d67ee723a358226c933cc11a29b903e7ad589fc19345e83050457",
+      "spoken": "ایک اکاؤنٹ ہولڈر",
+      "bytes": 8697,
+      "seconds": 2.023,
+      "sha256": "76e9a8b838f9550904322cbda998238e81831d3ed515747a7b1f1b131987be99"
+    },
+    "joint": {
+      "textHash": "2df7ea9dfba1147a99e3f82c35b571bd43d50e591a3d11ff520aeaccd696726f",
+      "spoken": "مشترکہ اکاؤنٹ ہولڈر",
+      "bytes": 11098,
+      "seconds": 2.618,
+      "sha256": "c51562dc73cab0126330edd857bb8b0656a7a1be54214799da936ca7c85bd7a5"
+    },
+    "bankProduct": {
+      "textHash": "ede6fac491155c26d16bcaec5a89b53a7b29c4f08d4f1995048afcd71f017218",
+      "spoken": "کس قسم کا بینک اکاؤنٹ؟",
+      "bytes": 9376,
+      "seconds": 2.207,
+      "sha256": "64f663577fec66a638f41cc98a2500b3646002b4d8b063bd9bc93810e2a51612"
+    },
+    "savings": {
+      "textHash": "16d1729f41f5cadc3852b13af24c1d34f624146a90dd5f97621165103844ef68",
+      "spoken": "بچت اکاؤنٹ",
+      "bytes": 7644,
+      "seconds": 1.769,
+      "sha256": "3aee4fe83e723a593c8fcfe283c0e9ef7d5b45cd0510291d88e7e4512dfa6356"
+    },
+    "deposit": {
+      "textHash": "6df2480deb74b2fae268cb83f7fa0cd791ccd4ad45f927169713c366fc5ed402",
+      "spoken": "فکسڈ یا ریکرنگ ڈپازٹ",
+      "bytes": 10428,
+      "seconds": 2.466,
+      "sha256": "92f237f85fe638c0881f4863bc8c5d00ddc0a3af10b633615de02d9e22a638c6"
+    },
+    "mfMode": {
+      "textHash": "48fa9c86a2ec1ac3e9810a0814719040c19b3baa494282cb61ce07c425c5c8ae",
+      "spoken": "یہ میوچل فنڈ کس صورت میں ہیں؟",
+      "bytes": 11291,
+      "seconds": 2.688,
+      "sha256": "908401d68ed46321993aafa1c1f7009256460124c10f6f6f2c80571cd29b4450"
+    },
+    "folioMode": {
+      "textHash": "59d5a218185a5e0229706e0c990634687926a58bd4d1b34bd2470eaa4760fb68",
+      "spoken": "فنڈ کے ساتھ الگ فولیو",
+      "bytes": 10910,
+      "seconds": 2.581,
+      "sha256": "850fe2dd5f911c92031c0c861d4d97ca9b06d545e4e365f7665f30347d0063b8"
+    },
+    "dematMode": {
+      "textHash": "6799ce60c2f1d4e6294dab02dbc0600e9b0931d67eeb9de6cdc81e7a4939112e",
+      "spoken": "ڈی میٹ اکاؤنٹ میں",
+      "bytes": 9086,
+      "seconds": 2.126,
+      "sha256": "538023351f522daa8f710d1226f3ebebb0bb0901b631593ca705dd9ea9915852"
+    },
+    "identifyHelp": {
+      "textHash": "fa87d2aabc8cbf40258cd2726e9224e475c79d3672de0fbb13a0a93160a08e66",
+      "spoken": "پہچاننے میں مدد کریں",
+      "bytes": 8705,
+      "seconds": 2.033,
+      "sha256": "b81831c00e51813f9c6d4d626a02be6ebc80415808975e1af046846acd9b62e9"
+    },
+    "identifyText": {
+      "textHash": "1b6e54941017ba39e267dd6f13b628da4e4b3380ff629bf9d1fee95afcb8430e",
+      "spoken": "فنڈ اسٹیٹمنٹ میں فولیو نمبر اور فنڈ کا نام ہوتا ہے۔ ڈی میٹ اسٹیٹمنٹ میں ڈی پی آئی ڈی / کلائنٹ آئی ڈی یا بی او آئی ڈی ہوتا ہے۔ شک ہو تو ادارے سے پوچھیں۔",
+      "bytes": 56513,
+      "seconds": 13.99,
+      "sha256": "6b45feaf2d2541727a027d1439190a24587cd19914a04d91b15a21925942e4e3"
+    },
+    "change": {
+      "textHash": "a7e3400296f1d2668b579116b34092bb7603f115b40d9dc101302a09fb6a4c0c",
+      "spoken": "تبدیلی درکار",
+      "bytes": 6299,
+      "seconds": 1.438,
+      "sha256": "7cf3cdffefb0206f0358067a65b48127ddb30413297f5bceb4f9b77add353b6d"
+    },
+    "optout": {
+      "textHash": "a9d8b48a388bae331a199e6268616bdf977782231a99f4a39729e33a0f27138f",
+      "spoken": "نامزد نہ کرنے کا فیصلہ",
+      "bytes": 10523,
+      "seconds": 2.49,
+      "sha256": "ec84dd4d4cd540945424846145e9c9237980e8c0a394352c483b6676de8cb1f4"
+    },
+    "blocked": {
+      "textHash": "632739021a0f5ee506fb1f82fc8cc5346b14d5dff6be9b2517c286b5c86103e1",
+      "spoken": "مدد درکار",
+      "bytes": 5628,
+      "seconds": 1.259,
+      "sha256": "3cd89743b03d63063d552673850d5ce897f128ba6bc762d57fd22e15247a9321"
+    },
+    "helpCheck": {
+      "textHash": "d4093ab92992f24364263c33a6eb4b590ee1bff9802b1d0b673f9e539b8df637",
+      "spoken": "جانچنے میں مدد کریں",
+      "bytes": 8702,
+      "seconds": 2.022,
+      "sha256": "c371d401b161fa3ff88f23e31c04aad10d8d6c0d30d4fe1a6a82ab3a50d162d6"
+    },
+    "whatFound": {
+      "textHash": "6fc0fed7031420f215336fe47e1b1e44f1fc5e61cebe73c1ee2daa35764a32f2",
+      "spoken": "کیا معلوم ہوا؟",
+      "bytes": 6782,
+      "seconds": 1.554,
+      "sha256": "c7219c3de7d00b3334837829105107f7a4b2aefb86a7ca0fbe2cca1602a248af"
+    },
+    "foundYes": {
+      "textHash": "05fa72ffa17b0dde654c5b61d18e1b8bd118fb84ee752b0f47730c9f19663324",
+      "spoken": "نامزدگی درج ہے",
+      "bytes": 7741,
+      "seconds": 1.791,
+      "sha256": "d797065316f3271db580e6d1b4b9237828f7993c9ce7118d8255886261b6fa88"
+    },
+    "foundNo": {
+      "textHash": "4e37bfd83c865118875f20450280c535d1e6967d5ec897d6b0858c662c8aebb5",
+      "spoken": "کوئی نامزدگی درج نہیں",
+      "bytes": 8508,
+      "seconds": 1.982,
+      "sha256": "6ab3be0688d75289eb3a865d8e0e68eddab834ca2187f7802784740172b6c79d"
+    },
+    "foundChange": {
+      "textHash": "472a9837db0519d5b6243a7ba3b9885b25c7342a34f833bce4f091c3e28e8ea5",
+      "spoken": "تفصیلات بدلنی ہیں",
+      "bytes": 9376,
+      "seconds": 2.186,
+      "sha256": "cb7c0e875f52126f73712f433658b6567036a6aa9acacb7bf79f04918650a5f7"
+    },
+    "foundUnknown": {
+      "textHash": "1fc7a82aa98ecce1414a7bc1bcdaed281d63f6d1bfd29d38d07f9ea5679967b9",
+      "spoken": "مجھے نہیں ملا",
+      "bytes": 6497,
+      "seconds": 1.475,
+      "sha256": "bb752c642abc9b36da87a04e6b531ad32022b05da61a2dcef454c4f438fc6401"
+    },
+    "prepare": {
+      "textHash": "953ab472d5b4e13bd8d408e44a968e8f98efd95240c55b56db9b95fa4b0b6193",
+      "spoken": "اگلے قدم کی تیاری",
+      "bytes": 8124,
+      "seconds": 1.882,
+      "sha256": "58d86df044dad3b8bbc6f1bab6bce50016114c45b46759328016cb8faacee5e4"
+    },
+    "checkFirst": {
+      "textHash": "a5101e0e88160dc78377052a2905f0eb2190a7930d4812cc256cdd7307342572",
+      "spoken": "بدلنے سے پہلے جانچیں",
+      "bytes": 8607,
+      "seconds": 1.994,
+      "sha256": "cf6fe0ffbf9e98897e47f649d47c0c0df8c91e245f95807e7cfcb1c2c38bcdbc"
+    },
+    "openOfficial": {
+      "textHash": "9f6393920865afe79fb04adacb76a90be0803a40dfee04fb53a09dab77a07256",
+      "spoken": "سرکاری ہدایات کھولیں",
+      "bytes": 9953,
+      "seconds": 2.33,
+      "sha256": "a83780671b53c1b6bd7e397c7dea86d5558f7800f8f2ec1708088a2bd1515113"
+    },
+    "prepareIntro": {
+      "textHash": "3d527c8869f47c40562737398e3ec08ca4b1e069d1cef84833896818ac2bf149",
+      "spoken": "ادارے کے لیے یہ معلومات تیار رکھیں۔ یہاں درج کرنا ضروری نہیں۔",
+      "bytes": 22049,
+      "seconds": 5.366,
+      "sha256": "c51339c9a3c35206afed9f3e775d52086c1f02bd50cb70327059c5beb1347018"
+    },
+    "prepareNames": {
+      "textHash": "8f7a5c1cca5891d3a77b6de1dcead29905002c68fdedad7119170a317cce5698",
+      "spoken": "نامزد فرد کا نام اور رشتہ، ان کے ریکارڈ کے مطابق۔",
+      "bytes": 22049,
+      "seconds": 5.355,
+      "sha256": "f18331ac293313ac3ee073d1c43dff531f552600f88bff7010744a378f56b1f7"
+    },
+    "prepareMinor": {
+      "textHash": "4664c35238e1027291cbb4f7b2f2206328f06f0d66236d233a039e0059bc6698",
+      "spoken": "نامزد فرد بچہ ہو تو موجودہ فارم میں تاریخ پیدائش اور سرپرست کے خانے دیکھیں۔",
+      "bytes": 28481,
+      "seconds": 6.97,
+      "sha256": "56efce37a2f1074d10726898f5b17d89bd3b5c842bcf0e908f6906c00e8d2626"
+    },
+    "prepareAccess": {
+      "textHash": "7086fb9137542b6559fac9b849857b54f148bbc1422beeae46ef03484aba80df",
+      "spoken": "اپنے اکاؤنٹ کا حوالہ اور ادارے کی سرکاری سہولت تک رسائی۔ پاس ورڈ اور او ٹی پی صرف وہیں دیں۔",
+      "bytes": 31458,
+      "seconds": 7.723,
+      "sha256": "6af6453c4ffb3cc8a501b89745e5a77a9ff850c7d07150029c5e6a2973f260bd"
+    },
+    "jointGuide": {
+      "textHash": "8b71585a18fe07fbcaec614d294b1f07ac198e8285659acfb213af7711898d6b",
+      "spoken": "مشترکہ اکاؤنٹ میں سب ہولڈرز کو شامل کریں۔ جمع کرنے سے پہلے ادارے سے دستخط اور طریقہ پوچھیں۔",
+      "bytes": 37503,
+      "seconds": 9.231,
+      "sha256": "2fd906e3dfdb6e5ba4e1e862990d4e7c2dc3b32af55c14caac0dcc92b5d7cd7a"
+    },
+    "unknownContext": {
+      "textHash": "28ce6f3942a11deaaa785c39f93e78d8d0762bc316a78ff5b672f9c9a93246f8",
+      "spoken": "آن لائن طریقہ چننے سے پہلے اسٹیٹمنٹ پر ہولڈر کے نام اور اکاؤنٹ کی قسم جانچیں۔ ادارہ مدد کر سکتا ہے۔",
+      "bytes": 38275,
+      "seconds": 9.413,
+      "sha256": "6d23a09b5a201f8aa2be2f92982bd1ec709a646eee6c0209efb64c950a39b90f"
+    },
+    "hdfcSavings": {
+      "textHash": "5a0199423ee0ba1075d8b90ade1e918b59dd0264592b3b908a7d1fc31f86fb07",
+      "spoken": "ایچ ڈی ایف سی نیٹ بینکنگ میں اکاؤنٹس → اپنا اکاؤنٹ → اکاؤنٹ ڈیٹیلز → نامینی اینڈ اکاؤنٹ ہولڈر ڈیٹیلز کھولیں۔",
+      "bytes": 43840,
+      "seconds": 10.824,
+      "sha256": "f26ecd0a97c45b85c27188097e734a76cb6a1fce3309068381988bd846261e54"
+    },
+    "hdfcDeposit": {
+      "textHash": "553dbb700ef79871fea05d44f90017472efbc151089d0e3f1e012ffbcdf7e077",
+      "spoken": "ایچ ڈی ایف سی نیٹ بینکنگ میں ایف ڈی/آر ڈی → ڈپازٹ چنیں → ایڈ نامینی یا چینج نامینی دیکھیں۔ اسے بچت اکاؤنٹ سے الگ جانچیں۔",
+      "bytes": 48832,
+      "seconds": 12.058,
+      "sha256": "88e98292aec14f4c6be97943abe809888c673a5874cb917be6134487bbc5e76d"
+    },
+    "hdfcAction": {
+      "textHash": "a756ca11b3fb5aae74715029cb69ecf194970fbc4c25a3d62e6b2e68bd6dfa6d",
+      "spoken": "اکیلا ہولڈر متعلقہ اکاؤنٹ میں ایڈ نامینی یا چینج نامینی استعمال کر سکتا ہے۔ مشترکہ اکاؤنٹ کے لیے دوسرے ہولڈرز کے ساتھ برانچ کا طریقہ اپنائیں۔",
+      "bytes": 59391,
+      "seconds": 14.707,
+      "sha256": "dacd0a80af53d19696208038168c5fd0458eabcab5d6e8e54cb28d25867bdc16"
+    },
+    "zerodhaCheck": {
+      "textHash": "9b7b9329501954a500194f008f1cdd78af7e01749279f1d86e9aa5409613d4a4",
+      "spoken": "زیرودھا کنسول → اکاؤنٹ → نامینیز کھولیں۔ یہی نامزدگی اس ڈی میٹ کے میوچل فنڈ اور کوائن پر بھی لاگو ہوتی ہے۔",
+      "bytes": 41345,
+      "seconds": 10.177,
+      "sha256": "aaad967db34e552e86058d0082338d6deb96f5a6e3696493f44142bea953d7ac"
+    },
+    "zerodhaAction": {
+      "textHash": "44b39e5e8a45da837ea0e4a56459b01939296712137e39f893846a756d2a7a5c",
+      "spoken": "کنسول کی ہدایات استعمال کریں۔ مشترکہ اکاؤنٹ یا آدھار سے موبائل منسلک نہ ہو تو زیرودھا آف لائن فارم بتاتا ہے۔ لنک پر موجودہ شرائط دیکھیں۔",
+      "bytes": 51618,
+      "seconds": 12.746,
+      "sha256": "48b20d682ef04a14991ed40a6613aa5f40a4feebd19abef439fa1216ddb2ff59"
+    },
+    "hdfcMfGuide": {
+      "textHash": "0e23594ce19b7db03334329f26297524cf7a58ca7edc45b6bf6d1d10bfee524a",
+      "spoken": "موجودہ فارم اور جمع کرنے کی ہدایات ایچ ڈی ایف سی میوچول فنڈ کے نامینی رجسٹریشن صفحے پر دیکھیں۔ پہلے اسٹیٹمنٹ کا فولیو ملائیں۔",
+      "bytes": 43840,
+      "seconds": 10.81,
+      "sha256": "467b3c4af05691747855843dddb0162b05941131468447918070035260b8a3b2"
+    },
+    "mfDematHelp": {
+      "textHash": "36fe8caac47faac6fe352f0911c00ca08c09e5fef8c198fd6dccc674be085802",
+      "spoken": "ان یونٹس پر ڈی میٹ اکاؤنٹ کی نامزدگی لاگو ہوتی ہے۔ بروکر یا ڈی پی سے وہ اکاؤنٹ جانچیں؛ الگ فولیو کی نامزدگی ضروری نہ سمجھیں۔",
+      "bytes": 44896,
+      "seconds": 11.069,
+      "sha256": "9c68f2204edf00869acaad53fcb353be1ec2a1e324217d6a35b05e18acf5f03e"
+    },
+    "useDemat": {
+      "textHash": "c7795ed023d4de80d070edd48a16a1cfa327b0b87f1029f7a1bfaf6936602a9a",
+      "spoken": "ڈی میٹ اکاؤنٹ جانچیں",
+      "bytes": 10333,
+      "seconds": 2.426,
+      "sha256": "3608437e2182bfe2f48ffefe754e3910535dfec3626f3267cc847a2fe11c98af"
+    },
+    "routeFallback": {
+      "textHash": "222f144ae061cddb50f8bafca30ff69aa6b06b7e6fefa40a352c6e9159a4fc38",
+      "spoken": "اس ادارے کے لیے عمومی رہنمائی ہے۔ درست اسکرین یا فارم اس کی سرکاری سروس سے معلوم کریں۔",
+      "bytes": 38466,
+      "seconds": 9.477,
+      "sha256": "a1c31363fceb7f35f56531778695b01a5ba052cb55336e516e2b9013d0ac8515"
+    },
+    "offlineHelp": {
+      "textHash": "e023c254d6e4fa543391fb56d68a2bf324e4a964e43f6d858e126dbd5b940774",
+      "spoken": "خود جا کر کرنا چاہتے ہیں؟",
+      "bytes": 10048,
+      "seconds": 2.362,
+      "sha256": "03b083a25330c01c263b175030b5e241cf15eaaff13d37cadc3f36a155c9858b"
+    },
+    "offlineText": {
+      "textHash": "38126e61e3bcfeef8f07e5710efb65ccc327a4c238511d640bcd4934a4d98d9f",
+      "spoken": "اکاؤنٹ یا فولیو کے حوالے کے ساتھ برانچ یا سروس سینٹر جائیں۔ نامزدگی یا تبدیلی اور تاریخ والی رسید مانگیں۔ پہلے پوچھیں کن ہولڈرز کو آنا ہوگا۔",
+      "bytes": 57664,
+      "seconds": 14.276,
+      "sha256": "12ae67ee9360028c792703d0c0f96242579d7f5eb24748cefc6ec14f9e38df24"
+    },
+    "askHelp": {
+      "textHash": "0a0d6769973d306313f44f6077fb60fff9ba3d3699ab9287ed702e877293baf7",
+      "spoken": "یہ سوال پوچھ سکتے ہیں",
+      "bytes": 8700,
+      "seconds": 2.036,
+      "sha256": "60d6106104268905ac99b3345aded20d54f7c51b8ab3af20025d5296e783aadd"
+    },
+    "askText": {
+      "textHash": "ddfa26ad4392816b08f68669393dd44b34416cd4541fbbbb4a9444547d42114f",
+      "spoken": "براہ کرم جانچیں اس اکاؤنٹ میں نامزدگی درج ہے؟ نہ ہو یا بدلنی ہو تو کون سا موجودہ فارم یا آن لائن طریقہ استعمال کروں؟ نتیجہ تحریری دیں۔",
+      "bytes": 55068,
+      "seconds": 13.63,
+      "sha256": "f0a77739c0e511ab654a4d5402080dbfc6825190b722aff77812791040cb4c83"
+    },
+    "copyQuestion": {
+      "textHash": "b3efe48e8bf1ed951c9469c4ba01c3ce9c603520247c277b914aa67126e0387e",
+      "spoken": "سوال کاپی کریں",
+      "bytes": 7457,
+      "seconds": 1.727,
+      "sha256": "cba2a2eec7118d53a0d4fdbbf194b79233545efb4b3936986ef39eab45943562"
+    },
+    "copied": {
+      "textHash": "d45eb5459c30b7a7c3ce8b083527b39e2604d3f5c26a81a331bcdef2fd2f031b",
+      "spoken": "کاپی ہوگیا",
+      "bytes": 5819,
+      "seconds": 1.302,
+      "sha256": "38d819d22f6a9fe558d510a14fd34dacb8547ba0b1a0349d7828b90cdbebac27"
+    },
+    "followup": {
+      "textHash": "f74c15e64b1879fda1111be1cd61b418abb5cfb08afafa2c6ae5ae5a87a43d65",
+      "spoken": "دوبارہ جانچنے کی تاریخ چنیں",
+      "bytes": 11293,
+      "seconds": 2.682,
+      "sha256": "7ca7ffe31cf11ce3028fd8dcfba95605268cb80105b0ad0d706f00105f297ced"
+    },
+    "followupHelp": {
+      "textHash": "f2d7bba4e46b015fe494165797bd36a5a51959d5a314185e6a11d4f1ad4d5054",
+      "spoken": "یہ آپ کی یاد دہانی کی تاریخ ہے، ادارے کی آخری تاریخ نہیں۔ اطلاع کے لیے کیلنڈر میں ڈاؤن لوڈ کریں۔",
+      "bytes": 34049,
+      "seconds": 8.366,
+      "sha256": "7e90f0a4347f1e23a1deec5ea14fcdb2e92d6b28933a220ab4d529c5efedd2df"
+    },
+    "calendar": {
+      "textHash": "21902fba03fe4df3c69f969e7d39cbab293c9b397d1d8e260c02cb46c9f6dce6",
+      "spoken": "کیلنڈر یاد دہانی ڈاؤن لوڈ کریں",
+      "bytes": 14461,
+      "seconds": 3.463,
+      "sha256": "43eaa38880c2b0be1d3cdd7ea5fae50bc968614c9752bbdad07b055288d238cc"
+    },
+    "followDue": {
+      "textHash": "022b348d54d6078544d5f5acdfc762ae8b82f7eb1e086bbbcea1820f19f54726",
+      "spoken": "جانچ کا وقت",
+      "bytes": 7070,
+      "seconds": 1.626,
+      "sha256": "6cfcbcaffed7f7a68fe3aa0c571d23d5cbc7bc21f45358724dd894f97255fb22"
+    },
+    "requestHelp": {
+      "textHash": "d2eed71a5eca7ea0265c3f583eb68c56a61131cf0c70f725f586ab5e1e9ef50a",
+      "spoken": "درخواست میں مدد درکار",
+      "bytes": 10048,
+      "seconds": 2.366,
+      "sha256": "2ce29c27d6802e16b9509b4008a21e5ae2247aa7e17362a4aa97c9dbd259454a"
+    },
+    "blockedHelp": {
+      "textHash": "6a14225d07751d52355674ffe5c743778b4c7c71ee42a3f03424ba5462049ef3",
+      "spoken": "ادارے کا جواب رکھیں۔ پوچھیں کیا کمی ہے، کیا اصلاح چاہیے اور دوبارہ کیسے جمع کریں۔ مسترد یا نامکمل درخواست رجسٹرڈ نامزدگی نہیں۔",
+      "bytes": 49024,
+      "seconds": 12.106,
+      "sha256": "23a78d122a91d1f2ff817d5c20cd736b37147cc203ca25e6a28d849bc454a3d9"
+    },
+    "recheck": {
+      "textHash": "43fa8e4d07cba7065d34ce067dd3c4be1c5aefcd08047071b0cddc35f3aba0a3",
+      "spoken": "دوبارہ جانچیں",
+      "bytes": 7548,
+      "seconds": 1.738,
+      "sha256": "198a030469f2b634d4b35f90ffe104c9597bf0fa87f1d4f3b33530a039110beb"
+    },
+    "familyRecord": {
+      "textHash": "d43e0cd72cbd4ef9f11e9a479a15860af2b3dca591cb6111888ef4445256b026",
+      "spoken": "خاندان کے لیے ریکارڈ",
+      "bytes": 9377,
+      "seconds": 2.208,
+      "sha256": "cf237d4ee6b4e0f542a1c737e772af6b2c7fb021c8415f0b1ac43faaacd81b15"
+    },
+    "familyHelp": {
+      "textHash": "95a108db70c2dd32d21f9e1b58cf7405716b841bf58e5a1495a823567e59439b",
+      "spoken": "صرف وہ معلومات دیں جن سے خاندان اکاؤنٹ پہچان سکے اور ریکارڈ ڈھونڈ سکے۔ نجی تفصیلات چھوڑ سکتے ہیں۔",
+      "bytes": 39999,
+      "seconds": 9.853,
+      "sha256": "260f2a9b8713f0a4aef0552757720c4c42907785e835a44dde3fe7f0d8a41384"
+    },
+    "recordLocation": {
+      "textHash": "54a81bee2c77e75c8928dc5cbc73c6bf9f75143a883b3b613613dd057ece38ee",
+      "spoken": "خاندان ریکارڈ کہاں پائے؟ (اختیاری)",
+      "bytes": 16195,
+      "seconds": 3.906,
+      "sha256": "af6be6e4826479a75d5215b2de5fbe61d3b7070eeab115150ca0687cf551b229"
+    },
+    "locationHelp": {
+      "textHash": "0d7a6ab66261185886fd99e356d1d956b997bf3f701d6344bb4ea4fe561e799c",
+      "spoken": "مثلا: گھر کی نیلی فائل۔ یہ جگہ خاندان کے خلاصے میں آئے گی۔ پاس ورڈ یا پورا اکاؤنٹ نمبر نہ دیں۔",
+      "bytes": 38081,
+      "seconds": 9.365,
+      "sha256": "5c33bb93e92bdfe3b52ab3001a3cb4534e894ae74d958ca819bebe75aed5a726"
+    },
+    "addNomineeNote": {
+      "textHash": "a6274ab699eb915122011f49ae4935d85644a2d704e620603a886f21e3dffcd9",
+      "spoken": "ایک اور نامزد فرد کا نوٹ شامل کریں",
+      "bytes": 13603,
+      "seconds": 3.262,
+      "sha256": "550776e6b1e8fa6f839e6cab020f75df2bf28945cac4b6247d7b35a517330178"
+    },
+    "optionalDetails": {
+      "textHash": "5686b9ae7845e7abb16c015a07c3c766c17d81d3dea4ddb5033f8e74d310c3ec",
+      "spoken": "خاندانی تفصیلات اختیاری ہیں",
+      "bytes": 12644,
+      "seconds": 3.007,
+      "sha256": "d4fafa6866b71f4c60e300a92588518f3033e543fd8040a4b7dd473c7dc72782"
+    },
+    "notProvided": {
+      "textHash": "da53cb3111e0ebf8b5662b05baf95f61c22d557d8020dfb5547082730dfc9b51",
+      "spoken": "اس فہرست میں شامل نہیں",
+      "bytes": 9088,
+      "seconds": 2.131,
+      "sha256": "3009e58b3d682e9b26d0d9f983ba243eca4d927ef5ca1f01a6bbea350b1881fd"
+    },
+    "unsaved": {
+      "textHash": "f51030eaf82977905dcb75dffed930aef85a410de9e6dd6304cf4b9e7d7d373e",
+      "spoken": "تبدیلیاں بعد کے لیے محفوظ نہیں",
+      "bytes": 15996,
+      "seconds": 3.864,
+      "sha256": "b3fbc9ce46a9cce51adcfe09f247feda586714408fd714116dcc4001f54517be"
+    },
+    "savedStatus": {
+      "textHash": "64aaf1e691f7b7ccd64b21be461b94891f00c384fed2dd3cb1c70e76ee6dbfa6",
+      "spoken": "ڈاؤن لوڈ فائل میں محفوظ",
+      "bytes": 12736,
+      "seconds": 3.027,
+      "sha256": "9765312dd44b453de5f770de68f2d0da7cb91b19f89e782965b30b9eb7419adc"
+    },
+    "passwordAgain": {
+      "textHash": "d868d54418acd4896d19bcf801647e60a5bc62cfeec9bf23095c0ef6d89a8259",
+      "spoken": "پاس ورڈ دوبارہ",
+      "bytes": 8130,
+      "seconds": 1.882,
+      "sha256": "87511bf6ab45cd2d48dae580ebe6e05ecf9a0287b373df96087ee9fbc5e4651f"
+    },
+    "passwordMismatch": {
+      "textHash": "0d1a27a5169718095d91e9e14651c07f5b25aa3674cd87f514f3f20f45d32a62",
+      "spoken": "پاس ورڈ ایک جیسے نہیں۔",
+      "bytes": 9573,
+      "seconds": 2.235,
+      "sha256": "768c64c8e87e2dd54fecc28e2eb7d5a2f93a957448a1aa9a246b722e54f937f9"
+    },
+    "showPassword": {
+      "textHash": "ec1e6766b989eaa4554910bb51483f7969d37400f20a71f2fd0e190706e65cbe",
+      "spoken": "پاس ورڈ دکھائیں",
+      "bytes": 8129,
+      "seconds": 1.872,
+      "sha256": "c11cceb5164fac1ec34b40166154b80557073fcd65c1f3160051b6e27b09772c"
+    },
+    "saveTip": {
+      "textHash": "29405d773f58e94fd9c9726069a632f2bad89d131ca08e78fb7a925022a0f59d",
+      "spoken": "ڈاؤن لوڈ کے بعد ڈاؤن لوڈز میں .وراثت فائل ملے گی۔ پاس ورڈ الگ رکھیں۔ نئی تبدیلیاں دوبارہ محفوظ کریں۔",
+      "bytes": 42396,
+      "seconds": 10.452,
+      "sha256": "1d6e20c775d6787c66c34b360579aa10c48b7052faf667edd79bd8351168bac2"
+    },
+    "evidenceScope": {
+      "textHash": "4370493b88273ffa086372a41027af742bd14f6770e504f040326098dc4b564a",
+      "spoken": "ریکارڈ میں کیا دکھتا ہے؟",
+      "bytes": 9666,
+      "seconds": 2.274,
+      "sha256": "1d690a9935b87a0ed642e5ffa9a31a3ba19d95a2d7e5f2d4b6761bf832c00d51"
+    },
+    "statusOnly": {
+      "textHash": "47e8c5a000eb6e1fc3d6ad094eda38aa88228e707de1ece1db47f0ad47931e5e",
+      "spoken": "نامزدگی درج ہونے کی حالت",
+      "bytes": 11679,
+      "seconds": 2.762,
+      "sha256": "ffd08e0439f525616e2c1878807edea450d18a21fbe3c3f590429cef847a9f85"
+    },
+    "detailsChecked": {
+      "textHash": "9766047ba1cd94e37c46328b138ca24d7833580ee3d8cd428253232c6e85eba7",
+      "spoken": "نامزد فرد کی تفصیلات بھی جانچیں",
+      "bytes": 12931,
+      "seconds": 3.082,
+      "sha256": "481262296e645694065d6ab9ce3dc2cb1cf857701501b2af67ea0342d14b7031"
+    },
+    "receiptExample": {
+      "textHash": "2b6906e978de460d0a85eead67640986f5f715cbb48ef6ae3cd33c80a5242a27",
+      "spoken": "“آپ کی درخواست مل گئی” کا مطلب ہے کام ابھی زیر التوا ہے۔",
+      "bytes": 19843,
+      "seconds": 4.811,
+      "sha256": "aaba6ef35044caf00f8d4d3c28c6f62ac8ffc16f13db064780325ba88de64774"
+    },
+    "registeredExample": {
+      "textHash": "cf263679409d9128d27b4b159c10367ae5bec0bd18836128ab7669573873d016",
+      "spoken": "“نامینیشن رجسٹرڈ” یا “نامینیشن: یس” اندراج دکھاتا ہے۔ اکاؤنٹ بھی ملائیں۔",
+      "bytes": 29638,
+      "seconds": 7.271,
+      "sha256": "c76127b24c19335e573d74578efa79ead812cb66fae054d07953212a6624da80"
+    },
+    "seeEvidence": {
+      "textHash": "ca999d3506fe89260e9b53ecee9f52d8b1ab448e5ee10b1cd8d293cbd6dd4003",
+      "spoken": "تصدیق کسے مانیں؟",
+      "bytes": 7360,
+      "seconds": 1.694,
+      "sha256": "a47f718a5d1b9e26a6e969148bb8a6f7ce1bd7cbdf32cec2e3bfce0efaf30d8c"
+    },
+    "fictionalExample": {
+      "textHash": "b87d31b7212eab220ec795267f87796ffc9b52da18be793595cb179672718c6d",
+      "spoken": "صرف مثال",
+      "bytes": 6693,
+      "seconds": 1.53,
+      "sha256": "7e5c3896b6385adcfc4370f85e9aecf9f62a4a3f640e268d05f2b5b91a547d75"
+    },
+    "pause": {
+      "textHash": "937c54283ddf75ce0ee0bdc277d7b6f48560a759913e71d36ec91d00781bc072",
+      "spoken": "روکیں",
+      "bytes": 4954,
+      "seconds": 1.082,
+      "sha256": "e3ba3093dfc5947cb14de087cf88a5726835f028900770ce814a1be9d86664df"
+    },
+    "resumeAudio": {
+      "textHash": "83a3100fcc2707a8a69e5bb4731fb45f8bae9682e1c2759889d173f41855b249",
+      "spoken": "سننا جاری رکھیں",
+      "bytes": 8896,
+      "seconds": 2.083,
+      "sha256": "90ae0096c55dafe1b00cde520a8160081baeac6e87c326ef4676dcbea594b221"
+    },
+    "stop": {
+      "textHash": "133e4f425fea6880132f334069dfbf711e0a0a8ed25da32b151e3669ebffaae8",
+      "spoken": "بند کریں",
+      "bytes": 6201,
+      "seconds": 1.402,
+      "sha256": "e9b1a570e93b1a1feb087b24521b91fb9e94956211ac76180b9389c30a208a53"
+    },
+    "listening": {
+      "textHash": "daa0aef1558e3c7211dcd9a2eff0433248730eeb46454ce836bb05bb381774f1",
+      "spoken": "صفحہ پڑھا جا رہا ہے",
+      "bytes": 9182,
+      "seconds": 2.138,
+      "sha256": "d05ec5c1120dd555afbed956eddf546f2e00af2f0e8975188b18b3420713951f"
+    },
+    "finishedAudio": {
+      "textHash": "53329833914f5fbebf39b7acb8a97fed2c5cb4bfdc788409bb884e18a0a33922",
+      "spoken": "پڑھنا مکمل ہوا",
+      "bytes": 7266,
+      "seconds": 1.659,
+      "sha256": "b452a35a2483336cb6c175a23f58772b829d98f5503eb39c3ef6e0b18f43b4b0"
+    },
+    "voice": {
+      "textHash": "4ede3ea4c19c8c713504114db145c55d0a3568dc95068d1744ef705559604513",
+      "spoken": "سننا",
+      "bytes": 4762,
+      "seconds": 1.05,
+      "sha256": "3fbfc468472eb005401211eceb2a6f176b8a4ad6061e95db01dea45ec77a38fc"
+    },
+    "speed": {
+      "textHash": "91311eaff551ef2b39f373123c16a9f94421d3b09a12ee39febf959b14dddada",
+      "spoken": "پڑھنے کی رفتار",
+      "bytes": 6778,
+      "seconds": 1.549,
+      "sha256": "4486a93943d48edf2693946fcb4df8e5fd8697af208b71ab7abd5c27876e85e2"
+    },
+    "slower": {
+      "textHash": "5e82d4d69495a3363226197a9b697cee932d0aa24db6907ee522ba6bdad8fe50",
+      "spoken": "آہستہ",
+      "bytes": 4571,
+      "seconds": 1.002,
+      "sha256": "8fc9d17757773ae9114ea2bb4afd23e7c20e3e3546de34baa87d055bb8fd80a9"
+    },
+    "normalSpeed": {
+      "textHash": "f77961fcedcbd19a8428e975c03ff95e4d151beecf1979b6498b7ca9814f329c",
+      "spoken": "معمول",
+      "bytes": 4864,
+      "seconds": 1.066,
+      "sha256": "05b636c7d68ea59e120939a450a8f6efa2cd09b3c967d8e3081bc16e371a0b53"
+    },
+    "faster": {
+      "textHash": "8cad1d016d124aa8bdb7f6896c1278bef0dba0be0e6ddf4ebdea54fdb557a76f",
+      "spoken": "تیز",
+      "bytes": 4187,
+      "seconds": 0.89,
+      "sha256": "c4edd7dcc20b99b811c2b88a6ee556f0003ea25e70114d885f3f356aa6381f45"
+    },
+    "previewVoice": {
+      "textHash": "99a0a4877368297c1bf18911d4c6023d210f10083335554ebce1c65aeed04381",
+      "spoken": "آواز سن کر دیکھیں",
+      "bytes": 8225,
+      "seconds": 1.899,
+      "sha256": "51b2b116d9dd5a22fa7f63850f81e9ea20df3014d0525a6f931e5300ba564233"
+    },
+    "voicePreview": {
+      "textHash": "24271df2466a9a8b1ce8339ba92cb13d02b4c567914d32c484d7441191b8fc34",
+      "spoken": "میں آپ کی زبان میں ہدایات پڑھوں گا، ایک وقت میں ایک قدم۔",
+      "bytes": 20513,
+      "seconds": 4.97,
+      "sha256": "5ddaf9795aff8ef4fd308e5c5c8bc16110df8525f7760b616a44f1d5128ad5cf"
+    },
+    "voiceHelp": {
+      "textHash": "fe845ff4f3ddcaf6a6a6b1c89cb90716cba7cec7c663eb043869c13e269a430b",
+      "spoken": "تمام چھ زبانوں میں آڈیو موجود ہے۔ کوئی آواز انسٹال نہیں کرنی۔ صرف لکھی ہوئی ہدایات سنائی جاتی ہیں؛ آپ کی معلومات اور پاس ورڈ نجی رہتے ہیں۔",
+      "bytes": 57662,
+      "seconds": 14.259,
+      "sha256": "5c2cec5d4cce7d11778ecdf4b0e866a12f65109c97b7f09d3939aa8785b3b706"
+    },
+    "speechError": {
+      "textHash": "2cd2aeb1feb2a87a036e0e85f1dd9176b82bb3047ae7757c90f60e3b77b59b53",
+      "spoken": "آڈیو نہیں آ سکا۔ انٹرنیٹ دیکھ کر دوبارہ کوشش کریں دبائیں۔ اسی جگہ سے سن سکیں گے۔",
+      "bytes": 30496,
+      "seconds": 7.478,
+      "sha256": "5711f79b3c92ea78172f3932b853b45bce2b79e7b40c67d3bb8cd1eb247b25f4"
+    },
+    "readingSettings": {
+      "textHash": "fc9e3c5d6fb0260f9922a4e2a78d8af08a563398b9dc92cad28da9036db191aa",
+      "spoken": "پڑھنا اور سننا",
+      "bytes": 8228,
+      "seconds": 1.919,
+      "sha256": "f740b98882fc5a1a09ebac56b454821c341764f3f2c8524a616b541b9eed999c"
+    },
+    "appearance": {
+      "textHash": "d201cdc3db93f627c4209dbec02b576ef3a7d634e89bdad042175ef905ed2e30",
+      "spoken": "پڑھنے میں سہولت",
+      "bytes": 6591,
+      "seconds": 1.496,
+      "sha256": "4c50c6b3a6f16560345359a03e338b5814af6303e42b3c9781c848d451f27d3a"
+    },
+    "lineSpacing": {
+      "textHash": "d27d2e51f7ef8f0c3ae3f7d9927fed184a3e145c16b9c54d2ec496bc0c9ab2fa",
+      "spoken": "سطروں کے درمیان زیادہ جگہ",
+      "bytes": 10720,
+      "seconds": 2.522,
+      "sha256": "e64bf3394e05666d1dc0e0fe90c715eb3994f23b4eac3662d3ff78792a536927"
+    },
+    "resetSettings": {
+      "textHash": "06857842fc048a7161a8ef8c231088aec1e8f1048398a0f03abd3fcce197f7c6",
+      "spoken": "پڑھنے کی ترتیبات ری سیٹ کریں",
+      "bytes": 11106,
+      "seconds": 2.626,
+      "sha256": "7e85715f0c3e3d66dded46fc7ab5af1b27fe8d64722fe80ebb121a5f1903ef2d"
+    },
+    "languageHelp": {
+      "textHash": "6248fcc2d2a10683890e9e81a8e084e02bd08fa9342363cb61081b19606f1a14",
+      "spoken": "کسی وقت زبان بدلیں۔ آپ کا کام برقرار رہے گا۔",
+      "bytes": 20801,
+      "seconds": 5.047,
+      "sha256": "f99baba21b5c84dabc4019b69437dd0a85e8129b49ce791b7ddb86b4f538e627"
+    },
+    "removeNote": {
+      "textHash": "7c2c64cc0953770d2b0456a3c366f0acd09f2296e82e19ac3fa40f578a532ef2",
+      "spoken": "یہ نوٹ ہٹائیں",
+      "bytes": 6975,
+      "seconds": 1.594,
+      "sha256": "0ced06a52364cb7a17ca693be47b4c4c237a786f4a578a850bf5f6293c275979"
+    },
+    "optoutHelp": {
+      "textHash": "ddec36b04870a95306ffa6691eab2b6c9f5078556248eb20525b81ad3c5f6b2f",
+      "spoken": "یہ صرف اس فہرست میں ہولڈر کا فیصلہ ہے۔ باضابطہ آپٹ آؤٹ ادارے میں مکمل کریں۔ بعد میں فیصلہ دوبارہ دیکھا جا سکتا ہے۔",
+      "bytes": 45375,
+      "seconds": 11.187,
+      "sha256": "2a8d805eb4ab4658779897c28fecbd06181c92fd33f04089da8036bc35d80573"
+    },
+    "chooseType": {
+      "textHash": "ff2a5b4a56156f0c7a1968e2cbebe75606d11632ac2781d99ad5cb8118195f5d",
+      "spoken": "آگے بڑھنے کے لیے اکاؤنٹ کی قسم چنیں۔",
+      "bytes": 15903,
+      "seconds": 3.817,
+      "sha256": "6bcf6f46b5baa82045a3f0347d9cd572cca598700eca37487fcdbb2a6b3f1ce5"
+    },
+    "currentRecord": {
+      "textHash": "8d6e098607ecddbc89b73900a2874cc80c82c2c576623634bd8659a32ad597d4",
+      "spoken": "ابھی کیا درج ہے",
+      "bytes": 6594,
+      "seconds": 1.491,
+      "sha256": "ed0ce041d0269133eb7c9d2c4533a2b740028fd9a3b4796ea6a229cd24323690"
+    },
+    "history": {
+      "textHash": "c353b18ee114d4f7e6da24ec3e693a55fedba0a1d1a2bfb7376828e389ca510a",
+      "spoken": "آپ کی تازہ کاریاں",
+      "bytes": 8892,
+      "seconds": 2.074,
+      "sha256": "73510a2023a02e83120736192e59a2dd90ab1e98c3928e46c9b1515d177a1bfa"
+    },
+    "reviewDate": {
+      "textHash": "e6f247a743efe463117b8276d697249eee197558e91594fd3e8a8d4997b29638",
+      "spoken": "اگلی جانچ",
+      "bytes": 6015,
+      "seconds": 1.354,
+      "sha256": "94a270892ab2942ab0a36701e2faa24b4bb1e983b6404b76b8718ef8e75a1cc7"
+    },
+    "shareNames": {
+      "textHash": "c505d2d459e9ccdb8fe120d87e8b647594e1d1067507d471e036eb143f4b229d",
+      "spoken": "خاندان اور نامزد فرد کے نوٹ شامل کریں",
+      "bytes": 16095,
+      "seconds": 3.868,
+      "sha256": "381275dc4d94291d11ebc5bb902ac7ad6d5b4afafeb0528c823f8238acd2c269"
+    },
+    "shareLocation": {
+      "textHash": "f7ef998125fd5872163740b9aab00fb9f4e8d5f36789d64af7eb0e256d6bffe0",
+      "spoken": "ریکارڈ کی جگہ شامل کریں",
+      "bytes": 10242,
+      "seconds": 2.41,
+      "sha256": "4ff5d28a67bc671313b06c1c1bd9020217dafbb1d758bb0f4691c06ada67ac4d"
+    },
+    "shareHelp": {
+      "textHash": "eb50f1df793a3f30e919fac8ca3d29d000c4cb04a69191b07869f3b955b03b13",
+      "spoken": "کیا شامل کرنا ہے چنیں اور نیچے دیکھیں۔ ڈاؤن لوڈ نقل پاس ورڈ سے محفوظ نہیں۔",
+      "bytes": 33950,
+      "seconds": 8.348,
+      "sha256": "84fc017121163b74795055f4a84c09baf47963a0a408ff8d025e8669e2eb9fde"
+    },
+    "helpScope": {
+      "textHash": "cdc45f1a6d3970c9e606a7c816221981be03707b80c4ca449824b5a937bec56e",
+      "spoken": "کیا اکاؤنٹ ہولڈر وفات پا چکے ہیں؟",
+      "bytes": 11966,
+      "seconds": 2.854,
+      "sha256": "506ba9c4111b6187a5a46956c020d20d3df3b90461f5cd66995cb6d9db7053d3"
+    },
+    "helpScopeText": {
+      "textHash": "63c8b153e3e3dd143bf6b30e26344600197ff5aae34401a6c06a52b06858ee69",
+      "spoken": "یہ طریقہ زندہ ہولڈر کی نامزدگی کے لیے ہے۔ وفات ہو چکی ہو تو ادارے سے وفات کے دعوے یا منتقلی کا طریقہ پوچھیں۔ ان کی جانب سے نئی نامزدگی شروع نہ کریں۔",
+      "bytes": 60162,
+      "seconds": 14.885,
+      "sha256": "679ff672cdd352e653e0961525908fb903c77e2d36332b94f3c7fd3691d2de12"
+    },
+    "openDevice": {
+      "textHash": "9b180028b0b7d8c2fa7595333c8ff7529203ca41b2404887f60f8bf4f1c6fcc2",
+      "spoken": "اس آلے کی محفوظ نقل کھولیں",
+      "bytes": 12735,
+      "seconds": 3.03,
+      "sha256": "2fbb82dbb661dfc49c6181f9465f07e459ff73d9e1ee8952486e08754649966f"
+    },
+    "keepDevice": {
+      "textHash": "cca2c04bfa24241f615a1de7e384f5936313929d12f0d52a7079e9ad6119e372",
+      "spoken": "اس آلے پر بھی محفوظ نقل رکھیں",
+      "bytes": 14271,
+      "seconds": 3.418,
+      "sha256": "a6e0d44887b93f9d6481e89120ce5f30f9f3f0dfb88825e0571978d27fa0c528"
+    },
+    "deviceHelp": {
+      "textHash": "ec38eddc784f6c9624a7ba84babf46ede0422dfa2c52210ff0fd0472fa7d4806",
+      "spoken": "اختیاری: اس براؤزر میں پاس ورڈ سے محفوظ نقل رکھیں۔ تبدیلی کے بعد دوبارہ محفوظ کریں۔ مشترکہ آلے پر اسے بند رکھیں۔ ہم پاس ورڈ محفوظ نہیں کرتے۔",
+      "bytes": 61311,
+      "seconds": 15.171,
+      "sha256": "96a413f5af9cd1f5b447f060c3c151b796fd449654e686af44cdb46b88d64f89"
+    },
+    "forgetDevice": {
+      "textHash": "202a3f401029cbfbbbe69810285aeb5cf3ac180be086a586beafe367f813e494",
+      "spoken": "اس آلے سے محفوظ نقل ہٹائیں",
+      "bytes": 13889,
+      "seconds": 3.326,
+      "sha256": "d05eb31f5f78599ccd7a72108a31fae9bffae12e76e503ee62b2a2c178792888"
+    },
+    "forgetDeviceAsk": {
+      "textHash": "7290211bb4a1b6cc860fef832843155781dcafe0872f0c839fe9abd0ebb71590",
+      "spoken": "آلے کی محفوظ نقل ہٹائیں؟ ڈاؤن لوڈ کی گئی فائلیں رہیں گی۔",
+      "bytes": 23204,
+      "seconds": 5.663,
+      "sha256": "07f29af5021dcda291b23517564f16837a293325bd4d6449e5e07123f2ee787f"
+    },
+    "deviceUnavailable": {
+      "textHash": "9a5dea3b0249508c2da64f683b17743f4a9bcc454e445f5e7b0022fa6d503c6f",
+      "spoken": "فائل ڈاؤن لوڈ ہو گئی مگر براؤزر نقل محفوظ نہ کر سکا۔ واپس آنے کے لیے ڈاؤن لوڈ کی فائل استعمال کریں۔",
+      "bytes": 40198,
+      "seconds": 9.894,
+      "sha256": "071e820633e5859877ddd12ba641cd7e6e44e927866741f7458c4c563915a0e9"
+    },
+    "chooseFile": {
+      "textHash": "0e03e53b8504297c248c175dceb2e06484782e2db5f0a50c57424a39ec2052de",
+      "spoken": "محفوظ .وراثت فائل یا آلے کی نقل منتخب کریں۔",
+      "bytes": 20223,
+      "seconds": 4.916,
+      "sha256": "5c01a118b3fee21e506cc17f5b4c9024b039df5ae2bb7a93803a2c5b764d5949"
+    },
+    "replaceDraft": {
+      "textHash": "70ef19c5c291c51fc15c0ce0f0e5ec78ca45d350b5cfe2c05bd7b06f34bbeb7e",
+      "spoken": "دوسرا اکاؤنٹ شروع کریں؟ نامکمل اکاؤنٹ بدل جائے گا۔",
+      "bytes": 21953,
+      "seconds": 5.332,
+      "sha256": "da2e11329ee2e7c982a65b91d2114e776f224a54af8bb3e36e51f59eeeed2aaa"
+    },
+    "replaceList": {
+      "textHash": "d8fe44c67168ba8154daed34ecee832b901c7ab2971874e9de1d3980f142d359",
+      "spoken": "دوسری فہرست کھولنے سے یہ سیشن بدل جائے گا۔ ضرورت ہو تو پہلے کام محفوظ کریں۔",
+      "bytes": 28768,
+      "seconds": 7.052,
+      "sha256": "17589ea601e472c21e1aa01dcb3e7c26d6f1d8ba19bc8599c7e5e07d8de116c8"
+    },
+    "validFollowup": {
+      "textHash": "fbf26a222fcd9c288fe44278ccec58b11a6db595efd6325541b2de7a300413d9",
+      "spoken": "درست تاریخ درج کریں یا تینوں خانے خالی چھوڑیں۔",
+      "bytes": 17346,
+      "seconds": 4.186,
+      "sha256": "c743fa45b8672be21aee79f92596c924dfdd6e780e48e0849f17779f8137db4a"
+    },
+    "seeNext": {
+      "textHash": "62144e61b121e6744901cf144d3a3030c8866ce8d6f7f03199c6529292354d48",
+      "spoken": "میرا اگلا قدم دیکھیں",
+      "bytes": 9468,
+      "seconds": 2.21,
+      "sha256": "b52de55b9227e19dd65453f4fc54691c36d5e2de3b968ae3edfc4f361017e433"
+    },
+    "unfinishedChanges": {
+      "textHash": "975f4b30e1bac78c84945aeff604311e93b5e755f6f6818834452834bc93c330",
+      "spoken": "نامکمل تبدیلیاں جاری رکھیں",
+      "bytes": 13222,
+      "seconds": 3.165,
+      "sha256": "b1e0139f8b7843b74caed976084d4ce6713f7e2827997ce334491a5bbd433231"
+    },
+    "linked": {
+      "textHash": "3d5488769bec2c20006d6a797cafdeec64df50822f29135930853a14485457ea",
+      "spoken": "ڈیمیٹ اکاؤنٹ سے منسلک",
+      "bytes": 10427,
+      "seconds": 2.45,
+      "sha256": "867b3d96414ffd3bdd94b4c1c95c1facc0c4daff8b97ea4865050454a280b264"
+    },
+    "linkedTo": {
+      "textHash": "48a513dc28467d62faf70b923f6f3bfa56da449abe3a3d382494b57e7c56790c",
+      "spoken": "منسلک ڈیمیٹ اکاؤنٹ",
+      "bytes": 9565,
+      "seconds": 2.255,
+      "sha256": "601ec071e40bbccda35d379c8b14ff9d823a275a8b5af10b50322afee5092d51"
+    },
+    "privateRecord": {
+      "textHash": "e9df1582802635d6f1ef02f6c18e5fde270cbc5a11dc1a3c89ee651dda473b94",
+      "spoken": "آپ کا نجی ریکارڈ نوٹ",
+      "bytes": 9378,
+      "seconds": 2.206,
+      "sha256": "593fbf37d3d2e2c41f288e0ba6c386d1522aae2b4b27372384d0bd36fb0863c8"
+    },
+    "privateRecordHelp": {
+      "textHash": "b31bc8696e4979d362c9289eacfcf6583556cf9aa88c1a3ea0a8d9ddbcd880f3",
+      "spoken": "یہ نوٹ محفوظ فائل میں رہتا ہے، خاندانی خلاصے اور آواز میں شامل نہیں ہوتا۔",
+      "bytes": 25702,
+      "seconds": 6.266,
+      "sha256": "152c5d3c6e1bb55d6e2553778965ca9315c7db16505067da51a7418423a59e0f"
+    },
+    "readRules": {
+      "textHash": "afc1fe3729d866ffb9dc554ccb4498fff703f9fd1e50856c76c76b5b7d9dbd34",
+      "spoken": "سرکاری قواعد پڑھیں",
+      "bytes": 9182,
+      "seconds": 2.138,
+      "sha256": "e02fc336088e2b3de59e58aa7f3808cd66d1c3184e8a5be40d09b822bf4be366"
+    },
+    "beforeContinue": {
+      "textHash": "3cd7f8d5ef45737f7e898746de4492fb5384cd97b46a3fba19ea54cc66c09366",
+      "spoken": "آگے بڑھنے سے پہلے",
+      "bytes": 7555,
+      "seconds": 1.737,
+      "sha256": "3782f7cac8307eac8b76407142fd9a9fa59052cf9944b856befc6b57176d1c4c"
+    },
+    "checkConnection": {
+      "textHash": "5ce5f6c2f11e691590d77357097193c5c385e1787e6c83f49a83a0ab0be89613",
+      "spoken": "جانچیں کہ یہ اسی اکاؤنٹ میں ہیں",
+      "bytes": 13220,
+      "seconds": 3.162,
+      "sha256": "3a461fb487c9c2287f689c817ceb6f85e82ae6c41705282826f81607a09ff65b"
+    },
+    "connectionHelp": {
+      "textHash": "1db8a4c3f7b14b022f8b4b52e07a664b9d652308c4332a92240dd5ffee0dbc9b",
+      "spoken": "ڈیمیٹ اسٹیٹمنٹ میں جانچیں کہ فنڈ یونٹس عین اسی اکاؤنٹ میں اور انہی ہولڈرز کے نام پر ہیں۔ مختلف اہل خانہ کے اکاؤنٹس کی نامزدگی مشترک نہیں ہوتی۔",
+      "bytes": 56227,
+      "seconds": 13.913,
+      "sha256": "2438ca3bc60d4c28b2fbaee1e673925fb9b6101ca71ee954a2ce6176e6dcc390"
+    },
+    "sameHolders": {
+      "textHash": "d7128f91d5e123e14f2bd9cd4fb031b93e10f335397b886e0308777646359886",
+      "spoken": "میں نے اسٹیٹمنٹ جانچا: یونٹس اور ہولڈرز اسی ڈیمیٹ اکاؤنٹ سے مطابقت رکھتے ہیں۔",
+      "bytes": 32992,
+      "seconds": 8.109,
+      "sha256": "574709fdd8bb44bd6a366d4d969f4ac25941088773ac84d245e781edf9a99737"
+    },
+    "linkAccount": {
+      "textHash": "74db39c97ceed57b8f74764a973c475b473b2bcb2fb50604fd0fa11cb9327222",
+      "spoken": "یہ ڈیمیٹ اکاؤنٹ جوڑیں",
+      "bytes": 10816,
+      "seconds": 2.557,
+      "sha256": "58619c0117885e50303e2e85d264a4ce649ecaeaedbd610d24ee26781617a04a"
+    },
+    "replaceChanges": {
+      "textHash": "ce42d617049d2ba858f8efe1cf870b68a092f8ed244b40252772ca55c103ee0c",
+      "spoken": "کچھ تبدیلیاں نامکمل ہیں۔ جاری رکھنے سے وہ مسودہ بدل جائے گا۔ منسوخ کر کے ابتدا پر جائیں اور پہلے مکمل یا محفوظ کریں۔",
+      "bytes": 46627,
+      "seconds": 11.515,
+      "sha256": "450fb9405eca789597c03b5f6a6ac76e4a3f282c62fcba482d5a6d9b9528e210"
+    },
+    "startOwnList": {
+      "textHash": "3e462c4e6eafbff5fd08c0745545b4311596bd1b391d84505ac2f68b34a34f55",
+      "spoken": "اپنی فہرست شروع کریں",
+      "bytes": 9953,
+      "seconds": 2.346,
+      "sha256": "9ebfff3cec8cf04c0efa9252869f7671d13ad517939ead8ecc879f5d74df2d19"
+    },
+    "startOwnHelp": {
+      "textHash": "656a5510df7b763b437765e4f67928c99b66991460e5cf81ed124b98ac83571d",
+      "spoken": "اپنے خاندان کی نئی فہرست شروع کریں؟ اس سیشن سے فرضی مثال ہٹ جائے گی۔",
+      "bytes": 28097,
+      "seconds": 6.878,
+      "sha256": "2c8510a6c5ff4305c79245733094f1a86806868a9e94bbe0d9e0c40f7d8dfa11"
+    },
+    "familyPending": {
+      "textHash": "e282b1fcdff1dacba45345db6ce8a79d59f7fd1615477c12436934d79a3ce4f6",
+      "spoken": "خاندانی معلومات ابھی جانچنی ہیں",
+      "bytes": 13218,
+      "seconds": 3.162,
+      "sha256": "c69876162ac015612802cb80170e3a8cd470d2ef520238147517d13473a5cb85"
+    },
+    "familyReviewed": {
+      "textHash": "3a73f24360211e7360e8037f7672f7babd40bec7337df02a52b705f9fa39a04b",
+      "spoken": "خاندانی معلومات جانچی گئیں",
+      "bytes": 11299,
+      "seconds": 2.684,
+      "sha256": "b902dd54e2d75a4d5150ad5012ffcda6992bda9d2a6b423038522b51ed516ed3"
+    },
+    "familyReviewCheck": {
+      "textHash": "a514074b3a3220a87e81b00591316641fe178ad69f5bd37d000e9e7d81e839ea",
+      "spoken": "میں نے جانچا کہ خاندان کیا دیکھے۔ خالی خانے اپنی مرضی سے چھوڑے ہیں۔",
+      "bytes": 26086,
+      "seconds": 6.369,
+      "sha256": "dc198b544f53ce2dcf2067c56777d03e421ce3547eb8cb0930506e693a255742"
+    },
+    "familyReviewHelp": {
+      "textHash": "8a27d9da106fa27035215831470a8880bcd67ad9e4ec87c21b22154919ca190c",
+      "spoken": "یہ الگ جانچ ہے۔ نامزدگی درج ہونے سے خاندان کو اکاؤنٹ یا کاغذات کی جگہ معلوم نہیں ہوتی۔",
+      "bytes": 33861,
+      "seconds": 8.305,
+      "sha256": "f560c4399f629cf6e1431420804fde6b4bdd58355130b5d9a0aff1d819a24110"
+    },
+    "notIncluded": {
+      "textHash": "bd4e2e5576e88172d70f1bf00508666eb9e57f7b55898809fde9ae3b1293a381",
+      "spoken": "اپنی مرضی سے شامل نہیں کیا",
+      "bytes": 10816,
+      "seconds": 2.562,
+      "sha256": "e8310b36b970d176e4915b74bd68b2e0370c165c5c8e6361e292289d967245dd"
+    },
+    "familyReadyNext": {
+      "textHash": "7ab5abc92bc73aff2f8ce64af03549fbc3541d016ee09d9a61756d6764662ca8",
+      "spoken": "یہ پرچہ ایسی جگہ رکھیں جہاں قابل اعتماد اہل خانہ ڈھونڈ سکیں۔ معلومات بدلنے پر دوبارہ جانچیں۔",
+      "bytes": 38660,
+      "seconds": 9.519,
+      "sha256": "377a93d8de7d23e9548ef34ada39965503a838e11ac896ea5bb1bccf2571c5e4"
+    },
+    "familyRemaining": {
+      "textHash": "72f8d3cffac77bbf8c18349edcd1a410a35795a2ca4fe14fdfa7d1c12e8a81b5",
+      "spoken": "خاندان کے لیے جانچنے والے ریکارڈ",
+      "bytes": 12836,
+      "seconds": 3.05,
+      "sha256": "70d8ea0b9aa3df4840e2e895408673d00851e560894312d090ff1475e936a0ad"
+    },
+    "onlineRoute": {
+      "textHash": "26c003b83b36d3df361b8813b56544c5643a090297b32f7de71caaa43146887e",
+      "spoken": "آن لائن خدمت استعمال کریں",
+      "bytes": 13408,
+      "seconds": 3.194,
+      "sha256": "57c0517718933306e927f940f98083f3293c5720b265edf9970b3bd79c66b970"
+    },
+    "offlineRoute": {
+      "textHash": "2e396dd075fd85f61293b6532fbf656c5e957a9eb26ea0b5e87d3fda5a7bebab",
+      "spoken": "سامنے جا کر مدد لیں",
+      "bytes": 9281,
+      "seconds": 2.178,
+      "sha256": "5274fd099f25a6718d42bb8b2f34d99f62d37fd4a6066a410a2a4e6b382ab327"
+    },
+    "routeChoice": {
+      "textHash": "ead3461d7bf0bb7853792f9038a97ee9b37faa0e95ae090b862d41a4448ca51d",
+      "spoken": "آپ یہ کیسے کرنا چاہیں گے؟",
+      "bytes": 9664,
+      "seconds": 2.264,
+      "sha256": "e31ac3f9483e5d6f966de97fe4a7bc4a06e4a3d45871ffc93d4c9bfaa40c2745"
+    },
+    "saveBeforeLeaving": {
+      "textHash": "23891c0ee0f81c6aa2c85e90b6a4c4b12061f109372f363c5066e415f3cd30ad",
+      "spoken": "سرکاری خدمت کھولنے سے پہلے کام محفوظ کریں۔ نتیجہ درج کرنے کے لیے یہاں واپس آئیں۔",
+      "bytes": 31270,
+      "seconds": 7.675,
+      "sha256": "aeb2bee252fdcd056e1de4b6e5dc3738690b0b0881c039daab996ca26cfa7c39"
+    },
+    "offlineContact": {
+      "textHash": "223ee65a959beb909561b645eedb4cb713cd85c02214e9b277f439fc8f5e49fa",
+      "spoken": "سرکاری مدد کے صفحے سے شاخ یا سروس مرکز تلاش کریں۔ جانے سے پہلے پوچھیں کہ وہ اس اکاؤنٹ کی نامزدگی کرتے ہیں یا نہیں۔",
+      "bytes": 47491,
+      "seconds": 11.714,
+      "sha256": "2b7b24a978c213b52030bbe5b6189930e63db3cc6743d29a834dbb716d3b43f2"
+    },
+    "offlineBring": {
+      "textHash": "68bf0c917ea514a8623cd083839583512334afe8710a10ac5434bdf71ee31cd1",
+      "spoken": "درکار فارم، ہولڈرز کے دستخط اور کاغذات پوچھیں۔ اکاؤنٹ پہچاننے کے لیے اسٹیٹمنٹ یا پاس بک لائیں۔ ادارہ طلب نہ کرے تو اصل کاغذات اپنے پاس رکھیں۔",
+      "bytes": 55745,
+      "seconds": 13.785,
+      "sha256": "5c1de3c634b0b26ecd3e4f5e19aa96ecb8d576e33c34f756eafbc3e42ddb7793"
+    },
+    "offlineAsk": {
+      "textHash": "2ea2b66ea574af68c1441005b202ea8fefe203ade0079a68c1fc0dd549826993",
+      "spoken": "عملے سے پہلے موجودہ نامزدگی جانچنے کو کہیں۔ تبدیلی درکار ہو تو تاریخ والی رسید اور آخری اندراج حاصل کرنے کا طریقہ پوچھیں۔",
+      "bytes": 50751,
+      "seconds": 12.548,
+      "sha256": "5fa3dfae8b117eff79fd30c3fbd50cac2daf11aea58965237d0a55f57d80860d"
+    },
+    "scopeGeneral": {
+      "textHash": "fba2e7b511ff6bd0a3ada769c853c6a04c8973f0b65271018eddedcfc9400b13",
+      "spoken": "اس قسم کے اکاؤنٹ کی عمومی رہنمائی۔ اس ادارے کی مخصوص اسکرینیں نہیں جانچی گئیں۔",
+      "bytes": 30689,
+      "seconds": 7.516,
+      "sha256": "e2ce80e9795ea72f88028dfea1c12a1eb7dbdca70fb9944a889dc332e117d236"
+    },
+    "scopeHdfc": {
+      "textHash": "68c579187b530fee6ec509dac396e9d401caa0b53c016fab224bd3e0eb702af5",
+      "spoken": "ایچ ڈی ایف سی بینک: بچت اور ایف ڈی/آر ڈی کی رہنمائی؛ مشترکہ ہولڈرز شاخ کا راستہ اپنائیں۔",
+      "bytes": 35966,
+      "seconds": 8.838,
+      "sha256": "5ae2fd7d369defef4e3f79cc14f269d8460cae70bf372660baa7b995fef5edbf"
+    },
+    "scopeSbi": {
+      "textHash": "09b717c831945317ccb72d298a3ba3b908321243deb793b39ae172a985bd9cbd",
+      "spoken": "ایس بی آئی ڈپازٹ اکاؤنٹس۔ دستیاب طریقے بتائے گئے ہیں؛ لاگ ان کے مراحل آزمائے نہیں گئے۔",
+      "bytes": 37117,
+      "seconds": 9.129,
+      "sha256": "ca3ab968ec88787f633c9fea8ae68f3c26c8e5ad026e48e60e70a208d80bd331"
+    },
+    "scopeAxis": {
+      "textHash": "1c1917a45d3f337f2855d50962a153141201653bdb5f92438ada98cd76b4d849",
+      "spoken": "صرف ایکسس بینک بچت اکاؤنٹس۔ ایف ڈی/آر ڈی کا طریقہ مختلف ہو سکتا ہے۔",
+      "bytes": 35774,
+      "seconds": 8.796,
+      "sha256": "c50e1aa8b9c9748946419c9e67ca1f004f151d94235450497a34154765a82f7c"
+    },
+    "scopeZerodhaAdd": {
+      "textHash": "908b33a826521d3e16264c7adbad0259539bb09f5fc212bf32d0945033bb5331",
+      "spoken": "زیرودھا: پہلا نامزد فرد شامل کرنا۔ مشترکہ اکاؤنٹ یا آدھار سے منسلک موبائل دستیاب نہ ہو تو ادارے کی مدد لیں۔",
+      "bytes": 45956,
+      "seconds": 11.342,
+      "sha256": "2638c6adc4ab9b162b5ef8b13de499ea0906c84e19abd2fdb77906be44b5c155"
+    },
+    "scopeZerodhaChange": {
+      "textHash": "ddd4f38354223fafe47025c50d3b3bd8f83b20e2e1fd746bd4c0171f5cc528e5",
+      "spoken": "زیرودھا: موجودہ نامزد فرد کی تفصیل بدلنا یا دوسرا شامل کرنا۔",
+      "bytes": 27143,
+      "seconds": 6.629,
+      "sha256": "71cfd5ea1a80b16ff753c159bf4f3b27b3afad6da5964f7cd92151002a7aa99f"
+    },
+    "scopeGroww": {
+      "textHash": "5d6390fa437ebd8df38773f977ad2691507594d83fc6be679c472a8f455f97ce",
+      "spoken": "گرو ڈیمیٹ اکاؤنٹ۔ موجودہ میوچل فنڈ فولیو کے لیے الگ خدمت درکار ہو سکتی ہے۔",
+      "bytes": 30975,
+      "seconds": 7.587,
+      "sha256": "058109ed2eca7db8e5779ff8b8c51ad0396b455d6c97d4ab77798e24aea03dc0"
+    },
+    "scopeHdfcMf": {
+      "textHash": "c5e98bcdfbdf43dd64a0d86fe8215fb8943384092ab14ac7d4af9662b3cb11a9",
+      "spoken": "ایچ ڈی ایف سی میوچول فنڈ فولیو۔ ڈیمیٹ میں موجود یونٹس پر ڈیمیٹ اکاؤنٹ کی نامزدگی لاگو ہوتی ہے۔",
+      "bytes": 37792,
+      "seconds": 9.302,
+      "sha256": "e16676354e8a76f5c836c717a8682fc47a92bc82cec871fbf308a08e5213d7a6"
+    },
+    "scopeDematFunds": {
+      "textHash": "0cd9c83a3205f93cc21682084397e18f83f67fb5ecc2869e48c0c4f1eb15289e",
+      "spoken": "پہلے ان یونٹس والا ڈیمیٹ اکاؤنٹ پہچانیں اور جانچیں۔",
+      "bytes": 20900,
+      "seconds": 5.066,
+      "sha256": "978cb72bebf9ed5fecd920d3830bef0a57509a3512e233edf9dfdd07848fe441"
+    },
+    "scopeUnknownFunds": {
+      "textHash": "11568968d66d4d4a704583061759902f6bd86db4410c8bf4036ba59d6d0b6e4e",
+      "spoken": "نامزدگی کا راستہ چننے سے پہلے ہولڈنگ کی قسم پہچانیں۔",
+      "bytes": 21958,
+      "seconds": 5.338,
+      "sha256": "572b0774ea5b9e562f206322143469f6b9841cfd2ea7462230252631d79853d3"
+    },
+    "sbiAction": {
+      "textHash": "eae81f9ebd0a1473d63ed438e7dcd612012350c26d9fb0147e9faa135e16c661",
+      "spoken": "ایس بی آئی ڈپازٹ کی نامزدگی یونو، انٹرنیٹ بینکنگ اور شاخ سے کرتا ہے۔ مخصوص اکاؤنٹ چنیں۔ مطلوبہ اختیار نہ ملے تو موجودہ فارم سے اندراج یا تبدیلی کے لیے شاخ سے مدد لیں۔",
+      "bytes": 72542,
+      "seconds": 17.997,
+      "sha256": "29b0c60a0ab438ba62e551a49e6dca479dca78987304898d22dba94673d1bafb"
+    },
+    "axisStart": {
+      "textHash": "de7231f84bc34ffe926c46b71ac49a7068631e0ca73dec100f670c921003e43c",
+      "spoken": "ایکسس انٹرنیٹ بینکنگ میں سروسز → اکاؤنٹ سروسز → اپ ڈیٹ نامینی کھولیں۔ بچت اکاؤنٹ پھر ایڈ نیو نامینی یا چینج نامینی چنیں۔",
+      "bytes": 55166,
+      "seconds": 13.633,
+      "sha256": "d0935ac01b7cc39fb898145fd23a98a467bfec532e91d7bd0543308092a0d1ed"
+    },
+    "axisSubmit": {
+      "textHash": "cd054d404367a93c1bafa8486517d3899e4240bfafaf63e533af846f929b64dc",
+      "spoken": "ایکسس کے مطابق فارم بنائیں، بھریں، دستخط کریں، اپ لوڈ کریں اور نیٹ سیکیور کوڈ سے تصدیق کریں۔ پرنٹ یا اپ لوڈ نہ کر سکیں تو شاخ جائیں۔",
+      "bytes": 54111,
+      "seconds": 13.374,
+      "sha256": "87539fa7787a4223acc85a78b3b0b53fa641b1d30b1974b5ce194acbeb32399f"
+    },
+    "zerodhaChangeForms": {
+      "textHash": "a0d070faf9ec6f9f0609c3be56743994560196233d723f36cd3b4491b6a66ba9",
+      "spoken": "زیرودھا کی تبدیلی کی ہدایات کھولیں۔ موجودہ نامزدگی اور اکاؤنٹ تبدیلی فارم لیں؛ ہدایت کے مطابق پرانی اور نئی تفصیل بھریں۔",
+      "bytes": 48647,
+      "seconds": 12.004,
+      "sha256": "b01ec2d020e2e773e0eb32f4672b595c5ad2b28371cef1be62395f512ed0c374"
+    },
+    "zerodhaChangeSubmit": {
+      "textHash": "b35df48869e0019013febcb5ef437f5c96d232fcca38bc3d4065b70858b3a352",
+      "spoken": "زیرودھا کے مطابق دونوں فارم پر ہاتھ سے دستخط اور ای سائن کریں، پھر سپورٹ ٹکٹ کے ساتھ لگائیں۔ ای سائن ممکن نہ ہو تو متبادل پوچھیں۔",
+      "bytes": 53256,
+      "seconds": 13.172,
+      "sha256": "b05e2fbd89ec3e720a395a4c76e598e7d5c337be0753598317f1389cd4da76bd"
+    },
+    "growwCheck": {
+      "textHash": "1b577b61de2eecf84de753fc2f524f34dd1c474788d21012528585c5e143cd84",
+      "spoken": "گرو میں پروفائل → اکاؤنٹ ڈیٹیلز → نامینی ڈیٹیلز کھولیں۔ جانچیں کہ دکھائی گئی نامزدگی کس سرمایہ کاری یا اکاؤنٹ پر لاگو ہے۔",
+      "bytes": 48159,
+      "seconds": 11.892,
+      "sha256": "2a6e6fbd2655ecfe88e6853facdf74054e11880a54ab1969ca7e7f4c1b71daf3"
+    },
+    "growwAction": {
+      "textHash": "767c48b9124bae51cc698551352ab3ab44236d9d36f2813353b3712a3ecad83b",
+      "spoken": "اہل ڈیمیٹ سرمایہ کاری کے لیے ایڈٹ نامینی چنیں اور گرو کی تصدیق مکمل کریں۔ پروفائل بدلنے سے ہر پرانے فنڈ فولیو میں تبدیلی ثابت نہیں ہوتی؛ انہیں الگ جانچیں۔",
+      "bytes": 60448,
+      "seconds": 14.966,
+      "sha256": "20cec025f545fd60b88b24dcc4f276a61f81e886ddaa7c8dd8a678c3e5edda3c"
+    },
+    "readingNow": {
+      "textHash": "b53b60babfd6d508c4bd01949ebb1eb096cdea99da3a5be95510cc301d5c3df7",
+      "spoken": "اب پڑھ رہا ہے",
+      "bytes": 6879,
+      "seconds": 1.562,
+      "sha256": "2383450cb17bc49212764915fae475d7ea9558e97435170d54e1fd4ecdaee26e"
+    },
+    "repeatSentence": {
+      "textHash": "c1981c1c40912d063cb16274c670617001004bcbeafdc60b9b9c4da4a00bfa3a",
+      "spoken": "یہ دوبارہ سنیں",
+      "bytes": 6883,
+      "seconds": 1.578,
+      "sha256": "8e80d21fd7a09739bff8cdc44481d6b3cb1e1b87df4b6140cfda30c050d49fc2"
+    },
+    "nextSentence": {
+      "textHash": "101ba384f415ae625123a17409a714f8db3c2180e73f67c5b8a7a7640a5d0fc3",
+      "spoken": "اگلا حصہ",
+      "bytes": 5633,
+      "seconds": 1.258,
+      "sha256": "e4241d646b04a806752697c5d93bbcc61ce90932d1e8ed6302a3d63d40c51154"
+    },
+    "previousSentence": {
+      "textHash": "69cad09c6d0588b2b9dbbeb640182db0abdf95c5978b44abcb192afb3302fa7e",
+      "spoken": "پچھلا حصہ",
+      "bytes": 6213,
+      "seconds": 1.402,
+      "sha256": "b8d0350748480ae4559d4121eac20e2ec598b53641db862eb6299c3d53b2d227"
+    },
+    "readingPreferences": {
+      "textHash": "470530f6d329d2f04fe34461a25c641da1b99a4fac7f56b3241c1d7087590202",
+      "spoken": "پڑھنے کی سیٹنگ اس ڈیوائس پر یاد رہتی ہے۔ اکاؤنٹ کی تفصیل صرف محفوظ کریں چننے پر محفوظ ہوتی ہے۔ ری سیٹ سے پڑھنے کی پسند مٹ جاتی ہے۔",
+      "bytes": 54311,
+      "seconds": 13.436,
+      "sha256": "6ddfc48f1cba4cdd88cdaabbf5979371100cebe768e71e9a4d670d29b5c8337e"
+    },
+    "stepType": {
+      "textHash": "c61dbe926e1f2e75f7ea4ebfbae53f1523f8a83fb40e4095155795c476fc4d4b",
+      "spoken": "اکاؤنٹ کی قسم",
+      "bytes": 8125,
+      "seconds": 1.882,
+      "sha256": "1325e8070d61a245d34abd02810e1ef0120bb030915cb40bdea241d07cbe821d"
+    },
+    "stepInstitution": {
+      "textHash": "51e67d21164dc4004729f4100fc9813e6145c81e1af9610b4dcfec33c917480b",
+      "spoken": "ادارہ",
+      "bytes": 4100,
+      "seconds": 0.874,
+      "sha256": "891aedb656c205f8ce4504b797d50cdf2495582166160770e53ade1bf1dec800"
+    },
+    "stepContext": {
+      "textHash": "7159d272fb5147a67688c537490aa03245f855e9aaa4cd4c3b8631ae19bddec2",
+      "spoken": "اکاؤنٹ کی تفصیل",
+      "bytes": 8608,
+      "seconds": 2.01,
+      "sha256": "4061dc6b308c9b9499cf5794e65957417c5cfe01bd7dc147be1399bdf890f91f"
+    },
+    "stepNomination": {
+      "textHash": "af2fe70f7de71a164d0f9c66e70fad4c847b820ca118c50fc2c6f02aa959595d",
+      "spoken": "نامزدگی",
+      "bytes": 5923,
+      "seconds": 1.322,
+      "sha256": "a6ecc8d7e93f9281a29a1e1ce3ff6a5c7ecd6c1fe8a91bc548c9093d47c10329"
+    },
+    "savedNext": {
+      "textHash": "21a016b74d51deb383fcec332d9536ad8060315eb4878f851bd9860c4853464e",
+      "spoken": "محفوظ نقل تیار ہے۔ فائل اور پاس ورڈ ایسی جگہ رکھیں جہاں دوبارہ ملیں۔ تیار ہوں تو کام پر واپس آئیں۔",
+      "bytes": 43454,
+      "seconds": 10.709,
+      "sha256": "e7152f64c6df616024d5393d99792853878cd484aaef5bc63aa3d9be65965868"
+    },
+    "returnTask": {
+      "textHash": "a52af90054afc839c6b84e86c2e7dc9ef9a33a898d62fd6d3b1c92c10dd20264",
+      "spoken": "اپنے کام پر واپس آئیں",
+      "bytes": 8895,
+      "seconds": 2.084,
+      "sha256": "df87de36223e8b6d40a40c706babd0a032dd043ff54d75f37fc1f6a578e1de01"
+    },
+    "olderDeviceCopy": {
+      "textHash": "0320baf5192769091e0896a0153c6462493bbc0dffc49135ed4ca148baf1e9fd",
+      "spoken": "ڈیوائس کی نقل اپ ڈیٹ نہیں ہوئی۔ تازہ تبدیلیوں کے لیے ڈاؤن لوڈ کی گئی فائل کھولیں یا ڈیوائس کا اختیار چن کر دوبارہ محفوظ کریں۔",
+      "bytes": 50756,
+      "seconds": 12.54,
+      "sha256": "c731b42dd8c3e8d31206e99eff61f8d3eb0b8c10fd9af1754920764630e29a71"
+    },
+    "haveReady": {
+      "textHash": "f439da50aab2dc002223154189080b40dfda7a20611dd23e356317367e7e2f77",
+      "spoken": "یہ تیار رکھیں",
+      "bytes": 7550,
+      "seconds": 1.738,
+      "sha256": "588309ea14cbc1f00d8c8651360cdc899fb8f451280830f85e615a5a07d0524e"
+    },
+    "audioLoading": {
+      "textHash": "f99f408801fc4acdbef8e1be055aefe7d13b46a524bfc7919f70e833b7bf49e4",
+      "spoken": "آڈیو آ رہا ہے…",
+      "bytes": 6881,
+      "seconds": 1.567,
+      "sha256": "d5b72a95149a5825bced7be3e00a6052962ee2df9f85583fa25d32964316e2a5"
+    },
+    "audioRetry": {
+      "textHash": "448ea7b6d3ecd796f5cec08efaebfdbb96dfe7c153a9eec88a1434fdd0a19fb9",
+      "spoken": "دوبارہ کوشش کریں",
+      "bytes": 8607,
+      "seconds": 2.01,
+      "sha256": "7590b181af137058b417e756bb4b80e572936227523f3876e218ea4dcacb659a"
+    },
+    "audioBlocked": {
+      "textHash": "1e173ac39886bb5ad783ad624dd5612959612f520ad553abade2f8416a3a12f3",
+      "spoken": "اگلا حصہ سننے کے لیے سننا جاری رکھیں دبائیں۔",
+      "bytes": 16961,
+      "seconds": 4.101,
+      "sha256": "f52520a0fd4c48fddc0cdf6e5dd3051db7925a047b0febc3098b89b08c4c1b87"
+    },
+    "audioData": {
+      "textHash": "61cc97b606e6a6b128b301aa146da121519953a741af8d0c53eab105063d96bd",
+      "spoken": "سننے پر ہی آڈیو ڈاؤن لوڈ ہوتا ہے۔ معاون براؤزر میں حال ہی میں سنی ہدایات بغیر انٹرنیٹ چل سکتی ہیں۔ پہلی بار سننے کے لیے انٹرنیٹ چاہیے۔",
+      "bytes": 50558,
+      "seconds": 12.492,
+      "sha256": "855c6f91fe33e2fc76354053a918f0de56d5c638a22331592adeb9d54411b573"
+    },
+    "audioDraft": {
+      "textHash": "8ca2f0dd0e817c8be4ddd97223a794c536f0f5e660593ff295cfbbc595d19d42",
+      "spoken": "یہ کمپیوٹر سے بنی آوازیں ہیں۔ تلفظ کا جائزہ ابھی باقی ہے۔ فرق سنائی دے تو لکھی ہوئی ہدایات پر عمل کریں۔",
+      "bytes": 36927,
+      "seconds": 9.086,
+      "sha256": "fc4b285a79308499652f5726d6968ad00055880fe03f03718af511d567a97654"
+    },
+    "audioStart": {
+      "textHash": "05276610a1f56d603413bf2a7c833f4a3a7411b53931b1eeca99e676c8bef61a",
+      "spoken": "سنیں",
+      "bytes": 4863,
+      "seconds": 1.066,
+      "sha256": "396eb47ab10a207a511715a438544eb1067b8eadb29c545b723103aaf058858d"
+    },
+    "audioCache": {
+      "textHash": "fe2eac84f7a1eb1beda42af6e8bbac686b158a799164933a2568534450738d77",
+      "spoken": "حال ہی میں سنا آڈیو",
+      "bytes": 9567,
+      "seconds": 2.251,
+      "sha256": "c3a6f24e9bd969837c690d96e6476dbf50cf4b7ec64d80b20182ab388bef2fff"
+    },
+    "clearAudio": {
+      "textHash": "986387d1b062ed91907403568d535551d9e5f949c385e8ef19ca244a8ce3d747",
+      "spoken": "محفوظ آڈیو ہٹائیں",
+      "bytes": 9375,
+      "seconds": 2.188,
+      "sha256": "df25f411ad2ea095160d520b4ceaee514d393a6322046bc6b58c3aeb605bbbbb"
+    },
+    "audioCleared": {
+      "textHash": "307909ca30e377edb91de7048d5c69fe831fbd9024edd9362803ec274322685a",
+      "spoken": "محفوظ آڈیو ہٹا دیا گیا۔ اکاؤنٹس کی فہرست ویسی ہی ہے۔",
+      "bytes": 23489,
+      "seconds": 5.723,
+      "sha256": "307010632bbc853e17c45102ae0bd2e48e52ea212462fcc480eb1eccf320d0df"
+    },
+    "audioPrivacy": {
+      "textHash": "7b718390fc7be2fb8376faea1a4248362147223babc62cb263447edf60678aa9",
+      "spoken": "دوبارہ سننے کے لیے صرف عام ہدایات محفوظ ہوتی ہیں۔ آڈیو اسی ویب سائٹ سے آتا ہے؛ آپ کی درج معلومات آواز کی خدمت کو نہیں بھیجی جاتیں۔ ہوسٹنگ لاگ میں آپ کا آئی پی پتہ اور مانگی گئی آڈیو فائلیں ہو سکتی ہیں۔",
+      "bytes": 72449,
+      "seconds": 17.968,
+      "sha256": "8bf45a46a83a96f02f268fa3b1606cc4113ec8eb5cd05f8dc172fca5875164b9"
+    }
+  }
+}

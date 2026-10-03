@@ -1,0 +1,2511 @@
+{
+  "language": "en",
+  "revision": "6ef9a3aee944",
+  "model": {
+    "model": "facebook/mms-tts-eng",
+    "revision": "c71de0fe7204c83f1c10820a7d696d0b450048ba"
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "entries": {
+    "nomineeYes": {
+      "textHash": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+      "spoken": "Yes",
+      "bytes": 2751,
+      "seconds": 0.538,
+      "sha256": "b02c6f49abd3e68f31e571ffc7207673341eae77bf5a4b63ac3a56f36097ec73"
+    },
+    "nomineeNo": {
+      "textHash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+      "spoken": "No",
+      "bytes": 2846,
+      "seconds": 0.57,
+      "sha256": "15ee2fd996ee08c46d3c44b3123438f5121844fd9faa98d03835fdc00197d3cb"
+    },
+    "nomineeExplain": {
+      "textHash": "0db7729e1f7459e94c9b8e20772edc7eaa5c68b752128ae8da9abeeb0458f4ff",
+      "spoken": "A nominee is someone the institution can receive a claim from after the holder dies. Nomination helps the process; it does not decide who legally inherits. If you have not checked, choose “Not sure”.",
+      "bytes": 58147,
+      "seconds": 14.391,
+      "sha256": "e25db265af162532aec26be9efa83ff53cf0c7c2f84c0b43c15f002825762d89"
+    },
+    "day": {
+      "textHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff",
+      "spoken": "Day",
+      "bytes": 3032,
+      "seconds": 0.611,
+      "sha256": "ec91daa6b9f51742d4373939d08463b1d98f65d4d41bf44a010016d45ac40d1d"
+    },
+    "month": {
+      "textHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543",
+      "spoken": "Month",
+      "bytes": 3322,
+      "seconds": 0.692,
+      "sha256": "c5c338f0211c97a1e056ed4b7d2e111b4a0a81031970c1252c6f8d79f3797650"
+    },
+    "year": {
+      "textHash": "89f6832560dec0b7f8721d1fe3ba0b5036a5d1464ce4339bb16c3e1485bfec34",
+      "spoken": "Year",
+      "bytes": 3417,
+      "seconds": 0.714,
+      "sha256": "709f6d91edc1c07336882843ddfbbfc6d0ebf178a07b180baad54436c410a584"
+    },
+    "dateExample": {
+      "textHash": "18dea5c1d207ef655c3fcce2e9fd8d58b4f213d8095787e29b0baea82b4e4395",
+      "spoken": "Example: fourteen / zero nine / two thousand and twenty six means fourteen September two thousand and twenty six. Use the date on your record.",
+      "bytes": 45568,
+      "seconds": 11.233,
+      "sha256": "c92571b0eafc3683620f3d690aae94e978dd64f90020614903ccb08a656a7b8c"
+    },
+    "submissionExample": {
+      "textHash": "30c218a5acf8c8a4bf87601298aeb90ca08a18409ac9574438d85164438ea0e3",
+      "spoken": "Use the day you sent the request. Example: fourteen / zero nine / two thousand and twenty six.",
+      "bytes": 33190,
+      "seconds": 8.142,
+      "sha256": "2a2ccd7ce4804d52bb9c8c24f1eff124c719d66ce350f086a4ae0926f48041ce"
+    },
+    "statementExample": {
+      "textHash": "36225fe6478ae761a659b3fe12406516dbc934fdef4972777e27ab3c7b937a52",
+      "spoken": "A statement showing nominee names OR “Nomination: Yes”. A balance alone is not enough.",
+      "bytes": 28101,
+      "seconds": 6.866,
+      "sha256": "090354c731aef6673bdd774e754ea657f568413d4c64a3dbefb4a46045a6027f"
+    },
+    "registrationExample": {
+      "textHash": "48b019837dc4d4c2d60163bb793350403091ad3b1a8b594e9f0dd0322259698a",
+      "spoken": "A bank, broker or fund letter/email confirming nomination is registered for this account. A request receipt is different.",
+      "bytes": 37992,
+      "seconds": 9.343,
+      "sha256": "6d0986ba863e04adba3598bb32f1eed861e70d4dd3ca26d36ef43271ffc3af8a"
+    },
+    "requiredInstitution": {
+      "textHash": "2bfdd3a3cf76d431188ebf187024620ace52d821942528b3cd49f7001ddd1c0e",
+      "spoken": "Enter the bank, broker or fund name shown on your record.",
+      "bytes": 16296,
+      "seconds": 3.93,
+      "sha256": "0fa6a26c968c5d13af5656a9b1573f5cebe1ab89f5364253e555722b52b9983e"
+    },
+    "requiredRecord": {
+      "textHash": "b7e0b725b98bd5d2e42cb391a1391b97771d4706e5a2f6833cae44abedc76bb1",
+      "spoken": "Choose the type of record you checked.",
+      "bytes": 12163,
+      "seconds": 2.881,
+      "sha256": "c447c586297894ffbced3b39b15156526a0bf6b816359318eb2b9d4c0ddafdde"
+    },
+    "requiredCheck": {
+      "textHash": "833c307ce56c633748cd8418579c9747c27184148da362dff29982e62274fb54",
+      "spoken": "Confirm that your record actually shows the nominee registered for this account.",
+      "bytes": 20898,
+      "seconds": 5.068,
+      "sha256": "9ac7e395e1c07dcc00eccefc6f185c8eb0d3eec3f2a0e9728ad48114abea1276"
+    },
+    "institutionExample": {
+      "textHash": "44d98f5fb238d4712a98e59854bf4b59c148566d24d3d2f776645159aea75eab",
+      "spoken": "For example: H D F C Bank, or the name on your statement.",
+      "bytes": 17447,
+      "seconds": 4.204,
+      "sha256": "96c2e7137ac60f7d24d39395eea2dcafc35122ad38cbd197314ee26a52fdae36"
+    },
+    "nicknameExample": {
+      "textHash": "c583c66794a5d05e00fc8cdf48e8bee7f23996ae49a90d09bb9c7474e57143c0",
+      "spoken": "For example: Family savings.",
+      "bytes": 13892,
+      "seconds": 3.335,
+      "sha256": "075eee6ca0c2fb6f3223d80a5f1f4f891ee74fb7884a7fa85eaf555a126e3748"
+    },
+    "ownerExample": {
+      "textHash": "f1e18d91a03e7e3c25f014485782bee1e15b7409990488a911e6e960bb33feea",
+      "spoken": "For example: Me or Parent.",
+      "bytes": 12833,
+      "seconds": 3.062,
+      "sha256": "3a912511b50d1c5021e2176a6ba936b8f0f1536954cab9fe1cc7625af11b6c01"
+    },
+    "nomineeNoteExample": {
+      "textHash": "9bd380c9f9d4a580d5e32e938f3524cf9ee45f13b0ca15c9b5a03952a5d157b5",
+      "spoken": "For example: Spouse / Anu. Nickname or relationship only.",
+      "bytes": 22631,
+      "seconds": 5.52,
+      "sha256": "e629e4f623f39f25ec7fc634741f6b436982edf0f22ee56f191cdc1bcc9287f4"
+    },
+    "last4Example": {
+      "textHash": "544a8ea1ba59675c71c59933deacc927a0619301e71c7e93bf2244ba3dd03412",
+      "spoken": "For example: one two three four. Last four digits only.",
+      "bytes": 23585,
+      "seconds": 5.753,
+      "sha256": "a9ebf1728587a6c48958769ae61d1060bf23f5716153c5b0ebb8433ef8a8c1f2"
+    },
+    "recordNoteExample": {
+      "textHash": "dc8217ab51368fd225aea096b725ef2140e7f32612e9009992841d9e4b66a965",
+      "spoken": "Optional: a short note to help you find the receipt or record.",
+      "bytes": 20902,
+      "seconds": 5.074,
+      "sha256": "cd30a9aa65b28d58d21a76d625793f11d4cdf64a4dab8d3de5ccb68c9f93b3af"
+    },
+    "bankLocation": {
+      "textHash": "52a63051680f3b9f5e48e666a3043e160ddf3d8d715ca6cb86e2823f214a2725",
+      "spoken": "Use the bank name on your passbook, statement or deposit receipt.",
+      "bytes": 17441,
+      "seconds": 4.212,
+      "sha256": "69b4e7b621d9fa1a4913e6f09bfcee7260a38d8c06ebd2bc75067c2b85f6c0f5"
+    },
+    "dematLocation": {
+      "textHash": "0c9336d75c4f5d199fddc81d4a416429c2528d708a35c978c30dce93a8835f8f",
+      "spoken": "Use the broker or bank on your demat statement, rather than the company whose shares you hold.",
+      "bytes": 23874,
+      "seconds": 5.823,
+      "sha256": "a7cc0c3699fd70161f1d9423aac52a8ffe5ce362f963c95a6a7f3b8d032d1daa"
+    },
+    "mfLocation": {
+      "textHash": "a581dfe7c1fc150e489ec526b155643a5cd1892bb9969ceead1afde9aea37fb4",
+      "spoken": "Use the mutual fund on your folio statement. Its registrar can help; units in demat follow the demat route.",
+      "bytes": 30495,
+      "seconds": 7.487,
+      "sha256": "423836f97a1f0fd98c703f38f0ee233668e2ea936093aa8a8f5858ba2e3d3bc4"
+    },
+    "checkLocation": {
+      "textHash": "db5e023343c4a9c13fd817ed31308ef3a0eeb04767f6651459c9696d1a13285c",
+      "spoken": "Look for the nominee name or nomination status in this account’s details or latest statement.",
+      "bytes": 26754,
+      "seconds": 6.53,
+      "sha256": "0951d231df0ada1b0d336d635c70a0f0e42f030689e5ceafd7b8ab6fab8c1f6a"
+    },
+    "askInstitution": {
+      "textHash": "f30ecf9dbd4a3fc1059a56ef86101b3c13d8ac457ae3ebda86d091cceee03dfb",
+      "spoken": "If it is not shown, ask the institution: “Is nomination registered for this account? Can you confirm it in writing?”",
+      "bytes": 34339,
+      "seconds": 8.427,
+      "sha256": "77fa214d24fb6e19d609e8f0617d172f1cad7246d1f1018d06f12b12d3ca2beb"
+    },
+    "keepUnknown": {
+      "textHash": "9a49acf4a529ff1f275324bd6e6c6fc1ff513476a9b6e9888912f9fd842c3e32",
+      "spoken": "Keep “Not sure” until you can check. If the institution confirms no nominee, choose “Not added”.",
+      "bytes": 27712,
+      "seconds": 6.779,
+      "sha256": "bd92b4fb80b1a11ca432e760702e5812e05add699ec572cc1c66a5ec20565231"
+    },
+    "submitKeep": {
+      "textHash": "064abe2c0738430d561e7b25c3f97bcb883ee8a9b9c0f65fc72354afaa84b5ee",
+      "spoken": "Submit through the institution’s official channel. Keep the dated acknowledgement or receipt.",
+      "bytes": 26271,
+      "seconds": 6.431,
+      "sha256": "7e3a0398395c21797cfe1315ccdf91c1c77fd55e75f91bd98d7cace585084261"
+    },
+    "confirmRegistration": {
+      "textHash": "fad0d6fbe25088bc572ed475c8353456fb974d98160ebd419957a6252e06e7c7",
+      "spoken": "Check a statement or written confirmation that identifies this account and records the nomination. A request receipt alone does not confirm registration.",
+      "bytes": 41160,
+      "seconds": 10.141,
+      "sha256": "e73544aa9d78c25c4b25d0427850bb1c19f9769bf3eb5336d00207105a802839"
+    },
+    "followRequest": {
+      "textHash": "e5617e576763764a6e190a02a4e6efb60cf5e590ab4679f0339442d59d8295f3",
+      "spoken": "Use the request date and receipt reference to ask the institution whether nomination was registered.",
+      "bytes": 25602,
+      "seconds": 6.242,
+      "sha256": "03daa92725fa5ed328f04fe45d5601516140a79ec73a3592632a334642966c38"
+    },
+    "waitRegistration": {
+      "textHash": "27fc7bd55888059c34540f382014868278603763a3a855ee5fa6dddc6af92ce0",
+      "spoken": "Keep this as awaiting confirmation until the registration record is available.",
+      "bytes": 21093,
+      "seconds": 5.114,
+      "sha256": "211cf36797517fa6c9a23b93657da46b3e7f71d40e4a0eabc053ba83488cc76e"
+    },
+    "hdfcPath": {
+      "textHash": "c63bfb253f8716ce9efdc8ecea529cee0ce15eccd6425b8c86b600652e82acbf",
+      "spoken": "net banking: Accounts → your account → Account Details → nominee/holder details.",
+      "bytes": 32221,
+      "seconds": 7.899,
+      "sha256": "3e46cea4ea0faff0253424d7e1e98c0abc7e0c50cb37497caf41f4080de40b50"
+    },
+    "hdfcHolding": {
+      "textHash": "5a52112e350d2227183551a097393ccffe7bac9c4cb878326309333c62e1460f",
+      "spoken": "Sole holder: add/change there. For joint holders, the bank recommends a branch visit together.",
+      "bytes": 30400,
+      "seconds": 7.46,
+      "sha256": "ab05a8a5e0fb4002305de28d6c5c003893ec32f6f99cf3b8ffc0e03cfcf2b05b"
+    },
+    "hdfcSource": {
+      "textHash": "d68bf7eceb194d1ede737e3e82b0f46962b440e6f066d8a87f0a5deec2ed051d",
+      "spoken": "H D F C Bank instructions",
+      "bytes": 9087,
+      "seconds": 2.127,
+      "sha256": "84b006144a14db17d6e3a4cb96bcb29a95d199f3cde5212db69a81eeba518ee7"
+    },
+    "whatToDo": {
+      "textHash": "f47f1edc44ed92664871471b0cf8f463813788468c23680c12f52a36c2827e26",
+      "spoken": "What to do",
+      "bytes": 6781,
+      "seconds": 1.543,
+      "sha256": "a56cddf174ab61ff1822c6f1dbf8ba8866806b3f8b0270139e8415cc9346528f"
+    },
+    "home": {
+      "textHash": "3a78695388b38b5cceefaf6796b0137877514593543b91af2752d5a17e3d736c",
+      "spoken": "Home",
+      "bytes": 3705,
+      "seconds": 0.772,
+      "sha256": "af8acdfc483f06ea964eaaa59cf2b8514d204599400d6bb6311bbdea02c5d70c"
+    },
+    "continue": {
+      "textHash": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8",
+      "spoken": "Continue",
+      "bytes": 5533,
+      "seconds": 1.226,
+      "sha256": "a06152e3629c458c64e0bbd543ee78b55899ffe9789d4b023a22ffbae859e6f1"
+    },
+    "unfinished": {
+      "textHash": "aa0bf6bc399cc23b793c7e051e75719fa1400aa570a9b73488f66fed4f632096",
+      "spoken": "Continue unfinished account",
+      "bytes": 10431,
+      "seconds": 2.455,
+      "sha256": "62593fbea4ad5b5f9f453b4ef8f6efbb8d0a4cf13ccca413573846fe31b6ae2f"
+    },
+    "step": {
+      "textHash": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4",
+      "spoken": "Step",
+      "bytes": 2457,
+      "seconds": 0.474,
+      "sha256": "952a95643860d2abcebb768888d1b4bcdfee37b01b755aad7bd724b4debf6957"
+    },
+    "of": {
+      "textHash": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
+      "spoken": "of",
+      "bytes": 2743,
+      "seconds": 0.538,
+      "sha256": "95af562e8cadd38a3a2d5fded4a23c5a735fa8b749cce25764ff72793ac96119"
+    },
+    "homeTitle": {
+      "textHash": "e99b15e0bd23e490d5811b7e1f148dc5225d0ce3fc556161ff7d28a63c746ddf",
+      "spoken": "Make your family’s accounts easier to find.",
+      "bytes": 13790,
+      "seconds": 3.306,
+      "sha256": "33b95fffacd4324b9b4047055c4fa269a087bcc159a8924184ad1332070c5c85"
+    },
+    "homeIntro": {
+      "textHash": "eb00f0f2f22981d21eac5b3e767c5a454f3996572fa5381771fca71cc53d2b98",
+      "spoken": "Check who is nominated. Take care of what is missing. Leave a clear record for your family.",
+      "bytes": 28382,
+      "seconds": 6.96,
+      "sha256": "b2ebc22555f9d707e163543c7ffd76e7e887ee215af43b9d6dca35b2ff9d8108"
+    },
+    "typeQuestion": {
+      "textHash": "11ded763710bbf120d23cfd02fcf136023373f672ae2c06df5602b14c8502e88",
+      "spoken": "What kind of account is it?",
+      "bytes": 9953,
+      "seconds": 2.341,
+      "sha256": "56ae4a344fb2492ac5a450beae6ac85f40b221b1afcbb9d76d5141c22660fe25"
+    },
+    "institutionQuestion": {
+      "textHash": "e66213270e78a55f75243eb95ae1dc5826075768c372c65a764da2ba03a21452",
+      "spoken": "Where is the account held?",
+      "bytes": 7272,
+      "seconds": 1.668,
+      "sha256": "587e413f88ec0949f3cc473680e889ef40c2b226db27e97f998618403b86fe16"
+    },
+    "dematDescription": {
+      "textHash": "8ab56a8c808262c557ebe8bd80dedd4720df09dced3162d73ba84a73d4ebe80f",
+      "spoken": "Shares held with a broker or bank",
+      "bytes": 11973,
+      "seconds": 2.855,
+      "sha256": "16f49b1f2e23c12952b88352dfb9d4e668ecc345e32004fc82a255c145e2b6ff"
+    },
+    "bankDescription": {
+      "textHash": "7c227818ee7c4829d37b07079466224676a443b4b1d56c84168b73a908de3298",
+      "spoken": "Savings or a deposit with a bank",
+      "bytes": 11876,
+      "seconds": 2.809,
+      "sha256": "af3aca67a053c78f176951dd11425723cdd797e0d6efec291b4041904a7f7103"
+    },
+    "mfDescription": {
+      "textHash": "af1fca90665f10f1f6f3e0fffeb756555bf628b7f14bde8b514478b816f4efee",
+      "spoken": "A folio held with a mutual fund",
+      "bytes": 11202,
+      "seconds": 2.65,
+      "sha256": "0818566584ca8ed18c6588ee1e3b179f2b960e2662d8bc9aa69090b693095a04"
+    },
+    "nomineeNote": {
+      "textHash": "791df810e199608f034f4968be9e0b80b0cb6695e808f3ac2b74c4c5c628cf67",
+      "spoken": "Nominee nickname or relationship (optional)",
+      "bytes": 13024,
+      "seconds": 3.1,
+      "sha256": "24f4f48726d8723d9a5f76888916c9e4eba3f84ee29385ff68e4d0f66f888a16"
+    },
+    "nominees": {
+      "textHash": "632700c94b5dd5040ad10a8515aa8c267f5ca55de0662035b1034788316ee650",
+      "spoken": "Nominee notes",
+      "bytes": 6109,
+      "seconds": 1.372,
+      "sha256": "513ff5e742f42aa3ca6f93f40c11cb5a9b4dcb930c8490e8bd20e9d00d6564ec"
+    },
+    "missingGuide": {
+      "textHash": "f37033f91baab53844cea16d71e91a1f4265ef07e7fbd1da963a4a9d4206f7db",
+      "spoken": "Use the institution’s nomination option or ask for its current form.",
+      "bytes": 21377,
+      "seconds": 5.202,
+      "sha256": "bd3d827b17e31ddc53df40eb375739c2656ebec8b3ea7185a35bd8ea8bc514f4"
+    },
+    "title": {
+      "textHash": "154d8ef499d813f0eb533c66861f10e0ee9f16426748a97fe8f49aa94ea31614",
+      "spoken": "Your family accounts",
+      "bytes": 8890,
+      "seconds": 2.084,
+      "sha256": "be33424f5f53fb0add34f04582c604d542db133fccbece5d55adb5a05d5ee11a"
+    },
+    "intro": {
+      "textHash": "6b3c430928120999d4f879f644c5c9cd5400a86d13958c973061839fa14371ac",
+      "spoken": "Keep track of nominees. Take care of what’s missing.",
+      "bytes": 16762,
+      "seconds": 4.052,
+      "sha256": "7a8b9bd594dc63f51d0059165b4f5fab07220f90b0527cc59aa43288d960f567"
+    },
+    "add": {
+      "textHash": "e9cd49a1ea6af670363aa72e40011372710d500ecac07f2ec63d9fb70b4024da",
+      "spoken": "Add an account",
+      "bytes": 6488,
+      "seconds": 1.468,
+      "sha256": "850e1a996d6cb05fe9dafffe8c14bf5c9168f141ddf8b3115135b7870afab52a"
+    },
+    "edit": {
+      "textHash": "ab6a164be0c31afa8fa0ea7261eabbb9753f0c2b7bab354118a410c2ddcfa644",
+      "spoken": "Edit account",
+      "bytes": 5625,
+      "seconds": 1.253,
+      "sha256": "7837cb223a2c9036ce3a86f540df310cd5924cbafe5fb8d1c58e3d268350641e"
+    },
+    "emptyTitle": {
+      "textHash": "73b91bef7b1162d8b48b4d075c7cd8b1063566ff289b07a37ec4eef97592fa2f",
+      "spoken": "Start with one account",
+      "bytes": 7935,
+      "seconds": 1.827,
+      "sha256": "4df4ef3bda3a108590968a60c71defa5b5e5e5f2905cbea4fe298d7fbf7f8510"
+    },
+    "emptyIntro": {
+      "textHash": "cc62b66d1f047cd1f69ca03d692836ebb782ea4017db8c8b3f042956f5ba9676",
+      "spoken": "Demat, bank or mutual fund. Check who is nominated, one account at a time.",
+      "bytes": 24927,
+      "seconds": 6.08,
+      "sha256": "da1dd12f54a8d75d1816af89a2cd63c695b0f7ae2f3320bf2cf3f0b44b294d32"
+    },
+    "example": {
+      "textHash": "f962cf88e392d08a992669c45543b94c8231a084f0a97a6dddc048548920cf4d",
+      "spoken": "See an example",
+      "bytes": 6780,
+      "seconds": 1.556,
+      "sha256": "e16b662ed3911b2e0898169e53103cc99f3a4c164e691d96be96c8e05a9bb580"
+    },
+    "sample": {
+      "textHash": "1217b1744158641fd13a6cab84e957ea145c7b47f41bb49a5651ddb63f16ea15",
+      "spoken": "Example family · fictional accounts",
+      "bytes": 11387,
+      "seconds": 2.693,
+      "sha256": "f32cc79a67b7b0a7db404a81181f39943a48854ebaa3f49d4b98f04133f1bd88"
+    },
+    "resume": {
+      "textHash": "b5d22fa888e36e90c16c0635939e8085c14046c115749f0f6daa3b3577cc1184",
+      "spoken": "Open a saved list",
+      "bytes": 8603,
+      "seconds": 2.005,
+      "sha256": "01945a0fd6ddeec0d4f036be37e577a5f3c4efc9c424a5c2c18f009398c0decf"
+    },
+    "accounts": {
+      "textHash": "8a7c8b67fe8bde8bb31f62db5896a1cd8c7bfa29ff7b86554a1ad2958c166e92",
+      "spoken": "Accounts",
+      "bytes": 5149,
+      "seconds": 1.142,
+      "sha256": "a096d293dff1f4262d6f9e56805899df7571cc6b1385bd2d788b4b3a7f6dad44"
+    },
+    "needAction": {
+      "textHash": "c1ebc7817870e5be78fceae559ba5fcac2b68d5c5498d8080298004f3f79d62d",
+      "spoken": "Needs attention",
+      "bytes": 7551,
+      "seconds": 1.73,
+      "sha256": "52bae8fcc3b74a9f2e8fa5cff26b0a7bf1312924ee9d9474977282b309b5443e"
+    },
+    "next": {
+      "textHash": "d6c92918d662ca9fd4a1bfb10feb380a491fb563b97529d9d761a5cf8386476b",
+      "spoken": "Your next step",
+      "bytes": 5721,
+      "seconds": 1.283,
+      "sha256": "700e86ade7276f6308f80af94cd1978bc82591be16db94efbcbe40980a5e3887"
+    },
+    "allTypes": {
+      "textHash": "f4f6813aa30ffccc05c9e5cb39afb4456331f0a7ffdec6ed8bf14e3176eac3b2",
+      "spoken": "All accounts",
+      "bytes": 6397,
+      "seconds": 1.45,
+      "sha256": "7dbc210d1a02f75a0586765d9f2bab7640757aea7a6cc2e26602991c55a4203d"
+    },
+    "allClear": {
+      "textHash": "15fcf7f827d2c500039b6530ca8e79c26db598824252b61f1eb0a2ae07a493b0",
+      "spoken": "Keep these records up to date",
+      "bytes": 10813,
+      "seconds": 2.555,
+      "sha256": "ba40bc7a8fb2d145825660144060898ea8721c97143cc48b002a56a9b9a78a09"
+    },
+    "type": {
+      "textHash": "dac7998fba76f342703faf44d34b0b58a2ed81acc57222d1c2b7aaec9648392c",
+      "spoken": "Account type",
+      "bytes": 6297,
+      "seconds": 1.417,
+      "sha256": "d4ac22655e9902e8e30a41772653b990548bd26f9303e981f80800e9eb90e08f"
+    },
+    "demat": {
+      "textHash": "382d036234154743c3feaef8cb1be397f4f5b24b7ac4dd130f9bf656224c0a2b",
+      "spoken": "Demat",
+      "bytes": 5050,
+      "seconds": 1.104,
+      "sha256": "62c625d003c51a08b4dd97e1f16cc7c74bf932f9706e500299019fb4f77a12d4"
+    },
+    "bank": {
+      "textHash": "034698a628b103517eb323835db8584ebf8e8efafb7a785f9efee9fccfe05b3c",
+      "spoken": "Bank deposit",
+      "bytes": 7737,
+      "seconds": 1.789,
+      "sha256": "831aaf479e3afb50107a0b4ab865d143da611eac6b0cc7a2304a5d88b31f8ef2"
+    },
+    "mf": {
+      "textHash": "ae30ef7cdbb3ba30dce35732c319ab840dd7466ae1e117ef985fc0f764b9f648",
+      "spoken": "Mutual fund folio",
+      "bytes": 7639,
+      "seconds": 1.76,
+      "sha256": "b21f1e376cf934bc2379cec7928ffa9c7a8078249e0f55ad0c186e373b80652d"
+    },
+    "institution": {
+      "textHash": "3b1714cc83a1557fffc236e1c9034d0535233311d565bc1d34580b26a8d25b03",
+      "spoken": "Bank, broker or fund name",
+      "bytes": 11584,
+      "seconds": 2.742,
+      "sha256": "91c7ff97e28b75785a2f992b61a2f6fb7929515ab49adb4109371f4dc7741f1f"
+    },
+    "nickname": {
+      "textHash": "fc63afc88862c12cc3974f8d248a00bd7284fe3d806deecf5bacca3e345e357e",
+      "spoken": "Account nickname (optional)",
+      "bytes": 9661,
+      "seconds": 2.258,
+      "sha256": "1964c6cf63785b1b9734261cb9e74db264e9c40a31686f82c47fc9986ad9ceb4"
+    },
+    "owner": {
+      "textHash": "9eab87af49a28dad14b273f9a1be6643db08e162262189ef44ffb60a8f5d0d01",
+      "spoken": "Family member nickname (optional)",
+      "bytes": 12250,
+      "seconds": 2.906,
+      "sha256": "e027f5b7473ee93fcf67c006834cf05d157049c763558893813acc55c117965a"
+    },
+    "last4": {
+      "textHash": "5d57ad3bc1ce559614cee7a76b7277e0bdc20d9403d7b9a4af0907522eec2e5a",
+      "spoken": "Last four digits (optional)",
+      "bytes": 11002,
+      "seconds": 2.601,
+      "sha256": "3063de0f55ed38e68b62574371d119fc0c6c10a1cc9eda9688954dd39d1cc34c"
+    },
+    "extra": {
+      "textHash": "31ee8c99b9431c1b06fab0e5bc0ba6ab2b6506422c8c7b4e241f4d71a220ef88",
+      "spoken": "Add a nickname or last four digits",
+      "bytes": 11194,
+      "seconds": 2.657,
+      "sha256": "49e6c172543b3f904ec531c22b07656a8c76f02a8eec47a3a2e1ed9bc047e338"
+    },
+    "noIds": {
+      "textHash": "f77280329b4cefa4eddd399edde6df3615a031dba820ea355645cfa5fe1e6a7e",
+      "spoken": "Use nicknames. Keep full account numbers, P A N and passwords out of this list.",
+      "bytes": 21370,
+      "seconds": 5.186,
+      "sha256": "6e104262e57840b5d8f951fdc04fd1510993a1c3928444ffeee301de034d4f08"
+    },
+    "nomination": {
+      "textHash": "f6a9952962d1b5886599408bd7554b051d72bd1d8156b1ae29f092e4b5fec7fd",
+      "spoken": "Is a nominee registered?",
+      "bytes": 9183,
+      "seconds": 2.136,
+      "sha256": "b926a6d6d7e31247acb099c9916cd5ab913065d974974acde9cfcd276269f6ab"
+    },
+    "registered": {
+      "textHash": "2351ee992626bafb88f7985721ec0f56c7d2e242f753e542dee015f178fffea6",
+      "spoken": "Registered",
+      "bytes": 6495,
+      "seconds": 1.466,
+      "sha256": "7594e6902b2a51fd3d89a7a74fd089ee43b9c04f4e20ab59f94375a4b14b89e9"
+    },
+    "missing": {
+      "textHash": "2460c620beba135235a334667d1424ff4c01e29b42466be06ace299f03cfd57e",
+      "spoken": "Not added",
+      "bytes": 5244,
+      "seconds": 1.157,
+      "sha256": "f6dc1b4e8d87041df2a0b3ded90a79ff1b11a1f2dae5692ecc8707a780a901b2"
+    },
+    "unknown": {
+      "textHash": "dca5fa430c12f9e10ee45fc05432ffd28c8e7007d283a6638ab11c08ac77d7ca",
+      "spoken": "Not sure",
+      "bytes": 5724,
+      "seconds": 1.29,
+      "sha256": "f4c0ab2584d49c4ddc2ac3b667882165b754ac9698c91cbb906f070c93ce7fbc"
+    },
+    "reported": {
+      "textHash": "2f00cb09bd803c46efbca9eaef87a3233c3370a78918a49c41e86097e3bf0188",
+      "spoken": "Reported by you",
+      "bytes": 6685,
+      "seconds": 1.528,
+      "sha256": "a2912775ca7940b84a22fbad2e6f50f3e5e605211ca2fdf4d096b01b9f352232"
+    },
+    "submitted": {
+      "textHash": "51998e5a25cf9698c5e695f6da6d9d5355d453f3a2f302bf0c2fc93edcecd1ca",
+      "spoken": "Request submitted",
+      "bytes": 7070,
+      "seconds": 1.618,
+      "sha256": "dbc2882d2798c713aece7a7521175951216411ea89ece5b81b2daaf4d7ae52e6"
+    },
+    "confirmed": {
+      "textHash": "39c5915b807ac51ff4c42c49c80bcf2662168eb06d386a2ab35d5defb81f757e",
+      "spoken": "Checked in a record",
+      "bytes": 7838,
+      "seconds": 1.807,
+      "sha256": "6e38cee8d8427fa3dea8c2e3ffb94dac0b182b3b26413218c8f1c17108831139"
+    },
+    "review": {
+      "textHash": "572c3c061f48634ef05e9028ac58bf97a439cc82f128b09cab14fc094007eb72",
+      "spoken": "Check the record",
+      "bytes": 6971,
+      "seconds": 1.598,
+      "sha256": "cf7525eed77ba8bf366207160ff53db2609d094ee8f1a327fd40a76456520617"
+    },
+    "awaiting": {
+      "textHash": "d0ae0b38eac639b98f6a9b793a7add708bedbc6156963e3abc00453b235b2f3d",
+      "spoken": "Awaiting confirmation",
+      "bytes": 8701,
+      "seconds": 2.021,
+      "sha256": "c57fe683e5444964f80f4aaa3d9e09ad7fe8561914709d57ecf7b9557878919c"
+    },
+    "checkedOn": {
+      "textHash": "0c0c351a971353b542ec8856072cf27244a7f2308097a0ad3bf8452f61b897cb",
+      "spoken": "Last checked",
+      "bytes": 5918,
+      "seconds": 1.327,
+      "sha256": "6b7433f59a01a7b0103eb24be4cc00f86c33ec7d459478dd958256026b748738"
+    },
+    "neverChecked": {
+      "textHash": "881d23f6ba57497b40797690f315aa3fbc386dcd01d989609597ba82961c9c0e",
+      "spoken": "Not checked yet",
+      "bytes": 6401,
+      "seconds": 1.452,
+      "sha256": "11bcd0ef0a0fbcdbde2af99b0f6b0b73aa6f1331468d60a47c56706c5ea07a46"
+    },
+    "update": {
+      "textHash": "dd0ae7a5cbcf233968657563dce34639e681861e2df6d3f845c08d49981c0999",
+      "spoken": "Save changes",
+      "bytes": 6779,
+      "seconds": 1.555,
+      "sha256": "6874935bbb45c31b10bca4b696ac1d97f258fba45d7189a878fe69b8b19b4a89"
+    },
+    "back": {
+      "textHash": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769",
+      "spoken": "Back",
+      "bytes": 3993,
+      "seconds": 0.858,
+      "sha256": "ed8f4cd1928426e31788e70372422a97caba2c6fde2db4e4fcd26388955d7c00"
+    },
+    "cancel": {
+      "textHash": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+      "spoken": "Cancel",
+      "bytes": 5243,
+      "seconds": 1.165,
+      "sha256": "2eb9653c06fc057674e6f20643c2a945cc13a3f8caa8493fea78c8b7b86e9f8e"
+    },
+    "open": {
+      "textHash": "74f5444edb3f4b0276e4c40cc88bee02519026b03c19a41c8c55defbd206c397",
+      "spoken": "View next step",
+      "bytes": 7641,
+      "seconds": 1.757,
+      "sha256": "5ba67c4fae7d46aa5128b72ac78f8d7646177f98481913fc2f1cd1ed92027954"
+    },
+    "registerTask": {
+      "textHash": "054939ca238a9858e95084b5a7e2ddaf1f5862f4c7a541dcc4625617b7478570",
+      "spoken": "Add a nominee with your institution",
+      "bytes": 11297,
+      "seconds": 2.668,
+      "sha256": "74fb6675435a0461a5d66b0d7c602480b261cbecdb368b4466fd2394775547a1"
+    },
+    "checkTask": {
+      "textHash": "06fa9a1b6dcc82ec8304b2bb1f7e6e94513c141dde112f7b33b422531b95e325",
+      "spoken": "Check the nomination status",
+      "bytes": 10430,
+      "seconds": 2.457,
+      "sha256": "e1fc020cd829ca671c4a83f889552a641acb95d3f27d84088ba5818e5596caec"
+    },
+    "confirmTask": {
+      "textHash": "1c28fc7a9e9d4e1d6a0d61189eebcbf790ad78314c1fd7f05b34f66648e61cbd",
+      "spoken": "Check that the request was registered",
+      "bytes": 10528,
+      "seconds": 2.484,
+      "sha256": "d717c17d81612e2791985fa5335acedbde8a517316a134496268c47145133ba6"
+    },
+    "recordTask": {
+      "textHash": "9932697533569a38db83a345bacf5185e5605438903b482368b2da97831bc661",
+      "spoken": "Keep the confirmation with your records",
+      "bytes": 12255,
+      "seconds": 2.914,
+      "sha256": "8a9583b0cd79ed7bca44087923b9814be7b182f75480a99fd6855178b581a400"
+    },
+    "dematGuide": {
+      "textHash": "1a6f52c15244673d353dd749c0a92e5c79255040193dcaa75bc99222ba2771b8",
+      "spoken": "Use the broker or bank that manages this demat account. Ask for the current nomination form or its official online option.",
+      "bytes": 34719,
+      "seconds": 8.534,
+      "sha256": "d5ed9e7481ab4346f002f5393e7b36c0b0a63fcc409db077cf40013c7eb585b5"
+    },
+    "bankGuide": {
+      "textHash": "d4399b8ab4e4ac00ecbe2ea7b4bf713b66f088645405145d851d50f74a283501",
+      "spoken": "Use your bank’s branch or its official nomination facility, if available online. Ask for the current deposit nomination form.",
+      "bytes": 38078,
+      "seconds": 9.375,
+      "sha256": "7ed6b22710cb6c81c2d9273e6c7f9ba9e577b8458b1b1d226758439a4da49acb"
+    },
+    "mfGuide": {
+      "textHash": "94fa9b46f97fc905738b88991aceda02dc7804c6727d128aecdf1cf390d3e327",
+      "spoken": "Use the mutual fund or its registrar’s official service centre or online option. If the units are held in demat, use the demat account’s nomination route.",
+      "bytes": 40188,
+      "seconds": 9.891,
+      "sha256": "4dcf8c0b146d1f977d18095dc85f0cecd1e46289df1ad16a992779a7e2aafd62"
+    },
+    "checkGuide": {
+      "textHash": "332ae596b9c3a7c10ec1dc08a0c96bda08a6fca86e625f30b70571ac2bc891e3",
+      "spoken": "Check the latest statement or ask the institution. A remembered nomination may need confirmation.",
+      "bytes": 28959,
+      "seconds": 7.088,
+      "sha256": "2016407c6315428c764a6c6cbcf33ab66b4b4c78d85ca5ad1c5420387ebf7a8a"
+    },
+    "receiptGuide": {
+      "textHash": "e2c4ba31dbf0918a5a50fdbfa96adaa86390d5c3086bb3be5f7541f4cc3577e7",
+      "spoken": "Keep the receipt. Then check a statement or confirmation showing the nominee was actually registered.",
+      "bytes": 26465,
+      "seconds": 6.458,
+      "sha256": "044973eacfeae471d0b9c3a4ab8d5aaab1370e8688d6ffcda39c9fb29d5e64fe"
+    },
+    "institutionOnly": {
+      "textHash": "a804a4d92c7f5ad54fcb4fcdce71b9b30c2392ea2460673d100ff564687de890",
+      "spoken": "Virasat keeps your progress. Registration happens with the institution.",
+      "bytes": 22244,
+      "seconds": 5.405,
+      "sha256": "ee20cc8cb4753d86aace7c420d6be88e3db4f42d64f7745d7af42d2a9948ebca"
+    },
+    "source": {
+      "textHash": "9fd0460967622adff20f5e932ecc40c5fdcd7efbc1a1ed065ac5ec2acc32f851",
+      "spoken": "Official guidance",
+      "bytes": 7547,
+      "seconds": 1.732,
+      "sha256": "417a55c869f991d8d4b19392051a5753010ae32fef7d60ff797875961a386860"
+    },
+    "sourceNote": {
+      "textHash": "e85faec620d3ac7b839d48b7073dd80945357166c97baaed3de1cd26ed0c5416",
+      "spoken": "Current form and eligibility: confirm with your institution.",
+      "bytes": 19743,
+      "seconds": 4.778,
+      "sha256": "2841f3483fcf9d16b03c403a42135470059525f1cd8c521952d9f235fde015f9"
+    },
+    "markSubmitted": {
+      "textHash": "7fdb33d75c82d247f4e591551727a130cd47e540cbc3dfb729365c8da1660425",
+      "spoken": "I submitted a request",
+      "bytes": 8898,
+      "seconds": 2.065,
+      "sha256": "d40112e7e8123324f6033dc41dd1925f13926dc509907d38e3f98e95d1801156"
+    },
+    "markConfirmed": {
+      "textHash": "4c607e28e22deba419b13e191eb7c1573295afbcf6559b876c427ab4b4790051",
+      "spoken": "I checked the confirmation",
+      "bytes": 9378,
+      "seconds": 2.188,
+      "sha256": "80fa5013197607c1c13b1ad37b86957364a75cefc97ab9199c889a76d98f2f7a"
+    },
+    "submissionDate": {
+      "textHash": "9606f86cc41c4d9b787233c2310083e955d67bbf59af89a69b9d59f2239aea54",
+      "spoken": "Date submitted",
+      "bytes": 6691,
+      "seconds": 1.528,
+      "sha256": "4e549bc318820a0c56f761ba9637afd092f9ac171032b62b4f197765fc1084ed"
+    },
+    "confirmationDate": {
+      "textHash": "399f746bb931aecbb05559c936fc608d22821c53a1f431e8cbb6d858f6f24333",
+      "spoken": "Date on the record",
+      "bytes": 8229,
+      "seconds": 1.905,
+      "sha256": "9245d3f1c14c5dd4c6c34ed24f2e8ce1aad1e7cd3114a6282087b396e6cfca3d"
+    },
+    "recordKind": {
+      "textHash": "8d448815f6de0d1fc19909d77ca803aeed447a9a4ec515ed5fde774dec5ec788",
+      "spoken": "What did you check?",
+      "bytes": 6303,
+      "seconds": 1.437,
+      "sha256": "9abb323283d6e4c5937759cd859dbcf0be2345727d628575dbb6d2275e7e0643"
+    },
+    "choose": {
+      "textHash": "c7f937836f5d82d53bc507752075f87e25009ec11bc9fd4e282f0b645e47af7c",
+      "spoken": "Choose",
+      "bytes": 4763,
+      "seconds": 1.034,
+      "sha256": "f183ec92e8366624aee476181cbf403ad423c87c4d1506164c20d0032d586429"
+    },
+    "statement": {
+      "textHash": "0cf43b60dab7b6a1c4bf01c9f8c17d844164b4a1f1861ee7daef1563436c18bf",
+      "spoken": "Account / holding statement",
+      "bytes": 11390,
+      "seconds": 2.7,
+      "sha256": "818df0de4fbeccdd5f546198717de90b9d92b22e48932d362c85ffec00b0d8e3"
+    },
+    "registration": {
+      "textHash": "226dca026e01bbf90456ec82058818fbf3f5fe211b5e5deea135acc8e5cae64e",
+      "spoken": "Institution’s registration confirmation",
+      "bytes": 13025,
+      "seconds": 3.114,
+      "sha256": "ddbea68dbf0ae429c56974742a2707daf70fb2b3b71671b583894b127beba40d"
+    },
+    "recordNote": {
+      "textHash": "c27192d870663a2504a353bbd28bb66a2ea6c4ea8035c4265a995b08df3c0eee",
+      "spoken": "Short record note (optional)",
+      "bytes": 9759,
+      "seconds": 2.282,
+      "sha256": "8ec28af591a4d10512c918fee1fd2f7ed77e840337019455c93afe83f983833a"
+    },
+    "confirmationCheck": {
+      "textHash": "2348439c7b8ab67fd1b876688363f49177cd455add542d6b0ca1a483e2075b8e",
+      "spoken": "The record shows the nomination is registered, not just that a request was received.",
+      "bytes": 22534,
+      "seconds": 5.492,
+      "sha256": "ae79706bf30ee849794fcdae6b760a3c40c90329f66b237bd5a99ca2a8c94133"
+    },
+    "progress": {
+      "textHash": "4664827f8e89019280ba99cd889f9ea31eaeecf6fc1bb7541c4a0e546685599f",
+      "spoken": "Progress",
+      "bytes": 5629,
+      "seconds": 1.252,
+      "sha256": "9611fc30426ca9c832a89c59bf74bfb4ca5ccc3b3c3623511af5e2a2baf9a5b2"
+    },
+    "evidence": {
+      "textHash": "c3674b064b097adfef1985209624266e2e1339fdceef47a5d16902d0b63fe982",
+      "spoken": "Your record check",
+      "bytes": 6685,
+      "seconds": 1.513,
+      "sha256": "e6546c1e6609f2c3f2950a215ec8bd4bb2286d6d7cf0cfb16ead30cffced1aa6"
+    },
+    "selfReport": {
+      "textHash": "f5a35875262da6e58afa32795ba07f41564d56f436d6b2992b04c4c56cc435b3",
+      "spoken": "Entered by you. Virasat has not checked institutional records.",
+      "bytes": 21471,
+      "seconds": 5.21,
+      "sha256": "b6640768d0d8330841c9da454a5174b214d005ad9afa0d2193b3f87f609bc113"
+    },
+    "remove": {
+      "textHash": "fd35618c19209f1032d90c06f85423efc4a939f899b23104eed772b47e4559fc",
+      "spoken": "Remove account",
+      "bytes": 6587,
+      "seconds": 1.496,
+      "sha256": "669df2059629fe982fea97253c60e43056d32f6a0701d53114846f5eadd3cba6"
+    },
+    "removeAsk": {
+      "textHash": "61c3156d5ad3bcba4c88136e7df6d941c3f49443ac2ac2c1b1d0159dfb8a9dd1",
+      "spoken": "Remove this account from your list?",
+      "bytes": 10718,
+      "seconds": 2.533,
+      "sha256": "f327f364e475c1ecd1707aee48539c397f6650d2be76002d545e1f30e53cd302"
+    },
+    "summary": {
+      "textHash": "f6179aca98a9c0cd0106f9fee43965f0c7681847000e6a8edb2ecde6e1344e8b",
+      "spoken": "Family summary",
+      "bytes": 7836,
+      "seconds": 1.818,
+      "sha256": "ba6f1c1e77c1c0ada1686075937387dcbc190af60a0dc66b5780aec9bc7b3583"
+    },
+    "summaryIntro": {
+      "textHash": "0d0ff041de1a6f178622641c04a158a32707374db46cd0f6a763fe5761ce89db",
+      "spoken": "Review what your family needs to know before sharing.",
+      "bytes": 15617,
+      "seconds": 3.754,
+      "sha256": "8a0211181250d7b60424236b5947b432d3a492926cda4500c2000aa1715956b4"
+    },
+    "summaryNotice": {
+      "textHash": "1e64709fbf6d843d519e494dab94a11f2870c73b532028ee34717e734b6e5a51",
+      "spoken": "Includes account labels, family/nominee nicknames and last four digits if added. Record notes are omitted. Share only with someone you trust.",
+      "bytes": 45858,
+      "seconds": 11.319,
+      "sha256": "0cd996f5a7a6fe99d679dbb8bc7735ab3ea4ca706fff5a64082eabdc39eb121e"
+    },
+    "print": {
+      "textHash": "a41f904b40766c8806e47824af07c6bf95be7066190309bdbce954cdb0d0cdae",
+      "spoken": "Print or save P D F",
+      "bytes": 7354,
+      "seconds": 1.694,
+      "sha256": "dbed8261851568974d27f906bb7fd35de282fe395ca51d28902ba6872c0aca03"
+    },
+    "export": {
+      "textHash": "804ad9867ce26c3e6c249cdae228ba4a40efc917a2aa27a658e251b60def7478",
+      "spoken": "Download readable copy",
+      "bytes": 8315,
+      "seconds": 1.936,
+      "sha256": "7abc4025088ed9c7bd9d8771aa0f04e919a0bd95330d8951c5a286650a5a015f"
+    },
+    "save": {
+      "textHash": "5a28a896c17fbec24a44937243e86dbea1e64c4efea422795b8574c9ba5d1ac8",
+      "spoken": "Save your progress",
+      "bytes": 8409,
+      "seconds": 1.949,
+      "sha256": "fd08fb4c2681eaf3faa34afd1f475dae37ddee9e8b8692cecbb3eee4850cecf1"
+    },
+    "saveShort": {
+      "textHash": "ce3cf1fbf050b5240306bcc74904e92eb091813e86b8db80a01bed1d996083b0",
+      "spoken": "Save for later",
+      "bytes": 7646,
+      "seconds": 1.753,
+      "sha256": "95eee9fa8ddd57ed6f8c8a6967e1bd63959ad59e43ab8683820e2bfdc076723c"
+    },
+    "saveIntro": {
+      "textHash": "6ed4b629396fc51e18a4fc0507a32e35149abeedf73452ae6d2d0f422eea9abc",
+      "spoken": "Download a locked file. Open it here with the same password when you return.",
+      "bytes": 23678,
+      "seconds": 5.772,
+      "sha256": "a4bf072cf341905d597fd90f50a7f1c4ac40bcc94074b0a63553edd7373fef78"
+    },
+    "savedFile": {
+      "textHash": "995398ed1a6dcf78b4f16dddc7725e6dc57b3a6d8408098e4a6f129699565271",
+      "spoken": "Your .virasat file",
+      "bytes": 10238,
+      "seconds": 2.417,
+      "sha256": "5b7793b9fdf9b735d2dfc45da2765864d0be16cba85e7076a9acfb741556c153"
+    },
+    "password": {
+      "textHash": "e7cf3ef4f17c3999a94f2c6f612e8a888e5b1026878e4e19398b23bd38ec221a",
+      "spoken": "Password",
+      "bytes": 5341,
+      "seconds": 1.186,
+      "sha256": "8fa8a1678a0a7a024e6ec186618d8d1c4ef0b57ec6ae172467fbe3dd8935157d"
+    },
+    "passwordHelp": {
+      "textHash": "039e80d7a570d917669ad107759143a4c45eb3ae9c8cabf42eb7277127fa87bf",
+      "spoken": "At least twelve characters. Keep it safe; we cannot recover it.",
+      "bytes": 22145,
+      "seconds": 5.38,
+      "sha256": "1ea14c70efc164424fde5c804e017aa96af4a28a6d804240dcfe968cd7a1ff4c"
+    },
+    "saving": {
+      "textHash": "4d050dbccf70edc908e97d7ff6a46874deb965df98ca1a20a4e6f69d950d6c11",
+      "spoken": "Protecting your list…",
+      "bytes": 8027,
+      "seconds": 1.864,
+      "sha256": "62617e88280b7ccc0237d48cf2e70a31e6923920a2c213b417e54a658a5e7d4c"
+    },
+    "saved": {
+      "textHash": "2c3057b3951497c7bf137a64a52feb00782c3bfdb39dfc225cdb7c8c64ef9fe2",
+      "spoken": "Encrypted file downloaded. Keep the password separately.",
+      "bytes": 16954,
+      "seconds": 4.089,
+      "sha256": "8a65cdbbfda31e6996be43e593669e189f642db17129c4b77eccb9eaf9457f7b"
+    },
+    "restored": {
+      "textHash": "7d281c6f5d3c551a5535c3b411f370cfd15ce29d639c9fb111d9479c7c2130d4",
+      "spoken": "Your list is open.",
+      "bytes": 8701,
+      "seconds": 2.017,
+      "sha256": "1da7e7388f5a58560a8bdcfa8505a22ad66da986fd32962fd3cad844aa9b1dd1"
+    },
+    "passwordShort": {
+      "textHash": "f9973bb5fbd3c8acbac806d3f4da9f3fb9207220e984bd427dd8e43ef4abe2e6",
+      "spoken": "Use a password of twelve to two hundred and fifty six characters.",
+      "bytes": 16386,
+      "seconds": 3.953,
+      "sha256": "6c1c97427cc7db6f7a3d16c4e798409d364b2c4315ae34e84a15886e39eec310"
+    },
+    "cannotUnlock": {
+      "textHash": "75012495f39e8b925ab5643194c149cee28e67b2ce24072c669eb85f78067585",
+      "spoken": "The password or encrypted file could not be verified.",
+      "bytes": 16097,
+      "seconds": 3.884,
+      "sha256": "a334683b50cae4f736790243287f7a8d42d0fb0b6bfca9944b2193d213922439"
+    },
+    "invalidSave": {
+      "textHash": "1b2f39db41f9c7f3910687055993202d48fdcac118f291c558421266df9bf2f4",
+      "spoken": "This saved list is invalid or too large.",
+      "bytes": 17632,
+      "seconds": 4.269,
+      "sha256": "5928c8a2742d98baf20c10a368f62d02f9bcac43bca7b238243f08c3146e78b6"
+    },
+    "invalidAccount": {
+      "textHash": "63636dec42de3c1fdd03c888227491f88fd5d3aaebe82f61b050112b9f1d18d4",
+      "spoken": "Enter the institution name. Use exactly four digits if adding a reference.",
+      "bytes": 25699,
+      "seconds": 6.267,
+      "sha256": "2947f1556e9a0474e62c8d91381db0bae579ad143332b54f55b7c7e82d9ed928"
+    },
+    "invalidDate": {
+      "textHash": "678ce943ffd1497ec99d014446c7e4673a7ec87e21cc4b48d0b792fb6afd1aad",
+      "spoken": "Use a real date, no later than today. Confirmation cannot be before submission.",
+      "bytes": 25696,
+      "seconds": 6.272,
+      "sha256": "7448ee4e657fe96f9919186afe7a6352e6be24f0f22d65771442141a36567dc8"
+    },
+    "submissionRequired": {
+      "textHash": "86d7c199402857eed7e1f44fd05acc4cd819c2bd6b560f44c0e099ac97a56d62",
+      "spoken": "Add the date you submitted the request.",
+      "bytes": 9959,
+      "seconds": 2.34,
+      "sha256": "359b7c7d34905240f925b569a52874d120b6e768b779165514160b2b3b4ac73f"
+    },
+    "confirmationRequired": {
+      "textHash": "6709c089f88a55d2fdc78bba0b4983b8dbb56b7c7fd699852b74dece3f7f55a0",
+      "spoken": "Add the record type and date, then confirm it shows registration. A receipt alone is not enough.",
+      "bytes": 27529,
+      "seconds": 6.73,
+      "sha256": "ada3b8439f09d45786d21068bc04a2a2ca11540692d8bb56f8dcd5af3d133b52"
+    },
+    "accountLimit": {
+      "textHash": "091bb36821807583f63e47a67ba1a7831f576161ac63bdb08fcd951d99d74aed",
+      "spoken": "This list can hold up to fifty accounts.",
+      "bytes": 12353,
+      "seconds": 2.928,
+      "sha256": "a3e47d8259590222fa4adc37c63517b5703abba88d2df99bd8783197283739f1"
+    },
+    "updated": {
+      "textHash": "9542181b27d128ddc12d0e0b385338c7df23292c6a5de318a2c1bb1b9c4760c2",
+      "spoken": "Your list was updated.",
+      "bytes": 8700,
+      "seconds": 2.034,
+      "sha256": "4e5126234e92f81b2189d5c9332c47a859d1efd000696d7a2518f7ff75f86af0"
+    },
+    "privacyHelp": {
+      "textHash": "a7a1f89ba378f26c5030428207fa0ab7f814a6e9497f68a81023804bd47d4a73",
+      "spoken": "Privacy & help",
+      "bytes": 6208,
+      "seconds": 1.415,
+      "sha256": "933cdaf6623fbf5c4792b96b6430dc36862af471ac09b336c3e55a0453f64afa"
+    },
+    "privacyDetail": {
+      "textHash": "5486b08aa76197d00abbec152ddcf2e3e838401129fc1a6b018b46fe98fb1995",
+      "spoken": "Your list stays in browser memory. Reloading clears it. Save an encrypted file to return later. Downloads remain on your device.",
+      "bytes": 42114,
+      "seconds": 10.379,
+      "sha256": "dea1e201d1c91b47685afc7adbcd36dc276b24d209cc3426ed1d946f29a7ae5b"
+    },
+    "translationNotice": {
+      "textHash": "019305089098003ecd1c206711417578047d337a6ae5631b7f83618ec9e7c1c5",
+      "spoken": "Draft translations; fluent-reader review is pending. Official forms keep their original language.",
+      "bytes": 34918,
+      "seconds": 8.591,
+      "sha256": "237f90111c109bfde894004ea02144ae13a0e650f75b37a4b956338501c29484"
+    },
+    "boundary": {
+      "textHash": "51b741485541fd7a77b4eaf98697f414ecfd09672628144ab07f8501351022c5",
+      "spoken": "This list does not determine inheritance rights, discover accounts or submit requests.",
+      "bytes": 24349,
+      "seconds": 5.948,
+      "sha256": "f1906d9bb36fa4fbdabb548363cff0cec7ed58be0f685c5a5610543279e9247c"
+    },
+    "clear": {
+      "textHash": "7f80a868d805d48f9b6fa6726e0fb7f9d900b32c0c3a009dc88cfc6ac60eef48",
+      "spoken": "Clear this session",
+      "bytes": 7642,
+      "seconds": 1.758,
+      "sha256": "c58cd07899538cb5b104e633458d9fa8351e27ad7a3845195acc73db60518dbf"
+    },
+    "clearAsk": {
+      "textHash": "183e37ed30a557d7074f20428e28bd627355da4a9cbdb1d2005312d7afa4a75d",
+      "spoken": "Clear the list from this session? Saved downloads will remain.",
+      "bytes": 19165,
+      "seconds": 4.636,
+      "sha256": "02ed3beeda14897af85814c8bc91cfda73feb66d133f746777b11b7055cf355a"
+    },
+    "clearDone": {
+      "textHash": "940265510121a10475e56643e415e1d60441e7d4a666ffb1b76005232ccbd788",
+      "spoken": "This session was cleared.",
+      "bytes": 9182,
+      "seconds": 2.16,
+      "sha256": "b379d9d85fa7d0b0f6b068e45392096d792bb41ee80935e62df6cc152ba0849a"
+    },
+    "language": {
+      "textHash": "a4fe65264ef7dbb38d104b1e81eb3350f3142f3d16f32bdec39b1d9b42c1b8d1",
+      "spoken": "Language",
+      "bytes": 4573,
+      "seconds": 0.998,
+      "sha256": "b6220a09e86c7c0d200e3c8c1dea2015a6ef3ea4656678b7be6042ccf8619d93"
+    },
+    "access": {
+      "textHash": "d3368cbffe23c98da887d279a1b5c74b7618ba5c0488cbed30cf304f8f9398a1",
+      "spoken": "Accessibility",
+      "bytes": 6971,
+      "seconds": 1.605,
+      "sha256": "b486ca86ea7a3797f1f94e66cfb9c8c83a0bd15ecf8d299ab974af5018b225f3"
+    },
+    "textSize": {
+      "textHash": "d68761cc1eb296478531e007ff1fda9252fb7be5d24429a97eb05765211dafe5",
+      "spoken": "Text size",
+      "bytes": 5533,
+      "seconds": 1.244,
+      "sha256": "ae8b3dfcb3a9e16aee0da91886da90660ee7096956b21adb28eb2660bd7c2686"
+    },
+    "smaller": {
+      "textHash": "d13cae54a48032e3903dd914f0a73173d0e4656c65d987b9f48079ac9c404551",
+      "spoken": "Smaller text",
+      "bytes": 7356,
+      "seconds": 1.688,
+      "sha256": "f3fbfdd7e4f55d590cef213c197450e9a31f82af5385aa753ff264d0ded1968c"
+    },
+    "larger": {
+      "textHash": "13b3946395824ca95729ad98698f4c2afb115dd713612533bf611ca543f44147",
+      "spoken": "Larger text",
+      "bytes": 6203,
+      "seconds": 1.395,
+      "sha256": "a9c5eafb74be3ec60322ade80ddacd1128059458ba6e2111e34994ae92e52b2c"
+    },
+    "contrast": {
+      "textHash": "415a8336713e6a3bb61660818c7ae7691e2246b94bcbc61a3f92dd33408d5488",
+      "spoken": "High contrast",
+      "bytes": 6205,
+      "seconds": 1.401,
+      "sha256": "6c662d86391d3e5714a841025525330560afaef28cc598a828bebcf1ddab9abb"
+    },
+    "motion": {
+      "textHash": "297ef4c79b4b21dd8fe7d32df1ad5dbeaeb3c70193ec7386f67d597140bf1537",
+      "spoken": "Reduce motion",
+      "bytes": 7451,
+      "seconds": 1.727,
+      "sha256": "f83d49c6ed73296d54a26c16f21c46468ad40cc04651a8c9f254d84912e1820d"
+    },
+    "read": {
+      "textHash": "25a60d9260b4a1bacb17ac4393b1a661aa460412f18f29ee3e70326fe7943f48",
+      "spoken": "Listen to instructions",
+      "bytes": 8985,
+      "seconds": 2.106,
+      "sha256": "0de28db7d7613849d4b4403e032e296eb42c930232a6ce78efecdae3b2e5af4f"
+    },
+    "speechUnavailable": {
+      "textHash": "54bcbe19555f6f364cb68e29866a629cc5a7316acef08a06305449ced84af8cd",
+      "spoken": "This instruction’s audio is not ready. The written instructions are still here.",
+      "bytes": 24454,
+      "seconds": 5.957,
+      "sha256": "0af9d76d2de4430eaae7551a9b996d3616f10c63c1ec10fd085f8aac0ab618d5"
+    },
+    "close": {
+      "textHash": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+      "spoken": "Close",
+      "bytes": 3898,
+      "seconds": 0.826,
+      "sha256": "cf0757859d3c823b51c49ec1200fd9c0a1aff7d21070db4be59e631cb4b3a0c5"
+    },
+    "skip": {
+      "textHash": "c887f134c26ea8310e1fb4bd6fbab7b640393bd1b556e62691c7a442be92ec2a",
+      "spoken": "Skip to main content",
+      "bytes": 8505,
+      "seconds": 1.987,
+      "sha256": "0684eb3d354bb680acdbf48891cfbeedea6d4bed6a1dc513bf831b0ba66a58c8"
+    },
+    "nothing": {
+      "textHash": "7314b3f4985745b1e138f236a5f8647be418179c2ea72aa383525dfbe4fa61a6",
+      "spoken": "No accounts in this view",
+      "bytes": 8796,
+      "seconds": 2.04,
+      "sha256": "530beb1c89955158b63737a1d02b19374d4a50130c10bf78f057668c46c919a3"
+    },
+    "optoutNote": {
+      "textHash": "fd60a66d2862126273b2b1c0d05218d860447b79821986f1e6d2fe5a7f6267a4",
+      "spoken": "Not added may reflect a deliberate opt-out. Check the record and choose with the account holder.",
+      "bytes": 30495,
+      "seconds": 7.473,
+      "sha256": "95cc0e03961977bc0badecbd1807c5b87c93f7af0cac59eb60e7a73164dc0885"
+    },
+    "startCheck": {
+      "textHash": "3035399bdd2e38c5cfd1546eb0af36a824df2ec08a4215ff7ff9fe38d102716b",
+      "spoken": "Check an account",
+      "bytes": 6975,
+      "seconds": 1.593,
+      "sha256": "5d8241e82960e837b112efce0ff08ce42f0c28d8dfeee6766da5fe4c0108d6a4"
+    },
+    "startHelp": {
+      "textHash": "19bae91da2091b94a422a41f0630bd62fe5a925ea03fda229facdfd15fbba3b7",
+      "spoken": "Start with a passbook, statement or the app you already use. One account is enough to begin.",
+      "bytes": 26942,
+      "seconds": 6.594,
+      "sha256": "de9a5a047476e809524dc7efb0dea4a13b4b1b7e2a4357107d121e5bc2e1e609"
+    },
+    "resumeTask": {
+      "textHash": "3529fe2cb5e75510324dc6b54ed768c2b3796e26e7d11baa2bba68cc795d616d",
+      "spoken": "Continue this task",
+      "bytes": 9375,
+      "seconds": 2.196,
+      "sha256": "8c9a4c896bd281de5efc41b25219e2f3fe841be30fbfaf5da3273f1201f1d711"
+    },
+    "needsAttention": {
+      "textHash": "be2d4e04fbdb6e464b101edfed3c7d68691cf8a8c97c2686ba8bebe4842dd112",
+      "spoken": "Still to do",
+      "bytes": 6595,
+      "seconds": 1.51,
+      "sha256": "f5eeee2886481ce35947bf65a6576518b355b032264cc8a575067b0c020dbf9c"
+    },
+    "checkedCount": {
+      "textHash": "9faa07f3cc22741e6090a18f25a7ace995e4004b37985bbea81c0992180b5587",
+      "spoken": "Records checked",
+      "bytes": 7457,
+      "seconds": 1.714,
+      "sha256": "3f310fd2437f54e5e32f19085667a31f5e678b1eec58ea070bdba55ad52cff60"
+    },
+    "howWorks": {
+      "textHash": "7892314d1aec823d9694612175e8874af5c46a5bb2153eed7068e219e7468e3a",
+      "spoken": "How this helps",
+      "bytes": 5725,
+      "seconds": 1.285,
+      "sha256": "1b6100ef763a9e138e60fae80d1738bbdb9681ff148f87f4a8c6acb5d7a7f3d3"
+    },
+    "howWorksText": {
+      "textHash": "873327a8d97a7f2656914648bc36c881edf62f2ef6739abab7ff83db08eadec2",
+      "spoken": "We help you check the right place, prepare your next step, and keep the result. Your bank, broker or fund makes the actual change.",
+      "bytes": 34817,
+      "seconds": 8.56,
+      "sha256": "d58f2a782b8fe7cf9436819d302e2d65a9b6ef34de9de766bca8069aaa499555"
+    },
+    "searchBank": {
+      "textHash": "b061bc3ebe1aa97aff5ed95466bbe77c2939bd64416b31aa05a1139ed54df3e9",
+      "spoken": "Search for your bank",
+      "bytes": 8223,
+      "seconds": 1.899,
+      "sha256": "873983a8eb6ed5ff811bd6a77876bc1bf4ec09076044162bb535865c23b905e3"
+    },
+    "searchDemat": {
+      "textHash": "67915eea2f33f7aeb385dee228984ad97053e9e35a461d3265a55a6b2e2b71cf",
+      "spoken": "Search for your broker or bank",
+      "bytes": 11392,
+      "seconds": 2.702,
+      "sha256": "e7162c31fa2c866a5f8dc8bc763b5c340afcc15b7e897fbf7348519b9428a2a8"
+    },
+    "searchMf": {
+      "textHash": "06ebc3c814ccfb27b13e9bd420531bcf79607a881eb14b3f6df9d90ccbf2442b",
+      "spoken": "Search for your mutual fund",
+      "bytes": 10909,
+      "seconds": 2.587,
+      "sha256": "fa5d6601bad2523b1c2eb98963f25c4405a28e69f834cd3488b68f749148c5a3"
+    },
+    "searchHelp": {
+      "textHash": "2436292cde7b4dcc56d7477a1c45ec78d417eab30301d5cfa538fe1f2bec33e2",
+      "spoken": "Type a name or abbreviation. You can also enter an institution that is not listed.",
+      "bytes": 26751,
+      "seconds": 6.546,
+      "sha256": "ede0463e13f276fe9e403eef3cfd60a1133add84185575f95a3121b237882517"
+    },
+    "useTyped": {
+      "textHash": "bfc9ad16532c41f973bd447b3027f6f60bfb7a44e46f2b90f532211c9d8e86f1",
+      "spoken": "Use this name",
+      "bytes": 6013,
+      "seconds": 1.357,
+      "sha256": "cfed10dc0fc4b8c188f77d19cb48a2b2e41982b13a5df3a2237d55d8c9a15ccb"
+    },
+    "suggestions": {
+      "textHash": "1091dbba9f3a55c4d77f14c0cf2b14f332697cdbce01645d57f89daa38393054",
+      "spoken": "Matching institutions",
+      "bytes": 8992,
+      "seconds": 2.112,
+      "sha256": "3d435f9951b351dc25ad4cda304aca4329a5cda49b0735d944203595182e81d5"
+    },
+    "noMatches": {
+      "textHash": "1536b75489158de9275ead941bc3ec997dbc6c00d6d371cdf3eb4011f849f7c3",
+      "spoken": "No matches. Check the spelling, or keep the name you entered.",
+      "bytes": 17342,
+      "seconds": 4.194,
+      "sha256": "b0bffa7ca91b02567c648c42eee1d307ee29026a20b5e0f8680c8cf192b07717"
+    },
+    "accountContext": {
+      "textHash": "5874f1f32b3ba29c2665af0862b7c16fed9ac167de97fbfd18632f8ff31faa64",
+      "spoken": "A little about this account",
+      "bytes": 8995,
+      "seconds": 2.101,
+      "sha256": "1ea6ae8ef5a0eafe1297c9072afb34fedc1fd179b157b65b1402afab2a1a4d7a"
+    },
+    "contextHelp": {
+      "textHash": "fb1e82ac0a16af05f313623d4784caadd8744d5a41e9b14038a6fe25a7248406",
+      "spoken": "These details help us show the right instructions. It is fine to be unsure.",
+      "bytes": 23872,
+      "seconds": 5.831,
+      "sha256": "9ee48f2ed297fe39bbaae422cd2fe7d4b8ae48994b0b12a14542b4719c887460"
+    },
+    "whose": {
+      "textHash": "09c96c46b0e1068681376150499b889b923514e7c81e33331b51efcec9daf93f",
+      "spoken": "Whose account is this?",
+      "bytes": 7834,
+      "seconds": 1.806,
+      "sha256": "2e3e0cbb7186994bf4d3a8119b5cded2649f199b32b796967e62559deea322f2"
+    },
+    "me": {
+      "textHash": "f57afb7d275a26df0de0e933b28c16f2462e84c09ad605945a4c6163f2be3baa",
+      "spoken": "Mine",
+      "bytes": 3895,
+      "seconds": 0.824,
+      "sha256": "73870a0f3ecd8bf90fd9c406bd8bde85fcacd7992a6aa4e138a28bd325adfd29"
+    },
+    "parent": {
+      "textHash": "52b5f8097b6bf1682dd312e36d8634eff5fbcb9e645e132ffa3905fcb5698d4b",
+      "spoken": "A parent’s",
+      "bytes": 5339,
+      "seconds": 1.197,
+      "sha256": "b0a80cc924843ffaf5f07fa2c77cd61521a6d3c558c0d1f83fc6bf2e13ec67b2"
+    },
+    "familyMember": {
+      "textHash": "b370c321f37ba83cd98959a67ef27e30546557b18b9878d632bbcb7bce07e529",
+      "spoken": "Someone in my family",
+      "bytes": 8129,
+      "seconds": 1.881,
+      "sha256": "815a655f14e44fc877929f6bada1f27a06c61c7ab6869908857465a27e4ec618"
+    },
+    "holderQuestion": {
+      "textHash": "5ec07f2774e5bcafcbe918f78cb8570f381832edf30fd3b98d614b6697ce5e50",
+      "spoken": "Is the account held alone or jointly?",
+      "bytes": 11971,
+      "seconds": 2.856,
+      "sha256": "8ae34f9eef30bf10b95af39c8ebd31d07b0faa37c56d985b22f7bd0abbaa720d"
+    },
+    "sole": {
+      "textHash": "c79ef8f05c6d1ba0095d1fc343035e02fcc9c7704402152fbe5f7f91baea9baa",
+      "spoken": "One holder",
+      "bytes": 6873,
+      "seconds": 1.583,
+      "sha256": "261b2486504e399402237bc5c5743dc317cd3d372a57878dfa95bcf0bbf19629"
+    },
+    "joint": {
+      "textHash": "7990b0e67521eeb03a7e93b92e68902da347be6f8204bb8e14e54f9612821177",
+      "spoken": "Joint holders",
+      "bytes": 7642,
+      "seconds": 1.758,
+      "sha256": "3e6ce0b5aedc227337301c7ea03ed4da010f4e1231cb3446c7d972111df57ea3"
+    },
+    "bankProduct": {
+      "textHash": "1aaadff0a05f06838831008c34072e1aab84497c4ba1e8cb2365b9fa8d5f75f2",
+      "spoken": "Which kind of bank account?",
+      "bytes": 8224,
+      "seconds": 1.913,
+      "sha256": "a57a59e8c3dd0561a6363a21b050d5bf617b45438ab64bc37c190849ce6ef126"
+    },
+    "savings": {
+      "textHash": "f950fcaf612941c270bf9e5dfdddfd9c12473d1760f72784fa506194e5132963",
+      "spoken": "Savings account",
+      "bytes": 6972,
+      "seconds": 1.587,
+      "sha256": "5b91fcf0475d216b3ec483dd5d159e74def1156b56ac1a8ce316d5d5308216ca"
+    },
+    "deposit": {
+      "textHash": "2cd12c95262106c68fe3943a6190afac0f2f7a903c852313727eb9c5e7492a94",
+      "spoken": "Fixed or recurring deposit",
+      "bytes": 10236,
+      "seconds": 2.4,
+      "sha256": "b5f930802c41aafca7fba627067350e8b069b47994ab794f940e61aeb83ac683"
+    },
+    "mfMode": {
+      "textHash": "ffacc5393043d7d70d9274164c47f4f491cdc3cfcab6cd3c90405cebf6334324",
+      "spoken": "How are these mutual funds held?",
+      "bytes": 10139,
+      "seconds": 2.388,
+      "sha256": "cff1dbf02c8772cbc1f20126fc2cac04164fd169a2a564328612f4f4d25224d4"
+    },
+    "folioMode": {
+      "textHash": "76857beca271e42f8b6314c3e380300d27e25c056b1c857ff31ff153ee3a3709",
+      "spoken": "A folio with the mutual fund",
+      "bytes": 10238,
+      "seconds": 2.41,
+      "sha256": "0175871f76c7b33e5b47b62705d9b5912786dce126179639e8597c44bce66799"
+    },
+    "dematMode": {
+      "textHash": "d2cf03236b49af0ed67b5816993e270b83be664b3501e88bc1c175e935415999",
+      "spoken": "Inside a demat account",
+      "bytes": 8894,
+      "seconds": 2.067,
+      "sha256": "34825b7417fee6641b64f988e7fbee474382c4ae50294ec627e3bc51befd9b74"
+    },
+    "identifyHelp": {
+      "textHash": "857f4acffe43d80774dbe0e194ed253115f14e6e848903b5ff41f6695138aedc",
+      "spoken": "Help me recognise it",
+      "bytes": 8897,
+      "seconds": 2.079,
+      "sha256": "feeac8998bb0acac9332913a3a22f2f9432a38789afdf9c6779767f1217747df"
+    },
+    "identifyText": {
+      "textHash": "a7a78b09bd32997f6e5e34c0e41694fc045c1f39af26ffe59565f67e77da5cc7",
+      "spoken": "A fund statement usually shows a folio number and fund name. A demat statement shows a D P I D / Client I D or B O I D. If unsure, ask the provider how the units are held.",
+      "bytes": 49697,
+      "seconds": 12.282,
+      "sha256": "c3efbd4d88b767f24d50cdb2d7d8c31da54d211d1872c0401f533b00c985a0ce"
+    },
+    "change": {
+      "textHash": "8f94311ebc4d77f69f5c5c893c6bbf4bb907719ff185ab156ac833d15b0632e3",
+      "spoken": "Needs an update",
+      "bytes": 7067,
+      "seconds": 1.615,
+      "sha256": "7f39bedc39eac1b39dfbeb467cbcc80801a6d0ef91ac7820d9adfc4196ba7961"
+    },
+    "optout": {
+      "textHash": "01509a5081f3093c2bf636c86b8946c51fba38189c03ba82638ae8f65e1643fa",
+      "spoken": "Chose not to nominate",
+      "bytes": 8699,
+      "seconds": 2.035,
+      "sha256": "3b3a21de6cdb30726bbe151daa3566982dd6721f7295bef7847b517f91009f33"
+    },
+    "blocked": {
+      "textHash": "102dd0fe0f6b72bf040099773c3579fe1a54959b294421768b2d6e1aac1b16b3",
+      "spoken": "Needs help",
+      "bytes": 6204,
+      "seconds": 1.393,
+      "sha256": "126072abae054790e2a34c0e335e606f12feb575c4b43b0072e073a3cee73330"
+    },
+    "helpCheck": {
+      "textHash": "562115a433ee3a5f347913c448afecba0eb1a9f1f04de6691398fe4d683aefea",
+      "spoken": "Help me check",
+      "bytes": 6110,
+      "seconds": 1.382,
+      "sha256": "be41c4525d5c2e50d3a7474284d3c3bec1333070b307eff7e921607b40add387"
+    },
+    "whatFound": {
+      "textHash": "b8f08617474d117532cf52fec1479f1a1c0a5d416ee5c2165e3f04e306a9d119",
+      "spoken": "What did you find?",
+      "bytes": 7262,
+      "seconds": 1.659,
+      "sha256": "4c1dade863745ccd7d03ac2e594ac98f4bdb638d21c0b20f504e463e296962b8"
+    },
+    "foundYes": {
+      "textHash": "129bc2d48af7e6f7010871b3a752dd23f8897e703e5b70152a3eeeddebe563ce",
+      "spoken": "Nomination is recorded",
+      "bytes": 9085,
+      "seconds": 2.131,
+      "sha256": "7b39312ea0d380e97fba142cdcd81006174230a7e9e819b0bf0d8ddfce400c75"
+    },
+    "foundNo": {
+      "textHash": "7fb771b640665ecb934aaf53ac1a56d826c7a425d0b54db34123317f7a6db078",
+      "spoken": "No nominee is recorded",
+      "bytes": 9372,
+      "seconds": 2.188,
+      "sha256": "fc76c1becaabb4b14aa4ff162dd5e354f41938f2b8780081a5e4f9da87fae59f"
+    },
+    "foundChange": {
+      "textHash": "ad0b45b5ed1a9c7f10575e026187262927078be989ac24be24f5f78d9e73635a",
+      "spoken": "The details need changing",
+      "bytes": 9760,
+      "seconds": 2.291,
+      "sha256": "6ef9e6fa1a8e759f2fc7a1361bb7523a8a6a66e02c0b71dd8b8abce25406d48f"
+    },
+    "foundUnknown": {
+      "textHash": "f0589965ac164211dfd9de3f8dbe8bda3e6233ff31157ce1851a9439dd46b552",
+      "spoken": "I couldn’t find it",
+      "bytes": 7361,
+      "seconds": 1.681,
+      "sha256": "d4df80760b33dc85f2d0a2a5191910d3138218513070c2ddb77b8366d4b35ab3"
+    },
+    "prepare": {
+      "textHash": "6c6cd4a46642a06f9c1020e4a6f88cc37e9f4b5829a814aa31e9150027ef6c28",
+      "spoken": "Prepare the next step",
+      "bytes": 7164,
+      "seconds": 1.633,
+      "sha256": "d369fb92c92c37bba677bbc355cb377fd10c0400d37315f3c40ff53acd531dac"
+    },
+    "checkFirst": {
+      "textHash": "ff9c1f38663c3993ecfb95691339d43b4fab86d956c64bc17d1c7d1cd79db3b5",
+      "spoken": "Check before changing anything",
+      "bytes": 10719,
+      "seconds": 2.533,
+      "sha256": "91c5c1f02d9eec609b8be1f13d6c204c04d1f1eb3bae43016a9da3fe38494b46"
+    },
+    "openOfficial": {
+      "textHash": "6a219f879e3eb7e012da09598c122fe1c8677cc6ed19404590781939b08bb8f0",
+      "spoken": "Open official instructions",
+      "bytes": 10337,
+      "seconds": 2.447,
+      "sha256": "c07fc309227f631514ffbb9504049b747cdc96580c75408a10b995b74821579e"
+    },
+    "prepareIntro": {
+      "textHash": "d09e70bfaebaa0b641246a63786290c8cffae8456bb9a2880c5d72169a0eda58",
+      "spoken": "Have these ready for the institution. You do not need to enter them here.",
+      "bytes": 21761,
+      "seconds": 5.291,
+      "sha256": "cf6ce188bfd120cd3aad159a3ffaa6419db1559eab9e7a288be500f8f48a5228"
+    },
+    "prepareNames": {
+      "textHash": "59996ae606bc9220742ac8793f2662e5eb99bc2475216b1e0b94216469fec8f9",
+      "spoken": "The nominee’s name and relationship, as shown in their records.",
+      "bytes": 16673,
+      "seconds": 4.022,
+      "sha256": "8da584303ef294c4fc4ac90b199a62afdd1ce67b384cacace9095d7f2e1d9174"
+    },
+    "prepareMinor": {
+      "textHash": "bcd93caef688d4df297312599b1771ae548203df86a2ccd70f31301a38c6a97c",
+      "spoken": "If a nominee is a child, check the date-of-birth and guardian sections on the current form.",
+      "bytes": 23201,
+      "seconds": 5.662,
+      "sha256": "36f432df739f0e7a848b85689d4cb386377cac5caa53bd23a17a36c075841445"
+    },
+    "prepareAccess": {
+      "textHash": "ef677d61e4e33338afc5606283c6d954a0f473366d9ecb42e947f3fa331923e4",
+      "spoken": "Your own account reference and access to the institution’s official service. Keep passwords and OTPs there only.",
+      "bytes": 27810,
+      "seconds": 6.802,
+      "sha256": "8aa0de8e9fbceb394da6ad9e164a60087c2ee0ec59c2d84414c5dfa489b8c88f"
+    },
+    "jointGuide": {
+      "textHash": "e014eeb9eb8decb7765e442f3f8b78541d1b0f62913d6cf0a5288f824211426e",
+      "spoken": "For a joint account, involve every holder. Ask the institution which signatures and channel are required before submitting.",
+      "bytes": 33567,
+      "seconds": 8.25,
+      "sha256": "c476f02fdc7826e6bd2b05f2605997f828ed1a53be2634328e2a489a5775ca4a"
+    },
+    "unknownContext": {
+      "textHash": "156ab6234c71a9f7b4f20c4681c6630d3e7e1a7237a9e220c9e76945b6bd55f7",
+      "spoken": "Check the holder names and account type on your statement before choosing an online route. The institution can help identify them.",
+      "bytes": 33283,
+      "seconds": 8.182,
+      "sha256": "5dd6163ace83f89dff4e6f0ebc9445b95bd2a4f908c1b9cb3372cfae1ac792d4"
+    },
+    "hdfcSavings": {
+      "textHash": "f5db540e4193b6877b17aaaf01027e5103ee0b4bbe0f40f8e02e0dc0fb6d7452",
+      "spoken": "In H D F C net banking, open Accounts → select the account → Account Details → Nominee and Account Holder details.",
+      "bytes": 37120,
+      "seconds": 9.12,
+      "sha256": "cc2f8c7efbebef345fe29c44a33117f6fdb822d95d6398e7c3470387fe1a257e"
+    },
+    "hdfcDeposit": {
+      "textHash": "b3f3ee02ba06b8624f767717ce7cfc82823cafcad24c513561a4e41c83aeae46",
+      "spoken": "In H D F C net banking, open F D/R D → select the deposit → look for Add Nominee or Change Nominee. Check this deposit separately from your savings account.",
+      "bytes": 45856,
+      "seconds": 11.324,
+      "sha256": "bbc6e2ff49c404d71ae015538d1084f437b67306cc040ade89295d83a965efb6"
+    },
+    "hdfcAction": {
+      "textHash": "d615f2f649d627f6d03888ccedc3f7a96c9972a1383757d65201b3bab1d2613c",
+      "spoken": "Sole holders can use Add Nominee or Change Nominee in the relevant account details. For joint holdings, use the bank’s branch route with the other holders.",
+      "bytes": 46239,
+      "seconds": 11.42,
+      "sha256": "1e9534857b8efca0558fbe7b344c8ed8548239fdfa6718ea949a09db50c777f7"
+    },
+    "zerodhaCheck": {
+      "textHash": "f5b8e63a4617a434a5f0d1bd17555754f453ebe6b24f8175a671e150c85e364a",
+      "spoken": "Open Zerodha Console → Account → Nominees. This nomination also covers mutual funds held in that demat account, including Coin.",
+      "bytes": 42497,
+      "seconds": 10.48,
+      "sha256": "ddddeb8abf0acf10e9b55e7e159527e09f3f920041c8fe87f15d0cf409ffa3d0"
+    },
+    "zerodhaAction": {
+      "textHash": "6d3c83cf7c13b1e4460853d9efdd4bc3ccf7d069c3769e284970b12b8ae6538f",
+      "spoken": "Use the nomination instructions in Console. Zerodha directs joint holders and people without an Aadhaar-linked mobile to its offline form. Check current requirements on the linked help page.",
+      "bytes": 54978,
+      "seconds": 13.598,
+      "sha256": "db8cc133c2d31be8d00849395abd713457732e291a450418e3685e94b23f0661"
+    },
+    "hdfcMfGuide": {
+      "textHash": "2d3892177744612fffbc94182c29a34942716644179da2a1eebd72d800540222",
+      "spoken": "Use H D F C Mutual Fund’s nominee-registration service page for the current request form and submission instructions. Match the folio on your statement before starting.",
+      "bytes": 45472,
+      "seconds": 11.227,
+      "sha256": "55a4cb86e554d883a2251299ac54a135e5df3f73a6badcfc9adc13356467b6b4"
+    },
+    "mfDematHelp": {
+      "textHash": "dc8e2278d70e425391c03fa0fc45b4110359b9643c6143b204a69a1cfd46871c",
+      "spoken": "These units use the nomination on the demat account. Check that account with your broker or D P; do not assume a separate folio nomination is needed.",
+      "bytes": 41248,
+      "seconds": 10.164,
+      "sha256": "2467b49bc3910ab4f9a6d6c16c060ef538a674f61e589d500e3d1783dcc1f175"
+    },
+    "useDemat": {
+      "textHash": "7cb5c78152cd6cfa2e8178fb6e9ddbfade9383993e78a98faca2db809fa84762",
+      "spoken": "Check the demat account",
+      "bytes": 8029,
+      "seconds": 1.85,
+      "sha256": "2a6f3cccaa77103c4817c903b29b0fb1f993ebdb543e0d29efcf5950eed34250"
+    },
+    "routeFallback": {
+      "textHash": "0a35a1040967f1d93bc016795aa84212ccf7a2c86a38066aeceb042df7850d63",
+      "spoken": "We have general guidance for this institution. Confirm the exact screen or form with its official service team.",
+      "bytes": 34626,
+      "seconds": 8.503,
+      "sha256": "35276e996ddb38c83f78448b44213ab3605f8e51910ecce8adc79d7528db3ef8"
+    },
+    "offlineHelp": {
+      "textHash": "49729a64bf3d01e24ecbd1db3785b4cdf04898b89700c451af01ffc81dad8f2f",
+      "spoken": "Prefer visiting in person?",
+      "bytes": 9568,
+      "seconds": 2.237,
+      "sha256": "6cb9f1b5850e8b018c332d497f11c4a3fa085b39e05be9c7e071d192fc6513ba"
+    },
+    "offlineText": {
+      "textHash": "8a1bff81bf3e20b883751a7aa7253b81f1dc365519059bb4c0215e7846145e8e",
+      "spoken": "Take your account or folio reference to the branch or official service centre. Ask for nomination registration or a change, and a dated acknowledgement. Ask which holders must attend before travelling.",
+      "bytes": 58336,
+      "seconds": 14.44,
+      "sha256": "46f9de5f61c57f6f886657b70a00dbdf202151870536a703e10c33440e0a781a"
+    },
+    "askHelp": {
+      "textHash": "5fa2a60e07b00d162151c26adcc82afe591e7d2e98a75f5ec053382cf7dea48c",
+      "spoken": "A question you can ask",
+      "bytes": 8796,
+      "seconds": 2.04,
+      "sha256": "431d339516fc7117440a2f53a2516ea33600af463f9dbea9a17aa0224f97f4c5"
+    },
+    "askText": {
+      "textHash": "81b46d3d61c3a274dc21148710950029010631c3eddb177d5a018c15f49ef5c0",
+      "spoken": "Please check whether nomination is registered for this account. If it is missing or needs changing, which current form or official online option should I use? Please confirm the result in writing.",
+      "bytes": 53916,
+      "seconds": 13.325,
+      "sha256": "c78f9d233a7f7d718ff5401a1a9c314df77c7c3398fa10ef3e3b86304f4838ab"
+    },
+    "copyQuestion": {
+      "textHash": "103a3d4b716e3b62088ffd376b2f4caf92ce5c767d4a5cc8ab6b6d7ad7b8ebc6",
+      "spoken": "Copy this question",
+      "bytes": 8513,
+      "seconds": 1.976,
+      "sha256": "6ee9d2abae83161c01aa3b7f10507b0172bc25025cc2235d1d0c8bfeaa38bd92"
+    },
+    "copied": {
+      "textHash": "8d525e5f158b9afe05f3122af363ac67763bdc4e1395b46597b320c289766ce3",
+      "spoken": "Copied",
+      "bytes": 4859,
+      "seconds": 1.067,
+      "sha256": "090cb86d5d06af74a2e069ee84bf7b526dd615cd47776949b9382d76252a17c8"
+    },
+    "followup": {
+      "textHash": "cd64ad9cb59077ae30eba236c2d849203bd21765635798cacb7365c459f15a51",
+      "spoken": "Choose a follow-up date",
+      "bytes": 8317,
+      "seconds": 1.924,
+      "sha256": "c7fe3a4cacbdb11db45bb34ff8d1d4abb9e5fbd66fbc440d67c690869ddf89e2"
+    },
+    "followupHelp": {
+      "textHash": "d06a7e74fc3355114a47ef21313754fd013b2c17a78641cf93be21cb0926cd93",
+      "spoken": "This is your own reminder date, not an institution’s deadline. Download it to your calendar if you want an alert.",
+      "bytes": 30689,
+      "seconds": 7.533,
+      "sha256": "d67ca8ced4c5d2b4f9528ffa17c334b43d3575b9a3831710df1ffc6f6d1c3b44"
+    },
+    "calendar": {
+      "textHash": "90410abf5927fd5437eb77bcc7fbf7a3dd302fdd18abe74fb9e1a33699454d38",
+      "spoken": "Download calendar reminder",
+      "bytes": 8221,
+      "seconds": 1.915,
+      "sha256": "caa3360448c77929d41e8bc1acfef47c9259131731a6971bcecef3938d23f65a"
+    },
+    "followDue": {
+      "textHash": "382406a506011f6aa4958087b8008c3e10a41971219a91aa69c7934366f4fe0d",
+      "spoken": "Review due",
+      "bytes": 6398,
+      "seconds": 1.458,
+      "sha256": "167ca084911f48f3d16e72f6fd2bba05e44b85f7e50a24171cee6a9e8be21a8d"
+    },
+    "requestHelp": {
+      "textHash": "5f1426666dabc810ed1c861c52b7f98d4d0168aa56dcc1302a09b9ff5a136d69",
+      "spoken": "The request needs help",
+      "bytes": 7264,
+      "seconds": 1.674,
+      "sha256": "66d6e64fc37ac977e6245905f4f52850e8ecd25a23a5f721ba3810c6716fc34a"
+    },
+    "blockedHelp": {
+      "textHash": "4cc09034bd9a1970ee69907450b3233b03815fc5dc2859e893fcdc25d21b32c2",
+      "spoken": "Keep the institution’s response. Ask what is missing, which correction is needed, and how to resubmit. A rejected or incomplete request is not a registered nomination.",
+      "bytes": 47488,
+      "seconds": 11.727,
+      "sha256": "ffcb104e0b3dbebde8fcaece4929bf6c0643561ff0881aca297c110e52b28c58"
+    },
+    "recheck": {
+      "textHash": "fb7099ad8e818d42eceefe0d97c824fd54ddb0eeef54c263ec72c77d39198ac9",
+      "spoken": "Check again",
+      "bytes": 6108,
+      "seconds": 1.385,
+      "sha256": "12240355fd47a52dd13640b032305b85e170388a24e1af89c8edc264f602887a"
+    },
+    "familyRecord": {
+      "textHash": "d230c33dfa81ba4e4cd82ab297b00f275e0435d28afbbb4483140c62b2345f36",
+      "spoken": "Your family record",
+      "bytes": 8705,
+      "seconds": 2.018,
+      "sha256": "90f801ecff9fbfc5f13fe6a48d6866d79c279dff907d786b88024363528360e9"
+    },
+    "familyHelp": {
+      "textHash": "c93fa70b2aa881641bfc70716ebdc5c0f634e6c31bb0ee818d06a1c80438e207",
+      "spoken": "Add only what will help your family recognise the account and find its records. You can leave private details out.",
+      "bytes": 34431,
+      "seconds": 8.456,
+      "sha256": "dbce7c677437ff93ba926d8af580788f80060ebe278e56cbd5b539fb6d945640"
+    },
+    "recordLocation": {
+      "textHash": "42f0327accb181dce550672b49a240d54d6bcf93c3bfd5bd5920822a1af05acf",
+      "spoken": "Where can your family find the record? (optional)",
+      "bytes": 16099,
+      "seconds": 3.869,
+      "sha256": "26897fa8d08d7c6e0abace5e7a279342e0158900a5dd0fe44e4c402cdd0dbead"
+    },
+    "locationHelp": {
+      "textHash": "5a8b8ac9866bd187aaea6476685be2922353a7dc9911fe99bd48f6faf7ee8a5e",
+      "spoken": "For example: Blue folder at home. This location is included in the family sheet. Do not add passwords or full account numbers.",
+      "bytes": 41345,
+      "seconds": 10.184,
+      "sha256": "d85a79994330a2135db5c3af74e109f11f760dedb0b6f5234a9f2645a1a51776"
+    },
+    "addNomineeNote": {
+      "textHash": "ec8f4553a4d2f277293778f40fede85ff0affc3c74f262e598f3aa4af5e9b377",
+      "spoken": "Add another nominee note",
+      "bytes": 9091,
+      "seconds": 2.131,
+      "sha256": "2641e72ca5d53d37d5ad267cd027dc60d68d40b1c6583d3e3e309dee02ba32b6"
+    },
+    "optionalDetails": {
+      "textHash": "5bd0ee19ed73299644881e9a2a3135887be0a356f154a95e9ea6205b723eff3a",
+      "spoken": "Family details are optional",
+      "bytes": 11492,
+      "seconds": 2.728,
+      "sha256": "766efb15469a4525ad8ccfd81c233ecaa6db47e1521c6fbd93fca9da0bd57677"
+    },
+    "notProvided": {
+      "textHash": "7007d867294aa9dbbe8a21d08be766e6018e655025e62929c297b09b5028dca1",
+      "spoken": "Not added to this list",
+      "bytes": 8032,
+      "seconds": 1.867,
+      "sha256": "8fda69a9f0f747ca90f225a5a7cbcd258fa30cf949332060b7743c571f0a3c15"
+    },
+    "unsaved": {
+      "textHash": "9ce3126d59f65066ce9497ee78fe6cd3fe71f238592dab0749afbe9939dccfeb",
+      "spoken": "Changes not saved for later",
+      "bytes": 11292,
+      "seconds": 2.686,
+      "sha256": "49b7363719a5c63bb58c2600b0658e4ad23298f8200d704327f4e25a4fe3a33e"
+    },
+    "savedStatus": {
+      "textHash": "76c3f88a51c74582785416228e25e68af34b314e583804f56e486545d9baccc0",
+      "spoken": "Saved to your downloaded file",
+      "bytes": 9952,
+      "seconds": 2.35,
+      "sha256": "adfa227ee2ddc2d0ab7d3736f1ab56070e69ac9219d66438d876453432350639"
+    },
+    "passwordAgain": {
+      "textHash": "b74070f90e8cecf4cdcf3201032da94e6dd69a61dc74e3549df3dd318cf404a9",
+      "spoken": "Repeat password",
+      "bytes": 6402,
+      "seconds": 1.445,
+      "sha256": "e33476cfb1c1cf0ae31c7712ca7b10f5838d3a57a735c65f82afc2fe6f8f471a"
+    },
+    "passwordMismatch": {
+      "textHash": "f694aaa8da2c0516e83b31f138b07d8bc8acd63b8b024534c0b46215097aa431",
+      "spoken": "The passwords do not match.",
+      "bytes": 9285,
+      "seconds": 2.164,
+      "sha256": "8d42ecda46e91618af00c81c0683f823f32ca1f4af425406b468e769d3730354"
+    },
+    "showPassword": {
+      "textHash": "6aeaa6a53d09dcad071fdda6280b1e7c42aa164cd0514304ff162e7da440ffaa",
+      "spoken": "Show password",
+      "bytes": 6977,
+      "seconds": 1.586,
+      "sha256": "85a81128008615a12cacb3cf55a59e751078e09845f5d07475aa8b769f51c673"
+    },
+    "saveTip": {
+      "textHash": "6aa45fde0c67e846895f2e941145d0a4b314c419141205e224d01ef5430bb148",
+      "spoken": "After downloading, look in Downloads for your .virasat file. Keep the password separately. New changes need a new save.",
+      "bytes": 40764,
+      "seconds": 10.047,
+      "sha256": "4d849fa9b62d6e996af25932ec387e575da3961d3f9b16f5e544fa81c3fbfabb"
+    },
+    "evidenceScope": {
+      "textHash": "dabcd49654081d461c4803d5d36d076de1478b99c3c64d801caa31c556ba9967",
+      "spoken": "What does the record show?",
+      "bytes": 10434,
+      "seconds": 2.452,
+      "sha256": "f56c5a6c175802dc667be9d9cc5756a5a3642e82d8400bdd7712bd9e2b16af40"
+    },
+    "statusOnly": {
+      "textHash": "938a646bd2a7f2a8852e1119a102f2f62d4ff6f2049f8c35e7fb32ffde5b5d9d",
+      "spoken": "It says nomination is registered",
+      "bytes": 10911,
+      "seconds": 2.58,
+      "sha256": "d0bebd34752630018ede260eeafc7293a27590182263bc981a8b363380aa6bd6"
+    },
+    "detailsChecked": {
+      "textHash": "9599929e141fb29dcbf9baa919ab19630871e021a457846edbeac20b744db487",
+      "spoken": "I also checked the nominee details",
+      "bytes": 11683,
+      "seconds": 2.783,
+      "sha256": "9b71690428140f3b882f998ee62c1d4395f7b77c2e7d6101eb0a8c38ee1e6821"
+    },
+    "receiptExample": {
+      "textHash": "729f5879c511b2243e18e959534ef3d55d77fbf2ae252c57a8e11a463b6ee700",
+      "spoken": "“Your request has been received” means the request is pending.",
+      "bytes": 16291,
+      "seconds": 3.932,
+      "sha256": "84a2f0e866814dcac9474fc789f03d46f3545b5e0db1ca355521326d1405ab07"
+    },
+    "registeredExample": {
+      "textHash": "8bdcc0d9f26ada16ca2839d58336c71f119d105224e41e12c818d0828622105f",
+      "spoken": "“Nomination registered” or “Nomination: Yes” records registration. Check it identifies this account.",
+      "bytes": 29734,
+      "seconds": 7.275,
+      "sha256": "7cb2113d5b426146e1d2a3eb48700a0683ec72e08690856c64ca9dc47047d5de"
+    },
+    "seeEvidence": {
+      "textHash": "7c921e679be323e1c953047ae4a1536ec967ea10309d13da213f9954612d17df",
+      "spoken": "What counts as confirmation?",
+      "bytes": 10144,
+      "seconds": 2.377,
+      "sha256": "906b5310b439599087a18a0a8083ad889522e9dc367dc9b1bb791fc7fa2589c0"
+    },
+    "fictionalExample": {
+      "textHash": "4623e75d1db8d0b7da1acc50fc3bfd46a6112de7e201a96a8d7a65cb81da6878",
+      "spoken": "Illustrative wording only",
+      "bytes": 8997,
+      "seconds": 2.099,
+      "sha256": "14546648f11760b80d0c860bc52eaaa4562896590336f016ff2471cce9467ecb"
+    },
+    "pause": {
+      "textHash": "858e4ba7a29fd38b630ed73a79e2738333b3fc6778fafa90252f5556c1262fdc",
+      "spoken": "Pause",
+      "bytes": 4666,
+      "seconds": 1.026,
+      "sha256": "27842e83e4a7da4ec856016c9d5dedc63b935937566989e5bd1b67ae3ca37958"
+    },
+    "resumeAudio": {
+      "textHash": "7d9d585237196d10c0702c012579d76995efbd825ce44d0a6724810e377fc84f",
+      "spoken": "Continue listening",
+      "bytes": 8320,
+      "seconds": 1.935,
+      "sha256": "95edd7a98f70553d3b8bfb08200fbefe4d8caefc17774534de5d364e0d801a07"
+    },
+    "stop": {
+      "textHash": "cae7d57bc067a514b8e34c9589631a95c7dc051638ddd2a190773269279a99df",
+      "spoken": "Stop",
+      "bytes": 3225,
+      "seconds": 0.65,
+      "sha256": "278a87d88c7a887a214b2bef71e9540acf5bf1558b126f9128cf15acd9737f8f"
+    },
+    "listening": {
+      "textHash": "130a3c3a6d5e90decb222c5dd80e7296d9d6930e69ee57dc9ec13383c329ad76",
+      "spoken": "Reading the page",
+      "bytes": 6590,
+      "seconds": 1.498,
+      "sha256": "2e00d858d615d1527a0770b2bef067cf1f3cbb4ece777d3068a12eda70db5773"
+    },
+    "finishedAudio": {
+      "textHash": "e16d7ab07ae78d43b994d1479fe45e03f7d6a38e208ee77db95449c2102538e2",
+      "spoken": "Finished reading",
+      "bytes": 7170,
+      "seconds": 1.649,
+      "sha256": "60b1b6d7a4a31f432dbb18f405153ace3b173aec79c2ecccbbb1a36fbd279d01"
+    },
+    "voice": {
+      "textHash": "49c4605816cfbf30455bf95871bcd0ff7c634d728b9d34a85d1ec9f75235d1d4",
+      "spoken": "Listening",
+      "bytes": 5914,
+      "seconds": 1.343,
+      "sha256": "1215c2561436187d9f253d43ed2b72235f3d080038ccb62a31fa0440e8302fcf"
+    },
+    "speed": {
+      "textHash": "dfcd6eb7029dbb20494aacfa2ef93ea1b70063bbf5784e2c3981565b9130e295",
+      "spoken": "Reading speed",
+      "bytes": 7066,
+      "seconds": 1.61,
+      "sha256": "17d741a8b6d8cca7428bc08e957d8b7235b4b60018faff263e59f828d1bcf8d3"
+    },
+    "slower": {
+      "textHash": "4eda52febad1700211d1bddf31ad4b45bf06727de5198aab945f2e59ecdb10eb",
+      "spoken": "Slower",
+      "bytes": 5243,
+      "seconds": 1.154,
+      "sha256": "25929b597833f6379d2f8bb72e0500b92c602614d90f1d1b7e1426414aa5b9df"
+    },
+    "normalSpeed": {
+      "textHash": "d6acb6d51cfc574936fc79bc06b8a3716f4a33ee69efb70dd7f59720d434ccd9",
+      "spoken": "Natural",
+      "bytes": 4000,
+      "seconds": 0.847,
+      "sha256": "7ae986bf6b042acd75ce00f96b5faf9454e5ddb81c84cfa2b1dabe7acd8f5711"
+    },
+    "faster": {
+      "textHash": "8d0160c0d84236dda89711eb07586e3d95b186fed727103aabf3fa7cda07d65f",
+      "spoken": "Faster",
+      "bytes": 4763,
+      "seconds": 1.034,
+      "sha256": "006050abdd19d9108964ac33b8bc8c24570bdc97b7fa5ffaea00059e5545e85f"
+    },
+    "previewVoice": {
+      "textHash": "959f75ecb532205f28a1426e6012d9294ccc9b753886be299475007940b78724",
+      "spoken": "Preview voice",
+      "bytes": 7841,
+      "seconds": 1.809,
+      "sha256": "19c98061011de277086dad179093ff48554db4f0a29a9664e6e50378ebda44c1"
+    },
+    "voicePreview": {
+      "textHash": "db44d9e805a427fc01634dff5fcee1a34d4ee9997465357bbf8377808b78d620",
+      "spoken": "I will read the instructions in your language, one step at a time.",
+      "bytes": 18113,
+      "seconds": 4.38,
+      "sha256": "3507ce60a2be53cd198cc53cf2490885a5d412f0e467fffc967342ea225a4f24"
+    },
+    "voiceHelp": {
+      "textHash": "3598b713efda4d84980c4707261fe75a70d3adb19c29dd95ebf6830a6315250e",
+      "spoken": "Audio is included in all six languages. No voice installation is needed. Only the written instructions are played; your entries and passwords stay private.",
+      "bytes": 50846,
+      "seconds": 12.569,
+      "sha256": "4911e30acd10cab767d4f40e5060b9c075bdb508b1d4851bc3835bd55d9bace5"
+    },
+    "speechError": {
+      "textHash": "309c857cebbd964a6dd6153a2ceb2ae350d58af2850e62f570c43fc23706229f",
+      "spoken": "Audio could not load. Check your connection, then tap Try again. Your place is kept.",
+      "bytes": 26752,
+      "seconds": 6.544,
+      "sha256": "6b07d9fc35862cb750f29a1ea1d48835494bd3a2ea6112ede229d267851def60"
+    },
+    "readingSettings": {
+      "textHash": "6e4eb42e134192e5ac05887a1b64177aeba62883b286e1ade7da3566dd54e4b3",
+      "spoken": "Reading & listening",
+      "bytes": 7460,
+      "seconds": 1.721,
+      "sha256": "430ae425890f7746d9c9e20f961483fb9a0138854f1ba09830eff903130d2ded"
+    },
+    "appearance": {
+      "textHash": "ba3b7fc6f4e17f59fb7d3ccf9693c15858f11ff92a0d47d4a5fd2c349351fabf",
+      "spoken": "Reading comfort",
+      "bytes": 7647,
+      "seconds": 1.77,
+      "sha256": "a3dafc46ca30c2ba1b4f3e2a90b379bd990a422e52b0d8b0c81345577c8b5105"
+    },
+    "lineSpacing": {
+      "textHash": "c88811d75fcb29aca69565a8a15139c52073dee9ee5d744e310e1bdd1371872f",
+      "spoken": "More space between lines",
+      "bytes": 10624,
+      "seconds": 2.502,
+      "sha256": "4345f7a8043a8bc7f08bc006989c56b52543e93681815a75ff2e91d83a334c1b"
+    },
+    "resetSettings": {
+      "textHash": "a3d21ee9e305a532dab83ce053251c44e026ac6fe4cb36e4e7feaacca77299a7",
+      "spoken": "Reset reading settings",
+      "bytes": 8706,
+      "seconds": 2.038,
+      "sha256": "2aee793861d431b27e72e79f37d8614dcd01c849442178f0ec594bf44e9b5fb8"
+    },
+    "languageHelp": {
+      "textHash": "efa0690db20d9d7065927eb179cef82798df909bce87ea1ceeccf6dc6197e5ad",
+      "spoken": "Change language at any time. Your work stays in place.",
+      "bytes": 19265,
+      "seconds": 4.668,
+      "sha256": "b17ade3bac0f632497faef1d253df50dec00fb4cf5f3f6eaae28dafec8af8793"
+    },
+    "removeNote": {
+      "textHash": "80951b123cfe67f14cfe64a0b0652f5b9d6fba4ae8e21a5fd7aecd45bcc5c34f",
+      "spoken": "Remove this note",
+      "bytes": 6687,
+      "seconds": 1.512,
+      "sha256": "fd957e2ce444c1e31cf5d6e45c1179efe19f505817e201d6558bd09038f0c793"
+    },
+    "optoutHelp": {
+      "textHash": "528399f9d899ca616a1443dca9eb0e361ba0cf06bbc7bf37cf5ca58dba8dec35",
+      "spoken": "This records the holder’s choice in this list only. Any formal opt-out must be completed with the institution. The choice can be reviewed later.",
+      "bytes": 42303,
+      "seconds": 10.426,
+      "sha256": "546ec62b0943208acfde74dabbed958725a1fc2c5034a5da3b6f5e50dd3ff6d6"
+    },
+    "chooseType": {
+      "textHash": "aef1c106fee38c53cff375d77885d25c7b217ec460e5b11998bed64fc66a893b",
+      "spoken": "Choose an account type to continue.",
+      "bytes": 11295,
+      "seconds": 2.68,
+      "sha256": "cd4527d84879783d725cda7da538198824770e45cd26c7a90709626670865a8d"
+    },
+    "currentRecord": {
+      "textHash": "bc2a676943fb59dac7c59077ecbd41dfab7b87c3f010dbd3d1dcc1dbce777594",
+      "spoken": "What is recorded now",
+      "bytes": 9090,
+      "seconds": 2.112,
+      "sha256": "2367850f52a16b0283c996a48cf648ab3c48dc7fc84fcb77befbc5e0b5951fdb"
+    },
+    "history": {
+      "textHash": "438558961b2e1d679a9f0cc1648abca2fb027033e30cbe8372dfdb208803e81c",
+      "spoken": "Your updates",
+      "bytes": 6876,
+      "seconds": 1.568,
+      "sha256": "1dc9c0b9b0b6f371aa27f688fe8c4b76b6baae02e2cd581fbabafa83b08676da"
+    },
+    "reviewDate": {
+      "textHash": "31151e9f9bd4e781799039ef08b316adea0188818b0da525b2965217a20c9dfc",
+      "spoken": "Next review",
+      "bytes": 6207,
+      "seconds": 1.398,
+      "sha256": "98c01b004dfdb4462ef68726528006689d07a9deb4727669fc73bc551a9c9a7d"
+    },
+    "shareNames": {
+      "textHash": "a3d7f6e29b7e2fce6a554ce39a0df3ce695e751f4b3aeef6d8d1b000e91742c8",
+      "spoken": "Include family and nominee notes",
+      "bytes": 12543,
+      "seconds": 2.978,
+      "sha256": "caca538a41cf8bf5d7155ccc7b27428ded1377d8dc342c2cf0f875bcdbf10de8"
+    },
+    "shareLocation": {
+      "textHash": "d021fc5cdd4b6d07c33d84ff626697d08baafcce0a6061c5082713722e73d292",
+      "spoken": "Include the record location",
+      "bytes": 9666,
+      "seconds": 2.274,
+      "sha256": "78eddceebebef59908db7de9e7279781f014f09c02170e8456c9a6edc2c6e456"
+    },
+    "shareHelp": {
+      "textHash": "cf9ed41e46993a4ba4da8aa14d50d0dd9ed1b57e6c13c23facef7e570a40cda1",
+      "spoken": "Choose what to include, then review the sheet below. The downloaded copy is not password-protected.",
+      "bytes": 28862,
+      "seconds": 7.074,
+      "sha256": "d965d3e4b8885687518a6eb28b6c1517d55e854287d88963a1b198c237f624b0"
+    },
+    "helpScope": {
+      "textHash": "b6998aee299d436a0c10f37e5009bcf5f9fd3d0699521601883445bf8635f4ce",
+      "spoken": "Helping after someone has died?",
+      "bytes": 10526,
+      "seconds": 2.488,
+      "sha256": "b5f682a81213516a12b3f8ccc290fca098e717a8043c2126d1dcdfacea5136f2"
+    },
+    "helpScopeText": {
+      "textHash": "6e8453c5c667564e09cb04a2f3dc3f72d3e877423e01a565ce1fcb8a637947dc",
+      "spoken": "This journey is for a living holder arranging nomination. If the holder has died, ask the institution for its deceased-holder claim or transmission process. Do not start a new nomination on their behalf.",
+      "bytes": 59106,
+      "seconds": 14.624,
+      "sha256": "553df5f8b44061c32d9f185f068c6f82bc3a3b23db6c6dc061ab5846486f0c8b"
+    },
+    "openDevice": {
+      "textHash": "dde5cbdb10662d582a232199c70e9e698aef3311e823bf5591e191ea92a408c4",
+      "spoken": "Open the locked copy on this device",
+      "bytes": 11391,
+      "seconds": 2.69,
+      "sha256": "451dd557deca4fd1b6b74376fb81c5fb1238c6e26341476c28a42c7bc15a7f20"
+    },
+    "keepDevice": {
+      "textHash": "ad19b89cb518cf57bf157e281e7a8e810cefa52a5ae527da632fc13c0af6e021",
+      "spoken": "Also keep a locked copy on this device",
+      "bytes": 12831,
+      "seconds": 3.051,
+      "sha256": "ad46dc2ed8622adb92201553529065cb7c86c77a15fa0352c2b0c0aa57f564be"
+    },
+    "deviceHelp": {
+      "textHash": "85992eeda02fd19fc93c761e5e28df4f892d8528676e9f8217021ae4d051c5f7",
+      "spoken": "Optional: keep a password-protected copy in this browser. You must save again after changes. On a shared device, leave this off. We never store your password.",
+      "bytes": 50175,
+      "seconds": 12.407,
+      "sha256": "a2f3bbaff574a374150d8c9e1360f7bf4d9df4c9fe8fc5b403c7d763bc44f027"
+    },
+    "forgetDevice": {
+      "textHash": "ce9cf8605536feb834f61ea586148c6df8db72e2fecf3a4ee7d520721361f2ef",
+      "spoken": "Remove the saved copy from this device",
+      "bytes": 13409,
+      "seconds": 3.197,
+      "sha256": "3f53d8aa110347cde9c966d550c2a0cc38c8706a8c7203b99406ab4d4461d8c5"
+    },
+    "forgetDeviceAsk": {
+      "textHash": "6cc09ab37b4de0f273bb070815fe020b3ff3ce1c50c6d0dc33ac3cd09d60c5f6",
+      "spoken": "Remove this device’s locked copy? Downloaded files will remain.",
+      "bytes": 22148,
+      "seconds": 5.399,
+      "sha256": "62c60c8e3b75f5619d92d6ea2fbaef7f30ade287d1733cf61ca902fc02b1abfc"
+    },
+    "deviceUnavailable": {
+      "textHash": "95f292626c8d3ae07c2f02edf3c7b34c09260ee69a24d47f7731fd057ddfa005",
+      "spoken": "The file was downloaded, but this browser could not keep a device copy. Use the downloaded file to return.",
+      "bytes": 30502,
+      "seconds": 7.48,
+      "sha256": "c149e7a1f73135f4b7aa229dbd74d0f1eecb58c1c56b648e57eef033250b6336"
+    },
+    "chooseFile": {
+      "textHash": "44733dfc90e6315f3d7ff8490fc23a85d3c8021888f81df2e3f5f61e7891ee80",
+      "spoken": "Choose your saved .virasat file or the device copy.",
+      "bytes": 18783,
+      "seconds": 4.541,
+      "sha256": "081034fb63e185ac827ff6a277636acc706d7bd2ccb0a42712fa36a681868c6c"
+    },
+    "replaceDraft": {
+      "textHash": "9f8dad8b8e130e5d528fd4f157536a4eb2e499bcea7136175e82d98589987405",
+      "spoken": "Start another account? Your unfinished account will be replaced.",
+      "bytes": 19073,
+      "seconds": 4.61,
+      "sha256": "cb410fe0f2294562021113fa5cafab2b4884b580ed3ce83b3a4f67286c6a7084"
+    },
+    "replaceList": {
+      "textHash": "020e14447e3c5c34f7956f41da25c9dc06ad1c1c06a6d3b1c3ce4b51c2b95ae9",
+      "spoken": "Opening another list will replace this session. Save your work first if you need it.",
+      "bytes": 22912,
+      "seconds": 5.586,
+      "sha256": "8b0c441379c5fc9fcc12309565a9bf50b4710c27472fbd4b8cda35b9dd5b7cd5"
+    },
+    "validFollowup": {
+      "textHash": "4f365c3f009f0ccb3ba7717c5ac5d6f317eb41b46c4c9c45680f4f36b2be445c",
+      "spoken": "Enter a real date, or leave all three boxes empty.",
+      "bytes": 16770,
+      "seconds": 4.044,
+      "sha256": "ab8c1de780d917c06c042fa47f7f9ad4700fbd66db88309fa45234e55f197eae"
+    },
+    "seeNext": {
+      "textHash": "9362306309567fc3affcf12a5a48d75ee5da823183a58495c254f984e6c2b814",
+      "spoken": "See my next step",
+      "bytes": 7164,
+      "seconds": 1.634,
+      "sha256": "55a3896b7c3dca8be0e9f914364d697561e6008649074e358d67fa4f5cf15afe"
+    },
+    "unfinishedChanges": {
+      "textHash": "17ce75d11437f6d55f28f5219f8dbe2aa8aa27cc2ab40951800bc43ccb08776d",
+      "spoken": "Continue unfinished changes",
+      "bytes": 11494,
+      "seconds": 2.719,
+      "sha256": "50d4e4aca3da7d913fcf9fa1c6dffdfe8ec1ed911e59a556d2dc999e91e33a7b"
+    },
+    "linked": {
+      "textHash": "a0d1cbdef9c802aaa1440a6240e39c6098e95fd07e4294e529fd44e37ed91af3",
+      "spoken": "Follows the demat account",
+      "bytes": 7643,
+      "seconds": 1.768,
+      "sha256": "9bbb615635b8cad941999e715bbc6dd7dd286a4dd9e02eb4c1c3e64b214becdf"
+    },
+    "linkedTo": {
+      "textHash": "de0c9d1cdac7af2a8ed445a8c09f3161ce4721696b2ff04a688c62ca0cf97261",
+      "spoken": "Linked demat account",
+      "bytes": 7837,
+      "seconds": 1.815,
+      "sha256": "508223858ea4e1913854ef27312e714465d093419a3211720232b541d33e099c"
+    },
+    "privateRecord": {
+      "textHash": "c0f070052517d87cdf2bdf4a5d82e2705077a63c15a77003a20c045f44e786f9",
+      "spoken": "Your private record note",
+      "bytes": 9090,
+      "seconds": 2.119,
+      "sha256": "f48aece77e27aea69d7aaf31703cd7b0480f6a02291065b5e8cc5d3cfbba2072"
+    },
+    "privateRecordHelp": {
+      "textHash": "e5e2a4ffd30466e87cddbab3aead6061e54c346737dd283cd515a788022a8589",
+      "spoken": "This note is kept in your locked save, and left out of the family summary and page audio.",
+      "bytes": 20998,
+      "seconds": 5.102,
+      "sha256": "56acd0bc5804964d528fbf75ef1c4ad26d55476f061dc1001d98b597eba3d429"
+    },
+    "readRules": {
+      "textHash": "684fa916dac20e8aefad6b2c6faedfee0ffc6c784b95e95f7c6666f29af64032",
+      "spoken": "Read the official rules",
+      "bytes": 9662,
+      "seconds": 2.272,
+      "sha256": "1fd5bf97700ea5bf117fb9f1b7334eeb8c8228bf4da37f017067317bbd1bc19f"
+    },
+    "beforeContinue": {
+      "textHash": "a79a71b58afe2bcd33edd7aaf08fcd9fb8fab66e83794ca46ebdae912e9d2467",
+      "spoken": "Before you continue",
+      "bytes": 9187,
+      "seconds": 2.138,
+      "sha256": "e951afa35c1bdfc277402220fa5681173cb9a4edd985ef4ec20795c3e34e224b"
+    },
+    "checkConnection": {
+      "textHash": "01dcb724d4860be39c754a6c46e8bde17a9f579cc7a85991d168309573bead6d",
+      "spoken": "Check that these belong together",
+      "bytes": 9572,
+      "seconds": 2.254,
+      "sha256": "20b6a735b9a4bb1f926cb2aa1fbae9b76bb9052c4b1059cac3263a8c74b52238"
+    },
+    "connectionHelp": {
+      "textHash": "1c36b34c52b8b65d5d9208055fc23d3a9524e9701b6dacac37f501d8a1b4266d",
+      "spoken": "Use the demat statement to check that these fund units are held in this exact demat account, with the same holders. Accounts belonging to different family members do not share a nomination.",
+      "bytes": 46723,
+      "seconds": 11.531,
+      "sha256": "6765fd6529acf0b6fade8a8c983732d088dc51a1e1d243e780d513a30adff989"
+    },
+    "sameHolders": {
+      "textHash": "3681cdd3428198dd0f94156ee0ec99cdcc6d50aaaa77dda4898e1c77e856d4b1",
+      "spoken": "I checked the statement: these units and holders match this demat account.",
+      "bytes": 20896,
+      "seconds": 5.073,
+      "sha256": "e23a35e9555800ef7aef49ca0a90862f3931f2c773ca17bd620eca6215ac0303"
+    },
+    "linkAccount": {
+      "textHash": "aedb0fb0366555d95836c14fa09a16d8a54746091b43b01fcd8c7c8d034f880b",
+      "spoken": "Link this demat account",
+      "bytes": 8992,
+      "seconds": 2.089,
+      "sha256": "e1f378ce00ab46f0cc03b0c10beda73de042f69004b3cedfc9b3ceb8e4048c04"
+    },
+    "replaceChanges": {
+      "textHash": "bb4ab5c08c3912739b1323fb1887093de8a2a13a1746d99d65d31c324c4e3b51",
+      "spoken": "You have unfinished changes. Continuing replaces that draft. Cancel to return Home and finish or save it first.",
+      "bytes": 36163,
+      "seconds": 8.896,
+      "sha256": "8b972a46585936faf6205125e7898273831aad9195a839e7d5c2e1875924d52e"
+    },
+    "startOwnList": {
+      "textHash": "4d977651a4be6c56f72bb2a240c86d7b7a7edf58a454208a35c2bbe084800d07",
+      "spoken": "Start my own list",
+      "bytes": 8801,
+      "seconds": 2.043,
+      "sha256": "04f3af716319bbd03cd08e6149acc17a5c97841ac6f7c40d9955bfe18be23aef"
+    },
+    "startOwnHelp": {
+      "textHash": "309a975d49d86e55a03533e9b30a5494fb3b20aa425abb629bd4c9a1646023c1",
+      "spoken": "Start a fresh list for your family? This removes the fictional example from this session.",
+      "bytes": 25025,
+      "seconds": 6.102,
+      "sha256": "7b57e48e2c6dbe8de43605fcca35e84536ef0061ed39d477962289d4cb344116"
+    },
+    "familyPending": {
+      "textHash": "aa1c6ce6e05f0944389d3245b6132af960441ee33cb6e18609dec4faf6c7e5d7",
+      "spoken": "Family details not reviewed yet",
+      "bytes": 11874,
+      "seconds": 2.81,
+      "sha256": "2ce9f4d494d58c2619f7d162cff74711dc82db67b564774302068a05743cee26"
+    },
+    "familyReviewed": {
+      "textHash": "fcde095a8cd11e2d5273461121e5313f2b51df0b708507b4dcb22e40640ded7b",
+      "spoken": "Family details reviewed",
+      "bytes": 9763,
+      "seconds": 2.295,
+      "sha256": "574080b571a545343b94a52629791f7ff9533e4fc4ebd54f32a3946af20ccfad"
+    },
+    "familyReviewCheck": {
+      "textHash": "2a7611f938aba72fb48b72e6afac621b70da8cbfbc95abebbfa1a1400e4943df",
+      "spoken": "I reviewed what my family should see. I chose to leave any blank fields out.",
+      "bytes": 24646,
+      "seconds": 6.005,
+      "sha256": "17c8610f52becf21174b0d7a360923f907334adebe04bd752e967f6eb0c62968"
+    },
+    "familyReviewHelp": {
+      "textHash": "721ebf58ef92d00213169881ee452c01f78b0daf77381db3016d49e457be8eff",
+      "spoken": "This is a separate check. A registered nomination does not tell your family where to find the account or its records.",
+      "bytes": 30981,
+      "seconds": 7.592,
+      "sha256": "7de244c8b32c5891497787ac3bf93e8746af581b51d7a6f1164860a5b4515ebf"
+    },
+    "notIncluded": {
+      "textHash": "5b72ede05edba54b1a52a2f11d03217aeb6aa23b874a5fe3707921a8dbc63a2c",
+      "spoken": "Not included by choice",
+      "bytes": 9664,
+      "seconds": 2.277,
+      "sha256": "727e31022ff8302e7c8634025a47767ef58b6b38acad8db7e59391402ce00be8"
+    },
+    "familyReadyNext": {
+      "textHash": "5b55043140a8692aab2336bb643459576f8eb277182bcb339067a692e38e3f56",
+      "spoken": "Keep this sheet somewhere your trusted family member can find it. Review it when details change.",
+      "bytes": 30308,
+      "seconds": 7.434,
+      "sha256": "f0668ee4603c055d58ab2dcca4b1b19391cfb5100ec2a4d871434a0b52804731"
+    },
+    "familyRemaining": {
+      "textHash": "9e7de69c059308db8449ac9ebb0f059773f921aab3a69d9c68b6e6ca0bdf88a8",
+      "spoken": "Family records to review",
+      "bytes": 10148,
+      "seconds": 2.38,
+      "sha256": "1d0f5978d8f1f6dc44e3fbaeae32240bbaa55673b575a918afd7c43783ed8546"
+    },
+    "onlineRoute": {
+      "textHash": "7c6df23a913a7d0dae2107209ee57b5b9b7ab2a822301e5c41d9a34b14089637",
+      "spoken": "Use online services",
+      "bytes": 7648,
+      "seconds": 1.757,
+      "sha256": "1d626754994eb6d7b7f810ce275734d452e60830521b5e296129170ad4add414"
+    },
+    "offlineRoute": {
+      "textHash": "f8abec73338099212e898a6c27502dbe5b8fe7401dd61564ecb74413db5ee3ef",
+      "spoken": "Get help in person",
+      "bytes": 8417,
+      "seconds": 1.967,
+      "sha256": "2bc209ae625e35dd8834c6184e376d0801f9481d04aeeec7def25698151d72ff"
+    },
+    "routeChoice": {
+      "textHash": "3259422a25b3d0aacd9aacbb8398a18caa5f3c28793be6aab0d0fcbee3156883",
+      "spoken": "How would you like to do this?",
+      "bytes": 9376,
+      "seconds": 2.204,
+      "sha256": "5f7732161deeba5ef6712c76ca57fa68fe4b65b76f5fee20e767c3d9f529c154"
+    },
+    "saveBeforeLeaving": {
+      "textHash": "298d53d0f6d9b9f23e992892a135ffca79cfc9cf63bcd4a5131e96003bb32810",
+      "spoken": "Save your place before opening the official service. Come back here to record what happened.",
+      "bytes": 26854,
+      "seconds": 6.558,
+      "sha256": "94084e00281a1f210d4ba310d3837d4c878c687b8bf8ab83f36ae8ccb377eefb"
+    },
+    "offlineContact": {
+      "textHash": "2ceca9bede111d287e7f6e9ccd985c6b36bfcb349dd2a4148e6a1eb595a7bdc6",
+      "spoken": "Use the institution's official help page to locate a branch or service centre. Ask whether it handles nomination for this account before travelling.",
+      "bytes": 38467,
+      "seconds": 9.469,
+      "sha256": "afc0a21cc0b96bd2220238ff32349cd775ced7c3ebb61cf881d6981a69bd8382"
+    },
+    "offlineBring": {
+      "textHash": "e3d5f0515354f4d8615e94ea476bd356eb77ee83f5deeda374c328f95968ebdb",
+      "spoken": "Ask which form, holder signatures and documents are needed. Take a statement or passbook to identify the account; keep originals with you unless the institution requires them.",
+      "bytes": 53921,
+      "seconds": 13.34,
+      "sha256": "a4b2d8083eeab064ab58d9c5b235d202815703ccf7deddc311205740f3b1d987"
+    },
+    "offlineAsk": {
+      "textHash": "8afcd046d1f59fb02a0244d9a84c060b9f1576d15416c1ba78317926680d0a83",
+      "spoken": "Ask staff to check the existing nomination first. If a change is needed, ask for a dated receipt and how to obtain the final registration record.",
+      "bytes": 41055,
+      "seconds": 10.122,
+      "sha256": "112d16ce6361e9b86715264a5a4d72c1da29c41e0a75483b90bb8e1a13a9265f"
+    },
+    "scopeGeneral": {
+      "textHash": "658d36512edf16047ba427d26c4cf48d6c66987d93305a4a8855b0c6dfb796e6",
+      "spoken": "General guidance for this account type. We have not reviewed this institution's exact screens.",
+      "bytes": 27617,
+      "seconds": 6.766,
+      "sha256": "325bdee7a08ab1add778744d0b8fec83bb493d7a9b57e25cd443663fe86ca3cc"
+    },
+    "scopeHdfc": {
+      "textHash": "8a6c418ec0492be0f5926f7b71002099adb98750d1d0af34d6d6e946fe51f0e9",
+      "spoken": "H D F C Bank: savings and F D/R D guidance; joint holders use the branch route.",
+      "bytes": 27518,
+      "seconds": 6.721,
+      "sha256": "07324ff09d8dc9995eb27c5ae784a817a16fdb7be79fcfd960b1f127b674749a"
+    },
+    "scopeSbi": {
+      "textHash": "bee95c6f166d26e9b74a177fb219646d840def1161668adf9aa0bbfd4a0ad00b",
+      "spoken": "S B I deposit accounts. This guide covers available channels; it does not claim a tested login sequence.",
+      "bytes": 33085,
+      "seconds": 8.127,
+      "sha256": "37806a7ee753016b80125e13a52ba502d730764f82e680fed006bbc3a3a2f646"
+    },
+    "scopeAxis": {
+      "textHash": "7d90f7c76a607f5c637c7f709cf3120c5d65b492a95ff547daf2e5147ddb7706",
+      "spoken": "Axis Bank savings accounts only. F D/R D routes may differ.",
+      "bytes": 22814,
+      "seconds": 5.545,
+      "sha256": "069f92d348201261ff116e543d14c58de11e30714cfe041496afcc9bb3cd9265"
+    },
+    "scopeZerodhaAdd": {
+      "textHash": "c3928b98f6f956d25cfa09fbfedbb4ba38f22bd63659bb3b1941337d1fe63263",
+      "spoken": "Zerodha: first nominee addition. Joint accounts or unavailable Aadhaar-linked mobile access need institution assistance.",
+      "bytes": 37796,
+      "seconds": 9.292,
+      "sha256": "fb888d1d23929a61e7a7ab54c38b867e4edf54b4eebad5771a947f2a57f94d43"
+    },
+    "scopeZerodhaChange": {
+      "textHash": "5b3aae8131035ad5a219eafe09c48cefc7916f8f8246a61c53998c8ec3a2fad4",
+      "spoken": "Zerodha: changing existing nominee details or adding another nominee.",
+      "bytes": 22151,
+      "seconds": 5.39,
+      "sha256": "f4960b7f3731cc697ad4a29aa1e106ccb3a2df2a80a140429a8df92c9c431a13"
+    },
+    "scopeGroww": {
+      "textHash": "fc389924302da90d751936ebd5485fee8c71eec7d927cc97d6cdc229533daa6d",
+      "spoken": "Groww demat account. Existing mutual-fund folios can require a separate service route.",
+      "bytes": 27231,
+      "seconds": 6.667,
+      "sha256": "be3acda4badeff5933cb9133e857d76ae2d19b92123905c48594fb9a27c1500b"
+    },
+    "scopeHdfcMf": {
+      "textHash": "7aa2b16c36e42e8459dde9edcd8590936a7c1ad5312ebec9a759b7955c9941b0",
+      "spoken": "H D F C Mutual Fund folios. Demat-held units follow the demat account's nomination.",
+      "bytes": 23488,
+      "seconds": 5.728,
+      "sha256": "17ff8c3c96b5750e71fd32cd79f8686c5fd59c51348efc14b5405cdda29fdeb4"
+    },
+    "scopeDematFunds": {
+      "textHash": "40c51d95feb19344551c85462dd6be3db69b89f337a1ae065db732bfb4f02f68",
+      "spoken": "First identify and check the demat account holding these units.",
+      "bytes": 17156,
+      "seconds": 4.128,
+      "sha256": "17d7e20984cf65c7f742c1c0679399095447b1af836ed9c2600ff7033eb91de2"
+    },
+    "scopeUnknownFunds": {
+      "textHash": "ff77db6539a03b1ea762f59e7c7bf3d06b4c35a5e25694c9350bbd27136ca701",
+      "spoken": "The holding format must be identified before choosing a nomination route.",
+      "bytes": 20806,
+      "seconds": 5.041,
+      "sha256": "2d79da5d559f94ded7518c9afa53d5cd0b57457388d028e1e7cf58219be544b3"
+    },
+    "sbiAction": {
+      "textHash": "24c0e0dd6cff28628a5658affadaf4a89b5d746f77f6fb76ba420e0fe8bf11bb",
+      "spoken": "S B I offers deposit-account nomination through YONO, Internet Banking and branches. Choose the specific account. If the option you need is unavailable, ask a branch to register or change it using the current form.",
+      "bytes": 60254,
+      "seconds": 14.928,
+      "sha256": "936518420e6c436b4646ebde7c21695d56355c6a91658fc713886792344d37ea"
+    },
+    "axisStart": {
+      "textHash": "4c3542ce0e54b77b4a3167ba3f0a0600726a4cb5ac079ff7afb81877577abbb6",
+      "spoken": "In Axis Internet Banking, open Services → Account Services → Update Nominee. Select the savings account, then Add New Nominee or Change Nominee.",
+      "bytes": 44606,
+      "seconds": 11.001,
+      "sha256": "d1fc01d9498645eddc8b1eb79619299943e59619b7b3151b3bc77e40f1d6f8a8"
+    },
+    "axisSubmit": {
+      "textHash": "466bddf2591e4a8253e6498924a322ba1c61b9d1d054d637b6e7cafcec11aa0e",
+      "spoken": "Axis's help page describes generating a request form, completing and signing it, uploading it, and confirming with the net secure code. If you cannot print or upload, use a branch.",
+      "bytes": 48447,
+      "seconds": 11.975,
+      "sha256": "f3ceeea8838efbfb06f685431638e2da69f365d4d03d98484ac3ce766c2b9d3c"
+    },
+    "zerodhaChangeForms": {
+      "textHash": "f60503a881f29dbe9fba9aa8ee64d80750746652e43ab5d87b09e82bbce85fe3",
+      "spoken": "Open Zerodha's change instructions. Get the current nomination and account-modification forms; enter the existing and proposed nominee details as directed.",
+      "bytes": 46439,
+      "seconds": 11.463,
+      "sha256": "8c34825387fe7b8f333166fe94fa8063a1b8395b797dba01ff68b5ab4df656cf"
+    },
+    "zerodhaChangeSubmit": {
+      "textHash": "e65eb96cfea830cad53974545c2ea7be314967b2d7272fd3c0e2be55b6f3a089",
+      "spoken": "Zerodha describes signing both forms by hand, e signing them, and attaching them to a support ticket. Follow the current instructions; ask support for an alternative if you cannot e sign.",
+      "bytes": 50184,
+      "seconds": 12.388,
+      "sha256": "996cb1ab618abc56a529fab0c1c76136d95c9a1731d402c53254e9498ed597ec"
+    },
+    "growwCheck": {
+      "textHash": "f6c0e52b11d55a21a6b654b7d4d028166cd31cd64735b4eacf2f5c4f1fdb9c42",
+      "spoken": "In Groww, open Profile → Account Details → Nominee Details. Check which investment or account the displayed nomination applies to.",
+      "bytes": 40959,
+      "seconds": 10.085,
+      "sha256": "c45fdfe7a3198d9724ab576e786b59a24ac05ac26060a00c8c92d45a5901ca6b"
+    },
+    "growwAction": {
+      "textHash": "dae48a784fa5f930064d56679c6b216a66e22abbc7cc891b76b63890d09f331e",
+      "spoken": "Use Edit Nominee for eligible demat investments and follow Groww's verification. Updating the profile does not establish that every existing mutual-fund folio changed; check those folios separately.",
+      "bytes": 57760,
+      "seconds": 14.299,
+      "sha256": "1b33ede07c0cf85ac06f733a270ca880cc5e8960308bc56946898508d5cbab30"
+    },
+    "readingNow": {
+      "textHash": "09bec08b044ba8981001d73793d66acf4f1c368941713bad0ce0d828746007d3",
+      "spoken": "Reading now",
+      "bytes": 6975,
+      "seconds": 1.604,
+      "sha256": "af12fbc4596dd85bef82f597b4c68d9749cce3fb33aac27d559578c3c9102905"
+    },
+    "repeatSentence": {
+      "textHash": "e8c666d6ea08a01baa2d9b474d8c8cb77dc29db01ae5728aed2e68baa9d5f0a2",
+      "spoken": "Play this again",
+      "bytes": 7267,
+      "seconds": 1.661,
+      "sha256": "adb4e44a319c41cd61da5ec4642d82f4a40555e4442dfc1aaf3a9bb18ebaf654"
+    },
+    "nextSentence": {
+      "textHash": "bb33bf08a10d5c63de3eb260b5a17887bad0e2cec970661a695108057bf1f103",
+      "spoken": "Next part",
+      "bytes": 6017,
+      "seconds": 1.361,
+      "sha256": "db1444f4fff5392a0af803b0f669b7a3b0a2de6f947d8eccf2fb9ad40a5b7715"
+    },
+    "previousSentence": {
+      "textHash": "84480cf303d2d4bdfe8e5d1f3e408af95193cc4d922cc10795141b4e1f2432d2",
+      "spoken": "Previous part",
+      "bytes": 6597,
+      "seconds": 1.502,
+      "sha256": "2677250792eb4d66e08f2824ccb89c2de7afa38d256c4f9249735708225344ea"
+    },
+    "readingPreferences": {
+      "textHash": "6c4036f60ae391569a76b5890fc33835c64c2bdc669b5d3a4a6a15ce5ef64f04",
+      "spoken": "Reading settings are remembered on this device. Account details are saved only when you choose Save. Reset clears these reading preferences.",
+      "bytes": 39623,
+      "seconds": 9.749,
+      "sha256": "2590cf062c748d5aa2e78aa820d590def5f8973b0bd5470f4a20c73ab21327aa"
+    },
+    "stepType": {
+      "textHash": "dac7998fba76f342703faf44d34b0b58a2ed81acc57222d1c2b7aaec9648392c",
+      "spoken": "Account type",
+      "bytes": 6301,
+      "seconds": 1.417,
+      "sha256": "6a4d16b8e0f067a7b668560f1b11b8b5247700bdf313758a77b5ad367da01126"
+    },
+    "stepInstitution": {
+      "textHash": "65a1553729e30faf7ed329a80f1f3d6999751d84f49a117d1d8be87f25175fb3",
+      "spoken": "Institution",
+      "bytes": 5636,
+      "seconds": 1.258,
+      "sha256": "ae69994b169713fa14bcb2cc94f2e190d0711dad6eff769b08f4248ec557bda8"
+    },
+    "stepContext": {
+      "textHash": "17be95e1a1884ebc8904a38b6a754f0bcbe59e3563e6e811b2a3f68b36cf1c76",
+      "spoken": "Account details",
+      "bytes": 7552,
+      "seconds": 1.747,
+      "sha256": "af8ba23f9718242c15aa385bf70d0156e003a19373ba2410a16e2a108ffa164d"
+    },
+    "stepNomination": {
+      "textHash": "fc050bda1fac51e77ab88a55c9608c1630f0d93fab39ce9cbe0c7ec67cc218d8",
+      "spoken": "Nomination",
+      "bytes": 5155,
+      "seconds": 1.146,
+      "sha256": "43dcb1810c7c59a87266e2b124ae8f125249b8a18054b66899889874ff6137b2"
+    },
+    "savedNext": {
+      "textHash": "4de31bf53bff53ac9aed1711a1a219cad4a3f59a90c780d819b7c384ea5d5dc1",
+      "spoken": "Your locked copy is ready. Keep the file and password somewhere you can find again. Return to your task when you are ready.",
+      "bytes": 35102,
+      "seconds": 8.637,
+      "sha256": "9ecac4bccd787873d63aae0f5bbd94e2b9a58eabe09167f157d7591746c0efc1"
+    },
+    "returnTask": {
+      "textHash": "b9b003da3add539c05f93898fb091d895d9657c59cd70d0e33a747626f6ec79f",
+      "spoken": "Return to my task",
+      "bytes": 8607,
+      "seconds": 2.011,
+      "sha256": "550b85785fa619c6d1bbabca23e902200243b90e69a99d55cecd4b2d1075a4a7"
+    },
+    "olderDeviceCopy": {
+      "textHash": "0ba2fbf792f2faae39836774d93fbb733723a07426828166aff18d9061b636ba",
+      "spoken": "The device copy was not updated. Open the downloaded file for your latest changes, or save again with the device option selected.",
+      "bytes": 35204,
+      "seconds": 8.654,
+      "sha256": "9338439e7be600c2082b0f8d79cf3a23e8c20e1d03c301882bab0bddcb19066d"
+    },
+    "haveReady": {
+      "textHash": "60daa906e3b4957753b154f08b1b4ea2e77d074679679900abba6f3a491c96c9",
+      "spoken": "Have these ready",
+      "bytes": 6878,
+      "seconds": 1.577,
+      "sha256": "9b92966b12cde4215c3d67b6f0fbd85dea63b073d88a35bcf6245fbba052c15e"
+    },
+    "audioLoading": {
+      "textHash": "b598423803fe8b097775ff517842910c055fb16c9f4cfd6c42f8ded4a1d986c9",
+      "spoken": "Loading audio…",
+      "bytes": 6497,
+      "seconds": 1.483,
+      "sha256": "0033555e391ca5c60290b40b929dbdef8e217040f259f3b07ab326b18dff7627"
+    },
+    "audioRetry": {
+      "textHash": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f",
+      "spoken": "Try again",
+      "bytes": 6207,
+      "seconds": 1.397,
+      "sha256": "4d23ad9a0a073572bd82ced280e1f0c9ec2c45fb09c5ef3b1f6899d6288343b7"
+    },
+    "audioBlocked": {
+      "textHash": "588848ae1f2fa211c1ef1a4af775a8bdb0212a209d7cb1ac737916a4f5870f64",
+      "spoken": "Tap Continue listening to play the next part.",
+      "bytes": 12257,
+      "seconds": 2.918,
+      "sha256": "e28d19e012d1e12f0aa6bb877a9f4421d5ff91eeacc5f39d9b8fa0631cc59bff"
+    },
+    "audioData": {
+      "textHash": "e59cdc8085459c3ac63a63659a30d1379d43bcaa2fd25177738966fcae254c96",
+      "spoken": "Audio loads only when you listen. Recently played instructions can work offline on supported browsers. First-time listening needs internet.",
+      "bytes": 43166,
+      "seconds": 10.655,
+      "sha256": "a0af4b0c5973c0d3b074d78de14bb67e5e39082b18a691a3b4da7b6b9be2fc3c"
+    },
+    "audioDraft": {
+      "textHash": "52684f848eec700f0becb27211cb71db2802c20d4623ee770d751524a2b7fdf6",
+      "spoken": "These are computer-generated voices. Pronunciation is still being reviewed. Follow the written instructions if you hear a difference.",
+      "bytes": 40767,
+      "seconds": 10.052,
+      "sha256": "c9262a257a08f6c781b1adf6e31dd5dbf4fa359eaf93b5b1ce3ee10e7c888f04"
+    },
+    "audioStart": {
+      "textHash": "225d29f6201e1a635684a6dc0e7a65d164c7ffe48588a421fc27b067a55bb02e",
+      "spoken": "Listen",
+      "bytes": 4287,
+      "seconds": 0.922,
+      "sha256": "48fd93536ac580a4b3d05877105fd22f1b95a3d4fee795c42bb3545f142e1254"
+    },
+    "audioCache": {
+      "textHash": "8a9e35cc38ddbf07b9df7af6ec1f548a29b9b4a5fc0f780ead37ffd68b5afd5e",
+      "spoken": "Recently played audio",
+      "bytes": 10431,
+      "seconds": 2.46,
+      "sha256": "46ccf74f9eac8cfeaee68b4d652571ec9c700185f9c8342e8bffe65785d77917"
+    },
+    "clearAudio": {
+      "textHash": "0a819efedb241885f88f7ca29a5ae298243d55970fa63090a2fb80f8369de3a4",
+      "spoken": "Remove saved audio",
+      "bytes": 9567,
+      "seconds": 2.247,
+      "sha256": "7904a9497a1e243053ace6d739f93249273acb93c3a6465f03c8d56524946bf9"
+    },
+    "audioCleared": {
+      "textHash": "24a58fcf39f2d980faab9a25a99492d8c4ac3b8b083dd6555e559de4155bd5e2",
+      "spoken": "Saved audio removed. Your account list is unchanged.",
+      "bytes": 21185,
+      "seconds": 5.149,
+      "sha256": "0ba72b968848b552f6cf80e2c217b906da84bd1132270612903c56ea190fa321"
+    },
+    "audioPrivacy": {
+      "textHash": "a2a78352a175979e9dfabadb0a326eb4bb31f3998860382be357263aa5b054db",
+      "spoken": "Only public instructions are saved for listening again. Audio requests use this website; no entries are sent to a voice service. Hosting logs can include your IP address and requested audio files.",
+      "bytes": 57377,
+      "seconds": 14.196,
+      "sha256": "35b7055be8d9ebeaf349ffd0b481371ec604233754e2d712b4d4a0e9a2c1bd49"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "playback": [
+    {
+      "language": "hi",
+      "position": "1 में से 5",
+      "status": "पेज पढ़ा जा रहा है",
+      "text": "परिवार के खातों की जानकारी साथ रखें।"
+    },
+    {
+      "language": "bn",
+      "position": "১ এর ৫",
+      "status": "পাতাটি পড়া হচ্ছে",
+      "text": "পরিবারের অ্যাকাউন্টের তথ্য একসঙ্গে রাখুন।"
+    },
+    {
+      "language": "mr",
+      "position": "१ पैकी ५",
+      "status": "पान वाचत आहे",
+      "text": "कुटुंबाच्या खात्यांची माहिती एकत्र ठेवा."
+    },
+    {
+      "language": "ta",
+      "position": "1 இல் 5",
+      "status": "பக்கம் வாசிக்கப்படுகிறது",
+      "text": "குடும்பக் கணக்குகளின் விவரங்களை ஒன்றாக வைத்திருங்கள்."
+    },
+    {
+      "language": "ur",
+      "position": "۱ از ۵",
+      "status": "صفحہ پڑھا جا رہا ہے",
+      "text": "خاندان کے اکاؤنٹس کی معلومات ایک جگہ رکھیں۔"
+    },
+    {
+      "language": "en",
+      "position": "1 of 5",
+      "status": "Reading the page",
+      "text": "Make your family’s accounts easier to find."
+    }
+  ],
+  "reflow": [
+    {
+      "dialog": 286,
+      "dialogScroll": 286,
+      "font": "32px",
+      "language": "en",
+      "page": 320,
+      "view": "settings",
+      "viewport": 320
+    },
+    {
+      "font": "32px",
+      "language": "en",
+      "page": 320,
+      "view": "home-player",
+      "viewport": 320,
+      "visible": true
+    },
+    {
+      "font": "32px",
+      "language": "hi",
+      "page": 320,
+      "view": "home-player",
+      "viewport": 320,
+      "visible": true
+    },
+    {
+      "font": "32px",
+      "language": "bn",
+      "page": 320,
+      "view": "home-player",
+      "viewport": 320,
+      "visible": true
+    },
+    {
+      "font": "32px",
+      "language": "mr",
+      "page": 320,
+      "view": "home-player",
+      "viewport": 320,
+      "visible": true
+    },
+    {
+      "font": "32px",
+      "language": "ta",
+      "page": 320,
+      "view": "home-player",
+      "viewport": 320,
+      "visible": true
+    },
+    {
+      "font": "32px",
+      "language": "ur",
+      "page": 320,
+      "view": "home-player",
+      "viewport": 320,
+      "visible": true
+    }
+  ],
+  "scope": "Browser rendering and playback state; not fluent-speaker or real low-end-device validation"
+}
