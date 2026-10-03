@@ -51,3 +51,22 @@ test('only a selected language is prepared for offline use',async()=>{
 test('denied cache storage does not block the app or network audio',async()=>{
  const env=setup();env.denyStorage();const shell=await env.request('/main.js');assert.equal(shell.status,200);const audio=await env.request('/audio/en/012345abcdef/homeTitle.mp3',{headers:{Range:'bytes=0-'}});assert.equal(audio.status,200);assert.equal(env.calls.length,2);assert.equal(env.calls[1].headers.get('Range'),'bytes=0-');
 });
+test('selected uncommon-script fonts remain available offline without preloading other languages',async()=>{
+ const env=setup();await env.install();const shell=[...env.stores.values()][0];
+ assert.ok(![...shell.keys()].some(path=>path.endsWith('.woff2')));
+ const waits=[];env.handlers.message({data:{type:'cache-language',language:'mni'},waitUntil:p=>waits.push(p)});await Promise.all(waits);
+ assert.ok(shell.has('/fonts/noto-sans-meetei-mayek.woff2'));
+ assert.ok(!shell.has('/fonts/noto-sans-ol-chiki.woff2'));
+ env.setOffline();assert.equal((await env.request('/fonts/noto-sans-meetei-mayek.woff2')).status,200);
+ assert.equal((await env.request('/mni')).status,200);
+});
+test('an app update preserves unchanged selected language and script assets, excluding obsolete copy',async()=>{
+ const env=setup();await env.install();const current=[...env.stores.values()][0];
+ const {localeCatalog}=await import('../dist/locale-catalog.js');
+ const old=new Map([[localeCatalog.mni,new Response('current translated text')],['/fonts/noto-sans-meetei-mayek.woff2',new Response('font')],['/locales/mni-obsolete.json',new Response('old text')]]);
+ env.stores.set('virasat-shell-old',old);env.setOffline();
+ const waits=[];env.handlers.activate({waitUntil:p=>waits.push(p)});await Promise.all(waits);
+ assert.equal(await current.get(localeCatalog.mni).text(),'current translated text');
+ assert.ok(current.has('/fonts/noto-sans-meetei-mayek.woff2'));
+ assert.ok(!current.has('/locales/mni-obsolete.json'));assert.ok(!env.stores.has('virasat-shell-old'));
+});

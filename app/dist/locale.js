@@ -1,8 +1,10 @@
+import {nativeRetry} from './locale-retry.js';
 import {localeCatalog} from './locale-catalog.js';
-export const languages=[['en','English'],['hi','हिन्दी'],['bn','বাংলা'],['mr','मराठी'],['ta','தமிழ்'],['ur','اردو']];
+import {languageInfo} from './languages.js';
+export const languages=languageInfo.filter(([code])=>Object.hasOwn(localeCatalog,code));
 // These small messages remain usable when the chosen dictionary has not arrived.
 export const loadingText={en:'Opening…',hi:'खुल रहा है…',bn:'খুলছে…',mr:'उघडत आहे…',ta:'திறக்கிறது…',ur:'کھل رہا ہے…'};
-export const retryText={en:'Could not load. Choose your language to try again.',hi:'खुल नहीं सका। फिर कोशिश करने के लिए अपनी भाषा चुनें।',bn:'খোলা যায়নি। আবার চেষ্টা করতে আপনার ভাষা বেছে নিন।',mr:'उघडले नाही. पुन्हा प्रयत्न करण्यासाठी तुमची भाषा निवडा.',ta:'திறக்க முடியவில்லை. மீண்டும் முயற்சிக்க உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்.',ur:'کھل نہیں سکا۔ دوبارہ کوشش کے لیے اپنی زبان منتخب کریں۔'};
+export const retryText={...nativeRetry,en:'Could not load. Choose your language to try again.',hi:'खुल नहीं सका। फिर कोशिश करने के लिए अपनी भाषा चुनें।',bn:'খোলা যায়নি। আবার চেষ্টা করতে আপনার ভাষা বেছে নিন।',mr:'उघडले नाही. पुन्हा प्रयत्न करण्यासाठी तुमची भाषा निवडा.',ta:'திறக்க முடியவில்லை. மீண்டும் முயற்சிக்க உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்.',ur:'کھل نہیں سکا۔ دوبارہ کوشش کے لیے اپنی زبان منتخب کریں۔'};
 export function createLocaleStore(fetcher=(...args)=>fetch(...args)){
  const loaded=new Map(),pending=new Map();
  return {

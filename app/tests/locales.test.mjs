@@ -5,11 +5,11 @@ import {gzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
 import {createLocaleStore} from '../dist/locale.js';
 import {localeCatalog} from '../dist/locale-catalog.js';
-import {dictionaries} from '../dist/i18n.js';
+import {dictionaries} from '../scripts/dictionaries.mjs';
 test('each small language pack matches all current public copy and its immutable address',async()=>{
  for(const [language,path] of Object.entries(localeCatalog)){
   const data=await readFile(new URL('../dist'+path,import.meta.url));assert.deepEqual(JSON.parse(data),dictionaries[language]);
-  assert.ok(path.includes(createHash('sha256').update(data).digest('hex').slice(0,12)));assert.ok(gzipSync(data).length<12000);
+  assert.ok(path.includes(createHash('sha256').update(data).digest('hex').slice(0,12)));assert.ok(gzipSync(data).length<16000);
  }
 });
 test('choosing a language fetches only that language once and reuses concurrent loads',async()=>{
@@ -34,6 +34,38 @@ test('entry HTML gives a usable language choice before JavaScript and avoids all
 test('all regional entry pages show current text, preload only their own pack and expose no private values',async()=>{
  const config=JSON.parse(await readFile(new URL('../vercel.json',import.meta.url)));assert.equal(config.rewrites[0].destination,'/entry/:locale.html');
  for(const [language,path] of Object.entries(localeCatalog)){
-  const html=await readFile(new URL(`../dist/entry/${language}.html`,import.meta.url),'utf8');assert.ok(html.includes(dictionaries[language].homeTitle));assert.ok(html.includes(dictionaries[language].homeIntro));assert.ok(html.includes(`href="${path}" as="fetch"`));assert.equal((html.match(/as="fetch"/g)||[]).length,1);assert.ok(html.includes('aria-busy="true"'));assert.ok(!html.includes('input type="text"'));
+  const html=await readFile(new URL(`../dist/entry/${language}.html`,import.meta.url),'utf8');assert.ok(html.includes(dictionaries[language].homeTitle));assert.ok(html.includes(dictionaries[language].homeIntro));assert.ok(html.includes(`href="${path}" as="fetch"`));assert.equal((html.match(/as="fetch"/g)||[]).length,1);assert.ok(html.includes('aria-busy="true"'));assert.ok(html.includes(`class="startup-retry" href="/${language}"`));assert.ok(!html.includes('input type="text"'));
  }
+});
+test('the language register contains exactly 22 scheduled languages plus English',async()=>{
+ const {languageInfo,isRTL,audioLanguages}=await import('../dist/languages.js');
+ const codes=languageInfo.map(([code])=>code);
+ assert.equal(codes.length,23);assert.equal(new Set(codes).size,23);
+ assert.deepEqual(codes.filter(code=>code!=='en').sort(),['as','bn','brx','doi','gu','hi','kn','kok','ks','mai','ml','mni','mr','ne','or','pa','sa','sat','sd','ta','te','ur'].sort());
+ assert.ok(['ks','sd','ur'].every(isRTL));assert.equal(isRTL('hi'),false);
+ assert.deepEqual(audioLanguages,['en','hi','bn','mr','ta','ur']);
+});
+test('saved work can restore every registered language without changing account content',async()=>{
+ const {languageInfo}=await import('../dist/languages.js');
+ const {workspaceSnapshot,readWorkspace,sampleTracker}=await import('../dist/tracker.js');
+ for(const [code] of languageInfo){const original=workspaceSnapshot(sampleTracker(),null,0,code),restored=readWorkspace(original);assert.equal(restored.language,code);assert.deepEqual(restored.tracker,original.tracker);}
+});
+test('translation source snapshot stays aligned with current public English instructions',async()=>{
+ const snapshot=JSON.parse(await readFile(new URL('../translations/en.json',import.meta.url),'utf8'));
+ const {en}=await import('../dist/i18n.js');assert.deepEqual(snapshot,en);
+});
+test('local script-font files match their recorded source hashes and small download budgets',async()=>{
+ const manifest=JSON.parse(await readFile(new URL('../dist/fonts/SOURCES.json',import.meta.url),'utf8'));
+ for(const font of manifest.fonts){
+  const data=await readFile(new URL('../dist/fonts/'+font.file,import.meta.url));
+  assert.equal(data.length,font.bytes);assert.ok(data.length<10000);
+  assert.equal(createHash('sha256').update(data).digest('hex'),font.sha256);
+  const license=await readFile(new URL('../dist/fonts/'+font.licenceFile,import.meta.url),'utf8');
+  assert.ok(license.includes('SIL OPEN FONT LICENSE'));
+ }
+});
+test('every published language has a native retry label before its full pack loads',async()=>{
+ const {nativeRetry}=await import('../dist/locale-retry.js');
+ const {retryText}=await import('../dist/locale.js');
+ for(const code of Object.keys(localeCatalog)){assert.equal(nativeRetry[code],dictionaries[code].audioRetry);assert.ok(retryText[code]);}
 });

@@ -7,7 +7,7 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/:locale(en|hi|bn|mr|ta|ur)",
+      "source": "/:locale(en|hi|as|bn|doi|gu|kn|kok|mai|ml|mni|mr|ne|or|pa|sa|sat|sd|ta|te|ur)",
       "destination": "/entry/:locale.html"
     }
   ],
