@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-02T21:23:51.722Z",
+  "reflow": [
+    {
+      "h1": "What kind of account is it?",
+      "lang": "en",
+      "missingDescriptions": 0,
+      "scrollWidth": 320,
+      "textSize": "32px",
+      "width": 320
+    },
+    {
+      "h1": "यह किस तरह का खाता है?",
+      "lang": "hi",
+      "missingDescriptions": 0,
+      "scrollWidth": 320,
+      "textSize": "32px",
+      "width": 320
+    },
+    {
+      "h1": "এটি কী ধরনের অ্যাকাউন্ট?",
+      "lang": "bn",
+      "missingDescriptions": 0,
+      "scrollWidth": 320,
+      "textSize": "32px",
+      "width": 320
+    },
+    {
+      "h1": "हे कोणत्या प्रकारचे खाते आहे?",
+      "lang": "mr",
+      "missingDescriptions": 0,
+      "scrollWidth": 320,
+      "textSize": "32px",
+      "width": 320
+    },
+    {
+      "h1": "இது எந்த வகையான கணக்கு?",
+      "lang": "ta",
+      "missingDescriptions": 0,
+      "scrollWidth": 320,
+      "textSize": "32px",
+      "width": 320
+    },
+    {
+      "h1": "یہ کس قسم کا اکاؤنٹ ہے؟",
+      "lang": "ur",
+      "missingDescriptions": 0,
+      "scrollWidth": 320,
+      "textSize": "32px",
+      "width": 320
+    }
+  ],
+  "hindiSpeech": "Start, pause, stop observed",
+  "englishVoice": "Device-local Rishi en-IN selected",
+  "urduVoice": "Unavailable message observed on this device",
+  "draftResume": "Encrypted device save, reload, unlock, language and incomplete confirmation recovered",
+  "privateNoteInFamilySheet": false,
+  "dialogEscapeFocus": "access-toggle",
+  "limits": [
+    "Not a human screen-reader or accent-quality test",
+    "Reflow sampled account type form in six languages plus Urdu home and dialog",
+    "All account data used was synthetic"
+  ]
+}

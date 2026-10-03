@@ -1,4 +1,8 @@
+**Latest checkpoint:** See [the major UX checkpoint and release audit](major-checkpoint-2026-10-03.md) for the current implementation, deployment and remaining human-validation work. Earlier scores and coverage below describe prior iterations.
+
 # Virasat implementation checks
+
+**Current release:** See the [3 October rebuild and second audit](ux-delivery-and-reaudit-2026-10-03.md). The observations below describe earlier builds and do not establish the current source's behaviour.
 
 **Observed 2 October 2026, after the guided UX redesign and focused header/guidance corrections.** The current product is the family nominee tracker. Earlier share-history UI reports are background evidence only.
 

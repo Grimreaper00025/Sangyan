@@ -1,46 +1,36 @@
 # Virasat browser prototype
 
-A local family nominee tracker for demat accounts, bank deposits and mutual fund folios. `dist/` is authored static source, not generated build output. No application dependency installation is required.
+A private family nominee tracker for demat accounts, bank deposits and mutual fund folios. `dist/` is authored static source, not generated build output. No application dependency installation is needed.
 
 ```sh
 npm run dev
 npm test
 ```
 
-Use the existing preview at `http://127.0.0.1:4173/`. The first visit is language-only; native-script language switching keeps the root URL. Old locale entry links open the selected language and canonicalize to `/`. Modern browsers with ES modules and Web Crypto are needed.
+Preview: `http://127.0.0.1:4173/`. The first visit offers six languages. Old locale entry URLs select a language and canonicalize to `/`. Modern ES modules, Web Crypto and native dialog support are required.
 
-## Current capabilities
+## Current journey
 
-- Add through three guided questions, edit and remove up to 50 family accounts, with institution and nominee status; optional nicknames/last-four references are available later through Edit.
-- Prioritize missing and uncertain nomination records. A submitted request remains awaiting confirmation.
-- Submission/confirmation dates use small labeled day/month/year fields. Record types are two explained radio choices; inline errors replace browser validation popups.
-- Record a user's check of a statement or institutional registration confirmation. Date, record type and explicit registration check are required; request receipt alone does not count.
-- Provide concise institution-class guidance and official sources. No universal form or mandatory-nomination claim.
-- Preview and download a family JSON summary or print/save PDF. The preview explains which labels and partial identifiers are included; free-text evidence notes are omitted.
-- Save/resume `.virasat` downloads with password encryption. No case is stored in localStorage, sessionStorage, IndexedDB or on an application server.
-- English, Hindi, Bengali, Marathi, Tamil and Urdu draft dictionaries; inline-only Urdu RTL text with the same left-aligned page geometry; state-preserving language changes on `/`.
-- Icon-only Home beside the language selector exits the current view and retains an unfinished new-account draft for Continue.
-- Flat warm-white/charcoal layout, native language controls and plain account-type radio explanations.
-- Compact A−/A+, contrast and motion settings, keyboard focus, accessible status messages and optional suitable device-local voice.
+Four-stage account setup → local institution search → account-specific context → check/preparation → request submitted → user checks registration evidence → family record → deliberate readable handoff and encrypted resume.
 
-This build does not discover accounts, submit nominations, authenticate records, adjudicate succession or process deceased-customer claims. Bank guidance is limited to deposits; lockers and safe custody are outside the tracked account types.
+The search directory has 36 banks, 14 brokers/DP labels and 25 mutual funds. It is not an exhaustive institutional registry. Reviewed routes cover HDFC Bank, SBI deposit-service channels, Axis savings, Zerodha first-addition versus correction, Groww demat and HDFC MF folios. Each route states its applicability; joint holders get assisted guidance. General fallbacks are labelled. Bank and securities rules are separate; mutual funds in demat follow their linked demat nomination, subject to the user's account/holding check.
+
+Registration status, request receipt, and the user's review of nominee details are separate observations. No automatic verification or institutional submission occurs. Rechecking or changing account context invalidates stale confirmation. Personal follow-up dates can be exported to a calendar.
+
+Family nicknames, optional last four digits, multiple nominee notes and record location have a dedicated form. Family review is recorded separately from nomination confirmation; omitted details can be intentional. Changes to nomination invalidate the previous family review. A readable HTML/print/PDF summary has sharing controls and excludes private evidence notes. It is not password-protected.
+
+Encrypted `.virasat` saves include account records, incomplete new-account setup, an unfinished existing-account form, language and the originating fund for an unfinished demat-account addition. Returning from Save restores the correct form draft. Optional device storage contains only the encrypted envelope; it is off until requested. The application does not store the password or make automatic cloud requests. Changes require an explicit new save. Old schema-2 tracker files migrate to schema 3.
+
+All six interface dictionaries are drafts: English, Hindi, Bengali, Marathi, Tamil and Urdu. Switching language preserves the current form. Urdu uses RTL text with the established left-aligned LTR page layout. Date fields normalize supported regional numerals. Each main view offers speech of marked guidance only, with language-matched device-local voices, preferred Indian locale, preview, speed, pause/resume/stop, sentence replay/skip, read-along highlighting and an honest unavailable-voice state with device setup references. Private entered values are excluded from TTS. The reading dialog supports 90–200% text, contrast, spacing and reduced motion. These non-sensitive reading preferences are remembered locally; Reset restores defaults.
 
 ## Verification
 
-`npm test` runs current nominee-state tests plus retained background arithmetic, encryption and intake checks. The single optional browser smoke uses a running local server and synthetic inputs:
+`npm test` runs 41 current/shared/background checks. Browser acceptance steps are in [tests/browser-audit.md](tests/browser-audit.md); the previous-flow automation is archived and not a current runner. See the [3 October major checkpoint](../docs/major-checkpoint-2026-10-03.md), fresh Lighthouse report, screenshots and exact limitations. None is a WCAG conformance claim, a fluent-language review or evidence of target-user completion.
 
-```sh
-VIRASAT_PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs node tests/ui-check.mjs
-```
+## Security and hosting
 
-It covers the main account/progress flow, translations and unsaved state, encryption/resume, keyboard entry and narrow RTL layouts. It reports observations under `/private/tmp/`. See [implementation checks](../docs/implementation-checks.md) for exact counts and limits. These observations are not WCAG certification or low-end-device performance measurements.
+Static files only. No analytics, third-party fonts, uploads, automatic account lookup or hidden plaintext account persistence. AES-256-GCM and PBKDF2-SHA256 (600,000 iterations), random salt/nonce, authenticated envelope version, bounded file sizes and schema validation protect saved copies. A forgotten password cannot be recovered. Downloaded files remain until the user deletes them; session clearing is not forensic erasure.
 
-## Security and publication
+Production uses the existing Vercel `sangyan` project at **https://sangyan-xi.vercel.app**. Root directory: `app`. `vercel.json` serves `dist/`, preserves six locale entry routes and applies CSP/framing/MIME/referrer/permissions restrictions. Deploy only the authored static output and hosting configuration; research, archive and tests are not public assets. The older `.openai` manifest is historical and is not the current host.
 
-No analytics, external fonts, automatic cloud requests, uploads or hidden persistence. Same-origin CSP, MIME protection, no referrer, browser permissions restrictions and framing restrictions are configured. These response headers were verified on the Vercel production deployment on 2 October 2026, alongside all six language entry routes and exact static asset contents. Research, tests and hosting metadata return HTTP 404.
-
-Encryption uses AES-256-GCM and PBKDF2-SHA256 (600,000 iterations), random salt/nonce, authenticated version data and a bounded/validated saved schema. Old encryption envelopes can be decrypted for compatibility, but only the current Virasat schema resumes in this UI. A forgotten password cannot be recovered. Downloads remain until the user deletes them; JavaScript memory clearing is not a forensic-erasure guarantee.
-
-Production is hosted on Vercel at **https://sangyan-xi.vercel.app** in the existing `sangyan` project. The project root directory is `app`; `vercel.json` serves the authored `dist/` files without a build or dependency installation, preserves the six legacy language entry routes, and applies the security headers. `.vercelignore` excludes research, tests and the previous hosting manifest from app-root uploads. Redeploy from the repository root with `vercel deploy --prod` after signing in to the project's Vercel account.
-
-The 2 October 2026 production deployment used an isolated `/private/tmp/` staging folder containing only the static app and Vercel configuration. Only `dist/` is the public static output. Background engines and parser code are retained outside the public output for research/security regression checks. The previous Site manifest retains its original project identity; that earlier hosting attempt returned HTTP 404 / `project_not_found`.
+The product does not discover accounts, authenticate records, adjudicate succession, allocate inheritance or process deceased-customer claims. Bank lockers and safe custody are outside the tracked deposit types. Voice availability, fluent-language review, real screen-reader/low-end-device use and provider-specific coverage remain explicit limits.

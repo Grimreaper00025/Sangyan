@@ -1,0 +1,177 @@
+{
+  "verifiedAt": "2026-10-03T05:33:10.956Z",
+  "url": "https://sangyan-xi.vercel.app",
+  "assets": [
+    {
+      "name": "favicon.svg",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "guides.js",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "i18n.js",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "institutions.js",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "journey-copy.js",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "main.js",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "privacy.js",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "speech.js",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "styles.css",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "tracker.js",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "name": "virasat-copy.js",
+      "status": 200,
+      "matches": true
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "indexMatches": true,
+      "headers": {
+        "content-security-policy": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; frame-ancestors 'none'",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "cache-control": "no-store"
+      }
+    },
+    {
+      "route": "/en",
+      "status": 200,
+      "indexMatches": true,
+      "headers": {
+        "content-security-policy": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; frame-ancestors 'none'",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "cache-control": "no-store"
+      }
+    },
+    {
+      "route": "/hi",
+      "status": 200,
+      "indexMatches": true,
+      "headers": {
+        "content-security-policy": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; frame-ancestors 'none'",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "cache-control": "no-store"
+      }
+    },
+    {
+      "route": "/bn",
+      "status": 200,
+      "indexMatches": true,
+      "headers": {
+        "content-security-policy": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; frame-ancestors 'none'",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "cache-control": "no-store"
+      }
+    },
+    {
+      "route": "/mr",
+      "status": 200,
+      "indexMatches": true,
+      "headers": {
+        "content-security-policy": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; frame-ancestors 'none'",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "cache-control": "no-store"
+      }
+    },
+    {
+      "route": "/ta",
+      "status": 200,
+      "indexMatches": true,
+      "headers": {
+        "content-security-policy": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; frame-ancestors 'none'",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "cache-control": "no-store"
+      }
+    },
+    {
+      "route": "/ur",
+      "status": 200,
+      "indexMatches": true,
+      "headers": {
+        "content-security-policy": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; frame-ancestors 'none'",
+        "x-frame-options": "DENY",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "cache-control": "no-store"
+      }
+    }
+  ],
+  "privatePaths": [
+    {
+      "path": "/docs/track-b.md",
+      "status": 404
+    },
+    {
+      "path": "/tests/journey.test.mjs",
+      "status": 404
+    },
+    {
+      "path": "/.vercel/project.json",
+      "status": 404
+    },
+    {
+      "path": "/archive/core.js",
+      "status": 404
+    }
+  ]
+}

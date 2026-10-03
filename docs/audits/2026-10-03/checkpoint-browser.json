@@ -1,0 +1,69 @@
+{
+  "reflow": [
+    {
+      "language": "hi",
+      "brokenDescriptions": [],
+      "font": "32px",
+      "heading": "अगले कदम की तैयारी",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "language": "bn",
+      "brokenDescriptions": [],
+      "font": "32px",
+      "heading": "পরের ধাপের প্রস্তুতি",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "language": "mr",
+      "brokenDescriptions": [],
+      "font": "32px",
+      "heading": "पुढील कृतीची तयारी",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "language": "ta",
+      "brokenDescriptions": [],
+      "font": "32px",
+      "heading": "அடுத்த படிக்குத் தயாராகவும்",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "language": "ur",
+      "brokenDescriptions": [],
+      "font": "32px",
+      "heading": "اگلے قدم کی تیاری",
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "language": "en",
+      "brokenDescriptions": [],
+      "font": "32px",
+      "heading": "Prepare the next step",
+      "scroll": 320,
+      "width": 320
+    }
+  ],
+  "observed": [
+    "Family Save / Back restores uncommitted fields",
+    "Confirmation remains separate from family review",
+    "Intentional omission labelled in family sheet",
+    "Keyboard Axis search selects canonical bank",
+    "Axis online and in-person routes retain status",
+    "Encrypted device save reopens Axis missing-nominee state",
+    "Reading preferences survive new visit",
+    "English next-sentence and pause show corresponding sentence",
+    "Zerodha change follows current modification-form route"
+  ],
+  "limitations": [
+    "Synthetic data only",
+    "Actual accent quality not evaluated",
+    "No real institutional submission",
+    "No VoiceOver/TalkBack or low-end-device observation"
+  ]
+}

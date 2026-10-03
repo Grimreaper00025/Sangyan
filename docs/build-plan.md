@@ -1,12 +1,16 @@
+**Latest checkpoint:** See [the major UX checkpoint and release audit](major-checkpoint-2026-10-03.md) for the current implementation, deployment and remaining human-validation work. Earlier scores and coverage below describe prior iterations.
+
 # Virasat focused build plan
 
-**Updated: 2 October 2026. Final name: Virasat.** This plan follows the user's authoritative Track B correction: one Nominee & Family Wealth Tracker journey across demat accounts, bank deposits and mutual fund folios. The earlier share-history/claim wizard is no longer the main experience.
+**Updated: 3 October 2026. Final name: Virasat.** This plan follows the user's authoritative Track B correction: one Nominee & Family Wealth Tracker journey across demat accounts, bank deposits and mutual fund folios. The earlier share-history/claim wizard is no longer the main experience.
+
+For the rebuilt flow, observed verification and remaining human-validation work, see [UX delivery and second audit](ux-delivery-and-reaudit-2026-10-03.md).
 
 ## Delivered slice
 
-Language-only entry → simple Home → three-question account setup → family account list → one missing/uncertain nomination → institution-specific next task → request submitted → registration checked against a record → deliberate family summary and encrypted resume.
+Language-only entry → simple Home → four-stage account setup → family account list → one missing/uncertain nomination → institution-specific next task → request submitted → registration checked against a record → deliberate family summary and encrypted resume.
 
-The ordinary user can start with one institution and a status. Optional nicknames and last-four references are deferred to editing after the three core questions, and help a family distinguish accounts; no full account number/PAN/password is requested. A nominee note is a nickname/relationship, not a legal allocation or an identity proof.
+The ordinary user can start with one institution and a status. Optional nicknames and last-four references are deferred to editing in a dedicated family-record step, and help a family distinguish accounts; no full account number/PAN/password is requested. A nominee note is a nickname/relationship, not a legal allocation or an identity proof.
 
 Three distinct evidence states are preserved: user report, submitted request, and user-reported check of institutional registration. The app does not submit a request or verify records automatically. A receipt cannot silently complete nomination.
 
